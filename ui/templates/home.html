@@ -10,7 +10,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
         <style>
             .form-group { padding-bottom: 20px }
-            .combo-min { min-width: 400px}
         </style>
     </head>
     <body>
@@ -64,8 +63,8 @@
                 </div>
 
                 <div class="row">
-                    <div class="col">
-                        <div class="form-group combo-min">
+                    <div class="col-4 col-xs-12 col-sm-12">
+                        <div class="form-group">
                             <label>
                                 Tense<br />
                                 <select name="tense" class="form-control">
@@ -90,21 +89,12 @@
                                     <option value="lptlpt" {% if request.tense == 'lptlpt' %} selected {% endif %}>
                                         Learned Past + Learned Past
                                     </option>
-                                    <option value="ptpat" {% if request.tense == 'ptpt' %} selected {% endif %}>
-                                        Present + Past
-                                    </option>
-                                    <option value="ptlpt" {% if request.tense == 'plt.pt' %} selected {% endif %}>
-                                        Present + Learned Past
-                                    </option>
-                                    <option value="ptlptlpt" {% if request.tense == 'ptlptlpt' %} selected {% endif %}>
-                                        Present + Learned Past + Learned Past
-                                    </option>
                                 </select>
                             </label>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="form-group combo-min">
+                    <div class="col-4 col-xs-12 col-sm-12">
+                        <div class="form-group">
                             <label>
                                 Unify Verb<br />
                                 <select name="affix" class="form-control">
@@ -115,7 +105,10 @@
                                     <option value="dur" {% if request.affix == 'dur' %} selected {% endif %}>
                                         dur
                                     </option>
-                                    <option value="ver" {% if request.affix == 'ver' %} can {% endif %}>
+                                    <option value="koy" {% if request.affix == 'koy' %} selected {% endif %}>
+                                        koy
+                                    </option>
+                                    <option value="ver" {% if request.affix == 'ver' %} selected {% endif %}>
                                         ver
                                     </option>
                                     <option value="yaz" {% if request.affix == 'yaz' %} selected {% endif %}>
@@ -125,20 +118,14 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="form-group combo-min">
+                    <div class="col-4 col-xs-12 col-sm-12">
+                        <div class="form-group">
                             <label>
                                 Morphological derivation<br />
                                 <select name="morph" class="form-control">
                                     <option value=""></option>
                                     <option value="passive" {% if request.morph == 'passive' %} selected {% endif %}>
                                         Passive
-                                    </option>
-                                    <option value="can" {% if request.morph == 'passive' %} can {% endif %}>
-                                        Able (can)
-                                    </option>
-                                    <option value="passive-can" {% if request.morph == 'passive-can' %} selected {% endif %}>
-                                        Passive + Able (can)
                                     </option>
                                 </select>
                             </label>
