@@ -8,18 +8,16 @@ def get_function(request, **kwargs):
     negative = request.POST.get('negative', '') == 'on'
     question = request.POST.get('question', '') == 'on'
     morph = request.POST.get('morph', '')
+    affix = request.POST.get('affix', '')
 
     if verb:
         func = Turkish(verb)
 
-        if morph in ('passive', 'passive-can'):
+        if morph == 'passive':
             func = func.passive()
 
-        if morph in ('can', 'passive-can'):
-            func = func.unify_verbs(auxiliary='bil', negative=negative)
-
-            if morph != 'passive-can':
-                negative = False
+        if affix:
+            func = func.unify_verbs(auxiliary=affix, negative=negative)
 
         func = {
             'pt': func.present_simple,
