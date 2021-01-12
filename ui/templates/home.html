@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Cem Yildiz">
+        <title>Turkish Conjunction Maker</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            .form-group { padding-bottom: 20px }
+            .combo-min { min-width: 400px}
+        </style>
+    </head>
+    <body>
+        <header
+                class="d-flex flex-column flex-md-row align-items-center
+                p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+          <p class="h5 my-0 me-md-auto fw-normal">Turkish Conjunction Maker</p>
+        </header>
+
+        <main class="container">
+            <form id="frm" method="post">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="verb">Verb</label>
+                    <input
+                        type="text"
+                        id="verb"
+                        maxlength="50"
+                        name="verb"
+                        class="form-control"
+                        value="{{ request.verb }}"
+                    />
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="question"
+                                    class="form-check-input" {% if request.question %} checked {% endif %}
+                                />
+                                Is Question?
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="negative"
+                                    class="form-check-input" {% if request.negative %} checked {% endif %}
+                                />
+                                Is Negative?
+                            </label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group combo-min">
+                            <label>
+                                Tense<br />
+                                <select name="tense" class="form-control">
+                                    <option value="pt" {% if request.tense == 'pt' %} selected {% endif %}>
+                                        Present
+                                    </option>
+                                    <option value="pct" {% if request.tense == 'pct' %} selected {% endif %}>
+                                        Present Continuous
+                                    </option>
+                                    <option value="pct2" {% if request.tense == 'pct2' %} selected {% endif %}>
+                                        Present Continuous (Alternative)
+                                    </option>
+                                    <option value="pat" {% if request.tense == 'pat' %} selected {% endif %}>
+                                        Past
+                                    </option>
+                                    <option value="ft" {% if request.tense == 'ft' %} selected {% endif %}>
+                                        Future
+                                    </option>
+                                    <option value="lpt" {% if request.tense == 'lpt' %} selected {% endif %}>
+                                        Learned Past
+                                    </option>
+                                    <option value="lptlpt" {% if request.tense == 'lptlpt' %} selected {% endif %}>
+                                        Learned Past + Learned Past
+                                    </option>
+                                    <option value="ptpat" {% if request.tense == 'ptpt' %} selected {% endif %}>
+                                        Present + Past
+                                    </option>
+                                    <option value="ptlpt" {% if request.tense == 'plt.pt' %} selected {% endif %}>
+                                        Present + Learned Past
+                                    </option>
+                                    <option value="ptlptlpt" {% if request.tense == 'ptlptlpt' %} selected {% endif %}>
+                                        Present + Learned Past + Learned Past
+                                    </option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group combo-min">
+                            <label>
+                                Unify Verb<br />
+                                <select name="affix" class="form-control">
+                                    <option value=""></option>
+                                    <option value="bil" {% if request.affix == 'bil' %} selected {% endif %}>
+                                        bil (can in English)
+                                    </option>
+                                    <option value="dur" {% if request.affix == 'dur' %} selected {% endif %}>
+                                        dur
+                                    </option>
+                                    <option value="ver" {% if request.affix == 'ver' %} can {% endif %}>
+                                        ver
+                                    </option>
+                                    <option value="yaz" {% if request.affix == 'yaz' %} selected {% endif %}>
+                                        yaz
+                                    </option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group combo-min">
+                            <label>
+                                Morphological derivation<br />
+                                <select name="morph" class="form-control">
+                                    <option value=""></option>
+                                    <option value="passive" {% if request.morph == 'passive' %} selected {% endif %}>
+                                        Passive
+                                    </option>
+                                    <option value="can" {% if request.morph == 'passive' %} can {% endif %}>
+                                        Able (can)
+                                    </option>
+                                    <option value="passive-can" {% if request.morph == 'passive-can' %} selected {% endif %}>
+                                        Passive + Able (can)
+                                    </option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+
+            {% if result %}
+            <div class="table-responsive">
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Singular</th>
+                            <th>Plural</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1st Person</th>
+                            <th>{{ result.s1 }}</th>
+                            <th>{{ result.p1 }}</th>
+                        </tr>
+                        <tr>
+                            <th>2nd Person</th>
+                            <th>{{ result.s2 }}</th>
+                            <th>{{ result.p2 }}</th>
+                        </tr>
+                        <tr>
+                            <th>2nd Person</th>
+                            <th>{{ result.s3 }}</th>
+                            <th>{{ result.p3 }}</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            {% endif %}
+        </main>
+    </body>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</html>
