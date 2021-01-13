@@ -55,6 +55,7 @@ def get_function(request, **kwargs):
 
 def home(request):
     code = 'from turkish_suffix_library.turkish import Turkish\n\n'
+    show_code = request.POST.get('show_code', '') == 'on'
 
     if request.POST:
         result = {
@@ -72,13 +73,12 @@ def home(request):
         code += get_function(request, person=1, plural=True, code=True)
         code += get_function(request, person=2, plural=True, code=True)
         code += get_function(request, person=3, plural=True, code=True)
-
-        print(code)
     else:
         result = []
 
     return render(request, 'home.html', {
         'request': request.POST,
         'result': result,
-        'code': code
+        'code': code,
+        'show_code': show_code
     })
