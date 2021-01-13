@@ -58,21 +58,24 @@ def home(request):
     show_code = request.POST.get('show_code', '') == 'on'
 
     if request.POST:
-        result = {
-            's1': get_function(request, person=1),
-            's2': get_function(request, person=2),
-            's3': get_function(request, person=3),
-            'p1': get_function(request, person=1, plural=True),
-            'p2': get_function(request, person=2, plural=True),
-            'p3': get_function(request, person=3, plural=True),
-        }
+        if request.POST.get('verb'):
+            result = {
+                's1': get_function(request, person=1),
+                's2': get_function(request, person=2),
+                's3': get_function(request, person=3),
+                'p1': get_function(request, person=1, plural=True),
+                'p2': get_function(request, person=2, plural=True),
+                'p3': get_function(request, person=3, plural=True),
+            }
 
-        code += get_function(request, person=1, code=True)
-        code += get_function(request, person=2, code=True)
-        code += get_function(request, person=3, code=True)
-        code += get_function(request, person=1, plural=True, code=True)
-        code += get_function(request, person=2, plural=True, code=True)
-        code += get_function(request, person=3, plural=True, code=True)
+            code += get_function(request, person=1, code=True)
+            code += get_function(request, person=2, code=True)
+            code += get_function(request, person=3, code=True)
+            code += get_function(request, person=1, plural=True, code=True)
+            code += get_function(request, person=2, plural=True, code=True)
+            code += get_function(request, person=3, plural=True, code=True)
+        else:
+            result = []
     else:
         result = []
 
