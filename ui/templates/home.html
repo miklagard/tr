@@ -66,6 +66,19 @@
                         </div>
 
                     </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    name="show_code"
+                                    class="form-check-input" {% if request.show_code %} checked {% endif %}
+                                />
+                                Show Python code
+                            </label>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div class="row">
@@ -170,9 +183,11 @@
             </div>
             {% endif %}
 
+            {% if show_code %}
             {% pygmentify %}
             <pre class="python" id="code">{{ code }}</pre>
             {% endpygmentify %}
+            {% endif %}
 
         </main>
     <pre>
