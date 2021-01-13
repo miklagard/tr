@@ -1,3 +1,3 @@
 Django==3.1.5
-turkish-suffix-library==0.5.5
+turkish-suffix-library
 django-pygmentify==0.3.7
