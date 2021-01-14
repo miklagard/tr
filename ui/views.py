@@ -4,6 +4,37 @@ from turkish_suffix_library.sample_verbs_list import VERBS
 from ui.models import History
 
 
+TENSES = (
+    'imperative_mood',
+    'present_continuous_simple',
+    'simple_tense',
+    'past_definite',
+    'past_progressive_dubitative',
+    'past_progressive_alternative_dubitative',
+    'indefinite_past',
+    'past_progressive_narrative',
+    'past_progressive_alternative_narrative',
+    'past_perfect_narrative',
+    'doubtful_distant_past',
+    'past_in_the_future',
+    'past_conditional_narrative',
+    'past_conditional_dubitative',
+    'future_simple',
+    'future_in_the_past',
+    'future_dubitative',
+    'future_conditional',
+    'necessitative_mood_simple_tense',
+    'necessitative_past_narrative',
+    'necessitative_past_dubitative',
+    'conditional_mood_simple_tense',
+    'subjunctive_mood_simple_tense',
+    'past_definite_narrative',
+    'past_indefinite_past',
+    'indefinite_past_future',
+    'past_future'
+)
+
+
 def get_function(request, **kwargs):
     verb = request.GET.get('verb', '')
     tense = request.GET.get('tense', '')
@@ -30,15 +61,8 @@ def get_function(request, **kwargs):
             func = func.unify_verbs(auxiliary=affix, negative=negative)
             code += f".unify_verbs(auxiliary='{affix}', negative={negative})"
 
-        func_method = {
-            'pt': 'present_simple',
-            'pct': 'present_continuous',
-            'pct2': 'present_continuous_alternative',
-            'pat': 'past',
-            'ft': 'future',
-            'lpt': 'learned_past',
-            'lptlpt': 'learned_past_learned_past',
-        }.get(tense)
+        if tense in TENSES:
+            func_method = tense
 
         if func:
             func = func.__getattribute__(func_method)
@@ -101,5 +125,6 @@ def home(request):
         'request': request.GET,
         'result': result,
         'code': code,
-        'show_code': show_code
+        'show_code': show_code,
+        'tenses': TENSES
     })

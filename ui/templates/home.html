@@ -1,3 +1,4 @@
+{% load string_manuplation %}
 <!doctype html>
 <html lang="en">
     <head>
@@ -69,7 +70,7 @@
                                     name="question"
                                     class="form-check-input" {% if request.question %} checked {% endif %}
                                 />
-                                Question
+                                Interrogative
                             </label>
                         </div>
                     </div>
@@ -107,27 +108,11 @@
                             <label>
                                 Tense<br />
                                 <select name="tense" class="form-control">
-                                    <option value="pt" {% if request.tense == 'pt' %} selected {% endif %}>
-                                        Present
+                                    {% for tense in tenses %}
+                                    <option value="{{ tense }}" {% ifequal request.tense tense %} selected {% endifequal %}>
+                                        {{ tense|capitilize }}
                                     </option>
-                                    <option value="pct" {% if request.tense == 'pct' %} selected {% endif %}>
-                                        Present Continuous
-                                    </option>
-                                    <option value="pct2" {% if request.tense == 'pct2' %} selected {% endif %}>
-                                        Present Continuous (Alternative)
-                                    </option>
-                                    <option value="pat" {% if request.tense == 'pat' %} selected {% endif %}>
-                                        Past
-                                    </option>
-                                    <option value="ft" {% if request.tense == 'ft' %} selected {% endif %}>
-                                        Future
-                                    </option>
-                                    <option value="lpt" {% if request.tense == 'lpt' %} selected {% endif %}>
-                                        Learned Past
-                                    </option>
-                                    <option value="lptlpt" {% if request.tense == 'lptlpt' %} selected {% endif %}>
-                                        Learned Past + Learned Past
-                                    </option>
+                                    {% endfor %}
                                 </select>
                             </label>
                         </div>
@@ -135,7 +120,7 @@
                     <div class="col-xs-6 col-sm-6 col-xl-4">
                         <div class="form-group">
                             <label>
-                                Unify Verb<br />
+                                Portmanteau Verb<br />
                                 <select name="affix" class="form-control">
                                     <option value=""></option>
                                     <option value="bil" {% if request.affix == 'bil' %} selected {% endif %}>
