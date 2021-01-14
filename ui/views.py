@@ -3,6 +3,7 @@ from turkish_suffix_library.turkish import Turkish
 from turkish_suffix_library.sample_verbs_list import VERBS
 from ui.models import History
 
+
 def get_function(request, **kwargs):
     verb = request.GET.get('verb', '')
     tense = request.GET.get('tense', '')
@@ -14,6 +15,9 @@ def get_function(request, **kwargs):
 
     person = kwargs.get('person', 1)
     plural = kwargs.get('plural', False)
+
+    if verb.lower().endswith('mek') or verb.lower().endswith('mak'):
+        verb = verb[0:-3]
 
     if verb:
         func = Turkish(verb)
