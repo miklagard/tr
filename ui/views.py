@@ -23,6 +23,7 @@ def get_function(request, **kwargs):
         func = Turkish(verb)
 
         if morph == 'passive':
+            code += '.passive()'
             func = func.passive()
 
         if affix:
