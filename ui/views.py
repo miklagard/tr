@@ -1,14 +1,15 @@
 from django.shortcuts import render
 from turkish_suffix_library.turkish import Turkish
-
+from turkish_suffix_library.sample_verbs_list import VERBS
+from ui.models import History
 
 def get_function(request, **kwargs):
-    verb = request.POST.get('verb', '')
-    tense = request.POST.get('tense', '')
-    negative = request.POST.get('negative', '') == 'on'
-    question = request.POST.get('question', '') == 'on'
-    morph = request.POST.get('morph', '')
-    affix = request.POST.get('affix', '')
+    verb = request.GET.get('verb', '')
+    tense = request.GET.get('tense', '')
+    negative = request.GET.get('negative', '') == 'on'
+    question = request.GET.get('question', '') == 'on'
+    morph = request.GET.get('morph', '')
+    affix = request.GET.get('affix', '')
     code = f"Turkish('{verb}')"
 
     person = kwargs.get('person', 1)
@@ -55,10 +56,22 @@ def get_function(request, **kwargs):
 
 def home(request):
     code = 'from turkish_suffix_library.turkish import Turkish\n\n'
-    show_code = request.POST.get('show_code', '') == 'on'
+    show_code = request.GET.get('show_code', '') == 'on'
 
-    if request.POST:
-        if request.POST.get('verb'):
+    if request.GET:
+        if request.GET.get('verb'):
+
+            history = History(
+                verb=request.GET.get('verb', ''),
+                tense=request.GET.get('tense', ''),
+                negative=request.GET.get('negative', '') == 'on',
+                question=request.GET.get('question', '') == 'on',
+                morph=request.GET.get('morph', ''),
+                affix=request.GET.get('affix', '')
+            )
+
+            history.save()
+
             result = {
                 's1': get_function(request, person=1),
                 's2': get_function(request, person=2),
@@ -80,7 +93,7 @@ def home(request):
         result = []
 
     return render(request, 'home.html', {
-        'request': request.POST,
+        'request': request.GET,
         'result': result,
         'code': code,
         'show_code': show_code
