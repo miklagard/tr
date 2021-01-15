@@ -68,7 +68,7 @@ def person_2_negative(verb, tense):
 @register.filter(name='person_2_plural_negative')
 def person_2_plural_negative(verb, tense):
     func = Turkish(verb)
-    return func.__getattribute__(tense)(person=1, plural=True, negative=True).to_string()
+    return func.__getattribute__(tense)(person=2, plural=True, negative=True).to_string()
 
 
 @register.filter(name='person_3_negative')
@@ -140,7 +140,7 @@ def person_2_negative(verb, tense):
 @register.filter(name='person_2_plural_negative_q')
 def person_2_plural_negative_q(verb, tense):
     func = Turkish(verb)
-    return func.__getattribute__(tense)(person=1, plural=True, negative=True, question=True).to_string()
+    return func.__getattribute__(tense)(person=2, plural=True, negative=True, question=True).to_string()
 
 
 @register.filter(name='person_3_negative_q')
