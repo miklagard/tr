@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load string_manuplation %}
+{% load pygmentify_tags %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    {% for verb in verbs %}
+        <a href="/verb/conjunct/?verb={{ verb|urlencode }}">{{ verb }}</a>
+    {% endfor %}
+{% endblock %}
