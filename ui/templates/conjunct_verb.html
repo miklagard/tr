@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+{% load string_manuplation %}
+{% load pygmentify_tags %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <style>
+        table { margin: 20px; font-size: 10pt; }
+        caption { caption-side: top; }
+        td { padding: 5px }
+    </style>
+    {% for tense in tenses %}
+        <div class="row">
+            <div class="col">
+                <div style="font-weight: bold">{{ tense|capitilize }}</div>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table>
+                    <caption>Affirmative Statement</caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Singular</th>
+                            <th>Plural</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1st Person</th>
+                            <td>{{ verb|person_1:tense }}</td>
+                            <td>{{ verb|person_1_plural:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>2nd Person</th>
+                            <td>{{ verb|person_2:tense }}</td>
+                            <td>{{ verb|person_2_plural:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>3rd Person</th>
+                            <td>{{ verb|person_3:tense }}</td>
+                            <td>{{ verb|person_3_plural:tense }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <table>
+                    <caption>
+                        Interrogative
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Singular</th>
+                            <th>Plural</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1st Person</th>
+                            <td>{{ verb|person_1_q:tense }}</td>
+                            <td>{{ verb|person_1_plural_q:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>2nd Person</th>
+                            <td>{{ verb|person_2_q:tense }}</td>
+                            <td>{{ verb|person_2_plural_q:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>3rd Person</th>
+                            <td>{{ verb|person_3_q:tense }}</td>
+                            <td>{{ verb|person_3_plural_q:tense }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <table>
+                    <caption>
+                        Negative Statement
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Singular</th>
+                            <th>Plural</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1st Person</th>
+                            <td>{{ verb|person_1_negative:tense }}</td>
+                            <td>{{ verb|person_1_plural_negative:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>2nd Person</th>
+                            <td>{{ verb|person_2_negative:tense }}</td>
+                            <td>{{ verb|person_2_plural_negative:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>3rd Person</th>
+                            <td>{{ verb|person_3_negative:tense }}</td>
+                            <td>{{ verb|person_3_plural_negative:tense }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <table>
+                    <caption>Interrogative</caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Singular</th>
+                            <th>Plural</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1st Person</th>
+                            <td>{{ verb|person_1_negative_q:tense }}</td>
+                            <td>{{ verb|person_1_plural_negative_q:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>2nd Person</th>
+                            <td>{{ verb|person_2_negative_q:tense }}</td>
+                            <td>{{ verb|person_2_plural_negative_q:tense }}</td>
+                        </tr>
+                        <tr>
+                            <th>3rd Person</th>
+                            <td>{{ verb|person_3_negative_q:tense }}</td>
+                            <td>{{ verb|person_3_plural_negative_q:tense }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock %}

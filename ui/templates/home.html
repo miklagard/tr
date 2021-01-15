@@ -1,220 +1,159 @@
+{% extends "base.html" %}
 {% load string_manuplation %}
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="Cem Yildiz">
-        <title>Turkish Conjunction Maker</title>
-        {% load pygmentify_tags %}
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+{% load pygmentify_tags %}
+{% block title %}{{ title }}{% endblock %}
 
-        <style>
-            .form-group { padding-bottom: 20px }
-            .kn { color: orange }
-            .s1 { color: grey; font-weight: bold }
-            .n { color: blue }
-            .nb { color: green }
-            body {
-              margin-bottom: 60px;
-            }
-            .footer {
-              height: 60px;
-                text-align: center;
-                margin-top: 120px
-            }
+{% block content %}
+    <form id="frm" method="get">
+        <div class="form-group">
+            <label for="verb">Verb</label>
+            <input
+                type="text"
+                id="verb"
+                maxlength="50"
+                name="verb"
+                class="form-control"
+                value="{{ request.verb }}"
+                autofocus
+            />
+        </div>
 
-        </style>
-
-        <!-- Yandex.Metrika counter -->
-        <script type="text/javascript" >
-           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-           m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-           (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
-           ym(71144002,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
-        </script>
-        <link href="/static/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-        <noscript><div><img src="https://mc.yandex.ru/watch/71144002" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-        <!-- /Yandex.Metrika counter -->
-    </head>
-    <body>
-        <header
-                class="d-flex flex-column flex-md-row align-items-center
-                p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-          <p class="h5 my-0 me-md-auto fw-normal">Turkish Conjunction Maker</p>
-        </header>
-
-        <main class="container">
-            <form id="frm" method="get">
+        <div class="row">
+            <div class="col">
                 <div class="form-group">
-                    <label for="verb">Verb</label>
-                    <input
-                        type="text"
-                        id="verb"
-                        maxlength="50"
-                        name="verb"
-                        class="form-control"
-                        value="{{ request.verb }}"
-                        autofocus
-                    />
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="question"
+                            class="form-check-input" {% if request.question %} checked {% endif %}
+                        />
+                        Interrogative
+                    </label>
                 </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            <label>
-                                <input
-                                    type="checkbox"
-                                    name="question"
-                                    class="form-check-input" {% if request.question %} checked {% endif %}
-                                />
-                                Interrogative
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="form-group">
-                            <label>
-                                <input
-                                    type="checkbox"
-                                    name="negative"
-                                    class="form-check-input" {% if request.negative %} checked {% endif %}
-                                />
-                                Negative
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="col">
-                        <div class="form-group">
-                            <label>
-                                <input
-                                    type="checkbox"
-                                    name="show_code"
-                                    class="form-check-input" {% if request.show_code %} checked {% endif %}
-                                />
-                                Python
-                            </label>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-xl-4">
-                        <div class="form-group">
-                            <label>
-                                Tense<br />
-                                <select name="tense" class="form-control">
-                                    {% for tense in tenses %}
-                                    <option value="{{ tense }}" {% ifequal request.tense tense %} selected {% endifequal %}>
-                                        {{ tense|capitilize }}
-                                    </option>
-                                    {% endfor %}
-                                </select>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-xl-4">
-                        <div class="form-group">
-                            <label>
-                                Portmanteau Verb<br />
-                                <select name="affix" class="form-control">
-                                    <option value=""></option>
-                                    <option value="bil" {% if request.affix == 'bil' %} selected {% endif %}>
-                                        bil (can in English)
-                                    </option>
-                                    <option value="dur" {% if request.affix == 'dur' %} selected {% endif %}>
-                                        dur
-                                    </option>
-                                    <option value="ver" {% if request.affix == 'ver' %} selected {% endif %}>
-                                        ver
-                                    </option>
-                                    <option value="gel" {% if request.affix == 'gel' %} selected {% endif %}>
-                                        gel
-                                    </option>
-                                    <option value="kal" {% if request.affix == 'kal' %} selected {% endif %}>
-                                        kal
-                                    </option>
-                                </select>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-xl-4">
-                        <div class="form-group">
-                            <label>
-                                Morphological derivation<br />
-                                <select name="morph" class="form-control">
-                                    <option value=""></option>
-                                    <option value="passive" {% if request.morph == 'passive' %} selected {% endif %}>
-                                        Passive
-                                    </option>
-                                </select>
-                            </label>
-                        </div>
-                    </div>
-
-                </div>
-
+            </div>
+            <div class="col">
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Send</button>
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="negative"
+                            class="form-check-input" {% if request.negative %} checked {% endif %}
+                        />
+                        Negative
+                    </label>
                 </div>
-            </form>
 
-            {% if result %}
-            <div class="table-responsive">
-                <table class="table table-hover table-striped">
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Singular</th>
-                            <th>Plural</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>1st Person</th>
-                            <th>{{ result.s1 }}</th>
-                            <th>{{ result.p1 }}</th>
-                        </tr>
-                        <tr>
-                            <th>2nd Person</th>
-                            <th>{{ result.s2 }}</th>
-                            <th>{{ result.p2 }}</th>
-                        </tr>
-                        <tr>
-                            <th>3rd Person</th>
-                            <th>{{ result.s3 }}</th>
-                            <th>{{ result.p3 }}</th>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
-            {% endif %}
+            <div class="col">
+                <div class="form-group">
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="show_code"
+                            class="form-check-input" {% if request.show_code %} checked {% endif %}
+                        />
+                        Python
+                    </label>
+                </div>
 
-            {% if show_code %}
-            {% pygmentify %}
-            <pre class="python" id="code">{{ code }}</pre>
-            {% endpygmentify %}
-            {% endif %}
-
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <span class="text-muted">
-                    <a href="https://github.com/miklagard/tr" target="_new">trstem</a> is a
-                    project of <a href="https://github.com/miklagard/Turkish-Suffix-Library" target="_new">Turkish
-                    Suffix Library</a>.
-
-                    Licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" target="_new">GNU General
-                    Public License</a>.
-                </span>
             </div>
-        </footer>
-    </body>
+        </div>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-xl-4">
+                <div class="form-group">
+                    <label>
+                        Tense<br />
+                        <select name="tense" class="form-control">
+                            {% for tense in tenses %}
+                            <option value="{{ tense }}" {% ifequal request.tense tense %} selected {% endifequal %}>
+                                {{ tense|capitilize }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-xl-4">
+                <div class="form-group">
+                    <label>
+                        Portmanteau Verb<br />
+                        <select name="affix" class="form-control">
+                            <option value=""></option>
+                            <option value="bil" {% if request.affix == 'bil' %} selected {% endif %}>
+                                bil (can in English)
+                            </option>
+                            <option value="dur" {% if request.affix == 'dur' %} selected {% endif %}>
+                                dur
+                            </option>
+                            <option value="ver" {% if request.affix == 'ver' %} selected {% endif %}>
+                                ver
+                            </option>
+                            <option value="gel" {% if request.affix == 'gel' %} selected {% endif %}>
+                                gel
+                            </option>
+                            <option value="kal" {% if request.affix == 'kal' %} selected {% endif %}>
+                                kal
+                            </option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-xl-4">
+                <div class="form-group">
+                    <label>
+                        Morphological derivation<br />
+                        <select name="morph" class="form-control">
+                            <option value=""></option>
+                            <option value="passive" {% if request.morph == 'passive' %} selected {% endif %}>
+                                Passive
+                            </option>
+                        </select>
+                    </label>
+                </div>
+            </div>
 
-</html>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+    </form>
+
+    {% if result %}
+    <div class="table-responsive">
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1st Person</th>
+                    <th>{{ result.s1 }}</th>
+                    <th>{{ result.p1 }}</th>
+                </tr>
+                <tr>
+                    <th>2nd Person</th>
+                    <th>{{ result.s2 }}</th>
+                    <th>{{ result.p2 }}</th>
+                </tr>
+                <tr>
+                    <th>3rd Person</th>
+                    <th>{{ result.s3 }}</th>
+                    <th>{{ result.p3 }}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
+    {% if show_code %}
+    {% pygmentify %}
+    <pre class="python" id="code">{{ code }}</pre>
+    {% endpygmentify %}
+    {% endif %}
+{% endblock %}

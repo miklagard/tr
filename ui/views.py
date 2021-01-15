@@ -35,6 +35,12 @@ TENSES = (
 )
 
 
+def capitilize(value):
+    value = value.replace('_', ' ')
+
+    return value[0].upper() + value[1:]
+
+
 def get_function(request, **kwargs):
     verb = request.GET.get('verb', '')
     tense = request.GET.get('tense', '')
@@ -90,6 +96,10 @@ def home(request):
     if request.GET:
         if request.GET.get('verb'):
 
+            title = capitilize(request.GET.get('tense', ''))
+            title += ' of verb '
+            title += request.GET.get('verb')
+
             history = History(
                 verb=request.GET.get('verb', ''),
                 tense=request.GET.get('tense', ''),
@@ -118,7 +128,9 @@ def home(request):
             code += get_function(request, person=3, plural=True, code=True)
         else:
             result = []
+            title = 'Turkish Conjunction Maker'
     else:
+        title = 'Turkish Conjunction Maker'
         result = []
 
     return render(request, 'home.html', {
@@ -126,5 +138,23 @@ def home(request):
         'result': result,
         'code': code,
         'show_code': show_code,
-        'tenses': TENSES
+        'tenses': TENSES,
+        'title': title
+    })
+
+
+def example_verbs(request):
+    return render(request, 'example_verbs.html', {
+        'verbs': VERBS
+    })
+
+
+def conjunct_verb(request):
+    conjunctions = {}
+
+    verb = request.GET.get('verb')
+
+    return render(request, 'conjunct_verb.html', {
+        'tenses': TENSES,
+        'verb': verb
     })
