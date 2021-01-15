@@ -1,0 +1,13 @@
+.form-group { padding-bottom: 20px }
+.kn { color: orange }
+.s1 { color: grey; font-weight: bold }
+.n { color: blue }
+.nb { color: green }
+body {
+  margin-bottom: 60px;
+}
+.footer {
+  height: 60px;
+  text-align: center;
+  margin-top: 120px
+}
