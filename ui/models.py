@@ -12,3 +12,6 @@ class History(models.Model):
 
     def __str__(self):
         return self.verb
+
+    class Meta:
+        verbose_name_plural = 'History'
