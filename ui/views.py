@@ -154,7 +154,10 @@ def conjunct_verb(request):
 
     verb = request.GET.get('verb')
 
+    title = f'Conjunction of the verb {verb} in Turkish'
+
     return render(request, 'conjunct_verb.html', {
         'tenses': TENSES,
-        'verb': verb
+        'verb': verb,
+        'title': title
     })
