@@ -2,49 +2,7 @@ from django.shortcuts import render
 from turkish_suffix_library.sample_verbs_list import VERBS
 from ui.utils import get_verb_function, capitalize
 from ui.models import History
-
-NOUN_CONJUNCTIONS = (
-    'accusative',
-    'dative',
-    'ablative',
-    'locative',
-    'genitive',
-    'possessive',
-    'equalative',
-    'instrumental',
-    ''
-)
-
-
-TENSES = (
-    'imperative_mood',
-    'present_continuous_simple',
-    'simple_tense',
-    'past_definite',
-    'past_progressive_dubitative',
-    'past_progressive_alternative_dubitative',
-    'indefinite_past',
-    'past_progressive_narrative',
-    'past_progressive_alternative_narrative',
-    'past_perfect_narrative',
-    'doubtful_distant_past',
-    'past_in_the_future',
-    'past_conditional_narrative',
-    'past_conditional_dubitative',
-    'future_simple',
-    'future_in_the_past',
-    'future_dubitative',
-    'future_conditional',
-    'necessitative_mood_simple_tense',
-    'necessitative_past_narrative',
-    'necessitative_past_dubitative',
-    'conditional_mood_simple_tense',
-    'subjunctive_mood_simple_tense',
-    'past_definite_narrative',
-    'past_indefinite_past',
-    'indefinite_past_future',
-    'past_future'
-)
+import ui.consonants as con
 
 
 def nouns(request):
@@ -116,14 +74,14 @@ def home(request):
         'result': result,
         'code': code,
         'show_code': show_code,
-        'tenses': TENSES,
+        'tenses': con.TENSES,
         'title': title
     })
 
 
 def example_verbs(request):
     return render(request, 'example_verbs.html', {
-        'verbs': VERBS
+        'verbs': con.VERBS
     })
 
 
@@ -135,7 +93,7 @@ def conjunct_verb(request):
     title = f'Conjunction of the verb {verb} in Turkish'
 
     return render(request, 'conjunct_verb.html', {
-        'tenses': TENSES,
+        'tenses': con.TENSES,
         'verb': verb,
         'title': title
     })
