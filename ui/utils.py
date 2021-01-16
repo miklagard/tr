@@ -1,4 +1,5 @@
 from turkish_suffix_library.turkish import Turkish
+import ui.consonants as con
 
 
 def get_verb_function(request, **kwargs):
@@ -27,7 +28,7 @@ def get_verb_function(request, **kwargs):
             func = func.unify_verbs(auxiliary=affix, negative=negative)
             code += f".unify_verbs(auxiliary='{affix}', negative={negative})"
 
-        if tense in TENSES:
+        if tense in con.TENSES:
             func_method = tense
 
         if func:

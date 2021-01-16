@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'se9*r69=$i-wj0yvrct0w_-2t(mmv^vyt!gnma)_ny+r@a@5y^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'www.trstem.com', 'trstem.com']
 
