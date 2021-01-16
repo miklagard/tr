@@ -1,7 +1,19 @@
 from django.shortcuts import render
-from turkish_suffix_library.turkish import Turkish
 from turkish_suffix_library.sample_verbs_list import VERBS
+from ui.utils import get_verb_function, capitalize
 from ui.models import History
+
+NOUN_CONJUNCTIONS = (
+    'accusative',
+    'dative',
+    'ablative',
+    'locative',
+    'genitive',
+    'possessive',
+    'equalative',
+    'instrumental',
+    ''
+)
 
 
 TENSES = (
@@ -35,58 +47,24 @@ TENSES = (
 )
 
 
-def capitilize(value):
-    value = value.replace('_', ' ')
+def nouns(request):
+    title = 'Turkish Conjunction Maker - Nouns'
+    code = 'from turkish_suffix_library.turkish import Turkish\n\n'
+    show_code = request.GET.get('show_code', '') == 'on'
+    proper_noun = request.GET.get('proper_noun', '') == 'on'
+    noun = request.GET.get('noun', '')
 
-    return value[0].upper() + value[1:]
-
-
-def get_function(request, **kwargs):
-    verb = request.GET.get('verb', '')
-    tense = request.GET.get('tense', '')
-    negative = request.GET.get('negative', '') == 'on'
-    question = request.GET.get('question', '') == 'on'
-    morph = request.GET.get('morph', '')
-    affix = request.GET.get('affix', '')
-    code = f"Turkish('{verb}')"
-
-    person = kwargs.get('person', 1)
-    plural = kwargs.get('plural', False)
-
-    if verb.lower().endswith('mek') or verb.lower().endswith('mak'):
-        verb = verb[0:-3]
-
-    if verb:
-        func = Turkish(verb)
-
-        if morph == 'passive':
-            code += '.passive()'
-            func = func.passive()
-
-        if affix:
-            func = func.unify_verbs(auxiliary=affix, negative=negative)
-            code += f".unify_verbs(auxiliary='{affix}', negative={negative})"
-
-        if tense in TENSES:
-            func_method = tense
-
-        if func:
-            func = func.__getattribute__(func_method)
-
-            code += f".{func_method}(negative={negative}, question={question}, person={person}, plural={plural})"
-            code = f"print({code})\n"
-
-            if kwargs.get('code'):
-                return code
-            else:
-                return func(
-                    negative=negative,
-                    question=question,
-                    person=kwargs.get('person', person),
-                    plural=kwargs.get('plural', plural),
-                ).to_string()
-    else:
-        return None
+    return render(
+        request,
+        'nouns.html',
+        {
+            'title': title,
+            'show_code': show_code,
+            'proper_noun': proper_noun,
+            'noun': noun,
+            'code': code
+        }
+    )
 
 
 def home(request):
@@ -96,7 +74,7 @@ def home(request):
     if request.GET:
         if request.GET.get('verb'):
 
-            title = capitilize(request.GET.get('tense', ''))
+            title = capitalize(request.GET.get('tense', ''))
             title += ' of verb '
             title += request.GET.get('verb')
 
@@ -112,20 +90,20 @@ def home(request):
             history.save()
 
             result = {
-                's1': get_function(request, person=1),
-                's2': get_function(request, person=2),
-                's3': get_function(request, person=3),
-                'p1': get_function(request, person=1, plural=True),
-                'p2': get_function(request, person=2, plural=True),
-                'p3': get_function(request, person=3, plural=True),
+                's1': get_verb_function(request, person=1),
+                's2': get_verb_function(request, person=2),
+                's3': get_verb_function(request, person=3),
+                'p1': get_verb_function(request, person=1, plural=True),
+                'p2': get_verb_function(request, person=2, plural=True),
+                'p3': get_verb_function(request, person=3, plural=True),
             }
 
-            code += get_function(request, person=1, code=True)
-            code += get_function(request, person=2, code=True)
-            code += get_function(request, person=3, code=True)
-            code += get_function(request, person=1, plural=True, code=True)
-            code += get_function(request, person=2, plural=True, code=True)
-            code += get_function(request, person=3, plural=True, code=True)
+            code += get_verb_function(request, person=1, code=True)
+            code += get_verb_function(request, person=2, code=True)
+            code += get_verb_function(request, person=3, code=True)
+            code += get_verb_function(request, person=1, plural=True, code=True)
+            code += get_verb_function(request, person=2, plural=True, code=True)
+            code += get_verb_function(request, person=3, plural=True, code=True)
         else:
             result = []
             title = 'Turkish Conjunction Maker'
