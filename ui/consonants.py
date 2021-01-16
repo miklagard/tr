@@ -40,3 +40,15 @@ TENSES = (
     'indefinite_past_future',
     'past_future'
 )
+
+
+CASES = (
+    'accusative',
+    'dative',
+    'ablative',
+    'locative',
+    'genitive',
+    'possessive',
+    'equalative',
+    'instrumental'
+)

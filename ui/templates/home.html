@@ -67,7 +67,7 @@
                         <select name="tense" class="form-control">
                             {% for tense in tenses %}
                             <option value="{{ tense }}" {% ifequal request.tense tense %} selected {% endifequal %}>
-                                {{ tense|capitilize }}
+                                {{ tense|capitalize }}
                             </option>
                             {% endfor %}
                         </select>

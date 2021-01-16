@@ -2,6 +2,14 @@ from turkish_suffix_library.turkish import Turkish
 import ui.consonants as con
 
 
+def get_noun_function(case, noun, proper_noun):
+    if noun:
+        func = Turkish(noun)
+        func = func.__getattribute__(case)(proper_noun=proper_noun)
+        return func.to_string()
+    else:
+        return ''
+
 def get_verb_function(request, **kwargs):
     verb = request.GET.get('verb', '')
     tense = request.GET.get('tense', '')
