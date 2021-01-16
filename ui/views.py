@@ -81,7 +81,7 @@ def home(request):
 
 def example_verbs(request):
     return render(request, 'example_verbs.html', {
-        'verbs': con.VERBS
+        'verbs': VERBS
     })
 
 
