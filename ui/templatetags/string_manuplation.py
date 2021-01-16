@@ -4,8 +4,8 @@ from turkish_suffix_library.turkish import Turkish
 register = template.Library()
 
 
-@register.filter(name='capitilize')
-def capitilize(value):
+@register.filter(name='capitalize')
+def capitalize(value):
     value = value.replace('_', ' ')
 
     return value[0].upper() + value[1:]
