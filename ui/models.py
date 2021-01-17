@@ -3,8 +3,10 @@ from django.db import models
 
 class History(models.Model):
     verb = models.CharField(max_length=50)
-    question = models.BooleanField()
-    negative = models.BooleanField()
+    noun = models.CharField(max_length=50, default='')
+    proper_noun = models.BooleanField(default=False)
+    question = models.BooleanField(default=False)
+    negative = models.BooleanField(default=False)
     affix = models.CharField(max_length=10)
     morph = models.CharField(max_length=10)
     tense = models.CharField(max_length=20)

@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from turkish_suffix_library.sample_verbs_list import VERBS
-from ui.utils import get_verb_function, get_noun_function, capitalize
+from ui.utils import get_verb_function, get_noun_function, capitalize, get_possessive_function
 from ui.models import History
 import ui.consonants as con
 
@@ -11,7 +11,6 @@ def nouns(request):
     show_code = request.GET.get('show_code', '') == 'on'
     proper_noun = request.GET.get('proper_noun', '') == 'on'
     noun = request.GET.get('noun', '')
-    print(proper_noun)
     result = []
 
     if noun:
@@ -20,6 +19,31 @@ def nouns(request):
                 'case': case,
                 'result': get_noun_function(case, noun, proper_noun)
             })
+
+            code += get_noun_function(case, noun, proper_noun, show_code=True)
+
+        history = History(
+            noun=noun,
+            proper_noun=proper_noun
+        )
+
+        history.save()
+
+    possessive = {
+        's1': get_possessive_function(noun, proper_noun, 1, False, show_code=False),
+        's2': get_possessive_function(noun, proper_noun, 2, False, show_code=False),
+        's3': get_possessive_function(noun, proper_noun, 3, False, show_code=False),
+        'p1': get_possessive_function(noun, proper_noun, 1, True, show_code=False),
+        'p2': get_possessive_function(noun, proper_noun, 2, True, show_code=False),
+        'p3': get_possessive_function(noun, proper_noun, 3, True, show_code=False),
+    }
+
+    code += get_possessive_function(noun, proper_noun, 1, False, show_code=True)
+    code += get_possessive_function(noun, proper_noun, 2, False, show_code=True)
+    code += get_possessive_function(noun, proper_noun, 3, False, show_code=True)
+    code += get_possessive_function(noun, proper_noun, 1, True, show_code=True)
+    code += get_possessive_function(noun, proper_noun, 2, True, show_code=True)
+    code += get_possessive_function(noun, proper_noun, 3, True, show_code=True)
 
     return render(
         request,
@@ -30,7 +54,8 @@ def nouns(request):
             'proper_noun': proper_noun,
             'noun': noun,
             'code': code,
-            'result': result
+            'result': result,
+            'possessive': possessive
         }
     )
 
@@ -40,7 +65,6 @@ def home(request):
     show_code = request.GET.get('show_code', '') == 'on'
 
     if request.GET.get('verb'):
-
         title = capitalize(request.GET.get('tense', ''))
         title += ' of verb '
         title += request.GET.get('verb')
