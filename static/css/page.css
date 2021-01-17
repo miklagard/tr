@@ -14,5 +14,9 @@ body {
 
 .ex {
   display: inline-block;
-  padding: 20px;
+  padding: 20px
+}
+
+body > .container {
+  padding: 60px 15px 0;
 }

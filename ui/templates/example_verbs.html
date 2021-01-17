@@ -9,7 +9,7 @@
         <hr />
         {% for v in verb.verbs %}
             <div class="ex">
-                <a href="/verb/conjunct/?verb={{ v|urlencode }}">{{ v }}</a>
+                <a href="{% url 'conjunct_verb' %}?verb={{ v|urlencode }}">{{ v }}</a>
             </div>
         {% endfor %}
         <br /><br /><br />
