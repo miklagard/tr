@@ -11,3 +11,8 @@ body {
   text-align: center;
   margin-top: 120px
 }
+
+.ex {
+  display: inline-block;
+  padding: 20px;
+}
