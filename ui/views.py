@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from turkish_suffix_library.sample_verbs_list import VERBS
+from turkish_suffix_library.turkish_string import make_upper
 from ui.utils import get_verb_function, get_noun_function, capitalize, get_possessive_function
 from ui.models import History
 import ui.consonants as con
@@ -114,14 +115,14 @@ def example_verbs(request):
     verbs = []
 
     for verb in VERBS:
-        if verb[0].upper() not in verb_list:
-            verb_list[verb[0].upper()] = []
+        if make_upper(verb[0]) not in verb_list:
+            verb_list[make_upper(verb[0])] = []
 
-        verb_list[verb[0].upper()].append(verb)
+        verb_list[make_upper(verb[0])].append(verb)
 
     for key in verb_list:
         verbs.append({
-            'letter': key,
+            'letter': make_upper(key),
             'verbs': verb_list[key]
         })
 
