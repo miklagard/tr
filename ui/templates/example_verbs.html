@@ -5,6 +5,13 @@
 
 {% block content %}
     {% for verb in verbs %}
-        <a href="/verb/conjunct/?verb={{ verb|urlencode }}">{{ verb }}</a>
+        <h2>{{ verb.letter }}</h2>
+        <hr />
+        {% for v in verb.verbs %}
+            <div class="ex">
+                <a href="/verb/conjunct/?verb={{ v|urlencode }}">{{ v }}</a>
+            </div>
+        {% endfor %}
+        <br /><br /><br />
     {% endfor %}
 {% endblock %}

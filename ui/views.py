@@ -110,8 +110,23 @@ def home(request):
 
 
 def example_verbs(request):
+    verb_list = {}
+    verbs = []
+
+    for verb in VERBS:
+        if verb[0].upper() not in verb_list:
+            verb_list[verb[0].upper()] = []
+
+        verb_list[verb[0].upper()].append(verb)
+
+    for key in verb_list:
+        verbs.append({
+            'letter': key,
+            'verbs': verb_list[key]
+        })
+
     return render(request, 'example_verbs.html', {
-        'verbs': VERBS
+        'verbs': verbs
     })
 
 
