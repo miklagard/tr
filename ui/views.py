@@ -56,7 +56,8 @@ def nouns(request):
             'noun': noun,
             'code': code,
             'result': result,
-            'possessive': possessive
+            'possessive': possessive,
+            'path': 'noun'
         }
     )
 
@@ -101,12 +102,13 @@ def home(request):
         title = 'Turkish Conjunction Maker'
 
     return render(request, 'home.html', {
-        'request': request.GET,
+        'request': request,
         'result': result,
         'code': code,
         'show_code': show_code,
         'tenses': con.TENSES,
-        'title': title
+        'title': title,
+        'path': 'verb'
     })
 
 
@@ -127,7 +129,8 @@ def example_verbs(request):
         })
 
     return render(request, 'example_verbs.html', {
-        'verbs': verbs
+        'verbs': verbs,
+        'path': 'verb'
     })
 
 
@@ -139,5 +142,6 @@ def conjunct_verb(request):
     return render(request, 'conjunct_verb.html', {
         'tenses': con.TENSES,
         'verb': verb,
-        'title': title
+        'title': title,
+        'path': 'verb'
     })

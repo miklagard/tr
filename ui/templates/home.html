@@ -13,7 +13,7 @@
                 maxlength="50"
                 name="verb"
                 class="form-control"
-                value="{{ request.verb }}"
+                value="{{ request.GET.verb }}"
                 autofocus
             />
         </div>
@@ -25,7 +25,7 @@
                         <input
                             type="checkbox"
                             name="question"
-                            class="form-check-input" {% if request.question %} checked {% endif %}
+                            class="form-check-input" {% if request.GET.question %} checked {% endif %}
                         />
                         Interrogative
                     </label>
@@ -37,7 +37,7 @@
                         <input
                             type="checkbox"
                             name="negative"
-                            class="form-check-input" {% if request.negative %} checked {% endif %}
+                            class="form-check-input" {% if request.GET.negative %} checked {% endif %}
                         />
                         Negative
                     </label>
@@ -66,7 +66,7 @@
                         Tense<br />
                         <select name="tense" class="form-control">
                             {% for tense in tenses %}
-                            <option value="{{ tense }}" {% ifequal request.tense tense %} selected {% endifequal %}>
+                            <option value="{{ tense }}" {% ifequal request.GET.tense tense %} selected {% endifequal %}>
                                 {{ tense|capitalize }}
                             </option>
                             {% endfor %}
@@ -80,19 +80,19 @@
                         Portmanteau Verb<br />
                         <select name="affix" class="form-control">
                             <option value=""></option>
-                            <option value="bil" {% if request.affix == 'bil' %} selected {% endif %}>
+                            <option value="bil" {% if request.GET.affix == 'bil' %} selected {% endif %}>
                                 bil (can in English)
                             </option>
-                            <option value="dur" {% if request.affix == 'dur' %} selected {% endif %}>
+                            <option value="dur" {% if request.GET.affix == 'dur' %} selected {% endif %}>
                                 dur
                             </option>
-                            <option value="ver" {% if request.affix == 'ver' %} selected {% endif %}>
+                            <option value="ver" {% if request.GET.affix == 'ver' %} selected {% endif %}>
                                 ver
                             </option>
-                            <option value="gel" {% if request.affix == 'gel' %} selected {% endif %}>
+                            <option value="gel" {% if request.GET.affix == 'gel' %} selected {% endif %}>
                                 gel
                             </option>
-                            <option value="kal" {% if request.affix == 'kal' %} selected {% endif %}>
+                            <option value="kal" {% if request.GET.affix == 'kal' %} selected {% endif %}>
                                 kal
                             </option>
                         </select>
@@ -105,7 +105,7 @@
                         Morphological derivation<br />
                         <select name="morph" class="form-control">
                             <option value=""></option>
-                            <option value="passive" {% if request.morph == 'passive' %} selected {% endif %}>
+                            <option value="passive" {% if request.GET.morph == 'passive' %} selected {% endif %}>
                                 Passive
                             </option>
                         </select>
