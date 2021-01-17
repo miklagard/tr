@@ -31,6 +31,18 @@
                     </label>
                 </div>
             </div>
+            <div class="col">
+                <div class="form-group">
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="show_code"
+                            class="form-check-input" {% if show_code %} checked {% endif %}
+                        />
+                        Python
+                    </label>
+                </div>
+            </div>
         </div>
 
         <div class="form-group">
@@ -38,6 +50,7 @@
         </div>
     </form>
 
+    {% if result %}
 
     <div class="row">
         {% for res in result %}
@@ -56,6 +69,39 @@
         {% endfor %}
     </div>
 
+    <br /><br />
+
+    <div class="h4">Possessive Conjunction</div>
+    <div class="table-responsive">
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Singular</th>
+                    <th>Plural</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1st Person</th>
+                    <th>{{ possessive.s1 }}</th>
+                    <th>{{ possessive.p1 }}</th>
+                </tr>
+                <tr>
+                    <th>2nd Person</th>
+                    <th>{{ possessive.s2 }}</th>
+                    <th>{{ possessive.p2 }}</th>
+                </tr>
+                <tr>
+                    <th>3rd Person</th>
+                    <th>{{ possessive.s3 }}</th>
+                    <th>{{ possessive.p3 }}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    {% endif %}
 
     {% if show_code %}
     {% pygmentify %}

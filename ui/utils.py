@@ -2,13 +2,42 @@ from turkish_suffix_library.turkish import Turkish
 import ui.consonants as con
 
 
-def get_noun_function(case, noun, proper_noun):
+def get_noun_function(case, noun, proper_noun, show_code=False):
+    code = f"Turkish('{noun}')"
+
     if noun:
         func = Turkish(noun)
         func = func.__getattribute__(case)(proper_noun=proper_noun)
-        return func.to_string()
+
+        code += f".{case}(proper_noun={proper_noun})"
+        code = f"print({code})\n"
+
+        if show_code:
+            return code
+        else:
+            return func.to_string()
     else:
         return ''
+
+
+def get_possessive_function(noun, proper_noun, person, plural, show_code=False):
+    code = f"Turkish('{noun}')"
+    case = 'possessive'
+
+    if noun:
+        func = Turkish(noun)
+        func = func.__getattribute__(case)(person=person, plural=plural, proper_noun=proper_noun)
+
+        code += f".{case}(person={person}, plural={plural}, proper_noun={proper_noun})"
+        code = f"print({code})\n"
+
+        if show_code:
+            return code
+        else:
+            return func.to_string()
+    else:
+        return ''
+
 
 def get_verb_function(request, **kwargs):
     verb = request.GET.get('verb', '')

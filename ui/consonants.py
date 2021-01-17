@@ -47,8 +47,8 @@ CASES = (
     'dative',
     'ablative',
     'locative',
-    'genitive',
-    'possessive',
     'equalative',
-    'instrumental'
+    'instrumental',
+    'privative',
+    'genitive',
 )
