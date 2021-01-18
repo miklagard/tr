@@ -13,7 +13,7 @@ class History(models.Model):
     created_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.verb
+        return self.verb + self.noun
 
     class Meta:
         verbose_name_plural = 'History'
