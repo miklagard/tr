@@ -6,15 +6,15 @@ NOUN_CONJUNCTIONS = (
     'genitive',
     'possessive',
     'equalative',
-    'instrumental',
-    ''
+    'instrumental'
 )
-
 
 TENSES = (
     'imperative_mood',
     'present_continuous_simple',
     'simple_tense',
+    'simple_tense_past_definite',
+    'simple_tense_indefinite_past',
     'past_definite',
     'past_progressive_dubitative',
     'past_progressive_alternative_dubitative',
