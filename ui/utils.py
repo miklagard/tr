@@ -39,8 +39,15 @@ def get_possessive_function(noun, proper_noun, person, plural, show_code=False):
         return ''
 
 
+def get_infinitive_case(verb, negative):
+    return Turkish(verb).infinitive(negative=negative).to_string()
+
+
 def get_verb_function(request, **kwargs):
-    verb = request.GET.get('verb', '')
+    if request.GET.get('english'):
+        verb = request.GET.get('verb_english', '')
+    else:
+        verb = request.GET.get('verb', '');
     tense = request.GET.get('tense', '')
     negative = request.GET.get('negative', '') == 'on'
     question = request.GET.get('question', '') == 'on'

@@ -5,17 +5,51 @@
 
 {% block content %}
     <form id="frm" method="get">
-        <div class="form-group">
-            <label for="verb">Verb</label>
-            <input
-                type="text"
-                id="verb"
-                maxlength="50"
-                name="verb"
-                class="form-control"
-                value="{{ request.GET.verb }}"
-                autofocus
-            />
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="english"
+                            id="english"
+                            class="form-check-input" {% if request.GET.english %} checked {% endif %}
+                        />
+                        Translate from English
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row english">
+            <div class="col">
+                <div class="form-group">
+                    <label for="verb_english">Verb</label>
+                    <select name="verb_english" id="verb_english" class="form-control autocomplete">
+                        <option></option>
+                        {% for english, turkish in vocabulary.items %}
+                            <option {% ifequal request.GET.verb_english turkish %} selected {% endifequal %}value="{{ turkish }}">{{ english }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row turkish">
+            <div class="col">
+                <div class="form-group">
+                    <label for="verb">Verb</label>
+                    <input
+                        type="text"
+                        id="verb"
+                        maxlength="50"
+                        name="verb"
+                        class="form-control"
+                        value="{{ request.GET.verb }}"
+                        autofocus
+                    />
+                </div>
+            </div>
         </div>
 
         <div class="row">
@@ -42,7 +76,6 @@
                         Negative
                     </label>
                 </div>
-
             </div>
             <div class="col">
                 <div class="form-group">
@@ -121,6 +154,7 @@
     </form>
 
     {% if result %}
+        {{ infinitive }}
     <div class="table-responsive">
         <table class="table table-hover table-striped">
             <thead>
