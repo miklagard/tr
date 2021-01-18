@@ -1,4 +1,5 @@
 {% load string_manuplation %}
+{% load compress %}
 <!doctype html>
 <html lang="en">
     <head>
@@ -8,12 +9,14 @@
         <meta name="author" content="Cem Yildiz">
         <meta name="yandex-verification" content="97a52cba3ff6b09c" />
         <title>{% block title %}{% endblock %}</title>
+        {% compress css %}
         <link href="/static/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" />
         <link href="/static/css/bootstrap-grid.min.css" rel="stylesheet" />
         <link href="/static/css/bootstrap-utilities.min.css" rel="stylesheet" />
         <link href="/static/css/page.css?4" rel="stylesheet" />
         <link href="/static/css/flexselect.css" rel="stylesheet" />
+        {% endcompress %}
     </head>
     <body>
         <header>
@@ -55,6 +58,7 @@
         </footer>
     </body>
 
+    {% compress js %}
     <script src="/static/js/jquery-3.5.1.slim.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/liquidmetal.js"></script>
@@ -68,6 +72,8 @@
        (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
        ym(71144002,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
     </script>
+    {% endcompress %}
+
     <link href="/static/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
     <noscript><div><img src="https://mc.yandex.ru/watch/71144002" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
