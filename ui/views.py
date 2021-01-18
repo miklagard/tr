@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
-from ui.utils import get_verb_function, get_noun_function, capitalize, get_possessive_function
 from ui.models import History
+from ui.english import ENGLISH_TO_TURKISH
 import ui.consonants as con
+import ui.utils as utils
 
 
 def nouns(request):
@@ -18,10 +19,10 @@ def nouns(request):
         for case in con.CASES:
             result.append({
                 'case': case,
-                'result': get_noun_function(case, noun, proper_noun)
+                'result': utils.get_noun_function(case, noun, proper_noun)
             })
 
-            code += get_noun_function(case, noun, proper_noun, show_code=True)
+            code += utils.get_noun_function(case, noun, proper_noun, show_code=True)
 
         history = History(
             noun=noun,
@@ -31,20 +32,20 @@ def nouns(request):
         history.save()
 
     possessive = {
-        's1': get_possessive_function(noun, proper_noun, 1, False, show_code=False),
-        's2': get_possessive_function(noun, proper_noun, 2, False, show_code=False),
-        's3': get_possessive_function(noun, proper_noun, 3, False, show_code=False),
-        'p1': get_possessive_function(noun, proper_noun, 1, True, show_code=False),
-        'p2': get_possessive_function(noun, proper_noun, 2, True, show_code=False),
-        'p3': get_possessive_function(noun, proper_noun, 3, True, show_code=False),
+        's1': utils.get_possessive_function(noun, proper_noun, 1, False, show_code=False),
+        's2': utils.get_possessive_function(noun, proper_noun, 2, False, show_code=False),
+        's3': utils.get_possessive_function(noun, proper_noun, 3, False, show_code=False),
+        'p1': utils.get_possessive_function(noun, proper_noun, 1, True, show_code=False),
+        'p2': utils.get_possessive_function(noun, proper_noun, 2, True, show_code=False),
+        'p3': utils.get_possessive_function(noun, proper_noun, 3, True, show_code=False),
     }
 
-    code += get_possessive_function(noun, proper_noun, 1, False, show_code=True)
-    code += get_possessive_function(noun, proper_noun, 2, False, show_code=True)
-    code += get_possessive_function(noun, proper_noun, 3, False, show_code=True)
-    code += get_possessive_function(noun, proper_noun, 1, True, show_code=True)
-    code += get_possessive_function(noun, proper_noun, 2, True, show_code=True)
-    code += get_possessive_function(noun, proper_noun, 3, True, show_code=True)
+    code += utils.get_possessive_function(noun, proper_noun, 1, False, show_code=True)
+    code += utils.get_possessive_function(noun, proper_noun, 2, False, show_code=True)
+    code += utils.get_possessive_function(noun, proper_noun, 3, False, show_code=True)
+    code += utils.get_possessive_function(noun, proper_noun, 1, True, show_code=True)
+    code += utils.get_possessive_function(noun, proper_noun, 2, True, show_code=True)
+    code += utils.get_possessive_function(noun, proper_noun, 3, True, show_code=True)
 
     return render(
         request,
@@ -66,13 +67,18 @@ def home(request):
     code = 'from turkish_suffix_library.turkish import Turkish\n\n'
     show_code = request.GET.get('show_code', '') == 'on'
 
-    if request.GET.get('verb'):
-        title = capitalize(request.GET.get('tense', ''))
+    if request.GET.get('english'):
+        verb = request.GET.get('verb_english')
+    else:
+        verb = request.GET.get('verb')
+
+    if verb:
+        title = utils.capitalize(request.GET.get('tense', ''))
         title += ' of verb '
-        title += request.GET.get('verb')
+        title += verb
 
         history = History(
-            verb=request.GET.get('verb', ''),
+            verb=verb,
             tense=request.GET.get('tense', ''),
             negative=request.GET.get('negative', '') == 'on',
             question=request.GET.get('question', '') == 'on',
@@ -83,20 +89,21 @@ def home(request):
         history.save()
 
         result = {
-            's1': get_verb_function(request, person=1),
-            's2': get_verb_function(request, person=2),
-            's3': get_verb_function(request, person=3),
-            'p1': get_verb_function(request, person=1, plural=True),
-            'p2': get_verb_function(request, person=2, plural=True),
-            'p3': get_verb_function(request, person=3, plural=True),
+            's1': utils.get_verb_function(request, person=1),
+            's2': utils.get_verb_function(request, person=2),
+            's3': utils.get_verb_function(request, person=3),
+            'p1': utils.get_verb_function(request, person=1, plural=True),
+            'p2': utils.get_verb_function(request, person=2, plural=True),
+            'p3': utils.get_verb_function(request, person=3, plural=True),
         }
 
-        code += get_verb_function(request, person=1, code=True)
-        code += get_verb_function(request, person=2, code=True)
-        code += get_verb_function(request, person=3, code=True)
-        code += get_verb_function(request, person=1, plural=True, code=True)
-        code += get_verb_function(request, person=2, plural=True, code=True)
-        code += get_verb_function(request, person=3, plural=True, code=True)
+        code += utils.get_verb_function(request, person=1, code=True)
+        code += utils.get_verb_function(request, person=2, code=True)
+        code += utils.get_verb_function(request, person=3, code=True)
+        code += utils.get_verb_function(request, person=1, plural=True, code=True)
+        code += utils.get_verb_function(request, person=2, plural=True, code=True)
+        code += utils.get_verb_function(request, person=3, plural=True, code=True)
+
     else:
         result = []
         title = 'Turkish Conjunction Maker'
@@ -108,7 +115,8 @@ def home(request):
         'show_code': show_code,
         'tenses': con.TENSES,
         'title': title,
-        'path': 'verb'
+        'path': 'verb',
+        'vocabulary': ENGLISH_TO_TURKISH
     })
 
 
