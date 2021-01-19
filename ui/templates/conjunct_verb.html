@@ -10,6 +10,25 @@
         td { padding: 5px }
     </style>
     <h2>{{ title }}</h2>
+
+    <br />
+    <div style="font-weight: bold">Infinitive</div>
+    <hr />
+    <table>
+        <tbody>
+            <tr>
+                <th>Affirmative Statement</th>
+                <td>{{ infinitive }}</td>
+            </tr>
+            <tr>
+                <th>Negative Statement</th>
+                <td>{{ infinitive_negative }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br /><br />
+
     {% for tense in tenses %}
         <div class="row">
             <div class="col">
