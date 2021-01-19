@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
 from ui.models import History
@@ -121,6 +121,7 @@ def home(request):
 
 
 def example_verbs(request):
+    title = 'Example verbs - Turkish Conjunction Maker'
     verb_list = {}
     verbs = []
 
@@ -138,7 +139,8 @@ def example_verbs(request):
 
     return render(request, 'example_verbs.html', {
         'verbs': verbs,
-        'path': 'verb'
+        'path': 'verb',
+        'title': title
     })
 
 
@@ -176,3 +178,13 @@ def conjunct_verb_slug(request, verb):
         'infinitive': infinitive,
         'infinitive_negative': infinitive_negative
     })
+
+
+def robots(request):
+    text = 'Sitemap: https://trstem.com/sitemap.xml\n'
+    text += 'User-agent: * Disallow: \n'
+    return HttpResponse(text, content_type='text/plain; charset=utf8')
+
+
+def sitemap(request):
+    return render(request, 'sitemap.xml', content_type='application/xml; charset=utf8')
