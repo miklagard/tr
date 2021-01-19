@@ -38,7 +38,9 @@ TENSES = (
     'past_definite_narrative',
     'past_indefinite_past',
     'indefinite_past_future',
-    'past_future'
+    'past_future',
+    'indefinite_past_reportative',
+    'definite_past_reportative'
 )
 
 
