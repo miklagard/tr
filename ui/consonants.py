@@ -1,14 +1,3 @@
-NOUN_CONJUNCTIONS = (
-    'accusative',
-    'dative',
-    'ablative',
-    'locative',
-    'genitive',
-    'possessive',
-    'equalative',
-    'instrumental'
-)
-
 TENSES = (
     'imperative_mood',
     'present_continuous_simple',
@@ -43,7 +32,6 @@ TENSES = (
     'definite_past_reportative'
 )
 
-
 CASES = (
     'accusative',
     'dative',
@@ -53,4 +41,12 @@ CASES = (
     'instrumental',
     'privative',
     'genitive',
+    'relative_pronoun'
+)
+
+COPULAS = (
+    'copula_simple',
+    'copula_present',
+    'copula_definite_past',
+    'copula_indefinite_past'
 )
