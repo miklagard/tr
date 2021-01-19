@@ -98,3 +98,13 @@ def capitalize(value):
     value = value.replace('_', ' ')
 
     return value[0].upper() + value[1:]
+
+
+def tr_slugify(word):
+    return word.replace(' ', '__').replace('ı', 'i_').replace('ş', 's_').replace('ü', 'u_')\
+        .replace('ğ', 'g_').replace('ö', 'o_').replace('ç', 'c_')
+
+
+def tr_unslugify(word):
+    return word.replace('__', ' ').replace('i_', 'ı').replace('s_', 'ş').replace('u_', 'ü')\
+        .replace('g_', 'ğ').replace('o_', 'ö').replace('c_', 'ç')

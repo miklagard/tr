@@ -1,7 +1,14 @@
 from django import template
 from turkish_suffix_library.turkish import Turkish
+from ui.utils import tr_slugify
+
 
 register = template.Library()
+
+
+@register.filter(name='tr_slugify')
+def tr_slugify_func(value):
+    return tr_slugify(value)
 
 
 @register.filter(name='capitalize')

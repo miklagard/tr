@@ -158,3 +158,21 @@ def conjunct_verb(request):
         'infinitive': infinitive,
         'infinitive_negative': infinitive_negative
     })
+
+
+def conjunct_verb_slug(request, verb):
+    title = f'Conjunction of the verb {verb} in Turkish'
+
+    verb = utils.tr_unslugify(verb)
+
+    infinitive = utils.get_infinitive_case(verb, False)
+    infinitive_negative = utils.get_infinitive_case(verb, True)
+
+    return render(request, 'conjunct_verb.html', {
+        'tenses': con.TENSES,
+        'verb': verb,
+        'title': title,
+        'path': 'verb',
+        'infinitive': infinitive,
+        'infinitive_negative': infinitive_negative
+    })
