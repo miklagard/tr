@@ -161,9 +161,9 @@ def conjunct_verb(request):
 
 
 def conjunct_verb_slug(request, verb):
-    title = f'Conjunction of the verb {verb} in Turkish'
-
     verb = utils.tr_unslugify(verb)
+
+    title = f'Conjunction of the verb {verb} in Turkish'
 
     infinitive = utils.get_infinitive_case(verb, False)
     infinitive_negative = utils.get_infinitive_case(verb, True)
