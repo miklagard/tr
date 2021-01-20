@@ -1,7 +1,7 @@
 TENSES = (
-    'imperative_mood',
     'present_continuous_simple',
     'simple_tense',
+    'imperative_mood',
     'simple_tense_past_definite',
     'simple_tense_indefinite_past',
     'past_definite',
@@ -45,7 +45,6 @@ CASES = (
 )
 
 COPULAS = (
-    'copula_simple',
     'copula_present',
     'copula_definite_past',
     'copula_indefinite_past'

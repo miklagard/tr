@@ -47,6 +47,64 @@ def nouns(request):
     code += utils.get_possessive_function(noun, proper_noun, 2, True, show_code=True)
     code += utils.get_possessive_function(noun, proper_noun, 3, True, show_code=True)
 
+    copulas = []
+
+    for copula in con.COPULAS:
+        copulas.append({
+            'tense': copula,
+            'conjunct': {
+                's1p': utils.get_copula_function(copula, noun, proper_noun, 1, False, False, False, show_code=False),
+                's2p': utils.get_copula_function(copula, noun, proper_noun, 2, False, False, False, show_code=False),
+                's3p': utils.get_copula_function(copula, noun, proper_noun, 3, False, False, False, show_code=False),
+                'p1p': utils.get_copula_function(copula, noun, proper_noun, 1, True, False, False, show_code=False),
+                'p2p': utils.get_copula_function(copula, noun, proper_noun, 2, True, False, False, show_code=False),
+                'p3p': utils.get_copula_function(copula, noun, proper_noun, 3, True, False, False, show_code=False),
+                's1n': utils.get_copula_function(copula, noun, proper_noun, 1, False, False, True, show_code=False),
+                's2n': utils.get_copula_function(copula, noun, proper_noun, 2, False, False, True, show_code=False),
+                's3n': utils.get_copula_function(copula, noun, proper_noun, 3, False, False, True, show_code=False),
+                'p1n': utils.get_copula_function(copula, noun, proper_noun, 1, True, False, True, show_code=False),
+                'p2n': utils.get_copula_function(copula, noun, proper_noun, 2, True, False, True, show_code=False),
+                'p3n': utils.get_copula_function(copula, noun, proper_noun, 3, True, False, True, show_code=False),
+                's1pq': utils.get_copula_function(copula, noun, proper_noun, 1, False, True, False, show_code=False),
+                's2pq': utils.get_copula_function(copula, noun, proper_noun, 2, False, True, False, show_code=False),
+                's3pq': utils.get_copula_function(copula, noun, proper_noun, 3, False, True, False, show_code=False),
+                'p1pq': utils.get_copula_function(copula, noun, proper_noun, 1, True, True, False, show_code=False),
+                'p2pq': utils.get_copula_function(copula, noun, proper_noun, 2, True, True, False, show_code=False),
+                'p3pq': utils.get_copula_function(copula, noun, proper_noun, 3, True, True, False, show_code=False),
+                's1nq': utils.get_copula_function(copula, noun, proper_noun, 1, False, True, True, show_code=False),
+                's2nq': utils.get_copula_function(copula, noun, proper_noun, 2, False, True, True, show_code=False),
+                's3nq': utils.get_copula_function(copula, noun, proper_noun, 3, False, True, True, show_code=False),
+                'p1nq': utils.get_copula_function(copula, noun, proper_noun, 1, True, True, True, show_code=False),
+                'p2nq': utils.get_copula_function(copula, noun, proper_noun, 2, True, True, True, show_code=False),
+                'p3nq': utils.get_copula_function(copula, noun, proper_noun, 3, True, True, True, show_code=False)
+            }
+        })
+
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, False, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, False, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, False, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, False, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, False, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, False, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, False, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, False, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, False, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, False, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, False, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, False, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, True, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, True, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, True, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, True, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, True, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, True, False, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, True, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, True, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, True, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, True, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, True, True, show_code=True)
+    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, True, True, show_code=True)
+
     return render(
         request,
         'nouns.html',
@@ -58,7 +116,8 @@ def nouns(request):
             'code': code,
             'result': result,
             'possessive': possessive,
-            'path': 'noun'
+            'path': 'noun',
+            'copulas': copulas
         }
     )
 

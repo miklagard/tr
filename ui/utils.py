@@ -2,18 +2,43 @@ from turkish_suffix_library.turkish import Turkish
 import ui.consonants as con
 
 
+def get_copula_function(case, noun, proper_noun, person, plural, question, negative, show_code=False):
+    python_code = f"Turkish('{noun}')"
+
+    if noun:
+        func = Turkish(noun)
+        func = func.__getattribute__(case)(
+            proper_noun=proper_noun,
+            person=person,
+            plural=plural,
+            question=question,
+            negative=negative
+        )
+
+        python_code += f""".{case}(proper_noun={proper_noun}, person={person}, plural={plural}, question={question}, negative={negative})"""
+
+        python_code = f"print({python_code})\n"
+
+        if show_code:
+            return python_code
+        else:
+            return func.to_string()
+    else:
+        return ''
+
+
 def get_noun_function(case, noun, proper_noun, show_code=False):
-    code = f"Turkish('{noun}')"
+    python_code = f"Turkish('{noun}')"
 
     if noun:
         func = Turkish(noun)
         func = func.__getattribute__(case)(proper_noun=proper_noun)
 
-        code += f".{case}(proper_noun={proper_noun})"
-        code = f"print({code})\n"
+        python_code += f".{case}(proper_noun={proper_noun})"
+        python_code = f"print({python_code})\n"
 
         if show_code:
-            return code
+            return python_code
         else:
             return func.to_string()
     else:
@@ -21,18 +46,18 @@ def get_noun_function(case, noun, proper_noun, show_code=False):
 
 
 def get_possessive_function(noun, proper_noun, person, plural, show_code=False):
-    code = f"Turkish('{noun}')"
+    python_code = f"Turkish('{noun}')"
     case = 'possessive'
 
     if noun:
         func = Turkish(noun)
         func = func.__getattribute__(case)(person=person, plural=plural, proper_noun=proper_noun)
 
-        code += f".{case}(person={person}, plural={plural}, proper_noun={proper_noun})"
-        code = f"print({code})\n"
+        python_code += f".{case}(person={person}, plural={plural}, proper_noun={proper_noun})"
+        python_code = f"print({python_code})\n"
 
         if show_code:
-            return code
+            return python_code
         else:
             return func.to_string()
     else:
@@ -41,6 +66,7 @@ def get_possessive_function(noun, proper_noun, person, plural, show_code=False):
 
 def get_infinitive_case(verb, negative):
     return Turkish(verb).infinitive(negative=negative).to_string()
+
 
 def get_verb_function(request, **kwargs):
     if request.GET.get('english'):
@@ -53,7 +79,7 @@ def get_verb_function(request, **kwargs):
     question = request.GET.get('question', '') == 'on'
     morph = request.GET.get('morph', '')
     affix = request.GET.get('affix', '')
-    code = f"Turkish('{verb}')"
+    python_code = f"Turkish('{verb}')"
 
     person = kwargs.get('person', 1)
     plural = kwargs.get('plural', False)
@@ -65,12 +91,12 @@ def get_verb_function(request, **kwargs):
         func = Turkish(verb)
 
         if morph == 'passive':
-            code += '.passive()'
+            python_code += '.passive()'
             func = func.passive()
 
         if affix:
             func = func.unify_verbs(auxiliary=affix, negative=negative)
-            code += f".unify_verbs(auxiliary='{affix}', negative={negative})"
+            python_code += f".unify_verbs(auxiliary='{affix}', negative={negative})"
 
         if tense in con.TENSES:
             func_method = tense
@@ -78,11 +104,11 @@ def get_verb_function(request, **kwargs):
         if func:
             func = func.__getattribute__(func_method)
 
-            code += f".{func_method}(negative={negative}, question={question}, person={person}, plural={plural})"
-            code = f"print({code})\n"
+            python_code += f".{func_method}(negative={negative}, question={question}, person={person}, plural={plural})"
+            python_code = f"print({python_code})\n"
 
             if kwargs.get('code'):
-                return code
+                return python_code
             else:
                 return func(
                     negative=negative,
