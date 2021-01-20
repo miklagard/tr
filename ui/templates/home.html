@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% load string_manuplation %}
+{% load i18n %}
 {% load pygmentify_tags %}
 {% block title %}{{ title }}{% endblock %}
-{% block description %}Conjuncts Turkish suffixes directly from stems for verbs and nouns. Website has also a little vocabulary in order to enter some English verbs and translates into Turkish.{% endblock %}
+{% block description %}{% trans 'Conjuncts Turkish suffixes directly from stems for verbs and nouns. Website has also a little vocabulary in order to enter some English verbs and translates into Turkish.' %}{% endblock %}
 {% block content %}
     <form id="frm" method="get">
         <div class="row">
@@ -38,7 +39,7 @@
         <div class="row turkish">
             <div class="col">
                 <div class="form-group">
-                    <label for="verb">Verb</label>
+                    <label for="verb">{% trans "Verb" %}</label>
                     <input
                         type="text"
                         id="verb"
@@ -61,7 +62,7 @@
                             name="question"
                             class="form-check-input" {% if request.GET.question %} checked {% endif %}
                         />
-                        Interrogative
+                        {% trans 'Interrogative' %}
                     </label>
                 </div>
             </div>
@@ -73,7 +74,7 @@
                             name="negative"
                             class="form-check-input" {% if request.GET.negative %} checked {% endif %}
                         />
-                        Negative
+                        {% trans 'Negative' %}
                     </label>
                 </div>
             </div>
@@ -96,7 +97,7 @@
             <div class="col-xs-6 col-sm-6 col-xl-4">
                 <div class="form-group">
                     <label>
-                        Tense<br />
+                        {% trans 'Tense' %}<br />
                         <select name="tense" class="form-control">
                             {% for tense in tenses %}
                             <option value="{{ tense }}" {% ifequal request.GET.tense tense %} selected {% endifequal %}>
@@ -110,11 +111,11 @@
             <div class="col-xs-6 col-sm-6 col-xl-4">
                 <div class="form-group">
                     <label>
-                        Portmanteau Verb<br />
+                        {% trans 'Portmanteau Verb' %}<br />
                         <select name="affix" class="form-control">
                             <option value=""></option>
                             <option value="bil" {% if request.GET.affix == 'bil' %} selected {% endif %} lang="tr">
-                                bil)
+                                bil
                             </option>
                             <option value="dur" {% if request.GET.affix == 'dur' %} selected {% endif %} lang="tr">
                                 dur
@@ -135,11 +136,11 @@
             <div class="col-xs-6 col-sm-6 col-xl-4">
                 <div class="form-group">
                     <label>
-                        Morphological derivation<br />
+                        {% trans 'Morphological derivation' %}<br />
                         <select name="morph" class="form-control">
                             <option value=""></option>
                             <option value="passive" {% if request.GET.morph == 'passive' %} selected {% endif %}>
-                                Passive
+                                {% trans 'Passive' %}
                             </option>
                         </select>
                     </label>
@@ -149,7 +150,7 @@
         </div>
 
         <div class="form-group">
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary">{% trans 'Send' %}</button>
         </div>
     </form>
 
@@ -165,17 +166,17 @@
             </thead>
             <tbody>
                 <tr>
-                    <th>1st Person</th>
+                    <th>{% trans '1st Person' %}</th>
                     <th lang="tr">{{ result.s1 }}</th>
                     <th lang="tr">{{ result.p1 }}</th>
                 </tr>
                 <tr>
-                    <th>2nd Person</th>
+                    <th>{% trans '2nd Person' %}</th>
                     <th lang="tr">{{ result.s2 }}</th>
                     <th lang="tr">{{ result.p2 }}</th>
                 </tr>
                 <tr>
-                    <th>3rd Person</th>
+                    <th>{% trans '3rd Person' %}</th>
                     <th lang="tr">{{ result.s3 }}</th>
                     <th lang="tr">{{ result.p3 }}</th>
                 </tr>

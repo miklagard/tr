@@ -1,3 +1,4 @@
+{% load i18n %}
 {% extends "base.html" %}
 {% load string_manuplation %}
 {% load pygmentify_tags %}
@@ -8,16 +9,16 @@
     <h2>{{ title }}</h2>
 
     <br />
-    <h4>Infinitive</h4>
+    <h4>{% trans 'Infinitive' %}</h4>
     <hr />
     <table class="table table-hover table-bordered table-striped">
         <tbody>
             <tr>
-                <th>Affirmative Statement</th>
+                <th>{% trans 'Affirmative Statement' %}</th>
                 <td>{{ infinitive }}</td>
             </tr>
             <tr>
-                <th>Negative Statement</th>
+                <th>{% trans 'Negative Statement' %}</th>
                 <td>{{ infinitive_negative }}</td>
             </tr>
         </tbody>
@@ -35,27 +36,27 @@
         <div class="row">
             <div class="col">
                 <table class="table table-hover table-bordered table-striped table-sm">
-                    <caption>Affirmative Statement</caption>
+                    <caption>{% trans 'Affirmative Statement' %}</caption>
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Singular</th>
-                            <th>Plural</th>
+                            <th>{% trans 'Singular' %}</th>
+                            <th>{% trans 'Plural' %}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>1st Person</th>
+                            <th>{% trans '1st Person' %}</th>
                             <td lang="tr">{{ verb|person_1:tense }}</td>
                             <td lang="tr">{{ verb|person_1_plural:tense }}</td>
                         </tr>
                         <tr>
-                            <th>2nd Person</th>
+                            <th>{% trans '2nd Person' %}</th>
                             <td lang="tr">{{ verb|person_2:tense }}</td>
                             <td lang="tr">{{ verb|person_2_plural:tense }}</td>
                         </tr>
                         <tr>
-                            <th>3rd Person</th>
+                            <th>{% trans '3rd Person' %}</th>
                             <td lang="tr">{{ verb|person_3:tense }}</td>
                             <td lang="tr">{{ verb|person_3_plural:tense }}</td>
                         </tr>
@@ -65,28 +66,28 @@
             <div class="col">
                 <table class="table table-hover table-bordered table-striped table-sm">
                     <caption>
-                        Interrogative
+                        {% trans 'Interrogative' %}
                     </caption>
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Singular</th>
-                            <th>Plural</th>
+                            <th>{% trans 'Singular' %}</th>
+                            <th>{% trans 'Plural' %}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>1st Person</th>
+                            <th>{% trans '1st Person' %}</th>
                             <td lang="tr">{{ verb|person_1_q:tense }}</td>
                             <td lang="tr">{{ verb|person_1_plural_q:tense }}</td>
                         </tr>
                         <tr>
-                            <th>2nd Person</th>
+                            <th>{% trans '2nd Person' %}</th>
                             <td lang="tr">{{ verb|person_2_q:tense }}</td>
                             <td lang="tr">{{ verb|person_2_plural_q:tense }}</td>
                         </tr>
                         <tr>
-                            <th>3rd Person</th>
+                            <th>{% trans '3rd Person' %}</th>
                             <td lang="tr">{{ verb|person_3_q:tense }}</td>
                             <td lang="tr">{{ verb|person_3_plural_q:tense }}</td>
                         </tr>
@@ -96,28 +97,28 @@
             <div class="col">
                 <table class="table table-hover table-bordered table-striped table-sm">
                     <caption>
-                        Negative Statement
+                        {% trans 'Negative Statement' %}
                     </caption>
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Singular</th>
-                            <th>Plural</th>
+                            <th>{% trans 'Singular' %}</th>
+                            <th>{% trans 'Plural' %}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>1st Person</th>
+                            <th>{% trans '1st Person' %}</th>
                             <td lang="tr">{{ verb|person_1_negative:tense }}</td>
                             <td lang="tr">{{ verb|person_1_plural_negative:tense }}</td>
                         </tr>
                         <tr>
-                            <th>2nd Person</th>
+                            <th>{% trans '2nd Person' %}</th>
                             <td lang="tr">{{ verb|person_2_negative:tense }}</td>
                             <td lang="tr">{{ verb|person_2_plural_negative:tense }}</td>
                         </tr>
                         <tr>
-                            <th>3rd Person</th>
+                            <th>{% trans '3rd Person' %}</th>
                             <td lang="tr">{{ verb|person_3_negative:tense }}</td>
                             <td lang="tr">{{ verb|person_3_plural_negative:tense }}</td>
                         </tr>
@@ -126,27 +127,27 @@
             </div>
             <div class="col">
                 <table class="table table-hover table-bordered table-striped table-sm">
-                    <caption>Interrogative</caption>
+                    <caption>{% trans 'Interrogative' %}</caption>
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Singular</th>
-                            <th>Plural</th>
+                            <th>{% trans 'Singular' %}</th>
+                            <th>{% trans 'Plural' %}</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th>1st Person</th>
+                            <th>{% trans '1st Person' %}</th>
                             <td lang="tr">{{ verb|person_1_negative_q:tense }}</td>
                             <td lang="tr">{{ verb|person_1_plural_negative_q:tense }}</td>
                         </tr>
                         <tr>
-                            <th>2nd Person</th>
+                            <th>{% trans '2nd Person' %}</th>
                             <td lang="tr">{{ verb|person_2_negative_q:tense }}</td>
                             <td lang="tr">{{ verb|person_2_plural_negative_q:tense }}</td>
                         </tr>
                         <tr>
-                            <th>3rd Person</th>
+                            <th>{% trans '3rd Person' %}</th>
                             <td lang="tr">{{ verb|person_3_negative_q:tense }}</td>
                             <td lang="tr">{{ verb|person_3_plural_negative_q:tense }}</td>
                         </tr>
