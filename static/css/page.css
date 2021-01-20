@@ -3,6 +3,10 @@
 .s1 { color: grey; font-weight: bold }
 .n { color: blue }
 .nb { color: green }
+
+table { font-size: 10pt; }
+caption { caption-side: top; }
+
 body {
   margin-bottom: 60px;
 }

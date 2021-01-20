@@ -101,6 +101,132 @@
             </tbody>
         </table>
     </div>
+
+    {% for copula in copulas %}
+    <div class="row">
+        <div class="col">
+            <h4>{{ copula.tense|capitalize }}</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table table-hover table-bordered table-striped table-sm">
+                <caption>Affirmative Statement</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Singular</th>
+                        <th>Plural</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1st Person</th>
+                        <td lang="tr">{{ copula.conjunct.s1p }}</td>
+                        <td lang="tr">{{ copula.conjunct.p1p }}</td>
+                    </tr>
+                    <tr>
+                        <th>2nd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s2p }}</td>
+                        <td lang="tr">{{ copula.conjunct.p2p }}</td>
+                    </tr>
+                    <tr>
+                        <th>3rd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s3p }}</td>
+                        <td lang="tr">{{ copula.conjunct.p3p }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col">
+            <table class="table table-hover table-bordered table-striped table-sm">
+                <caption>Interrogative</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Singular</th>
+                        <th>Plural</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1st Person</th>
+                        <td lang="tr">{{ copula.conjunct.s1pq }}</td>
+                        <td lang="tr">{{ copula.conjunct.p1pq }}</td>
+                    </tr>
+                    <tr>
+                        <th>2nd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s2pq }}</td>
+                        <td lang="tr">{{ copula.conjunct.p2pq }}</td>
+                    </tr>
+                    <tr>
+                        <th>3rd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s3pq }}</td>
+                        <td lang="tr">{{ copula.conjunct.p3pq }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col">
+            <table class="table table-hover table-bordered table-striped table-sm">
+                <caption>Negative Statement</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Singular</th>
+                        <th>Plural</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1st Person</th>
+                        <td lang="tr">{{ copula.conjunct.s1n }}</td>
+                        <td lang="tr">{{ copula.conjunct.p1n }}</td>
+                    </tr>
+                    <tr>
+                        <th>2nd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s2n }}</td>
+                        <td lang="tr">{{ copula.conjunct.p2n }}</td>
+                    </tr>
+                    <tr>
+                        <th>3rd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s3n }}</td>
+                        <td lang="tr">{{ copula.conjunct.p3n }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col">
+            <table class="table table-hover table-bordered table-striped table-sm">
+                <caption>Interrogative</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Singular</th>
+                        <th>Plural</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1st Person</th>
+                        <td lang="tr">{{ copula.conjunct.s1nq }}</td>
+                        <td lang="tr">{{ copula.conjunct.p1nq }}</td>
+                    </tr>
+                    <tr>
+                        <th>2nd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s2nq }}</td>
+                        <td lang="tr">{{ copula.conjunct.p2nq }}</td>
+                    </tr>
+                    <tr>
+                        <th>3rd Person</th>
+                        <td lang="tr">{{ copula.conjunct.s3nq }}</td>
+                        <td lang="tr">{{ copula.conjunct.p3nq }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endfor %}
     {% endif %}
 
     {% if show_code %}
