@@ -46,20 +46,26 @@
             {% endblock %}
         </main>
 
-        <footer class="footer">
+       <footer class="footer">
             <div class="container">
-                <span class="text-muted">
-                    <a href="https://github.com/miklagard/tr" target="_new">trstem</a> is a
-                    project of <a href="https://github.com/miklagard/Turkish-Suffix-Library" target="_new">Turkish
-                    Suffix Library</a>.
+               <span class="text-muted">
+                   <div>
+                       <a href="https://github.com/miklagard/tr" target="_new">trstem</a> is a
+                       project of <a href="https://github.com/miklagard/Turkish-Suffix-Library" target="_new">Turkish
+                       Suffix Library</a>.
 
-                    Licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" target="_new">GNU General
-                    Public License</a>.
-                    <br />
-                    <a href="{% url 'example_verbs' %}">{% trans 'Example verbs' %}</a>
-                </span>
-            </div>
-        </footer>
+                       Licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" target="_new">GNU General
+                       Public License</a>.
+                   </div>
+                   <div>
+                       <a href="{% url 'example_verbs' %}">{% trans 'Example verbs' %}</a>
+                   </div>
+                   <div>
+                       {% trans 'Dil değiştir' %}: <a href="/switch/language/?">{% trans 'Türkçe' %}</a>
+                   </div>
+               </span>
+           </div>
+       </footer>
     </body>
 
     {% compress js %}

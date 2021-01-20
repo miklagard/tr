@@ -1,6 +1,7 @@
 from django import template
 from turkish_suffix_library.turkish import Turkish
 from ui.utils import tr_slugify
+from django.utils.translation import gettext as _
 
 
 register = template.Library()
@@ -15,7 +16,7 @@ def tr_slugify_func(value):
 def capitalize(value):
     value = value.replace('_', ' ')
 
-    return value[0].upper() + value[1:]
+    return _(value[0].upper() + value[1:])
 
 
 @register.filter(name='person_1')
