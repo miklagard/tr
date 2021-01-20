@@ -1,13 +1,14 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% load string_manuplation %}
 {% load pygmentify_tags %}
 {% block title %}{{ title }}{% endblock %}
-{% block description %}Conjuncts Turkish suffixes directly from stems for nouns. Noun link does not have but the verbs have a little vocabulary in order to enter some English verbs and translates into Turkish.{% endblock %}
+{% block description %}{% trans 'Conjuncts Turkish suffixes directly from stems for nouns. Noun link does not have but the verbs have a little vocabulary in order to enter some English verbs and translates into Turkish.' %}{% endblock %}
 
 {% block content %}
     <form id="frm" method="get">
         <div class="form-group">
-            <label for="Noun">Noun</label>
+            <label for="Noun">{% trans 'Noun' %}</label>
             <input
                 type="text"
                 id="noun"
@@ -28,7 +29,7 @@
                             name="proper_noun"
                             class="form-check-input" {% if proper_noun %} checked {% endif %}
                         />
-                        Proper noun
+                        {% trans 'Proper noun' %}
                     </label>
                 </div>
             </div>
@@ -47,7 +48,7 @@
         </div>
 
         <div class="form-group">
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary">{% trans 'Send' %}</button>
         </div>
     </form>
 
@@ -72,29 +73,29 @@
 
     <br /><br />
 
-    <div class="h4">Possessive Conjunction</div>
+    <div class="h4">{% trans 'Possessive Conjunction' %}</div>
     <div class="table-responsive">
         <table class="table table-hover table-striped">
             <thead>
                 <tr>
                     <th></th>
-                    <th>Singular</th>
-                    <th>Plural</th>
+                    <th>{% trans 'Singular' %}</th>
+                    <th>{% trans 'Plural' %}</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th>1st Person</th>
+                    <th>{% trans '1st Person' %}</th>
                     <th lang="tr">{{ possessive.s1 }}</th>
                     <th lang="tr">{{ possessive.p1 }}</th>
                 </tr>
                 <tr>
-                    <th>2nd Person</th>
+                    <th>{% trans '2nd Person' %}</th>
                     <th lang="tr">{{ possessive.s2 }}</th>
                     <th lang="tr">{{ possessive.p2 }}</th>
                 </tr>
                 <tr>
-                    <th>3rd Person</th>
+                    <th>{% trans '3rd Person' %}</th>
                     <th lang="tr">{{ possessive.s3 }}</th>
                     <th lang="tr">{{ possessive.p3 }}</th>
                 </tr>
@@ -111,27 +112,27 @@
     <div class="row">
         <div class="col">
             <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>Affirmative Statement</caption>
+                <caption>{% trans 'Affirmative Statement' %}</caption>
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Singular</th>
-                        <th>Plural</th>
+                        <th>{% trans 'Singular' %}</th>
+                        <th>{% trans 'Plural' %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1st Person</th>
+                        <th>{% trans '1st Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s1p }}</td>
                         <td lang="tr">{{ copula.conjunct.p1p }}</td>
                     </tr>
                     <tr>
-                        <th>2nd Person</th>
+                        <th>{% trans '2nd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s2p }}</td>
                         <td lang="tr">{{ copula.conjunct.p2p }}</td>
                     </tr>
                     <tr>
-                        <th>3rd Person</th>
+                        <th>{% trans '3rd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s3p }}</td>
                         <td lang="tr">{{ copula.conjunct.p3p }}</td>
                     </tr>
@@ -140,27 +141,27 @@
         </div>
         <div class="col">
             <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>Interrogative</caption>
+                <caption>{% trans 'Interrogative' %}</caption>
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Singular</th>
-                        <th>Plural</th>
+                        <th>{% trans 'Singular' %}</th>
+                        <th>{% trans 'Plural' %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1st Person</th>
+                        <th>{% trans '1st Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s1pq }}</td>
                         <td lang="tr">{{ copula.conjunct.p1pq }}</td>
                     </tr>
                     <tr>
-                        <th>2nd Person</th>
+                        <th>{% trans '2nd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s2pq }}</td>
                         <td lang="tr">{{ copula.conjunct.p2pq }}</td>
                     </tr>
                     <tr>
-                        <th>3rd Person</th>
+                        <th>{% trans '3rd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s3pq }}</td>
                         <td lang="tr">{{ copula.conjunct.p3pq }}</td>
                     </tr>
@@ -169,27 +170,27 @@
         </div>
         <div class="col">
             <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>Negative Statement</caption>
+                <caption>{% trans 'Negative Statement' %}</caption>
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Singular</th>
-                        <th>Plural</th>
+                        <th>{% trans 'Singular</th>
+                        <th>{% trans 'Plural' ½}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1st Person</th>
+                        <th>{% trans '1st Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s1n }}</td>
                         <td lang="tr">{{ copula.conjunct.p1n }}</td>
                     </tr>
                     <tr>
-                        <th>2nd Person</th>
+                        <th>{% trans '2nd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s2n }}</td>
                         <td lang="tr">{{ copula.conjunct.p2n }}</td>
                     </tr>
                     <tr>
-                        <th>3rd Person</th>
+                        <th>{% trans '3rd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s3n }}</td>
                         <td lang="tr">{{ copula.conjunct.p3n }}</td>
                     </tr>
@@ -198,27 +199,27 @@
         </div>
         <div class="col">
             <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>Interrogative</caption>
+                <caption>{% trans 'Interrogative' %}</caption>
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Singular</th>
-                        <th>Plural</th>
+                        <th>{% trans 'Singular' %}</th>
+                        <th>{% trans 'Plural' %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1st Person</th>
+                        <th>{% trans '1st Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s1nq }}</td>
                         <td lang="tr">{{ copula.conjunct.p1nq }}</td>
                     </tr>
                     <tr>
-                        <th>2nd Person</th>
+                        <th>{% trans '2nd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s2nq }}</td>
                         <td lang="tr">{{ copula.conjunct.p2nq }}</td>
                     </tr>
                     <tr>
-                        <th>3rd Person</th>
+                        <th>{% trans '3rd Person' %}</th>
                         <td lang="tr">{{ copula.conjunct.s3nq }}</td>
                         <td lang="tr">{{ copula.conjunct.p3nq }}</td>
                     </tr>

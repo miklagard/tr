@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
+from django.utils.translation import gettext as _
 from ui.models import History
 from ui.english import ENGLISH_TO_TURKISH
 import ui.consonants as con
@@ -8,7 +9,7 @@ import ui.utils as utils
 
 
 def nouns(request):
-    title = 'Turkish Conjunction Maker - Nouns'
+    title = _('Turkish Conjunction Maker - Nouns')
     code = 'from turkish_suffix_library.turkish import Turkish\n\n'
     show_code = request.GET.get('show_code', '') == 'on'
     proper_noun = request.GET.get('proper_noun', '') == 'on'
@@ -132,9 +133,9 @@ def home(request):
         verb = request.GET.get('verb')
 
     if verb:
-        title = utils.capitalize(request.GET.get('tense', ''))
-        title += ' of verb '
-        title += verb
+        tense = _(utils.capitalize(request.GET.get('tense', '')))
+
+        title = _('{tense} of the  verb {verb}').replace('{tense}', tense).replace('{verb}', verb)
 
         history = History(
             verb=verb,
@@ -165,7 +166,7 @@ def home(request):
 
     else:
         result = []
-        title = 'Turkish Conjunction Maker'
+        title = _('Turkish Conjunction Maker')
 
     return render(request, 'home.html', {
         'request': request,
@@ -180,7 +181,7 @@ def home(request):
 
 
 def example_verbs(request):
-    title = 'Example verbs - Turkish Conjunction Maker'
+    title = _('Example verbs - Turkish Conjunction Maker')
     verb_list = {}
     verbs = []
 
@@ -206,7 +207,7 @@ def example_verbs(request):
 def conjunct_verb(request):
     verb = request.GET.get('verb')
 
-    title = f'Conjunction of the verb {verb} in Turkish'
+    title = _('Conjunction of the verb {verb} in Turkish').replace('{verb}', verb)
 
     infinitive = utils.get_infinitive_case(verb, False)
     infinitive_negative = utils.get_infinitive_case(verb, True)
@@ -224,7 +225,7 @@ def conjunct_verb(request):
 def conjunct_verb_slug(request, verb):
     verb = utils.tr_unslugify(verb)
 
-    title = f'Conjunction of the verb {verb} in Turkish'
+    title = _('Conjunction of the verb {verb} in Turkish').replace('{verb}', verb)
 
     infinitive = utils.get_infinitive_case(verb, False)
     infinitive_negative = utils.get_infinitive_case(verb, True)
