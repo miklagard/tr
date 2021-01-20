@@ -16,7 +16,7 @@
                             id="english"
                             class="form-check-input" {% if request.GET.english %} checked {% endif %}
                         />
-                        Translate from English
+                        {% trans 'Translate from English' %}
                     </label>
                 </div>
             </div>
@@ -25,7 +25,7 @@
         <div class="row english">
             <div class="col">
                 <div class="form-group">
-                    <label for="verb_english">Verb</label>
+                    <label for="verb_english">{% trans "Verb" %}</label>
                     <select name="verb_english" id="verb_english" class="form-control autocomplete">
                         <option></option>
                         {% for english, turkish in vocabulary.items %}
@@ -160,8 +160,8 @@
             <thead>
                 <tr>
                     <th></th>
-                    <th>Singular</th>
-                    <th>Plural</th>
+                    <th>{% trans "Singular" %}</th>
+                    <th>{% trans "Plural" %}</th>
                 </tr>
             </thead>
             <tbody>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-20 15:25+0100\n"
+"POT-Creation-Date: 2021-01-20 19:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,49 +18,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ui/templates/base.html:28 ui/views.py:169
+#: ui/templates/base.html:28 ui/views.py:180
 msgid "Turkish Conjunction Maker"
 msgstr ""
 
 #: ui/templates/base.html:32
 msgid "Nouns"
-msgstr ""
+msgstr "İsimler"
 
 #: ui/templates/base.html:37
 msgid "Verbs"
-msgstr ""
+msgstr "Fiiller"
 
-#: ui/templates/base.html:59
+#: ui/templates/base.html:61
 msgid "Example verbs"
-msgstr ""
+msgstr "Örnek fiil çekimleri"
+
+#: ui/templates/base.html:64
+msgid "Dil değiştir"
+msgstr "Set language"
+
+#: ui/templates/base.html:64
+msgid "Türkçe"
+msgstr "English"
 
 #: ui/templates/conjunct_verb.html:12
 msgid "Infinitive"
-msgstr ""
+msgstr "Mastar"
 
 #: ui/templates/conjunct_verb.html:17 ui/templates/conjunct_verb.html:39
 #: ui/templates/nouns.html:115
 msgid "Affirmative Statement"
-msgstr ""
+msgstr "Olumlu"
 
 #: ui/templates/conjunct_verb.html:21 ui/templates/conjunct_verb.html:100
 #: ui/templates/nouns.html:173
 msgid "Negative Statement"
-msgstr ""
+msgstr "Olumsuz"
 
 #: ui/templates/conjunct_verb.html:43 ui/templates/conjunct_verb.html:74
 #: ui/templates/conjunct_verb.html:105 ui/templates/conjunct_verb.html:134
-#: ui/templates/nouns.html:82 ui/templates/nouns.html:119
-#: ui/templates/nouns.html:148 ui/templates/nouns.html:206
+#: ui/templates/home.html:163 ui/templates/nouns.html:82
+#: ui/templates/nouns.html:119 ui/templates/nouns.html:148
+#: ui/templates/nouns.html:206
 msgid "Singular"
-msgstr ""
+msgstr "Tekil"
 
 #: ui/templates/conjunct_verb.html:44 ui/templates/conjunct_verb.html:75
 #: ui/templates/conjunct_verb.html:106 ui/templates/conjunct_verb.html:135
-#: ui/templates/nouns.html:83 ui/templates/nouns.html:120
-#: ui/templates/nouns.html:149 ui/templates/nouns.html:207
+#: ui/templates/home.html:164 ui/templates/nouns.html:83
+#: ui/templates/nouns.html:120 ui/templates/nouns.html:149
+#: ui/templates/nouns.html:207
 msgid "Plural"
-msgstr ""
+msgstr "Çoğul"
 
 #: ui/templates/conjunct_verb.html:49 ui/templates/conjunct_verb.html:80
 #: ui/templates/conjunct_verb.html:111 ui/templates/conjunct_verb.html:140
@@ -68,7 +78,7 @@ msgstr ""
 #: ui/templates/nouns.html:125 ui/templates/nouns.html:154
 #: ui/templates/nouns.html:183 ui/templates/nouns.html:212
 msgid "1st Person"
-msgstr ""
+msgstr "Birinci"
 
 #: ui/templates/conjunct_verb.html:54 ui/templates/conjunct_verb.html:85
 #: ui/templates/conjunct_verb.html:116 ui/templates/conjunct_verb.html:145
@@ -76,7 +86,7 @@ msgstr ""
 #: ui/templates/nouns.html:130 ui/templates/nouns.html:159
 #: ui/templates/nouns.html:188 ui/templates/nouns.html:217
 msgid "2nd Person"
-msgstr ""
+msgstr "İkinci"
 
 #: ui/templates/conjunct_verb.html:59 ui/templates/conjunct_verb.html:90
 #: ui/templates/conjunct_verb.html:121 ui/templates/conjunct_verb.html:150
@@ -84,13 +94,13 @@ msgstr ""
 #: ui/templates/nouns.html:135 ui/templates/nouns.html:164
 #: ui/templates/nouns.html:193 ui/templates/nouns.html:222
 msgid "3rd Person"
-msgstr ""
+msgstr "Üçüncü"
 
 #: ui/templates/conjunct_verb.html:69 ui/templates/conjunct_verb.html:130
 #: ui/templates/home.html:65 ui/templates/nouns.html:144
 #: ui/templates/nouns.html:202
 msgid "Interrogative"
-msgstr ""
+msgstr "Soru"
 
 #: ui/templates/example_verbs.html:6
 msgid ""
@@ -106,33 +116,37 @@ msgid ""
 "translates into Turkish."
 msgstr ""
 
-#: ui/templates/home.html:42
-msgid "Verb"
+#: ui/templates/home.html:19
+msgid "Translate from English"
 msgstr ""
+
+#: ui/templates/home.html:28 ui/templates/home.html:42
+msgid "Verb"
+msgstr "Fiil"
 
 #: ui/templates/home.html:77
 msgid "Negative"
-msgstr ""
+msgstr "Olumsuz"
 
 #: ui/templates/home.html:100
 msgid "Tense"
-msgstr ""
+msgstr "Çekim"
 
 #: ui/templates/home.html:114
 msgid "Portmanteau Verb"
-msgstr ""
+msgstr "Yardımcı Fiil"
 
 #: ui/templates/home.html:139
 msgid "Morphological derivation"
-msgstr ""
+msgstr "Yapım Ekleri"
 
 #: ui/templates/home.html:143
 msgid "Passive"
-msgstr ""
+msgstr "Edilgen"
 
 #: ui/templates/home.html:153 ui/templates/nouns.html:51
 msgid "Send"
-msgstr ""
+msgstr "Gönder"
 
 #: ui/templates/nouns.html:6
 msgid ""
@@ -143,33 +157,215 @@ msgstr ""
 
 #: ui/templates/nouns.html:11
 msgid "Noun"
-msgstr ""
+msgstr "İsim"
 
 #: ui/templates/nouns.html:32
 msgid "Proper noun"
-msgstr ""
+msgstr "Özel isim"
 
 #: ui/templates/nouns.html:76
 msgid "Possessive Conjunction"
+msgstr "İyelik Eki"
+
+#: ui/templates/tenses.html:1
+msgid "Copula present"
+msgstr "Ek fiil geniş zaman"
+
+#: ui/templates/tenses.html:2
+msgid "Copula definite past"
+msgstr "Ek fiil geçmiş zaman"
+
+#: ui/templates/tenses.html:3
+msgid "Copula indefinite past"
+msgstr "Ek fiil duyulan geniş zaman"
+
+#: ui/templates/tenses.html:4
+msgid "Accusative"
+msgstr "Bulunma hali"
+
+#: ui/templates/tenses.html:5
+#, fuzzy
+#| msgid "Negative"
+msgid "Dative"
+msgstr "Olumsuz"
+
+#: ui/templates/tenses.html:6
+#, fuzzy
+#| msgid "Negative"
+msgid "Ablative"
+msgstr "Olumsuz"
+
+#: ui/templates/tenses.html:7
+#, fuzzy
+#| msgid "Negative"
+msgid "Locative"
+msgstr "Olumsuz"
+
+#: ui/templates/tenses.html:8
+msgid "Equalative"
 msgstr ""
 
-#: ui/views.py:12
+#: ui/templates/tenses.html:9
+msgid "Instrumental"
+msgstr ""
+
+#: ui/templates/tenses.html:10
+msgid "Privative"
+msgstr ""
+
+#: ui/templates/tenses.html:11
+#, fuzzy
+#| msgid "Infinitive"
+msgid "Genitive"
+msgstr "Mastar"
+
+#: ui/templates/tenses.html:12
+msgid "Relative pronoun"
+msgstr ""
+
+#: ui/templates/tenses.html:13
+msgid "Present continuous simple"
+msgstr "Şimdiki zaman"
+
+#: ui/templates/tenses.html:14
+msgid "Simple tense"
+msgstr "Geniş zaman"
+
+#: ui/templates/tenses.html:15
+msgid "Imperative mood"
+msgstr "Emir kipi"
+
+#: ui/templates/tenses.html:16
+msgid "Simple tense past definite"
+msgstr "Geçmiş zaman"
+
+#: ui/templates/tenses.html:17
+msgid "Simple tense indefinite past"
+msgstr "Geçmiş zamanın rivayeti"
+
+#: ui/templates/tenses.html:18
+msgid "Past definite"
+msgstr "Geçmiş zaman"
+
+#: ui/templates/tenses.html:19
+msgid "Past progressive dubitative"
+msgstr ""
+
+#: ui/templates/tenses.html:20
+msgid "Past progressive alternative dubitative"
+msgstr ""
+
+#: ui/templates/tenses.html:21
+#, fuzzy
+#| msgid "Infinitive"
+msgid "Indefinite past"
+msgstr "Duyulan geçmiş zaman"
+
+#: ui/templates/tenses.html:22
+msgid "Past progressive narrative"
+msgstr ""
+
+#: ui/templates/tenses.html:23
+msgid "Past progressive alternative narrative"
+msgstr ""
+
+#: ui/templates/tenses.html:24
+msgid "Past perfect narrative"
+msgstr "Belirli geçmiş zamanın hikayesi"
+
+#: ui/templates/tenses.html:25
+msgid "Doubtful distant past"
+msgstr ""
+
+#: ui/templates/tenses.html:26
+msgid "Past in the future"
+msgstr ""
+
+#: ui/templates/tenses.html:27
+msgid "Past conditional narrative"
+msgstr ""
+
+#: ui/templates/tenses.html:28
+msgid "Past conditional dubitative"
+msgstr ""
+
+#: ui/templates/tenses.html:29
+msgid "Future simple"
+msgstr "Gelecek zaman"
+
+#: ui/templates/tenses.html:30
+msgid "Future in the past"
+msgstr ""
+
+#: ui/templates/tenses.html:31
+msgid "Future dubitative"
+msgstr ""
+
+#: ui/templates/tenses.html:32
+msgid "Future conditional"
+msgstr ""
+
+#: ui/templates/tenses.html:33
+msgid "Necessitative mood simple tense"
+msgstr ""
+
+#: ui/templates/tenses.html:34
+msgid "Necessitative past narrative"
+msgstr ""
+
+#: ui/templates/tenses.html:35
+msgid "Necessitative past dubitative"
+msgstr ""
+
+#: ui/templates/tenses.html:36
+msgid "Conditional mood simple tense"
+msgstr ""
+
+#: ui/templates/tenses.html:37
+msgid "Subjunctive mood simple tense"
+msgstr ""
+
+#: ui/templates/tenses.html:38
+msgid "Past definite narrative"
+msgstr ""
+
+#: ui/templates/tenses.html:39
+msgid "Past indefinite past"
+msgstr ""
+
+#: ui/templates/tenses.html:40
+msgid "Indefinite past future"
+msgstr ""
+
+#: ui/templates/tenses.html:41
+msgid "Past future"
+msgstr ""
+
+#: ui/templates/tenses.html:42
+msgid "Indefinite past reportative"
+msgstr ""
+
+#: ui/templates/tenses.html:43
+msgid "Definite past reportative"
+msgstr ""
+
+#: ui/views.py:14
 msgid "Turkish Conjunction Maker - Nouns"
-msgstr ""
+msgstr "Türkçe Ek Motoru - Fiiller"
 
-#: ui/views.py:138
+#: ui/views.py:149
 #, python-brace-format
 msgid "{tense} of the  verb {verb}"
-msgstr ""
+msgstr "{verb} filinin çekimi: {tense}"
 
-#: ui/views.py:184
+#: ui/views.py:195
 msgid "Example verbs - Turkish Conjunction Maker"
-msgstr ""
+msgstr "Örnek fiiler - Türkçe Ekler"
 
-#: ui/views.py:210 ui/views.py:228
+#: ui/views.py:221 ui/views.py:239
 #, python-brace-format
 msgid "Conjunction of the verb {verb} in Turkish"
-msgstr ""
+msgstr "Türkçede {verb} fiilinin çekimi"
 
 #: venv/lib/python3.6/site-packages/django/contrib/messages/apps.py:7
 msgid "Messages"

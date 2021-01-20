@@ -1,3 +1,4 @@
+from django.utils.translation import gettext as _
 from turkish_suffix_library.turkish import Turkish
 import ui.consonants as con
 
@@ -121,7 +122,7 @@ def get_verb_function(request, **kwargs):
 
 
 def capitalize(value):
-    value = value.replace('_', ' ')
+    value = _(value.replace('_', ' '))
 
     return value[0].upper() + value[1:]
 

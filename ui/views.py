@@ -1,8 +1,10 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, redirect
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
+from django.conf import settings
 from django.utils.translation import gettext as _
 from ui.models import History
+from django.utils import translation
 from ui.english import ENGLISH_TO_TURKISH
 import ui.consonants as con
 import ui.utils as utils
@@ -248,3 +250,20 @@ def robots(request):
 
 def sitemap(request):
     return render(request, 'sitemap.xml', content_type='application/xml; charset=utf8')
+
+
+def switch_language(request):
+    language = translation.get_language()
+
+    if language == 'tr':
+        language = 'en'
+    else:
+        language = 'tr'
+
+    translation.activate(language)
+    response = HttpResponse(...)
+    response.set_cookie(settings.LANGUAGE_COOKIE_NAME, language)
+
+    request.session[settings.LANGUAGE_COOKIE_NAME] = language
+
+    return redirect('/')
