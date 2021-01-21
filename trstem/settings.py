@@ -146,9 +146,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 COMPRESS_ENABLED = True
 COMPRESS_OFFLINE = True
 
-LANGUAGES = [
+LANGUAGES = (
     ('tr', 'Türkçe'),
-    ('en', 'English'),
-]
+    ('en', 'English')
+)
 
 LANGUAGE_COOKIE_NAME = 'language'
