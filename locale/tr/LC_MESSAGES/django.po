@@ -241,7 +241,7 @@ msgstr "Simple tense past definite"
 
 #: ui/templates/tenses.html:18
 msgid "Simple tense indefinite past"
-msgstr "Geçmiş zamanın rivayeti"
+msgstr ""
 
 #: ui/templates/tenses.html:19
 msgid "Past definite"
