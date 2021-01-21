@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse, redirect
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
 from django.conf import settings
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext as _, LANGUAGE_SESSION_KEY
 from ui.models import History
 from django.utils import translation
 from ui.english import ENGLISH_TO_TURKISH
@@ -261,9 +261,8 @@ def switch_language(request):
         language = 'tr'
 
     translation.activate(language)
-    response = HttpResponse(...)
+    response = HttpResponse('<script>document.location.href="/";</script>')
     response.set_cookie(settings.LANGUAGE_COOKIE_NAME, language)
 
-    request.session[settings.LANGUAGE_COOKIE_NAME] = language
+    return response
 
-    return redirect('/')
