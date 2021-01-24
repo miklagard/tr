@@ -19,6 +19,26 @@ def capitalize(value):
     return _(value[0].upper() + value[1:])
 
 
+@register.filter(name='switch_language')
+def switch_language(value):
+    if value.startswith('/tr/'):
+        return '/en/' + value[4:]
+    elif value.startswith('/en/'):
+        return '/tr/' + value[4:]
+    elif value.startswith('/'):
+        return '/tr/' + value[1:]
+    else:
+        return '/tr/' + value
+
+
+@register.filter(name='get_language')
+def get_language(value):
+    if value.startswith('/tr/'):
+        return 'en'
+    else:
+        return 'tr'
+
+
 @register.filter(name='person_1')
 def person_1(verb, tense):
     func = Turkish(verb)

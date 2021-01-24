@@ -6,14 +6,15 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+        <title>{% block title %}{% endblock %}</title>
         <link href="/static/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Cem Yildiz" />
         <meta name="yandex-verification" content="97a52cba3ff6b09c" />
         <meta name="keywords" content= "turkish suffixes, turkish noun condition, turkish language, dative, ablative, locative, verbs, verb, conjunction, present tense, imperative, dubitative" />
-        <title>{% block title %}{% endblock %}</title>
         <meta name="description" content="{% block description %}{% endblock %}" />
 
+        <link rel="alternate" hreflang="{{ request.path|get_language }}" href="{{ request.path|switch_language }}" />
         {% compress css %}
         <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
         <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" />
@@ -62,7 +63,7 @@
                        <a href="{% url 'example_verbs' %}">{% trans 'Example verbs' %}</a>
                    </div>
                    <div>
-                       {% trans 'Dil değiştir' %}: <a href="/switch/language/?">{% trans 'Türkçe' %}</a>
+                       {% trans 'Dil değiştir' %}: <a href="{{ request.path|switch_language }}">{% trans 'Türkçe' %}</a>
                    </div>
                </span>
            </div>

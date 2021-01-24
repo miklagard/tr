@@ -1,10 +1,8 @@
 from django.shortcuts import render, HttpResponseRedirect, HttpResponse
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
-from django.conf import settings
-from django.utils.translation import gettext as _, LANGUAGE_SESSION_KEY
+from django.utils.translation import gettext as _
 from ui.models import History
-from django.utils import translation
 from ui.english import ENGLISH_TO_TURKISH
 import ui.consonants as con
 import ui.utils as utils
@@ -83,30 +81,30 @@ def nouns(request):
             }
         })
 
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, False, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, False, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, False, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, False, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, False, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, False, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, False, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, False, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, False, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, False, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, False, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, False, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, True, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, True, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, True, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, True, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, True, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, True, False, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, False, True, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, False, True, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, False, True, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 1, True, True, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 2, True, True, True, show_code=True)
-    code += utils.get_copula_function(copula, noun, proper_noun, 3, True, True, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, False, False, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, False, False, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, False, False, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, True, False, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, True, False, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, True, False, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, False, False, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, False, False, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, False, False, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, True, False, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, True, False, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, True, False, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, False, True, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, False, True, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, False, True, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, True, True, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, True, True, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, True, True, False, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, False, True, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, False, True, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, False, True, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 1, True, True, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 2, True, True, True, show_code=True)
+        code += utils.get_copula_function(copula, noun, proper_noun, 3, True, True, True, show_code=True)
 
     return render(
         request,
@@ -250,19 +248,4 @@ def robots(request):
 
 def sitemap(request):
     return render(request, 'sitemap.xml', content_type='application/xml; charset=utf8')
-
-
-def switch_language(request):
-    language = translation.get_language()
-
-    if language == 'tr':
-        language = 'en'
-    else:
-        language = 'tr'
-
-    translation.activate(language)
-    response = HttpResponseRedirect('/')
-    response.set_cookie(settings.LANGUAGE_COOKIE_NAME, language)
-
-    return response
 
