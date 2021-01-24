@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-21 01:58+0100\n"
+"POT-Creation-Date: 2021-01-24 16:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,27 +18,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ui/templates/base.html:28 ui/views.py:172
+#: ui/templates/base.html:29 ui/views.py:171
 msgid "Turkish Conjunction Maker"
 msgstr "Türkçe Ekler"
 
-#: ui/templates/base.html:32
+#: ui/templates/base.html:33
 msgid "Nouns"
 msgstr "İsimler"
 
-#: ui/templates/base.html:37
+#: ui/templates/base.html:38
 msgid "Verbs"
 msgstr "Fiiller"
 
-#: ui/templates/base.html:61
+#: ui/templates/base.html:62
 msgid "Example verbs"
 msgstr "Örnek fiil çekimleri"
 
-#: ui/templates/base.html:64
+#: ui/templates/base.html:65
 msgid "Dil değiştir"
 msgstr "Set language"
 
-#: ui/templates/base.html:64
+#: ui/templates/base.html:65
 msgid "Türkçe"
 msgstr "English"
 
@@ -203,15 +203,15 @@ msgstr "Olumsuz"
 
 #: ui/templates/tenses.html:9
 msgid "Equalative"
-msgstr ""
+msgstr "Eşitlik hali"
 
 #: ui/templates/tenses.html:10
 msgid "Instrumental"
-msgstr ""
+msgstr "Vasıta hali"
 
 #: ui/templates/tenses.html:11
 msgid "Privative"
-msgstr ""
+msgstr "Yokluk hali"
 
 #: ui/templates/tenses.html:12
 #, fuzzy
@@ -221,7 +221,7 @@ msgstr "Mastar"
 
 #: ui/templates/tenses.html:13
 msgid "Relative pronoun"
-msgstr ""
+msgstr "İlgi zamiri"
 
 #: ui/templates/tenses.html:14
 msgid "Present continuous simple"
@@ -237,11 +237,11 @@ msgstr "Emir kipi"
 
 #: ui/templates/tenses.html:17
 msgid "Simple tense past definite"
-msgstr "Simple tense past definite"
+msgstr "Geniş zamanın hikayesi"
 
 #: ui/templates/tenses.html:18
 msgid "Simple tense indefinite past"
-msgstr ""
+msgstr "Geniş zamanın rivayeti"
 
 #: ui/templates/tenses.html:19
 msgid "Past definite"
@@ -249,11 +249,11 @@ msgstr "Geçmiş zaman"
 
 #: ui/templates/tenses.html:20
 msgid "Past progressive dubitative"
-msgstr ""
+msgstr "Şimdiki zamanın rivayeti"
 
 #: ui/templates/tenses.html:21
 msgid "Past progressive alternative dubitative"
-msgstr ""
+msgstr "Şimdiki zamanın rivayeti (alternatif)"
 
 #: ui/templates/tenses.html:22
 #, fuzzy
@@ -353,16 +353,16 @@ msgstr ""
 msgid "Turkish Conjunction Maker - Nouns"
 msgstr "Türkçe Ekler - Fiiller"
 
-#: ui/views.py:141
+#: ui/views.py:140
 #, python-brace-format
 msgid "{tense} of the  verb {verb}"
 msgstr "{verb} filinin çekimi: {tense}"
 
-#: ui/views.py:187
+#: ui/views.py:186
 msgid "Example verbs - Turkish Conjunction Maker"
 msgstr "Örnek fiiler - Türkçe Ekler"
 
-#: ui/views.py:213 ui/views.py:231
+#: ui/views.py:212 ui/views.py:230
 #, python-brace-format
 msgid "Conjunction of the verb {verb} in Turkish"
 msgstr "Türkçede {verb} fiilinin çekimi"
