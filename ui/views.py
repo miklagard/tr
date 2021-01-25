@@ -228,7 +228,7 @@ def conjunct_verb(request):
 def conjunct_verb_slug(request, verb):
     verb_real = utils.tr_unslugify(verb)
 
-    title = _('Conjunction of the verb {verb_real} in Turkish').replace('{verb}', verb_real)
+    title = _('Conjunction of the verb {real} in Turkish').replace('{verb}', verb_real)
 
     if verb_real in VERBS:
         file_name = os.path.join(settings.BASE_DIR, 'data', f'{verb}.json')
