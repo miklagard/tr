@@ -15,21 +15,21 @@
         <tbody>
             <tr>
                 <th>{% trans 'Affirmative Statement' %}</th>
-                <td>{{ infinitive }}</td>
+                <td>{{ conjunctions.infinitive }}</td>
             </tr>
             <tr>
                 <th>{% trans 'Negative Statement' %}</th>
-                <td>{{ infinitive_negative }}</td>
+                <td>{{ conjunctions.infinitive_negative }}</td>
             </tr>
         </tbody>
     </table>
 
     <br /><br />
 
-    {% for tense in tenses %}
+    {% for conj in conjunctions.conjunctions %}
         <div class="row">
             <div class="col">
-                <div style="font-weight: bold">{{ tense|capitalize }}</div>
+                <div style="font-weight: bold">{{ conj.tense|capitalize }}</div>
                 <hr />
             </div>
         </div>
@@ -47,18 +47,18 @@
                     <tbody>
                         <tr>
                             <th>{% trans '1st Person' %}</th>
-                            <td lang="tr">{{ verb|person_1:tense }}</td>
-                            <td lang="tr">{{ verb|person_1_plural:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_poz_sng }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_poz_pul }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '2nd Person' %}</th>
-                            <td lang="tr">{{ verb|person_2:tense }}</td>
-                            <td lang="tr">{{ verb|person_2_plural:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_poz_sng }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_poz_pul }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '3rd Person' %}</th>
-                            <td lang="tr">{{ verb|person_3:tense }}</td>
-                            <td lang="tr">{{ verb|person_3_plural:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p3_poz_sng }}</td>
+                            <td lang="tr">{{ conj.conjunct.p3_poz_pul }}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -78,18 +78,18 @@
                     <tbody>
                         <tr>
                             <th>{% trans '1st Person' %}</th>
-                            <td lang="tr">{{ verb|person_1_q:tense }}</td>
-                            <td lang="tr">{{ verb|person_1_plural_q:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_poz_sng_q }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_poz_pul_q }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '2nd Person' %}</th>
-                            <td lang="tr">{{ verb|person_2_q:tense }}</td>
-                            <td lang="tr">{{ verb|person_2_plural_q:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_poz_sng_q }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_poz_pul_q }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '3rd Person' %}</th>
-                            <td lang="tr">{{ verb|person_3_q:tense }}</td>
-                            <td lang="tr">{{ verb|person_3_plural_q:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p3_poz_sng_q }}</td>
+                            <td lang="tr">{{ conj.conjunct.p3_poz_pul_q }}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -109,18 +109,18 @@
                     <tbody>
                         <tr>
                             <th>{% trans '1st Person' %}</th>
-                            <td lang="tr">{{ verb|person_1_negative:tense }}</td>
-                            <td lang="tr">{{ verb|person_1_plural_negative:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_neg_sng }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_neg_pul }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '2nd Person' %}</th>
-                            <td lang="tr">{{ verb|person_2_negative:tense }}</td>
-                            <td lang="tr">{{ verb|person_2_plural_negative:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_neg_sng }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_neg_pul }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '3rd Person' %}</th>
-                            <td lang="tr">{{ verb|person_3_negative:tense }}</td>
-                            <td lang="tr">{{ verb|person_3_plural_negative:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p3_neg_sng }}</td>
+                            <td lang="tr">{{ conj.conjunct.p3_neg_pul }}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -138,22 +138,23 @@
                     <tbody>
                         <tr>
                             <th>{% trans '1st Person' %}</th>
-                            <td lang="tr">{{ verb|person_1_negative_q:tense }}</td>
-                            <td lang="tr">{{ verb|person_1_plural_negative_q:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_neg_sng_q }}</td>
+                            <td lang="tr">{{ conj.conjunct.p1_neg_pul_q }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '2nd Person' %}</th>
-                            <td lang="tr">{{ verb|person_2_negative_q:tense }}</td>
-                            <td lang="tr">{{ verb|person_2_plural_negative_q:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_neg_sng_q }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_neg_pul_q }}</td>
                         </tr>
                         <tr>
                             <th>{% trans '3rd Person' %}</th>
-                            <td lang="tr">{{ verb|person_3_negative_q:tense }}</td>
-                            <td lang="tr">{{ verb|person_3_plural_negative_q:tense }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_neg_sng_q }}</td>
+                            <td lang="tr">{{ conj.conjunct.p2_neg_pul_q }}</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+
         </div>
     {% endfor %}
 

@@ -2,8 +2,11 @@ from django.shortcuts import render, HttpResponseRedirect, HttpResponse
 from turkish_suffix_library.sample_verbs_list import VERBS
 from turkish_suffix_library.turkish_string import make_upper
 from django.utils.translation import gettext as _
+from django.conf import settings
 from ui.models import History
 from ui.english import ENGLISH_TO_TURKISH
+import os
+import json
 import ui.consonants as con
 import ui.utils as utils
 
@@ -223,21 +226,22 @@ def conjunct_verb(request):
 
 
 def conjunct_verb_slug(request, verb):
-    verb = utils.tr_unslugify(verb)
+    verb_real = utils.tr_unslugify(verb)
 
-    title = _('Conjunction of the verb {verb} in Turkish').replace('{verb}', verb)
+    title = _('Conjunction of the verb {verb_real} in Turkish').replace('{verb}', verb_real)
 
-    infinitive = utils.get_infinitive_case(verb, False)
-    infinitive_negative = utils.get_infinitive_case(verb, True)
+    if verb_real in VERBS:
+        file_name = os.path.join(settings.BASE_DIR, 'data', f'{verb}.json')
+        conjunction_file = open(file_name, 'r')
+        conjunction = json.load(conjunction_file)
 
-    return render(request, 'conjunct_verb.html', {
-        'tenses': con.TENSES,
-        'verb': verb,
-        'title': title,
-        'path': 'verb',
-        'infinitive': infinitive,
-        'infinitive_negative': infinitive_negative
-    })
+        return render(request, 'conjunct_verb.html', {
+            'tenses': con.TENSES,
+            'verb': verb_real,
+            'title': title,
+            'path': 'verb',
+            'conjunctions': conjunction
+        })
 
 
 def robots(request):
