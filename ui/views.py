@@ -259,4 +259,8 @@ def page_not_found(request, exception):
 
 
 def server_error(request):
-    pass
+    return render(request, '500.html')
+
+
+def david(request):
+    return render(request, 'david.html')
