@@ -1,0 +1,4 @@
+.title { color: red; background-color: #dddddd; border: 1px solid #666666; }
+#morpheme-suffix { background-color: #dddddd; border: 1px solid #666666; }
+.subtitle { cursor: default; }
+.subtitle.selected { font-weight: bold }
