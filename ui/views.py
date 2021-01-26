@@ -253,3 +253,10 @@ def robots(request):
 def sitemap(request):
     return render(request, 'sitemap.xml', content_type='application/xml; charset=utf8')
 
+
+def page_not_found(request, exception):
+    return render(request, '404.html')
+
+
+def server_error(request):
+    pass
