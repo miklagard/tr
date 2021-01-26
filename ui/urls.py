@@ -11,3 +11,6 @@ urlpatterns = [
     path('robots.txt', ui.robots, name='robots'),
     path('sitemap.xml', ui.sitemap, name='sitemap'),
 ]
+
+handler404 = ui.page_not_found
+handler500 = ui.server_error
