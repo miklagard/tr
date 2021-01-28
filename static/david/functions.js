@@ -154,5 +154,45 @@ const functions = {
             }
         },
     },
-
+    "Personal suffix II": {
+        "1p sg": {
+            "suffix": "-m",
+            "title": "Personal ending. 1st person singular. Type II",
+            "examples": {
+                "hasta-ydı-m": "I was ill",
+            }
+        },
+        "1p pl": {
+            "suffix": "-l",
+            "title": "Personal ending. 1st person plural. Type II",
+            "examples": {
+                "hasta-ydı-k": "we were ill",
+            }
+        },
+        "2p sg": {
+            "suffix": "-n",
+            "title": "Personal ending. 2nd person singular. Type II",
+            "examples": {
+                "hasta-ydı-n": "you were ill",
+            }
+        },
+        "2p pl": {
+            "suffix": "-nIz",
+            "title": "Personal ending. 2nd person plural Type II.",
+            "examples": {
+                "hasta-ydı-nız": "you were ill",
+                "zengin-di-niz": "you were rich",
+                "yolcu-ydu-nuz": "you were a traveller/travellers",
+                "kötü-ydü-nüz": "you were bad",
+            }
+        },
+        "3p pl": {
+            "suffix": "-lAr",
+            "title": "Personal ending. 3rd person plural. Type II",
+            "examples": {
+                "hasta-lar-dı": "they were ill",
+                "zengin-ler-di": "they were rich",
+            }
+        },
+    }
 }

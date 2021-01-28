@@ -1,10 +1,5 @@
 /*
 "5:b:-(y)lA:Postposition 'with':84,uç;ak-la,by plane:88,kimin-le,with whom?:236,dadası-yla,with his/her uncle:237,annesi-yle,with his/her mother",
-"12:k:-m:Personal ending. 1st person singular. Type II:92,hasta-ydı-m,I was ill",
-"10:k:-k:Personal ending. 1st person plural. Type II:82,hasta-ydı-k,we were ill",
-"16:k:-n:Personal ending. 2nd person singular. Type II:121,hasta-ydı-n,you were ill",
-"14:k:-nIz:Personal ending. 2nd person plural Type II.:123,hasta-ydı-nız,you were ill:127,zengin-di-niz,you were rich:129,yolcu-ydu-nuz,you were a traveller/travellers:125,kötü-ydü-nüz,you were bad",
-"18:k:-lAr:Personal ending. 3rd person plural. Type II:85,hasta-lar-dı,they were ill:89,zengin-ler-di,they were rich",
 "13:b:-(y)Im:Copula 'to be'. Present. 1st person singular. Personal ending. Type I:2,Alman-ım,I am German:72,zengin-im,I am rich:178,yok-um,I am not present:13,Türk-üm,I am Turkish:189,hasta-yım,I am ill:229,evli-yim,I am married:245,suç;lu-yum,I am guilty:196,kötü-yüm,I am bad",
 "11:b:-(y)Iz:Copula 'to be'. Present. 1st person plural. Personal ending. Type I:11,Alman-ız,we are German(s):81,zengin-iz,we are rich:187,ç;ocuğ-uz,we are children:22,Türk-üz,we are Turk(s):194,hasta-yız,we are ill:234,evli-yiz,we are married:250,suç;lu-yuz,we are guilty:201,kötü-yüz,we are bad",
 "17:b:-sIn:Copula 'to be'. Present. 2nd person singular. Personal ending. Type I:132,hasta-sın,you are ill:144,evli-sin,you are married:149,suç;lu-sun,you are guilty:137,Türk-sün,you are a Turk",
