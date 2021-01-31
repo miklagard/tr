@@ -13,7 +13,6 @@ TENSES = (
     'past_perfect_narrative',
     'doubtful_distant_past',
     'past_in_the_future',
-    'past_conditional_narrative',
     'past_conditional_dubitative',
     'future_simple',
     'future_in_the_past',
