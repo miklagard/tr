@@ -1,6 +1,8 @@
 {
     "infinitive": "değişmek",
     "infinitive_negative": "değişmemek",
+    "infinitive_question": "değişmek mi",
+    "infinitive_negative_question": "değişmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "değiştiydim",
                 "p2_poz_sng": "değiştiydin",
                 "p3_poz_sng": "değiştiydi",
-                "p1_poz_pul": "değiştilerdik",
-                "p2_poz_pul": "değiştilerdiniz",
-                "p3_poz_pul": "değiştilerlerdi",
+                "p1_poz_pul": "değiştik",
+                "p2_poz_pul": "değiştiniz",
+                "p3_poz_pul": "değişlerdi",
                 "p1_neg_sng": "değişmediydim",
                 "p2_neg_sng": "değişmediydin",
                 "p3_neg_sng": "değişmediydi",
-                "p1_neg_pul": "değişmedilerdik",
-                "p2_neg_pul": "değişmedilerdiniz",
-                "p3_neg_pul": "değişmedilerlerdi",
+                "p1_neg_pul": "değiştik",
+                "p2_neg_pul": "değiştiniz",
+                "p3_neg_pul": "değişlerdi",
                 "p1_poz_sng_q": "değişti miydim",
                 "p2_poz_sng_q": "değişti miydin",
                 "p3_poz_sng_q": "değişti miydi",
-                "p1_poz_pul_q": "değiştiler miydik",
-                "p2_poz_pul_q": "değiştiler miydiniz",
-                "p3_poz_pul_q": "değiştilerler miydi",
+                "p1_poz_pul_q": "değişti miydik",
+                "p2_poz_pul_q": "değişti miydiniz",
+                "p3_poz_pul_q": "değiştiler miydi",
                 "p1_neg_sng_q": "değişmedi miydim",
                 "p2_neg_sng_q": "değişmedi miydin",
                 "p3_neg_sng_q": "değişmedi miydi",
-                "p1_neg_pul_q": "değişmediler miydik",
-                "p2_neg_pul_q": "değişmediler miydiniz",
-                "p3_neg_pul_q": "değişmedilerler miydi"
+                "p1_neg_pul_q": "değişmedi miydik",
+                "p2_neg_pul_q": "değişmedi miydiniz",
+                "p3_neg_pul_q": "değişmediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "inmek",
     "infinitive_negative": "inmemek",
+    "infinitive_question": "inmek mi",
+    "infinitive_negative_question": "inmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "indiydim",
                 "p2_poz_sng": "indiydin",
                 "p3_poz_sng": "indiydi",
-                "p1_poz_pul": "indilerdik",
-                "p2_poz_pul": "indilerdiniz",
-                "p3_poz_pul": "indilerlerdi",
+                "p1_poz_pul": "indik",
+                "p2_poz_pul": "indiniz",
+                "p3_poz_pul": "inlerdi",
                 "p1_neg_sng": "inmediydim",
                 "p2_neg_sng": "inmediydin",
                 "p3_neg_sng": "inmediydi",
-                "p1_neg_pul": "inmedilerdik",
-                "p2_neg_pul": "inmedilerdiniz",
-                "p3_neg_pul": "inmedilerlerdi",
+                "p1_neg_pul": "indik",
+                "p2_neg_pul": "indiniz",
+                "p3_neg_pul": "inlerdi",
                 "p1_poz_sng_q": "indi miydim",
                 "p2_poz_sng_q": "indi miydin",
                 "p3_poz_sng_q": "indi miydi",
-                "p1_poz_pul_q": "indiler miydik",
-                "p2_poz_pul_q": "indiler miydiniz",
-                "p3_poz_pul_q": "indilerler miydi",
+                "p1_poz_pul_q": "indi miydik",
+                "p2_poz_pul_q": "indi miydiniz",
+                "p3_poz_pul_q": "indiler miydi",
                 "p1_neg_sng_q": "inmedi miydim",
                 "p2_neg_sng_q": "inmedi miydin",
                 "p3_neg_sng_q": "inmedi miydi",
-                "p1_neg_pul_q": "inmediler miydik",
-                "p2_neg_pul_q": "inmediler miydiniz",
-                "p3_neg_pul_q": "inmedilerler miydi"
+                "p1_neg_pul_q": "inmedi miydik",
+                "p2_neg_pul_q": "inmedi miydiniz",
+                "p3_neg_pul_q": "inmediler miydi"
             }
         },
         {

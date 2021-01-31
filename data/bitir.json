@@ -1,6 +1,8 @@
 {
     "infinitive": "bitirmek",
     "infinitive_negative": "bitirmemek",
+    "infinitive_question": "bitirmek mi",
+    "infinitive_negative_question": "bitirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "bitirdiydim",
                 "p2_poz_sng": "bitirdiydin",
                 "p3_poz_sng": "bitirdiydi",
-                "p1_poz_pul": "bitirdilerdik",
-                "p2_poz_pul": "bitirdilerdiniz",
-                "p3_poz_pul": "bitirdilerlerdi",
+                "p1_poz_pul": "bitirdik",
+                "p2_poz_pul": "bitirdiniz",
+                "p3_poz_pul": "bitirlerdi",
                 "p1_neg_sng": "bitirmediydim",
                 "p2_neg_sng": "bitirmediydin",
                 "p3_neg_sng": "bitirmediydi",
-                "p1_neg_pul": "bitirmedilerdik",
-                "p2_neg_pul": "bitirmedilerdiniz",
-                "p3_neg_pul": "bitirmedilerlerdi",
+                "p1_neg_pul": "bitirdik",
+                "p2_neg_pul": "bitirdiniz",
+                "p3_neg_pul": "bitirlerdi",
                 "p1_poz_sng_q": "bitirdi miydim",
                 "p2_poz_sng_q": "bitirdi miydin",
                 "p3_poz_sng_q": "bitirdi miydi",
-                "p1_poz_pul_q": "bitirdiler miydik",
-                "p2_poz_pul_q": "bitirdiler miydiniz",
-                "p3_poz_pul_q": "bitirdilerler miydi",
+                "p1_poz_pul_q": "bitirdi miydik",
+                "p2_poz_pul_q": "bitirdi miydiniz",
+                "p3_poz_pul_q": "bitirdiler miydi",
                 "p1_neg_sng_q": "bitirmedi miydim",
                 "p2_neg_sng_q": "bitirmedi miydin",
                 "p3_neg_sng_q": "bitirmedi miydi",
-                "p1_neg_pul_q": "bitirmediler miydik",
-                "p2_neg_pul_q": "bitirmediler miydiniz",
-                "p3_neg_pul_q": "bitirmedilerler miydi"
+                "p1_neg_pul_q": "bitirmedi miydik",
+                "p2_neg_pul_q": "bitirmedi miydiniz",
+                "p3_neg_pul_q": "bitirmediler miydi"
             }
         },
         {

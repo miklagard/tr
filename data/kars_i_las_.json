@@ -1,6 +1,8 @@
 {
     "infinitive": "karşılaşmak",
     "infinitive_negative": "karşılaşmamak",
+    "infinitive_question": "karşılaşmak mı",
+    "infinitive_negative_question": "karşılaşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "karşılaştıydım",
                 "p2_poz_sng": "karşılaştıydın",
                 "p3_poz_sng": "karşılaştıydı",
-                "p1_poz_pul": "karşılaştılardık",
-                "p2_poz_pul": "karşılaştılardınız",
-                "p3_poz_pul": "karşılaştılarlardı",
+                "p1_poz_pul": "karşılaştık",
+                "p2_poz_pul": "karşılaştınız",
+                "p3_poz_pul": "karşılaşlardı",
                 "p1_neg_sng": "karşılaşmadıydım",
                 "p2_neg_sng": "karşılaşmadıydın",
                 "p3_neg_sng": "karşılaşmadıydı",
-                "p1_neg_pul": "karşılaşmadılardık",
-                "p2_neg_pul": "karşılaşmadılardınız",
-                "p3_neg_pul": "karşılaşmadılarlardı",
+                "p1_neg_pul": "karşılaştık",
+                "p2_neg_pul": "karşılaştınız",
+                "p3_neg_pul": "karşılaşlardı",
                 "p1_poz_sng_q": "karşılaştı mıydım",
                 "p2_poz_sng_q": "karşılaştı mıydın",
                 "p3_poz_sng_q": "karşılaştı mıydı",
-                "p1_poz_pul_q": "karşılaştılar mıydık",
-                "p2_poz_pul_q": "karşılaştılar mıydınız",
-                "p3_poz_pul_q": "karşılaştılarlar mıydı",
+                "p1_poz_pul_q": "karşılaştı mıydık",
+                "p2_poz_pul_q": "karşılaştı mıydınız",
+                "p3_poz_pul_q": "karşılaştılar mıydı",
                 "p1_neg_sng_q": "karşılaşmadı mıydım",
                 "p2_neg_sng_q": "karşılaşmadı mıydın",
                 "p3_neg_sng_q": "karşılaşmadı mıydı",
-                "p1_neg_pul_q": "karşılaşmadılar mıydık",
-                "p2_neg_pul_q": "karşılaşmadılar mıydınız",
-                "p3_neg_pul_q": "karşılaşmadılarlar mıydı"
+                "p1_neg_pul_q": "karşılaşmadı mıydık",
+                "p2_neg_pul_q": "karşılaşmadı mıydınız",
+                "p3_neg_pul_q": "karşılaşmadılar mıydı"
             }
         },
         {

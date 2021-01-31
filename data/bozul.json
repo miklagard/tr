@@ -1,6 +1,8 @@
 {
     "infinitive": "bozulmak",
     "infinitive_negative": "bozulmamak",
+    "infinitive_question": "bozulmak mı",
+    "infinitive_negative_question": "bozulmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "bozulduydum",
                 "p2_poz_sng": "bozulduydun",
                 "p3_poz_sng": "bozulduydu",
-                "p1_poz_pul": "bozuldulardık",
-                "p2_poz_pul": "bozuldulardınız",
-                "p3_poz_pul": "bozuldularlardı",
+                "p1_poz_pul": "bozulduk",
+                "p2_poz_pul": "bozuldunuz",
+                "p3_poz_pul": "bozullardı",
                 "p1_neg_sng": "bozulmadıydım",
                 "p2_neg_sng": "bozulmadıydın",
                 "p3_neg_sng": "bozulmadıydı",
-                "p1_neg_pul": "bozulmadılardık",
-                "p2_neg_pul": "bozulmadılardınız",
-                "p3_neg_pul": "bozulmadılarlardı",
+                "p1_neg_pul": "bozulduk",
+                "p2_neg_pul": "bozuldunuz",
+                "p3_neg_pul": "bozullardı",
                 "p1_poz_sng_q": "bozuldu muydum",
                 "p2_poz_sng_q": "bozuldu muydun",
                 "p3_poz_sng_q": "bozuldu muydu",
-                "p1_poz_pul_q": "bozuldular mıydık",
-                "p2_poz_pul_q": "bozuldular mıydınız",
-                "p3_poz_pul_q": "bozuldularlar mıydı",
+                "p1_poz_pul_q": "bozuldu muyduk",
+                "p2_poz_pul_q": "bozuldu muydunuz",
+                "p3_poz_pul_q": "bozuldular mıydı",
                 "p1_neg_sng_q": "bozulmadı mıydım",
                 "p2_neg_sng_q": "bozulmadı mıydın",
                 "p3_neg_sng_q": "bozulmadı mıydı",
-                "p1_neg_pul_q": "bozulmadılar mıydık",
-                "p2_neg_pul_q": "bozulmadılar mıydınız",
-                "p3_neg_pul_q": "bozulmadılarlar mıydı"
+                "p1_neg_pul_q": "bozulmadı mıydık",
+                "p2_neg_pul_q": "bozulmadı mıydınız",
+                "p3_neg_pul_q": "bozulmadılar mıydı"
             }
         },
         {

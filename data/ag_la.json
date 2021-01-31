@@ -1,6 +1,8 @@
 {
     "infinitive": "ağlamak",
     "infinitive_negative": "ağlamamak",
+    "infinitive_question": "ağlamak mı",
+    "infinitive_negative_question": "ağlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ağladıydım",
                 "p2_poz_sng": "ağladıydın",
                 "p3_poz_sng": "ağladıydı",
-                "p1_poz_pul": "ağladılardık",
-                "p2_poz_pul": "ağladılardınız",
-                "p3_poz_pul": "ağladılarlardı",
+                "p1_poz_pul": "ağlaydık",
+                "p2_poz_pul": "ağlaydınız",
+                "p3_poz_pul": "ağlalardı",
                 "p1_neg_sng": "ağlamadıydım",
                 "p2_neg_sng": "ağlamadıydın",
                 "p3_neg_sng": "ağlamadıydı",
-                "p1_neg_pul": "ağlamadılardık",
-                "p2_neg_pul": "ağlamadılardınız",
-                "p3_neg_pul": "ağlamadılarlardı",
+                "p1_neg_pul": "ağlaydık",
+                "p2_neg_pul": "ağlaydınız",
+                "p3_neg_pul": "ağlalardı",
                 "p1_poz_sng_q": "ağladı mıydım",
                 "p2_poz_sng_q": "ağladı mıydın",
                 "p3_poz_sng_q": "ağladı mıydı",
-                "p1_poz_pul_q": "ağladılar mıydık",
-                "p2_poz_pul_q": "ağladılar mıydınız",
-                "p3_poz_pul_q": "ağladılarlar mıydı",
+                "p1_poz_pul_q": "ağladı mıydık",
+                "p2_poz_pul_q": "ağladı mıydınız",
+                "p3_poz_pul_q": "ağladılar mıydı",
                 "p1_neg_sng_q": "ağlamadı mıydım",
                 "p2_neg_sng_q": "ağlamadı mıydın",
                 "p3_neg_sng_q": "ağlamadı mıydı",
-                "p1_neg_pul_q": "ağlamadılar mıydık",
-                "p2_neg_pul_q": "ağlamadılar mıydınız",
-                "p3_neg_pul_q": "ağlamadılarlar mıydı"
+                "p1_neg_pul_q": "ağlamadı mıydık",
+                "p2_neg_pul_q": "ağlamadı mıydınız",
+                "p3_neg_pul_q": "ağlamadılar mıydı"
             }
         },
         {

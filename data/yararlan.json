@@ -1,6 +1,8 @@
 {
     "infinitive": "yararlanmak",
     "infinitive_negative": "yararlanmamak",
+    "infinitive_question": "yararlanmak mı",
+    "infinitive_negative_question": "yararlanmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yararlandıydım",
                 "p2_poz_sng": "yararlandıydın",
                 "p3_poz_sng": "yararlandıydı",
-                "p1_poz_pul": "yararlandılardık",
-                "p2_poz_pul": "yararlandılardınız",
-                "p3_poz_pul": "yararlandılarlardı",
+                "p1_poz_pul": "yararlandık",
+                "p2_poz_pul": "yararlandınız",
+                "p3_poz_pul": "yararlanlardı",
                 "p1_neg_sng": "yararlanmadıydım",
                 "p2_neg_sng": "yararlanmadıydın",
                 "p3_neg_sng": "yararlanmadıydı",
-                "p1_neg_pul": "yararlanmadılardık",
-                "p2_neg_pul": "yararlanmadılardınız",
-                "p3_neg_pul": "yararlanmadılarlardı",
+                "p1_neg_pul": "yararlandık",
+                "p2_neg_pul": "yararlandınız",
+                "p3_neg_pul": "yararlanlardı",
                 "p1_poz_sng_q": "yararlandı mıydım",
                 "p2_poz_sng_q": "yararlandı mıydın",
                 "p3_poz_sng_q": "yararlandı mıydı",
-                "p1_poz_pul_q": "yararlandılar mıydık",
-                "p2_poz_pul_q": "yararlandılar mıydınız",
-                "p3_poz_pul_q": "yararlandılarlar mıydı",
+                "p1_poz_pul_q": "yararlandı mıydık",
+                "p2_poz_pul_q": "yararlandı mıydınız",
+                "p3_poz_pul_q": "yararlandılar mıydı",
                 "p1_neg_sng_q": "yararlanmadı mıydım",
                 "p2_neg_sng_q": "yararlanmadı mıydın",
                 "p3_neg_sng_q": "yararlanmadı mıydı",
-                "p1_neg_pul_q": "yararlanmadılar mıydık",
-                "p2_neg_pul_q": "yararlanmadılar mıydınız",
-                "p3_neg_pul_q": "yararlanmadılarlar mıydı"
+                "p1_neg_pul_q": "yararlanmadı mıydık",
+                "p2_neg_pul_q": "yararlanmadı mıydınız",
+                "p3_neg_pul_q": "yararlanmadılar mıydı"
             }
         },
         {

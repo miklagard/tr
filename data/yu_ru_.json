@@ -1,6 +1,8 @@
 {
     "infinitive": "yürümek",
     "infinitive_negative": "yürümemek",
+    "infinitive_question": "yürümek mi",
+    "infinitive_negative_question": "yürümemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yürüdüydüm",
                 "p2_poz_sng": "yürüdüydün",
                 "p3_poz_sng": "yürüdüydü",
-                "p1_poz_pul": "yürüdülerdik",
-                "p2_poz_pul": "yürüdülerdiniz",
-                "p3_poz_pul": "yürüdülerlerdi",
+                "p1_poz_pul": "yürüydük",
+                "p2_poz_pul": "yürüydünüz",
+                "p3_poz_pul": "yürülerdi",
                 "p1_neg_sng": "yürümediydim",
                 "p2_neg_sng": "yürümediydin",
                 "p3_neg_sng": "yürümediydi",
-                "p1_neg_pul": "yürümedilerdik",
-                "p2_neg_pul": "yürümedilerdiniz",
-                "p3_neg_pul": "yürümedilerlerdi",
+                "p1_neg_pul": "yürüydük",
+                "p2_neg_pul": "yürüydünüz",
+                "p3_neg_pul": "yürülerdi",
                 "p1_poz_sng_q": "yürüdü müydüm",
                 "p2_poz_sng_q": "yürüdü müydün",
                 "p3_poz_sng_q": "yürüdü müydü",
-                "p1_poz_pul_q": "yürüdüler miydik",
-                "p2_poz_pul_q": "yürüdüler miydiniz",
-                "p3_poz_pul_q": "yürüdülerler miydi",
+                "p1_poz_pul_q": "yürüdü müydük",
+                "p2_poz_pul_q": "yürüdü müydünüz",
+                "p3_poz_pul_q": "yürüdüler miydi",
                 "p1_neg_sng_q": "yürümedi miydim",
                 "p2_neg_sng_q": "yürümedi miydin",
                 "p3_neg_sng_q": "yürümedi miydi",
-                "p1_neg_pul_q": "yürümediler miydik",
-                "p2_neg_pul_q": "yürümediler miydiniz",
-                "p3_neg_pul_q": "yürümedilerler miydi"
+                "p1_neg_pul_q": "yürümedi miydik",
+                "p2_neg_pul_q": "yürümedi miydiniz",
+                "p3_neg_pul_q": "yürümediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "dilemek",
     "infinitive_negative": "dilememek",
+    "infinitive_question": "dilemek mi",
+    "infinitive_negative_question": "dilememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dilediydim",
                 "p2_poz_sng": "dilediydin",
                 "p3_poz_sng": "dilediydi",
-                "p1_poz_pul": "diledilerdik",
-                "p2_poz_pul": "diledilerdiniz",
-                "p3_poz_pul": "diledilerlerdi",
+                "p1_poz_pul": "dileydik",
+                "p2_poz_pul": "dileydiniz",
+                "p3_poz_pul": "dilelerdi",
                 "p1_neg_sng": "dilemediydim",
                 "p2_neg_sng": "dilemediydin",
                 "p3_neg_sng": "dilemediydi",
-                "p1_neg_pul": "dilemedilerdik",
-                "p2_neg_pul": "dilemedilerdiniz",
-                "p3_neg_pul": "dilemedilerlerdi",
+                "p1_neg_pul": "dileydik",
+                "p2_neg_pul": "dileydiniz",
+                "p3_neg_pul": "dilelerdi",
                 "p1_poz_sng_q": "diledi miydim",
                 "p2_poz_sng_q": "diledi miydin",
                 "p3_poz_sng_q": "diledi miydi",
-                "p1_poz_pul_q": "dilediler miydik",
-                "p2_poz_pul_q": "dilediler miydiniz",
-                "p3_poz_pul_q": "diledilerler miydi",
+                "p1_poz_pul_q": "diledi miydik",
+                "p2_poz_pul_q": "diledi miydiniz",
+                "p3_poz_pul_q": "dilediler miydi",
                 "p1_neg_sng_q": "dilemedi miydim",
                 "p2_neg_sng_q": "dilemedi miydin",
                 "p3_neg_sng_q": "dilemedi miydi",
-                "p1_neg_pul_q": "dilemediler miydik",
-                "p2_neg_pul_q": "dilemediler miydiniz",
-                "p3_neg_pul_q": "dilemedilerler miydi"
+                "p1_neg_pul_q": "dilemedi miydik",
+                "p2_neg_pul_q": "dilemedi miydiniz",
+                "p3_neg_pul_q": "dilemediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "uzatmak",
     "infinitive_negative": "uzatmamak",
+    "infinitive_question": "uzatmak mı",
+    "infinitive_negative_question": "uzatmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "uzattıydım",
                 "p2_poz_sng": "uzattıydın",
                 "p3_poz_sng": "uzattıydı",
-                "p1_poz_pul": "uzattılardık",
-                "p2_poz_pul": "uzattılardınız",
-                "p3_poz_pul": "uzattılarlardı",
+                "p1_poz_pul": "uzattık",
+                "p2_poz_pul": "uzattınız",
+                "p3_poz_pul": "uzatlardı",
                 "p1_neg_sng": "uzatmadıydım",
                 "p2_neg_sng": "uzatmadıydın",
                 "p3_neg_sng": "uzatmadıydı",
-                "p1_neg_pul": "uzatmadılardık",
-                "p2_neg_pul": "uzatmadılardınız",
-                "p3_neg_pul": "uzatmadılarlardı",
+                "p1_neg_pul": "uzattık",
+                "p2_neg_pul": "uzattınız",
+                "p3_neg_pul": "uzatlardı",
                 "p1_poz_sng_q": "uzattı mıydım",
                 "p2_poz_sng_q": "uzattı mıydın",
                 "p3_poz_sng_q": "uzattı mıydı",
-                "p1_poz_pul_q": "uzattılar mıydık",
-                "p2_poz_pul_q": "uzattılar mıydınız",
-                "p3_poz_pul_q": "uzattılarlar mıydı",
+                "p1_poz_pul_q": "uzattı mıydık",
+                "p2_poz_pul_q": "uzattı mıydınız",
+                "p3_poz_pul_q": "uzattılar mıydı",
                 "p1_neg_sng_q": "uzatmadı mıydım",
                 "p2_neg_sng_q": "uzatmadı mıydın",
                 "p3_neg_sng_q": "uzatmadı mıydı",
-                "p1_neg_pul_q": "uzatmadılar mıydık",
-                "p2_neg_pul_q": "uzatmadılar mıydınız",
-                "p3_neg_pul_q": "uzatmadılarlar mıydı"
+                "p1_neg_pul_q": "uzatmadı mıydık",
+                "p2_neg_pul_q": "uzatmadı mıydınız",
+                "p3_neg_pul_q": "uzatmadılar mıydı"
             }
         },
         {

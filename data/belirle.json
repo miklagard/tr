@@ -1,6 +1,8 @@
 {
     "infinitive": "belirlemek",
     "infinitive_negative": "belirlememek",
+    "infinitive_question": "belirlemek mi",
+    "infinitive_negative_question": "belirlememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "belirlediydim",
                 "p2_poz_sng": "belirlediydin",
                 "p3_poz_sng": "belirlediydi",
-                "p1_poz_pul": "belirledilerdik",
-                "p2_poz_pul": "belirledilerdiniz",
-                "p3_poz_pul": "belirledilerlerdi",
+                "p1_poz_pul": "belirleydik",
+                "p2_poz_pul": "belirleydiniz",
+                "p3_poz_pul": "belirlelerdi",
                 "p1_neg_sng": "belirlemediydim",
                 "p2_neg_sng": "belirlemediydin",
                 "p3_neg_sng": "belirlemediydi",
-                "p1_neg_pul": "belirlemedilerdik",
-                "p2_neg_pul": "belirlemedilerdiniz",
-                "p3_neg_pul": "belirlemedilerlerdi",
+                "p1_neg_pul": "belirleydik",
+                "p2_neg_pul": "belirleydiniz",
+                "p3_neg_pul": "belirlelerdi",
                 "p1_poz_sng_q": "belirledi miydim",
                 "p2_poz_sng_q": "belirledi miydin",
                 "p3_poz_sng_q": "belirledi miydi",
-                "p1_poz_pul_q": "belirlediler miydik",
-                "p2_poz_pul_q": "belirlediler miydiniz",
-                "p3_poz_pul_q": "belirledilerler miydi",
+                "p1_poz_pul_q": "belirledi miydik",
+                "p2_poz_pul_q": "belirledi miydiniz",
+                "p3_poz_pul_q": "belirlediler miydi",
                 "p1_neg_sng_q": "belirlemedi miydim",
                 "p2_neg_sng_q": "belirlemedi miydin",
                 "p3_neg_sng_q": "belirlemedi miydi",
-                "p1_neg_pul_q": "belirlemediler miydik",
-                "p2_neg_pul_q": "belirlemediler miydiniz",
-                "p3_neg_pul_q": "belirlemedilerler miydi"
+                "p1_neg_pul_q": "belirlemedi miydik",
+                "p2_neg_pul_q": "belirlemedi miydiniz",
+                "p3_neg_pul_q": "belirlemediler miydi"
             }
         },
         {

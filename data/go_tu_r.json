@@ -1,6 +1,8 @@
 {
     "infinitive": "götürmek",
     "infinitive_negative": "götürmemek",
+    "infinitive_question": "götürmek mi",
+    "infinitive_negative_question": "götürmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "götürdüydüm",
                 "p2_poz_sng": "götürdüydün",
                 "p3_poz_sng": "götürdüydü",
-                "p1_poz_pul": "götürdülerdik",
-                "p2_poz_pul": "götürdülerdiniz",
-                "p3_poz_pul": "götürdülerlerdi",
+                "p1_poz_pul": "götürdük",
+                "p2_poz_pul": "götürdünüz",
+                "p3_poz_pul": "götürlerdi",
                 "p1_neg_sng": "götürmediydim",
                 "p2_neg_sng": "götürmediydin",
                 "p3_neg_sng": "götürmediydi",
-                "p1_neg_pul": "götürmedilerdik",
-                "p2_neg_pul": "götürmedilerdiniz",
-                "p3_neg_pul": "götürmedilerlerdi",
+                "p1_neg_pul": "götürdük",
+                "p2_neg_pul": "götürdünüz",
+                "p3_neg_pul": "götürlerdi",
                 "p1_poz_sng_q": "götürdü müydüm",
                 "p2_poz_sng_q": "götürdü müydün",
                 "p3_poz_sng_q": "götürdü müydü",
-                "p1_poz_pul_q": "götürdüler miydik",
-                "p2_poz_pul_q": "götürdüler miydiniz",
-                "p3_poz_pul_q": "götürdülerler miydi",
+                "p1_poz_pul_q": "götürdü müydük",
+                "p2_poz_pul_q": "götürdü müydünüz",
+                "p3_poz_pul_q": "götürdüler miydi",
                 "p1_neg_sng_q": "götürmedi miydim",
                 "p2_neg_sng_q": "götürmedi miydin",
                 "p3_neg_sng_q": "götürmedi miydi",
-                "p1_neg_pul_q": "götürmediler miydik",
-                "p2_neg_pul_q": "götürmediler miydiniz",
-                "p3_neg_pul_q": "götürmedilerler miydi"
+                "p1_neg_pul_q": "götürmedi miydik",
+                "p2_neg_pul_q": "götürmedi miydiniz",
+                "p3_neg_pul_q": "götürmediler miydi"
             }
         },
         {

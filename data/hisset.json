@@ -1,6 +1,8 @@
 {
     "infinitive": "hissetmek",
     "infinitive_negative": "hissetmemek",
+    "infinitive_question": "hissetmek mi",
+    "infinitive_negative_question": "hissetmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "hissettiydim",
                 "p2_poz_sng": "hissettiydin",
                 "p3_poz_sng": "hissettiydi",
-                "p1_poz_pul": "hissettilerdik",
-                "p2_poz_pul": "hissettilerdiniz",
-                "p3_poz_pul": "hissettilerlerdi",
+                "p1_poz_pul": "hissettik",
+                "p2_poz_pul": "hissettiniz",
+                "p3_poz_pul": "hissetlerdi",
                 "p1_neg_sng": "hissetmediydim",
                 "p2_neg_sng": "hissetmediydin",
                 "p3_neg_sng": "hissetmediydi",
-                "p1_neg_pul": "hissetmedilerdik",
-                "p2_neg_pul": "hissetmedilerdiniz",
-                "p3_neg_pul": "hissetmedilerlerdi",
+                "p1_neg_pul": "hissettik",
+                "p2_neg_pul": "hissettiniz",
+                "p3_neg_pul": "hissetlerdi",
                 "p1_poz_sng_q": "hissetti miydim",
                 "p2_poz_sng_q": "hissetti miydin",
                 "p3_poz_sng_q": "hissetti miydi",
-                "p1_poz_pul_q": "hissettiler miydik",
-                "p2_poz_pul_q": "hissettiler miydiniz",
-                "p3_poz_pul_q": "hissettilerler miydi",
+                "p1_poz_pul_q": "hissetti miydik",
+                "p2_poz_pul_q": "hissetti miydiniz",
+                "p3_poz_pul_q": "hissettiler miydi",
                 "p1_neg_sng_q": "hissetmedi miydim",
                 "p2_neg_sng_q": "hissetmedi miydin",
                 "p3_neg_sng_q": "hissetmedi miydi",
-                "p1_neg_pul_q": "hissetmediler miydik",
-                "p2_neg_pul_q": "hissetmediler miydiniz",
-                "p3_neg_pul_q": "hissetmedilerler miydi"
+                "p1_neg_pul_q": "hissetmedi miydik",
+                "p2_neg_pul_q": "hissetmedi miydiniz",
+                "p3_neg_pul_q": "hissetmediler miydi"
             }
         },
         {

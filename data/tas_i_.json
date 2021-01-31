@@ -1,6 +1,8 @@
 {
     "infinitive": "taşımak",
     "infinitive_negative": "taşımamak",
+    "infinitive_question": "taşımak mı",
+    "infinitive_negative_question": "taşımamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "taşıdıydım",
                 "p2_poz_sng": "taşıdıydın",
                 "p3_poz_sng": "taşıdıydı",
-                "p1_poz_pul": "taşıdılardık",
-                "p2_poz_pul": "taşıdılardınız",
-                "p3_poz_pul": "taşıdılarlardı",
+                "p1_poz_pul": "taşıydık",
+                "p2_poz_pul": "taşıydınız",
+                "p3_poz_pul": "taşılardı",
                 "p1_neg_sng": "taşımadıydım",
                 "p2_neg_sng": "taşımadıydın",
                 "p3_neg_sng": "taşımadıydı",
-                "p1_neg_pul": "taşımadılardık",
-                "p2_neg_pul": "taşımadılardınız",
-                "p3_neg_pul": "taşımadılarlardı",
+                "p1_neg_pul": "taşıydık",
+                "p2_neg_pul": "taşıydınız",
+                "p3_neg_pul": "taşılardı",
                 "p1_poz_sng_q": "taşıdı mıydım",
                 "p2_poz_sng_q": "taşıdı mıydın",
                 "p3_poz_sng_q": "taşıdı mıydı",
-                "p1_poz_pul_q": "taşıdılar mıydık",
-                "p2_poz_pul_q": "taşıdılar mıydınız",
-                "p3_poz_pul_q": "taşıdılarlar mıydı",
+                "p1_poz_pul_q": "taşıdı mıydık",
+                "p2_poz_pul_q": "taşıdı mıydınız",
+                "p3_poz_pul_q": "taşıdılar mıydı",
                 "p1_neg_sng_q": "taşımadı mıydım",
                 "p2_neg_sng_q": "taşımadı mıydın",
                 "p3_neg_sng_q": "taşımadı mıydı",
-                "p1_neg_pul_q": "taşımadılar mıydık",
-                "p2_neg_pul_q": "taşımadılar mıydınız",
-                "p3_neg_pul_q": "taşımadılarlar mıydı"
+                "p1_neg_pul_q": "taşımadı mıydık",
+                "p2_neg_pul_q": "taşımadı mıydınız",
+                "p3_neg_pul_q": "taşımadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "incelemek",
     "infinitive_negative": "incelememek",
+    "infinitive_question": "incelemek mi",
+    "infinitive_negative_question": "incelememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "incelediydim",
                 "p2_poz_sng": "incelediydin",
                 "p3_poz_sng": "incelediydi",
-                "p1_poz_pul": "inceledilerdik",
-                "p2_poz_pul": "inceledilerdiniz",
-                "p3_poz_pul": "inceledilerlerdi",
+                "p1_poz_pul": "inceleydik",
+                "p2_poz_pul": "inceleydiniz",
+                "p3_poz_pul": "incelelerdi",
                 "p1_neg_sng": "incelemediydim",
                 "p2_neg_sng": "incelemediydin",
                 "p3_neg_sng": "incelemediydi",
-                "p1_neg_pul": "incelemedilerdik",
-                "p2_neg_pul": "incelemedilerdiniz",
-                "p3_neg_pul": "incelemedilerlerdi",
+                "p1_neg_pul": "inceleydik",
+                "p2_neg_pul": "inceleydiniz",
+                "p3_neg_pul": "incelelerdi",
                 "p1_poz_sng_q": "inceledi miydim",
                 "p2_poz_sng_q": "inceledi miydin",
                 "p3_poz_sng_q": "inceledi miydi",
-                "p1_poz_pul_q": "incelediler miydik",
-                "p2_poz_pul_q": "incelediler miydiniz",
-                "p3_poz_pul_q": "inceledilerler miydi",
+                "p1_poz_pul_q": "inceledi miydik",
+                "p2_poz_pul_q": "inceledi miydiniz",
+                "p3_poz_pul_q": "incelediler miydi",
                 "p1_neg_sng_q": "incelemedi miydim",
                 "p2_neg_sng_q": "incelemedi miydin",
                 "p3_neg_sng_q": "incelemedi miydi",
-                "p1_neg_pul_q": "incelemediler miydik",
-                "p2_neg_pul_q": "incelemediler miydiniz",
-                "p3_neg_pul_q": "incelemedilerler miydi"
+                "p1_neg_pul_q": "incelemedi miydik",
+                "p2_neg_pul_q": "incelemedi miydiniz",
+                "p3_neg_pul_q": "incelemediler miydi"
             }
         },
         {

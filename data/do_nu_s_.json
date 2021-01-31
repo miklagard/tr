@@ -1,6 +1,8 @@
 {
     "infinitive": "dönüşmek",
     "infinitive_negative": "dönüşmemek",
+    "infinitive_question": "dönüşmek mi",
+    "infinitive_negative_question": "dönüşmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dönüştüydüm",
                 "p2_poz_sng": "dönüştüydün",
                 "p3_poz_sng": "dönüştüydü",
-                "p1_poz_pul": "dönüştülerdik",
-                "p2_poz_pul": "dönüştülerdiniz",
-                "p3_poz_pul": "dönüştülerlerdi",
+                "p1_poz_pul": "dönüştük",
+                "p2_poz_pul": "dönüştünüz",
+                "p3_poz_pul": "dönüşlerdi",
                 "p1_neg_sng": "dönüşmediydim",
                 "p2_neg_sng": "dönüşmediydin",
                 "p3_neg_sng": "dönüşmediydi",
-                "p1_neg_pul": "dönüşmedilerdik",
-                "p2_neg_pul": "dönüşmedilerdiniz",
-                "p3_neg_pul": "dönüşmedilerlerdi",
+                "p1_neg_pul": "dönüştük",
+                "p2_neg_pul": "dönüştünüz",
+                "p3_neg_pul": "dönüşlerdi",
                 "p1_poz_sng_q": "dönüştü müydüm",
                 "p2_poz_sng_q": "dönüştü müydün",
                 "p3_poz_sng_q": "dönüştü müydü",
-                "p1_poz_pul_q": "dönüştüler miydik",
-                "p2_poz_pul_q": "dönüştüler miydiniz",
-                "p3_poz_pul_q": "dönüştülerler miydi",
+                "p1_poz_pul_q": "dönüştü müydük",
+                "p2_poz_pul_q": "dönüştü müydünüz",
+                "p3_poz_pul_q": "dönüştüler miydi",
                 "p1_neg_sng_q": "dönüşmedi miydim",
                 "p2_neg_sng_q": "dönüşmedi miydin",
                 "p3_neg_sng_q": "dönüşmedi miydi",
-                "p1_neg_pul_q": "dönüşmediler miydik",
-                "p2_neg_pul_q": "dönüşmediler miydiniz",
-                "p3_neg_pul_q": "dönüşmedilerler miydi"
+                "p1_neg_pul_q": "dönüşmedi miydik",
+                "p2_neg_pul_q": "dönüşmedi miydiniz",
+                "p3_neg_pul_q": "dönüşmediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "çıkarmak",
     "infinitive_negative": "çıkarmamak",
+    "infinitive_question": "çıkarmak mı",
+    "infinitive_negative_question": "çıkarmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "çıkardıydım",
                 "p2_poz_sng": "çıkardıydın",
                 "p3_poz_sng": "çıkardıydı",
-                "p1_poz_pul": "çıkardılardık",
-                "p2_poz_pul": "çıkardılardınız",
-                "p3_poz_pul": "çıkardılarlardı",
+                "p1_poz_pul": "çıkardık",
+                "p2_poz_pul": "çıkardınız",
+                "p3_poz_pul": "çıkarlardı",
                 "p1_neg_sng": "çıkarmadıydım",
                 "p2_neg_sng": "çıkarmadıydın",
                 "p3_neg_sng": "çıkarmadıydı",
-                "p1_neg_pul": "çıkarmadılardık",
-                "p2_neg_pul": "çıkarmadılardınız",
-                "p3_neg_pul": "çıkarmadılarlardı",
+                "p1_neg_pul": "çıkardık",
+                "p2_neg_pul": "çıkardınız",
+                "p3_neg_pul": "çıkarlardı",
                 "p1_poz_sng_q": "çıkardı mıydım",
                 "p2_poz_sng_q": "çıkardı mıydın",
                 "p3_poz_sng_q": "çıkardı mıydı",
-                "p1_poz_pul_q": "çıkardılar mıydık",
-                "p2_poz_pul_q": "çıkardılar mıydınız",
-                "p3_poz_pul_q": "çıkardılarlar mıydı",
+                "p1_poz_pul_q": "çıkardı mıydık",
+                "p2_poz_pul_q": "çıkardı mıydınız",
+                "p3_poz_pul_q": "çıkardılar mıydı",
                 "p1_neg_sng_q": "çıkarmadı mıydım",
                 "p2_neg_sng_q": "çıkarmadı mıydın",
                 "p3_neg_sng_q": "çıkarmadı mıydı",
-                "p1_neg_pul_q": "çıkarmadılar mıydık",
-                "p2_neg_pul_q": "çıkarmadılar mıydınız",
-                "p3_neg_pul_q": "çıkarmadılarlar mıydı"
+                "p1_neg_pul_q": "çıkarmadı mıydık",
+                "p2_neg_pul_q": "çıkarmadı mıydınız",
+                "p3_neg_pul_q": "çıkarmadılar mıydı"
             }
         },
         {

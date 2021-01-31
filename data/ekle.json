@@ -1,6 +1,8 @@
 {
     "infinitive": "eklemek",
     "infinitive_negative": "eklememek",
+    "infinitive_question": "eklemek mi",
+    "infinitive_negative_question": "eklememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "eklediydim",
                 "p2_poz_sng": "eklediydin",
                 "p3_poz_sng": "eklediydi",
-                "p1_poz_pul": "ekledilerdik",
-                "p2_poz_pul": "ekledilerdiniz",
-                "p3_poz_pul": "ekledilerlerdi",
+                "p1_poz_pul": "ekleydik",
+                "p2_poz_pul": "ekleydiniz",
+                "p3_poz_pul": "eklelerdi",
                 "p1_neg_sng": "eklemediydim",
                 "p2_neg_sng": "eklemediydin",
                 "p3_neg_sng": "eklemediydi",
-                "p1_neg_pul": "eklemedilerdik",
-                "p2_neg_pul": "eklemedilerdiniz",
-                "p3_neg_pul": "eklemedilerlerdi",
+                "p1_neg_pul": "ekleydik",
+                "p2_neg_pul": "ekleydiniz",
+                "p3_neg_pul": "eklelerdi",
                 "p1_poz_sng_q": "ekledi miydim",
                 "p2_poz_sng_q": "ekledi miydin",
                 "p3_poz_sng_q": "ekledi miydi",
-                "p1_poz_pul_q": "eklediler miydik",
-                "p2_poz_pul_q": "eklediler miydiniz",
-                "p3_poz_pul_q": "ekledilerler miydi",
+                "p1_poz_pul_q": "ekledi miydik",
+                "p2_poz_pul_q": "ekledi miydiniz",
+                "p3_poz_pul_q": "eklediler miydi",
                 "p1_neg_sng_q": "eklemedi miydim",
                 "p2_neg_sng_q": "eklemedi miydin",
                 "p3_neg_sng_q": "eklemedi miydi",
-                "p1_neg_pul_q": "eklemediler miydik",
-                "p2_neg_pul_q": "eklemediler miydiniz",
-                "p3_neg_pul_q": "eklemedilerler miydi"
+                "p1_neg_pul_q": "eklemedi miydik",
+                "p2_neg_pul_q": "eklemedi miydiniz",
+                "p3_neg_pul_q": "eklemediler miydi"
             }
         },
         {

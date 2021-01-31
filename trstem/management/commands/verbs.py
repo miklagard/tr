@@ -13,20 +13,43 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         for verb in VERBS:
-            conjunct = {'infinitive': Turkish(verb).infinitive().to_string(),
-                        'infinitive_negative': Turkish(verb).infinitive(negative=True).to_string(), 'conjunctions': []}
+            conjunct = {
+                'infinitive': Turkish(verb).infinitive().to_string(),
+                'infinitive_negative': Turkish(verb).infinitive(negative=True).to_string(),
+                'infinitive_question': Turkish(verb).infinitive(question=True).to_string(),
+                'infinitive_negative_question': Turkish(verb).infinitive(negative=True, question=True).to_string(),
+                'conjunctions': []
+            }
 
             for tense in TENSES:
                 conjunct['conjunctions'].append(
                     {
                         'tense': tense,
                         'conjunct': {
-                            'p1_poz_sng': Turkish(verb).__getattribute__(tense)(person=1, plural=False, negative=False, question=False).to_string(),
-                            'p2_poz_sng': Turkish(verb).__getattribute__(tense)(person=2, plural=False, negative=False, question=False).to_string(),
-                            'p3_poz_sng': Turkish(verb).__getattribute__(tense)(person=3, plural=False, negative=False, question=False).to_string(),
-                            'p1_poz_pul': Turkish(verb).__getattribute__(tense)(person=1, plural=True, negative=False, question=False).to_string(),
-                            'p2_poz_pul': Turkish(verb).__getattribute__(tense)(person=2, plural=True, negative=False, question=False).to_string(),
-                            'p3_poz_pul': Turkish(verb).__getattribute__(tense)(person=3, plural=True, negative=False, question=False).to_string(),
+                            'p1_poz_sng': Turkish(verb).__getattribute__(tense)(person=1,
+                                                                                plural=False,
+                                                                                negative=False,
+                                                                                question=False).to_string(),
+                            'p2_poz_sng': Turkish(verb).__getattribute__(tense)(person=2,
+                                                                                plural=False,
+                                                                                negative=False,
+                                                                                question=False).to_string(),
+                            'p3_poz_sng': Turkish(verb).__getattribute__(tense)(person=3,
+                                                                                plural=False,
+                                                                                negative=False,
+                                                                                question=False).to_string(),
+                            'p1_poz_pul': Turkish(verb).__getattribute__(tense)(person=1,
+                                                                                plural=True,
+                                                                                negative=False,
+                                                                                question=False).to_string(),
+                            'p2_poz_pul': Turkish(verb).__getattribute__(tense)(person=2,
+                                                                                plural=True,
+                                                                                negative=False,
+                                                                                question=False).to_string(),
+                            'p3_poz_pul': Turkish(verb).__getattribute__(tense)(person=3,
+                                                                                plural=True,
+                                                                                negative=False,
+                                                                                question=False).to_string(),
 
                             'p1_neg_sng': Turkish(verb).__getattribute__(tense)(person=1, negative=True).to_string(),
                             'p2_neg_sng': Turkish(verb).__getattribute__(tense)(person=2, negative=True).to_string(),

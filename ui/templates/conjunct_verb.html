@@ -14,12 +14,19 @@
     <table class="table table-hover table-bordered table-striped">
         <tbody>
             <tr>
+                <th></th>
+                <th></th>
+                <th>{% trans 'Interrogative' %}</th>
+            </tr>
+            <tr>
                 <th>{% trans 'Affirmative Statement' %}</th>
                 <td>{{ conjunctions.infinitive }}</td>
+                <td>{{ conjunctions.infinitive_question }}</td>
             </tr>
             <tr>
                 <th>{% trans 'Negative Statement' %}</th>
                 <td>{{ conjunctions.infinitive_negative }}</td>
+                <td>{{ conjunctions.infinitive_negative_question }}</td>
             </tr>
         </tbody>
     </table>

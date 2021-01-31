@@ -1,6 +1,8 @@
 {
     "infinitive": "düzenlemek",
     "infinitive_negative": "düzenlememek",
+    "infinitive_question": "düzenlemek mi",
+    "infinitive_negative_question": "düzenlememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "düzenlediydim",
                 "p2_poz_sng": "düzenlediydin",
                 "p3_poz_sng": "düzenlediydi",
-                "p1_poz_pul": "düzenledilerdik",
-                "p2_poz_pul": "düzenledilerdiniz",
-                "p3_poz_pul": "düzenledilerlerdi",
+                "p1_poz_pul": "düzenleydik",
+                "p2_poz_pul": "düzenleydiniz",
+                "p3_poz_pul": "düzenlelerdi",
                 "p1_neg_sng": "düzenlemediydim",
                 "p2_neg_sng": "düzenlemediydin",
                 "p3_neg_sng": "düzenlemediydi",
-                "p1_neg_pul": "düzenlemedilerdik",
-                "p2_neg_pul": "düzenlemedilerdiniz",
-                "p3_neg_pul": "düzenlemedilerlerdi",
+                "p1_neg_pul": "düzenleydik",
+                "p2_neg_pul": "düzenleydiniz",
+                "p3_neg_pul": "düzenlelerdi",
                 "p1_poz_sng_q": "düzenledi miydim",
                 "p2_poz_sng_q": "düzenledi miydin",
                 "p3_poz_sng_q": "düzenledi miydi",
-                "p1_poz_pul_q": "düzenlediler miydik",
-                "p2_poz_pul_q": "düzenlediler miydiniz",
-                "p3_poz_pul_q": "düzenledilerler miydi",
+                "p1_poz_pul_q": "düzenledi miydik",
+                "p2_poz_pul_q": "düzenledi miydiniz",
+                "p3_poz_pul_q": "düzenlediler miydi",
                 "p1_neg_sng_q": "düzenlemedi miydim",
                 "p2_neg_sng_q": "düzenlemedi miydin",
                 "p3_neg_sng_q": "düzenlemedi miydi",
-                "p1_neg_pul_q": "düzenlemediler miydik",
-                "p2_neg_pul_q": "düzenlemediler miydiniz",
-                "p3_neg_pul_q": "düzenlemedilerler miydi"
+                "p1_neg_pul_q": "düzenlemedi miydik",
+                "p2_neg_pul_q": "düzenlemedi miydiniz",
+                "p3_neg_pul_q": "düzenlemediler miydi"
             }
         },
         {

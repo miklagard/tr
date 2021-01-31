@@ -1,6 +1,8 @@
 {
     "infinitive": "korkmak",
     "infinitive_negative": "korkmamak",
+    "infinitive_question": "korkmak mı",
+    "infinitive_negative_question": "korkmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "korktuydum",
                 "p2_poz_sng": "korktuydun",
                 "p3_poz_sng": "korktuydu",
-                "p1_poz_pul": "korktulardık",
-                "p2_poz_pul": "korktulardınız",
-                "p3_poz_pul": "korktularlardı",
+                "p1_poz_pul": "korktuk",
+                "p2_poz_pul": "korktunuz",
+                "p3_poz_pul": "korklardı",
                 "p1_neg_sng": "korkmadıydım",
                 "p2_neg_sng": "korkmadıydın",
                 "p3_neg_sng": "korkmadıydı",
-                "p1_neg_pul": "korkmadılardık",
-                "p2_neg_pul": "korkmadılardınız",
-                "p3_neg_pul": "korkmadılarlardı",
+                "p1_neg_pul": "korktuk",
+                "p2_neg_pul": "korktunuz",
+                "p3_neg_pul": "korklardı",
                 "p1_poz_sng_q": "korktu muydum",
                 "p2_poz_sng_q": "korktu muydun",
                 "p3_poz_sng_q": "korktu muydu",
-                "p1_poz_pul_q": "korktular mıydık",
-                "p2_poz_pul_q": "korktular mıydınız",
-                "p3_poz_pul_q": "korktularlar mıydı",
+                "p1_poz_pul_q": "korktu muyduk",
+                "p2_poz_pul_q": "korktu muydunuz",
+                "p3_poz_pul_q": "korktular mıydı",
                 "p1_neg_sng_q": "korkmadı mıydım",
                 "p2_neg_sng_q": "korkmadı mıydın",
                 "p3_neg_sng_q": "korkmadı mıydı",
-                "p1_neg_pul_q": "korkmadılar mıydık",
-                "p2_neg_pul_q": "korkmadılar mıydınız",
-                "p3_neg_pul_q": "korkmadılarlar mıydı"
+                "p1_neg_pul_q": "korkmadı mıydık",
+                "p2_neg_pul_q": "korkmadı mıydınız",
+                "p3_neg_pul_q": "korkmadılar mıydı"
             }
         },
         {

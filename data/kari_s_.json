@@ -1,6 +1,8 @@
 {
     "infinitive": "karışmak",
     "infinitive_negative": "karışmamak",
+    "infinitive_question": "karışmak mı",
+    "infinitive_negative_question": "karışmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "karıştıydım",
                 "p2_poz_sng": "karıştıydın",
                 "p3_poz_sng": "karıştıydı",
-                "p1_poz_pul": "karıştılardık",
-                "p2_poz_pul": "karıştılardınız",
-                "p3_poz_pul": "karıştılarlardı",
+                "p1_poz_pul": "karıştık",
+                "p2_poz_pul": "karıştınız",
+                "p3_poz_pul": "karışlardı",
                 "p1_neg_sng": "karışmadıydım",
                 "p2_neg_sng": "karışmadıydın",
                 "p3_neg_sng": "karışmadıydı",
-                "p1_neg_pul": "karışmadılardık",
-                "p2_neg_pul": "karışmadılardınız",
-                "p3_neg_pul": "karışmadılarlardı",
+                "p1_neg_pul": "karıştık",
+                "p2_neg_pul": "karıştınız",
+                "p3_neg_pul": "karışlardı",
                 "p1_poz_sng_q": "karıştı mıydım",
                 "p2_poz_sng_q": "karıştı mıydın",
                 "p3_poz_sng_q": "karıştı mıydı",
-                "p1_poz_pul_q": "karıştılar mıydık",
-                "p2_poz_pul_q": "karıştılar mıydınız",
-                "p3_poz_pul_q": "karıştılarlar mıydı",
+                "p1_poz_pul_q": "karıştı mıydık",
+                "p2_poz_pul_q": "karıştı mıydınız",
+                "p3_poz_pul_q": "karıştılar mıydı",
                 "p1_neg_sng_q": "karışmadı mıydım",
                 "p2_neg_sng_q": "karışmadı mıydın",
                 "p3_neg_sng_q": "karışmadı mıydı",
-                "p1_neg_pul_q": "karışmadılar mıydık",
-                "p2_neg_pul_q": "karışmadılar mıydınız",
-                "p3_neg_pul_q": "karışmadılarlar mıydı"
+                "p1_neg_pul_q": "karışmadı mıydık",
+                "p2_neg_pul_q": "karışmadı mıydınız",
+                "p3_neg_pul_q": "karışmadılar mıydı"
             }
         },
         {

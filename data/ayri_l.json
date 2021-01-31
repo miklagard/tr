@@ -1,6 +1,8 @@
 {
     "infinitive": "ayrılmak",
     "infinitive_negative": "ayrılmamak",
+    "infinitive_question": "ayrılmak mı",
+    "infinitive_negative_question": "ayrılmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ayrıldıydım",
                 "p2_poz_sng": "ayrıldıydın",
                 "p3_poz_sng": "ayrıldıydı",
-                "p1_poz_pul": "ayrıldılardık",
-                "p2_poz_pul": "ayrıldılardınız",
-                "p3_poz_pul": "ayrıldılarlardı",
+                "p1_poz_pul": "ayrıldık",
+                "p2_poz_pul": "ayrıldınız",
+                "p3_poz_pul": "ayrıllardı",
                 "p1_neg_sng": "ayrılmadıydım",
                 "p2_neg_sng": "ayrılmadıydın",
                 "p3_neg_sng": "ayrılmadıydı",
-                "p1_neg_pul": "ayrılmadılardık",
-                "p2_neg_pul": "ayrılmadılardınız",
-                "p3_neg_pul": "ayrılmadılarlardı",
+                "p1_neg_pul": "ayrıldık",
+                "p2_neg_pul": "ayrıldınız",
+                "p3_neg_pul": "ayrıllardı",
                 "p1_poz_sng_q": "ayrıldı mıydım",
                 "p2_poz_sng_q": "ayrıldı mıydın",
                 "p3_poz_sng_q": "ayrıldı mıydı",
-                "p1_poz_pul_q": "ayrıldılar mıydık",
-                "p2_poz_pul_q": "ayrıldılar mıydınız",
-                "p3_poz_pul_q": "ayrıldılarlar mıydı",
+                "p1_poz_pul_q": "ayrıldı mıydık",
+                "p2_poz_pul_q": "ayrıldı mıydınız",
+                "p3_poz_pul_q": "ayrıldılar mıydı",
                 "p1_neg_sng_q": "ayrılmadı mıydım",
                 "p2_neg_sng_q": "ayrılmadı mıydın",
                 "p3_neg_sng_q": "ayrılmadı mıydı",
-                "p1_neg_pul_q": "ayrılmadılar mıydık",
-                "p2_neg_pul_q": "ayrılmadılar mıydınız",
-                "p3_neg_pul_q": "ayrılmadılarlar mıydı"
+                "p1_neg_pul_q": "ayrılmadı mıydık",
+                "p2_neg_pul_q": "ayrılmadı mıydınız",
+                "p3_neg_pul_q": "ayrılmadılar mıydı"
             }
         },
         {

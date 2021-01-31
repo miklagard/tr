@@ -1,6 +1,8 @@
 {
     "infinitive": "oynamak",
     "infinitive_negative": "oynamamak",
+    "infinitive_question": "oynamak mı",
+    "infinitive_negative_question": "oynamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "oynadıydım",
                 "p2_poz_sng": "oynadıydın",
                 "p3_poz_sng": "oynadıydı",
-                "p1_poz_pul": "oynadılardık",
-                "p2_poz_pul": "oynadılardınız",
-                "p3_poz_pul": "oynadılarlardı",
+                "p1_poz_pul": "oynaydık",
+                "p2_poz_pul": "oynaydınız",
+                "p3_poz_pul": "oynalardı",
                 "p1_neg_sng": "oynamadıydım",
                 "p2_neg_sng": "oynamadıydın",
                 "p3_neg_sng": "oynamadıydı",
-                "p1_neg_pul": "oynamadılardık",
-                "p2_neg_pul": "oynamadılardınız",
-                "p3_neg_pul": "oynamadılarlardı",
+                "p1_neg_pul": "oynaydık",
+                "p2_neg_pul": "oynaydınız",
+                "p3_neg_pul": "oynalardı",
                 "p1_poz_sng_q": "oynadı mıydım",
                 "p2_poz_sng_q": "oynadı mıydın",
                 "p3_poz_sng_q": "oynadı mıydı",
-                "p1_poz_pul_q": "oynadılar mıydık",
-                "p2_poz_pul_q": "oynadılar mıydınız",
-                "p3_poz_pul_q": "oynadılarlar mıydı",
+                "p1_poz_pul_q": "oynadı mıydık",
+                "p2_poz_pul_q": "oynadı mıydınız",
+                "p3_poz_pul_q": "oynadılar mıydı",
                 "p1_neg_sng_q": "oynamadı mıydım",
                 "p2_neg_sng_q": "oynamadı mıydın",
                 "p3_neg_sng_q": "oynamadı mıydı",
-                "p1_neg_pul_q": "oynamadılar mıydık",
-                "p2_neg_pul_q": "oynamadılar mıydınız",
-                "p3_neg_pul_q": "oynamadılarlar mıydı"
+                "p1_neg_pul_q": "oynamadı mıydık",
+                "p2_neg_pul_q": "oynamadı mıydınız",
+                "p3_neg_pul_q": "oynamadılar mıydı"
             }
         },
         {

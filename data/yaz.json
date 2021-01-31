@@ -1,6 +1,8 @@
 {
     "infinitive": "yazmak",
     "infinitive_negative": "yazmamak",
+    "infinitive_question": "yazmak mı",
+    "infinitive_negative_question": "yazmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yazdıydım",
                 "p2_poz_sng": "yazdıydın",
                 "p3_poz_sng": "yazdıydı",
-                "p1_poz_pul": "yazdılardık",
-                "p2_poz_pul": "yazdılardınız",
-                "p3_poz_pul": "yazdılarlardı",
+                "p1_poz_pul": "yazdık",
+                "p2_poz_pul": "yazdınız",
+                "p3_poz_pul": "yazlardı",
                 "p1_neg_sng": "yazmadıydım",
                 "p2_neg_sng": "yazmadıydın",
                 "p3_neg_sng": "yazmadıydı",
-                "p1_neg_pul": "yazmadılardık",
-                "p2_neg_pul": "yazmadılardınız",
-                "p3_neg_pul": "yazmadılarlardı",
+                "p1_neg_pul": "yazdık",
+                "p2_neg_pul": "yazdınız",
+                "p3_neg_pul": "yazlardı",
                 "p1_poz_sng_q": "yazdı mıydım",
                 "p2_poz_sng_q": "yazdı mıydın",
                 "p3_poz_sng_q": "yazdı mıydı",
-                "p1_poz_pul_q": "yazdılar mıydık",
-                "p2_poz_pul_q": "yazdılar mıydınız",
-                "p3_poz_pul_q": "yazdılarlar mıydı",
+                "p1_poz_pul_q": "yazdı mıydık",
+                "p2_poz_pul_q": "yazdı mıydınız",
+                "p3_poz_pul_q": "yazdılar mıydı",
                 "p1_neg_sng_q": "yazmadı mıydım",
                 "p2_neg_sng_q": "yazmadı mıydın",
                 "p3_neg_sng_q": "yazmadı mıydı",
-                "p1_neg_pul_q": "yazmadılar mıydık",
-                "p2_neg_pul_q": "yazmadılar mıydınız",
-                "p3_neg_pul_q": "yazmadılarlar mıydı"
+                "p1_neg_pul_q": "yazmadı mıydık",
+                "p2_neg_pul_q": "yazmadı mıydınız",
+                "p3_neg_pul_q": "yazmadılar mıydı"
             }
         },
         {

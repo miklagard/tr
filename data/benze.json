@@ -1,6 +1,8 @@
 {
     "infinitive": "benzemek",
     "infinitive_negative": "benzememek",
+    "infinitive_question": "benzemek mi",
+    "infinitive_negative_question": "benzememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "benzediydim",
                 "p2_poz_sng": "benzediydin",
                 "p3_poz_sng": "benzediydi",
-                "p1_poz_pul": "benzedilerdik",
-                "p2_poz_pul": "benzedilerdiniz",
-                "p3_poz_pul": "benzedilerlerdi",
+                "p1_poz_pul": "benzeydik",
+                "p2_poz_pul": "benzeydiniz",
+                "p3_poz_pul": "benzelerdi",
                 "p1_neg_sng": "benzemediydim",
                 "p2_neg_sng": "benzemediydin",
                 "p3_neg_sng": "benzemediydi",
-                "p1_neg_pul": "benzemedilerdik",
-                "p2_neg_pul": "benzemedilerdiniz",
-                "p3_neg_pul": "benzemedilerlerdi",
+                "p1_neg_pul": "benzeydik",
+                "p2_neg_pul": "benzeydiniz",
+                "p3_neg_pul": "benzelerdi",
                 "p1_poz_sng_q": "benzedi miydim",
                 "p2_poz_sng_q": "benzedi miydin",
                 "p3_poz_sng_q": "benzedi miydi",
-                "p1_poz_pul_q": "benzediler miydik",
-                "p2_poz_pul_q": "benzediler miydiniz",
-                "p3_poz_pul_q": "benzedilerler miydi",
+                "p1_poz_pul_q": "benzedi miydik",
+                "p2_poz_pul_q": "benzedi miydiniz",
+                "p3_poz_pul_q": "benzediler miydi",
                 "p1_neg_sng_q": "benzemedi miydim",
                 "p2_neg_sng_q": "benzemedi miydin",
                 "p3_neg_sng_q": "benzemedi miydi",
-                "p1_neg_pul_q": "benzemediler miydik",
-                "p2_neg_pul_q": "benzemediler miydiniz",
-                "p3_neg_pul_q": "benzemedilerler miydi"
+                "p1_neg_pul_q": "benzemedi miydik",
+                "p2_neg_pul_q": "benzemedi miydiniz",
+                "p3_neg_pul_q": "benzemediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "gerekmek",
     "infinitive_negative": "gerekmemek",
+    "infinitive_question": "gerekmek mi",
+    "infinitive_negative_question": "gerekmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "gerektiydim",
                 "p2_poz_sng": "gerektiydin",
                 "p3_poz_sng": "gerektiydi",
-                "p1_poz_pul": "gerektilerdik",
-                "p2_poz_pul": "gerektilerdiniz",
-                "p3_poz_pul": "gerektilerlerdi",
+                "p1_poz_pul": "gerektik",
+                "p2_poz_pul": "gerektiniz",
+                "p3_poz_pul": "gereklerdi",
                 "p1_neg_sng": "gerekmediydim",
                 "p2_neg_sng": "gerekmediydin",
                 "p3_neg_sng": "gerekmediydi",
-                "p1_neg_pul": "gerekmedilerdik",
-                "p2_neg_pul": "gerekmedilerdiniz",
-                "p3_neg_pul": "gerekmedilerlerdi",
+                "p1_neg_pul": "gerektik",
+                "p2_neg_pul": "gerektiniz",
+                "p3_neg_pul": "gereklerdi",
                 "p1_poz_sng_q": "gerekti miydim",
                 "p2_poz_sng_q": "gerekti miydin",
                 "p3_poz_sng_q": "gerekti miydi",
-                "p1_poz_pul_q": "gerektiler miydik",
-                "p2_poz_pul_q": "gerektiler miydiniz",
-                "p3_poz_pul_q": "gerektilerler miydi",
+                "p1_poz_pul_q": "gerekti miydik",
+                "p2_poz_pul_q": "gerekti miydiniz",
+                "p3_poz_pul_q": "gerektiler miydi",
                 "p1_neg_sng_q": "gerekmedi miydim",
                 "p2_neg_sng_q": "gerekmedi miydin",
                 "p3_neg_sng_q": "gerekmedi miydi",
-                "p1_neg_pul_q": "gerekmediler miydik",
-                "p2_neg_pul_q": "gerekmediler miydiniz",
-                "p3_neg_pul_q": "gerekmedilerler miydi"
+                "p1_neg_pul_q": "gerekmedi miydik",
+                "p2_neg_pul_q": "gerekmedi miydiniz",
+                "p3_neg_pul_q": "gerekmediler miydi"
             }
         },
         {

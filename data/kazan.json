@@ -1,6 +1,8 @@
 {
     "infinitive": "kazanmak",
     "infinitive_negative": "kazanmamak",
+    "infinitive_question": "kazanmak mı",
+    "infinitive_negative_question": "kazanmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "kazandıydım",
                 "p2_poz_sng": "kazandıydın",
                 "p3_poz_sng": "kazandıydı",
-                "p1_poz_pul": "kazandılardık",
-                "p2_poz_pul": "kazandılardınız",
-                "p3_poz_pul": "kazandılarlardı",
+                "p1_poz_pul": "kazandık",
+                "p2_poz_pul": "kazandınız",
+                "p3_poz_pul": "kazanlardı",
                 "p1_neg_sng": "kazanmadıydım",
                 "p2_neg_sng": "kazanmadıydın",
                 "p3_neg_sng": "kazanmadıydı",
-                "p1_neg_pul": "kazanmadılardık",
-                "p2_neg_pul": "kazanmadılardınız",
-                "p3_neg_pul": "kazanmadılarlardı",
+                "p1_neg_pul": "kazandık",
+                "p2_neg_pul": "kazandınız",
+                "p3_neg_pul": "kazanlardı",
                 "p1_poz_sng_q": "kazandı mıydım",
                 "p2_poz_sng_q": "kazandı mıydın",
                 "p3_poz_sng_q": "kazandı mıydı",
-                "p1_poz_pul_q": "kazandılar mıydık",
-                "p2_poz_pul_q": "kazandılar mıydınız",
-                "p3_poz_pul_q": "kazandılarlar mıydı",
+                "p1_poz_pul_q": "kazandı mıydık",
+                "p2_poz_pul_q": "kazandı mıydınız",
+                "p3_poz_pul_q": "kazandılar mıydı",
                 "p1_neg_sng_q": "kazanmadı mıydım",
                 "p2_neg_sng_q": "kazanmadı mıydın",
                 "p3_neg_sng_q": "kazanmadı mıydı",
-                "p1_neg_pul_q": "kazanmadılar mıydık",
-                "p2_neg_pul_q": "kazanmadılar mıydınız",
-                "p3_neg_pul_q": "kazanmadılarlar mıydı"
+                "p1_neg_pul_q": "kazanmadı mıydık",
+                "p2_neg_pul_q": "kazanmadı mıydınız",
+                "p3_neg_pul_q": "kazanmadılar mıydı"
             }
         },
         {

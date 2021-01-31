@@ -1,6 +1,8 @@
 {
     "infinitive": "toplamak",
     "infinitive_negative": "toplamamak",
+    "infinitive_question": "toplamak mı",
+    "infinitive_negative_question": "toplamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "topladıydım",
                 "p2_poz_sng": "topladıydın",
                 "p3_poz_sng": "topladıydı",
-                "p1_poz_pul": "topladılardık",
-                "p2_poz_pul": "topladılardınız",
-                "p3_poz_pul": "topladılarlardı",
+                "p1_poz_pul": "toplaydık",
+                "p2_poz_pul": "toplaydınız",
+                "p3_poz_pul": "toplalardı",
                 "p1_neg_sng": "toplamadıydım",
                 "p2_neg_sng": "toplamadıydın",
                 "p3_neg_sng": "toplamadıydı",
-                "p1_neg_pul": "toplamadılardık",
-                "p2_neg_pul": "toplamadılardınız",
-                "p3_neg_pul": "toplamadılarlardı",
+                "p1_neg_pul": "toplaydık",
+                "p2_neg_pul": "toplaydınız",
+                "p3_neg_pul": "toplalardı",
                 "p1_poz_sng_q": "topladı mıydım",
                 "p2_poz_sng_q": "topladı mıydın",
                 "p3_poz_sng_q": "topladı mıydı",
-                "p1_poz_pul_q": "topladılar mıydık",
-                "p2_poz_pul_q": "topladılar mıydınız",
-                "p3_poz_pul_q": "topladılarlar mıydı",
+                "p1_poz_pul_q": "topladı mıydık",
+                "p2_poz_pul_q": "topladı mıydınız",
+                "p3_poz_pul_q": "topladılar mıydı",
                 "p1_neg_sng_q": "toplamadı mıydım",
                 "p2_neg_sng_q": "toplamadı mıydın",
                 "p3_neg_sng_q": "toplamadı mıydı",
-                "p1_neg_pul_q": "toplamadılar mıydık",
-                "p2_neg_pul_q": "toplamadılar mıydınız",
-                "p3_neg_pul_q": "toplamadılarlar mıydı"
+                "p1_neg_pul_q": "toplamadı mıydık",
+                "p2_neg_pul_q": "toplamadı mıydınız",
+                "p3_neg_pul_q": "toplamadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "beklemek",
     "infinitive_negative": "beklememek",
+    "infinitive_question": "beklemek mi",
+    "infinitive_negative_question": "beklememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "beklediydim",
                 "p2_poz_sng": "beklediydin",
                 "p3_poz_sng": "beklediydi",
-                "p1_poz_pul": "bekledilerdik",
-                "p2_poz_pul": "bekledilerdiniz",
-                "p3_poz_pul": "bekledilerlerdi",
+                "p1_poz_pul": "bekleydik",
+                "p2_poz_pul": "bekleydiniz",
+                "p3_poz_pul": "beklelerdi",
                 "p1_neg_sng": "beklemediydim",
                 "p2_neg_sng": "beklemediydin",
                 "p3_neg_sng": "beklemediydi",
-                "p1_neg_pul": "beklemedilerdik",
-                "p2_neg_pul": "beklemedilerdiniz",
-                "p3_neg_pul": "beklemedilerlerdi",
+                "p1_neg_pul": "bekleydik",
+                "p2_neg_pul": "bekleydiniz",
+                "p3_neg_pul": "beklelerdi",
                 "p1_poz_sng_q": "bekledi miydim",
                 "p2_poz_sng_q": "bekledi miydin",
                 "p3_poz_sng_q": "bekledi miydi",
-                "p1_poz_pul_q": "beklediler miydik",
-                "p2_poz_pul_q": "beklediler miydiniz",
-                "p3_poz_pul_q": "bekledilerler miydi",
+                "p1_poz_pul_q": "bekledi miydik",
+                "p2_poz_pul_q": "bekledi miydiniz",
+                "p3_poz_pul_q": "beklediler miydi",
                 "p1_neg_sng_q": "beklemedi miydim",
                 "p2_neg_sng_q": "beklemedi miydin",
                 "p3_neg_sng_q": "beklemedi miydi",
-                "p1_neg_pul_q": "beklemediler miydik",
-                "p2_neg_pul_q": "beklemediler miydiniz",
-                "p3_neg_pul_q": "beklemedilerler miydi"
+                "p1_neg_pul_q": "beklemedi miydik",
+                "p2_neg_pul_q": "beklemedi miydiniz",
+                "p3_neg_pul_q": "beklemediler miydi"
             }
         },
         {

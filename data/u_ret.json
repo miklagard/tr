@@ -1,6 +1,8 @@
 {
     "infinitive": "üretmek",
     "infinitive_negative": "üretmemek",
+    "infinitive_question": "üretmek mi",
+    "infinitive_negative_question": "üretmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ürettiydim",
                 "p2_poz_sng": "ürettiydin",
                 "p3_poz_sng": "ürettiydi",
-                "p1_poz_pul": "ürettilerdik",
-                "p2_poz_pul": "ürettilerdiniz",
-                "p3_poz_pul": "ürettilerlerdi",
+                "p1_poz_pul": "ürettik",
+                "p2_poz_pul": "ürettiniz",
+                "p3_poz_pul": "üretlerdi",
                 "p1_neg_sng": "üretmediydim",
                 "p2_neg_sng": "üretmediydin",
                 "p3_neg_sng": "üretmediydi",
-                "p1_neg_pul": "üretmedilerdik",
-                "p2_neg_pul": "üretmedilerdiniz",
-                "p3_neg_pul": "üretmedilerlerdi",
+                "p1_neg_pul": "ürettik",
+                "p2_neg_pul": "ürettiniz",
+                "p3_neg_pul": "üretlerdi",
                 "p1_poz_sng_q": "üretti miydim",
                 "p2_poz_sng_q": "üretti miydin",
                 "p3_poz_sng_q": "üretti miydi",
-                "p1_poz_pul_q": "ürettiler miydik",
-                "p2_poz_pul_q": "ürettiler miydiniz",
-                "p3_poz_pul_q": "ürettilerler miydi",
+                "p1_poz_pul_q": "üretti miydik",
+                "p2_poz_pul_q": "üretti miydiniz",
+                "p3_poz_pul_q": "ürettiler miydi",
                 "p1_neg_sng_q": "üretmedi miydim",
                 "p2_neg_sng_q": "üretmedi miydin",
                 "p3_neg_sng_q": "üretmedi miydi",
-                "p1_neg_pul_q": "üretmediler miydik",
-                "p2_neg_pul_q": "üretmediler miydiniz",
-                "p3_neg_pul_q": "üretmedilerler miydi"
+                "p1_neg_pul_q": "üretmedi miydik",
+                "p2_neg_pul_q": "üretmedi miydiniz",
+                "p3_neg_pul_q": "üretmediler miydi"
             }
         },
         {

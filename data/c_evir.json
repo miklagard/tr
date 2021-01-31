@@ -1,6 +1,8 @@
 {
     "infinitive": "çevirmek",
     "infinitive_negative": "çevirmemek",
+    "infinitive_question": "çevirmek mi",
+    "infinitive_negative_question": "çevirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "çevirdiydim",
                 "p2_poz_sng": "çevirdiydin",
                 "p3_poz_sng": "çevirdiydi",
-                "p1_poz_pul": "çevirdilerdik",
-                "p2_poz_pul": "çevirdilerdiniz",
-                "p3_poz_pul": "çevirdilerlerdi",
+                "p1_poz_pul": "çevirdik",
+                "p2_poz_pul": "çevirdiniz",
+                "p3_poz_pul": "çevirlerdi",
                 "p1_neg_sng": "çevirmediydim",
                 "p2_neg_sng": "çevirmediydin",
                 "p3_neg_sng": "çevirmediydi",
-                "p1_neg_pul": "çevirmedilerdik",
-                "p2_neg_pul": "çevirmedilerdiniz",
-                "p3_neg_pul": "çevirmedilerlerdi",
+                "p1_neg_pul": "çevirdik",
+                "p2_neg_pul": "çevirdiniz",
+                "p3_neg_pul": "çevirlerdi",
                 "p1_poz_sng_q": "çevirdi miydim",
                 "p2_poz_sng_q": "çevirdi miydin",
                 "p3_poz_sng_q": "çevirdi miydi",
-                "p1_poz_pul_q": "çevirdiler miydik",
-                "p2_poz_pul_q": "çevirdiler miydiniz",
-                "p3_poz_pul_q": "çevirdilerler miydi",
+                "p1_poz_pul_q": "çevirdi miydik",
+                "p2_poz_pul_q": "çevirdi miydiniz",
+                "p3_poz_pul_q": "çevirdiler miydi",
                 "p1_neg_sng_q": "çevirmedi miydim",
                 "p2_neg_sng_q": "çevirmedi miydin",
                 "p3_neg_sng_q": "çevirmedi miydi",
-                "p1_neg_pul_q": "çevirmediler miydik",
-                "p2_neg_pul_q": "çevirmediler miydiniz",
-                "p3_neg_pul_q": "çevirmedilerler miydi"
+                "p1_neg_pul_q": "çevirmedi miydik",
+                "p2_neg_pul_q": "çevirmedi miydiniz",
+                "p3_neg_pul_q": "çevirmediler miydi"
             }
         },
         {

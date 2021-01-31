@@ -1,6 +1,8 @@
 {
     "infinitive": "evlenmek",
     "infinitive_negative": "evlenmemek",
+    "infinitive_question": "evlenmek mi",
+    "infinitive_negative_question": "evlenmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "evlendiydim",
                 "p2_poz_sng": "evlendiydin",
                 "p3_poz_sng": "evlendiydi",
-                "p1_poz_pul": "evlendilerdik",
-                "p2_poz_pul": "evlendilerdiniz",
-                "p3_poz_pul": "evlendilerlerdi",
+                "p1_poz_pul": "evlendik",
+                "p2_poz_pul": "evlendiniz",
+                "p3_poz_pul": "evlenlerdi",
                 "p1_neg_sng": "evlenmediydim",
                 "p2_neg_sng": "evlenmediydin",
                 "p3_neg_sng": "evlenmediydi",
-                "p1_neg_pul": "evlenmedilerdik",
-                "p2_neg_pul": "evlenmedilerdiniz",
-                "p3_neg_pul": "evlenmedilerlerdi",
+                "p1_neg_pul": "evlendik",
+                "p2_neg_pul": "evlendiniz",
+                "p3_neg_pul": "evlenlerdi",
                 "p1_poz_sng_q": "evlendi miydim",
                 "p2_poz_sng_q": "evlendi miydin",
                 "p3_poz_sng_q": "evlendi miydi",
-                "p1_poz_pul_q": "evlendiler miydik",
-                "p2_poz_pul_q": "evlendiler miydiniz",
-                "p3_poz_pul_q": "evlendilerler miydi",
+                "p1_poz_pul_q": "evlendi miydik",
+                "p2_poz_pul_q": "evlendi miydiniz",
+                "p3_poz_pul_q": "evlendiler miydi",
                 "p1_neg_sng_q": "evlenmedi miydim",
                 "p2_neg_sng_q": "evlenmedi miydin",
                 "p3_neg_sng_q": "evlenmedi miydi",
-                "p1_neg_pul_q": "evlenmediler miydik",
-                "p2_neg_pul_q": "evlenmediler miydiniz",
-                "p3_neg_pul_q": "evlenmedilerler miydi"
+                "p1_neg_pul_q": "evlenmedi miydik",
+                "p2_neg_pul_q": "evlenmedi miydiniz",
+                "p3_neg_pul_q": "evlenmediler miydi"
             }
         },
         {

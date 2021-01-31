@@ -1,6 +1,8 @@
 {
     "infinitive": "inanmak",
     "infinitive_negative": "inanmamak",
+    "infinitive_question": "inanmak mı",
+    "infinitive_negative_question": "inanmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "inandıydım",
                 "p2_poz_sng": "inandıydın",
                 "p3_poz_sng": "inandıydı",
-                "p1_poz_pul": "inandılardık",
-                "p2_poz_pul": "inandılardınız",
-                "p3_poz_pul": "inandılarlardı",
+                "p1_poz_pul": "inandık",
+                "p2_poz_pul": "inandınız",
+                "p3_poz_pul": "inanlardı",
                 "p1_neg_sng": "inanmadıydım",
                 "p2_neg_sng": "inanmadıydın",
                 "p3_neg_sng": "inanmadıydı",
-                "p1_neg_pul": "inanmadılardık",
-                "p2_neg_pul": "inanmadılardınız",
-                "p3_neg_pul": "inanmadılarlardı",
+                "p1_neg_pul": "inandık",
+                "p2_neg_pul": "inandınız",
+                "p3_neg_pul": "inanlardı",
                 "p1_poz_sng_q": "inandı mıydım",
                 "p2_poz_sng_q": "inandı mıydın",
                 "p3_poz_sng_q": "inandı mıydı",
-                "p1_poz_pul_q": "inandılar mıydık",
-                "p2_poz_pul_q": "inandılar mıydınız",
-                "p3_poz_pul_q": "inandılarlar mıydı",
+                "p1_poz_pul_q": "inandı mıydık",
+                "p2_poz_pul_q": "inandı mıydınız",
+                "p3_poz_pul_q": "inandılar mıydı",
                 "p1_neg_sng_q": "inanmadı mıydım",
                 "p2_neg_sng_q": "inanmadı mıydın",
                 "p3_neg_sng_q": "inanmadı mıydı",
-                "p1_neg_pul_q": "inanmadılar mıydık",
-                "p2_neg_pul_q": "inanmadılar mıydınız",
-                "p3_neg_pul_q": "inanmadılarlar mıydı"
+                "p1_neg_pul_q": "inanmadı mıydık",
+                "p2_neg_pul_q": "inanmadı mıydınız",
+                "p3_neg_pul_q": "inanmadılar mıydı"
             }
         },
         {

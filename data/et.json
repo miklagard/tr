@@ -1,6 +1,8 @@
 {
     "infinitive": "etmek",
     "infinitive_negative": "etmemek",
+    "infinitive_question": "etmek mi",
+    "infinitive_negative_question": "etmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ettiydim",
                 "p2_poz_sng": "ettiydin",
                 "p3_poz_sng": "ettiydi",
-                "p1_poz_pul": "ettilerdik",
-                "p2_poz_pul": "ettilerdiniz",
-                "p3_poz_pul": "ettilerlerdi",
+                "p1_poz_pul": "ettik",
+                "p2_poz_pul": "ettiniz",
+                "p3_poz_pul": "etlerdi",
                 "p1_neg_sng": "etmediydim",
                 "p2_neg_sng": "etmediydin",
                 "p3_neg_sng": "etmediydi",
-                "p1_neg_pul": "etmedilerdik",
-                "p2_neg_pul": "etmedilerdiniz",
-                "p3_neg_pul": "etmedilerlerdi",
+                "p1_neg_pul": "ettik",
+                "p2_neg_pul": "ettiniz",
+                "p3_neg_pul": "etlerdi",
                 "p1_poz_sng_q": "etti miydim",
                 "p2_poz_sng_q": "etti miydin",
                 "p3_poz_sng_q": "etti miydi",
-                "p1_poz_pul_q": "ettiler miydik",
-                "p2_poz_pul_q": "ettiler miydiniz",
-                "p3_poz_pul_q": "ettilerler miydi",
+                "p1_poz_pul_q": "etti miydik",
+                "p2_poz_pul_q": "etti miydiniz",
+                "p3_poz_pul_q": "ettiler miydi",
                 "p1_neg_sng_q": "etmedi miydim",
                 "p2_neg_sng_q": "etmedi miydin",
                 "p3_neg_sng_q": "etmedi miydi",
-                "p1_neg_pul_q": "etmediler miydik",
-                "p2_neg_pul_q": "etmediler miydiniz",
-                "p3_neg_pul_q": "etmedilerler miydi"
+                "p1_neg_pul_q": "etmedi miydik",
+                "p2_neg_pul_q": "etmedi miydiniz",
+                "p3_neg_pul_q": "etmediler miydi"
             }
         },
         {

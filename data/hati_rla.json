@@ -1,6 +1,8 @@
 {
     "infinitive": "hatırlamak",
     "infinitive_negative": "hatırlamamak",
+    "infinitive_question": "hatırlamak mı",
+    "infinitive_negative_question": "hatırlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "hatırladıydım",
                 "p2_poz_sng": "hatırladıydın",
                 "p3_poz_sng": "hatırladıydı",
-                "p1_poz_pul": "hatırladılardık",
-                "p2_poz_pul": "hatırladılardınız",
-                "p3_poz_pul": "hatırladılarlardı",
+                "p1_poz_pul": "hatırlaydık",
+                "p2_poz_pul": "hatırlaydınız",
+                "p3_poz_pul": "hatırlalardı",
                 "p1_neg_sng": "hatırlamadıydım",
                 "p2_neg_sng": "hatırlamadıydın",
                 "p3_neg_sng": "hatırlamadıydı",
-                "p1_neg_pul": "hatırlamadılardık",
-                "p2_neg_pul": "hatırlamadılardınız",
-                "p3_neg_pul": "hatırlamadılarlardı",
+                "p1_neg_pul": "hatırlaydık",
+                "p2_neg_pul": "hatırlaydınız",
+                "p3_neg_pul": "hatırlalardı",
                 "p1_poz_sng_q": "hatırladı mıydım",
                 "p2_poz_sng_q": "hatırladı mıydın",
                 "p3_poz_sng_q": "hatırladı mıydı",
-                "p1_poz_pul_q": "hatırladılar mıydık",
-                "p2_poz_pul_q": "hatırladılar mıydınız",
-                "p3_poz_pul_q": "hatırladılarlar mıydı",
+                "p1_poz_pul_q": "hatırladı mıydık",
+                "p2_poz_pul_q": "hatırladı mıydınız",
+                "p3_poz_pul_q": "hatırladılar mıydı",
                 "p1_neg_sng_q": "hatırlamadı mıydım",
                 "p2_neg_sng_q": "hatırlamadı mıydın",
                 "p3_neg_sng_q": "hatırlamadı mıydı",
-                "p1_neg_pul_q": "hatırlamadılar mıydık",
-                "p2_neg_pul_q": "hatırlamadılar mıydınız",
-                "p3_neg_pul_q": "hatırlamadılarlar mıydı"
+                "p1_neg_pul_q": "hatırlamadı mıydık",
+                "p2_neg_pul_q": "hatırlamadı mıydınız",
+                "p3_neg_pul_q": "hatırlamadılar mıydı"
             }
         },
         {

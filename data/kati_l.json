@@ -1,6 +1,8 @@
 {
     "infinitive": "katılmak",
     "infinitive_negative": "katılmamak",
+    "infinitive_question": "katılmak mı",
+    "infinitive_negative_question": "katılmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "katıldıydım",
                 "p2_poz_sng": "katıldıydın",
                 "p3_poz_sng": "katıldıydı",
-                "p1_poz_pul": "katıldılardık",
-                "p2_poz_pul": "katıldılardınız",
-                "p3_poz_pul": "katıldılarlardı",
+                "p1_poz_pul": "katıldık",
+                "p2_poz_pul": "katıldınız",
+                "p3_poz_pul": "katıllardı",
                 "p1_neg_sng": "katılmadıydım",
                 "p2_neg_sng": "katılmadıydın",
                 "p3_neg_sng": "katılmadıydı",
-                "p1_neg_pul": "katılmadılardık",
-                "p2_neg_pul": "katılmadılardınız",
-                "p3_neg_pul": "katılmadılarlardı",
+                "p1_neg_pul": "katıldık",
+                "p2_neg_pul": "katıldınız",
+                "p3_neg_pul": "katıllardı",
                 "p1_poz_sng_q": "katıldı mıydım",
                 "p2_poz_sng_q": "katıldı mıydın",
                 "p3_poz_sng_q": "katıldı mıydı",
-                "p1_poz_pul_q": "katıldılar mıydık",
-                "p2_poz_pul_q": "katıldılar mıydınız",
-                "p3_poz_pul_q": "katıldılarlar mıydı",
+                "p1_poz_pul_q": "katıldı mıydık",
+                "p2_poz_pul_q": "katıldı mıydınız",
+                "p3_poz_pul_q": "katıldılar mıydı",
                 "p1_neg_sng_q": "katılmadı mıydım",
                 "p2_neg_sng_q": "katılmadı mıydın",
                 "p3_neg_sng_q": "katılmadı mıydı",
-                "p1_neg_pul_q": "katılmadılar mıydık",
-                "p2_neg_pul_q": "katılmadılar mıydınız",
-                "p3_neg_pul_q": "katılmadılarlar mıydı"
+                "p1_neg_pul_q": "katılmadı mıydık",
+                "p2_neg_pul_q": "katılmadı mıydınız",
+                "p3_neg_pul_q": "katılmadılar mıydı"
             }
         },
         {

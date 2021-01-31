@@ -1,6 +1,8 @@
 {
     "infinitive": "unutmak",
     "infinitive_negative": "unutmamak",
+    "infinitive_question": "unutmak mı",
+    "infinitive_negative_question": "unutmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "unuttuydum",
                 "p2_poz_sng": "unuttuydun",
                 "p3_poz_sng": "unuttuydu",
-                "p1_poz_pul": "unuttulardık",
-                "p2_poz_pul": "unuttulardınız",
-                "p3_poz_pul": "unuttularlardı",
+                "p1_poz_pul": "unuttuk",
+                "p2_poz_pul": "unuttunuz",
+                "p3_poz_pul": "unutlardı",
                 "p1_neg_sng": "unutmadıydım",
                 "p2_neg_sng": "unutmadıydın",
                 "p3_neg_sng": "unutmadıydı",
-                "p1_neg_pul": "unutmadılardık",
-                "p2_neg_pul": "unutmadılardınız",
-                "p3_neg_pul": "unutmadılarlardı",
+                "p1_neg_pul": "unuttuk",
+                "p2_neg_pul": "unuttunuz",
+                "p3_neg_pul": "unutlardı",
                 "p1_poz_sng_q": "unuttu muydum",
                 "p2_poz_sng_q": "unuttu muydun",
                 "p3_poz_sng_q": "unuttu muydu",
-                "p1_poz_pul_q": "unuttular mıydık",
-                "p2_poz_pul_q": "unuttular mıydınız",
-                "p3_poz_pul_q": "unuttularlar mıydı",
+                "p1_poz_pul_q": "unuttu muyduk",
+                "p2_poz_pul_q": "unuttu muydunuz",
+                "p3_poz_pul_q": "unuttular mıydı",
                 "p1_neg_sng_q": "unutmadı mıydım",
                 "p2_neg_sng_q": "unutmadı mıydın",
                 "p3_neg_sng_q": "unutmadı mıydı",
-                "p1_neg_pul_q": "unutmadılar mıydık",
-                "p2_neg_pul_q": "unutmadılar mıydınız",
-                "p3_neg_pul_q": "unutmadılarlar mıydı"
+                "p1_neg_pul_q": "unutmadı mıydık",
+                "p2_neg_pul_q": "unutmadı mıydınız",
+                "p3_neg_pul_q": "unutmadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "gelişmek",
     "infinitive_negative": "gelişmemek",
+    "infinitive_question": "gelişmek mi",
+    "infinitive_negative_question": "gelişmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "geliştiydim",
                 "p2_poz_sng": "geliştiydin",
                 "p3_poz_sng": "geliştiydi",
-                "p1_poz_pul": "geliştilerdik",
-                "p2_poz_pul": "geliştilerdiniz",
-                "p3_poz_pul": "geliştilerlerdi",
+                "p1_poz_pul": "geliştik",
+                "p2_poz_pul": "geliştiniz",
+                "p3_poz_pul": "gelişlerdi",
                 "p1_neg_sng": "gelişmediydim",
                 "p2_neg_sng": "gelişmediydin",
                 "p3_neg_sng": "gelişmediydi",
-                "p1_neg_pul": "gelişmedilerdik",
-                "p2_neg_pul": "gelişmedilerdiniz",
-                "p3_neg_pul": "gelişmedilerlerdi",
+                "p1_neg_pul": "geliştik",
+                "p2_neg_pul": "geliştiniz",
+                "p3_neg_pul": "gelişlerdi",
                 "p1_poz_sng_q": "gelişti miydim",
                 "p2_poz_sng_q": "gelişti miydin",
                 "p3_poz_sng_q": "gelişti miydi",
-                "p1_poz_pul_q": "geliştiler miydik",
-                "p2_poz_pul_q": "geliştiler miydiniz",
-                "p3_poz_pul_q": "geliştilerler miydi",
+                "p1_poz_pul_q": "gelişti miydik",
+                "p2_poz_pul_q": "gelişti miydiniz",
+                "p3_poz_pul_q": "geliştiler miydi",
                 "p1_neg_sng_q": "gelişmedi miydim",
                 "p2_neg_sng_q": "gelişmedi miydin",
                 "p3_neg_sng_q": "gelişmedi miydi",
-                "p1_neg_pul_q": "gelişmediler miydik",
-                "p2_neg_pul_q": "gelişmediler miydiniz",
-                "p3_neg_pul_q": "gelişmedilerler miydi"
+                "p1_neg_pul_q": "gelişmedi miydik",
+                "p2_neg_pul_q": "gelişmedi miydiniz",
+                "p3_neg_pul_q": "gelişmediler miydi"
             }
         },
         {

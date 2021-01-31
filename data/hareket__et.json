@@ -1,6 +1,8 @@
 {
     "infinitive": "hareket etmek",
     "infinitive_negative": "hareket etmemek",
+    "infinitive_question": "hareket etmek mi",
+    "infinitive_negative_question": "hareket etmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "hareket ettiydim",
                 "p2_poz_sng": "hareket ettiydin",
                 "p3_poz_sng": "hareket ettiydi",
-                "p1_poz_pul": "hareket ettilerdik",
-                "p2_poz_pul": "hareket ettilerdiniz",
-                "p3_poz_pul": "hareket ettilerlerdi",
+                "p1_poz_pul": "hareket ettik",
+                "p2_poz_pul": "hareket ettiniz",
+                "p3_poz_pul": "hareket etlerdi",
                 "p1_neg_sng": "hareket etmediydim",
                 "p2_neg_sng": "hareket etmediydin",
                 "p3_neg_sng": "hareket etmediydi",
-                "p1_neg_pul": "hareket etmedilerdik",
-                "p2_neg_pul": "hareket etmedilerdiniz",
-                "p3_neg_pul": "hareket etmedilerlerdi",
+                "p1_neg_pul": "hareket ettik",
+                "p2_neg_pul": "hareket ettiniz",
+                "p3_neg_pul": "hareket etlerdi",
                 "p1_poz_sng_q": "hareket etti miydim",
                 "p2_poz_sng_q": "hareket etti miydin",
                 "p3_poz_sng_q": "hareket etti miydi",
-                "p1_poz_pul_q": "hareket ettiler miydik",
-                "p2_poz_pul_q": "hareket ettiler miydiniz",
-                "p3_poz_pul_q": "hareket ettilerler miydi",
+                "p1_poz_pul_q": "hareket etti miydik",
+                "p2_poz_pul_q": "hareket etti miydiniz",
+                "p3_poz_pul_q": "hareket ettiler miydi",
                 "p1_neg_sng_q": "hareket etmedi miydim",
                 "p2_neg_sng_q": "hareket etmedi miydin",
                 "p3_neg_sng_q": "hareket etmedi miydi",
-                "p1_neg_pul_q": "hareket etmediler miydik",
-                "p2_neg_pul_q": "hareket etmediler miydiniz",
-                "p3_neg_pul_q": "hareket etmedilerler miydi"
+                "p1_neg_pul_q": "hareket etmedi miydik",
+                "p2_neg_pul_q": "hareket etmedi miydiniz",
+                "p3_neg_pul_q": "hareket etmediler miydi"
             }
         },
         {

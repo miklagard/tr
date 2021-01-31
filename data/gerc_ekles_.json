@@ -1,6 +1,8 @@
 {
     "infinitive": "gerçekleşmek",
     "infinitive_negative": "gerçekleşmemek",
+    "infinitive_question": "gerçekleşmek mi",
+    "infinitive_negative_question": "gerçekleşmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "gerçekleştiydim",
                 "p2_poz_sng": "gerçekleştiydin",
                 "p3_poz_sng": "gerçekleştiydi",
-                "p1_poz_pul": "gerçekleştilerdik",
-                "p2_poz_pul": "gerçekleştilerdiniz",
-                "p3_poz_pul": "gerçekleştilerlerdi",
+                "p1_poz_pul": "gerçekleştik",
+                "p2_poz_pul": "gerçekleştiniz",
+                "p3_poz_pul": "gerçekleşlerdi",
                 "p1_neg_sng": "gerçekleşmediydim",
                 "p2_neg_sng": "gerçekleşmediydin",
                 "p3_neg_sng": "gerçekleşmediydi",
-                "p1_neg_pul": "gerçekleşmedilerdik",
-                "p2_neg_pul": "gerçekleşmedilerdiniz",
-                "p3_neg_pul": "gerçekleşmedilerlerdi",
+                "p1_neg_pul": "gerçekleştik",
+                "p2_neg_pul": "gerçekleştiniz",
+                "p3_neg_pul": "gerçekleşlerdi",
                 "p1_poz_sng_q": "gerçekleşti miydim",
                 "p2_poz_sng_q": "gerçekleşti miydin",
                 "p3_poz_sng_q": "gerçekleşti miydi",
-                "p1_poz_pul_q": "gerçekleştiler miydik",
-                "p2_poz_pul_q": "gerçekleştiler miydiniz",
-                "p3_poz_pul_q": "gerçekleştilerler miydi",
+                "p1_poz_pul_q": "gerçekleşti miydik",
+                "p2_poz_pul_q": "gerçekleşti miydiniz",
+                "p3_poz_pul_q": "gerçekleştiler miydi",
                 "p1_neg_sng_q": "gerçekleşmedi miydim",
                 "p2_neg_sng_q": "gerçekleşmedi miydin",
                 "p3_neg_sng_q": "gerçekleşmedi miydi",
-                "p1_neg_pul_q": "gerçekleşmediler miydik",
-                "p2_neg_pul_q": "gerçekleşmediler miydiniz",
-                "p3_neg_pul_q": "gerçekleşmedilerler miydi"
+                "p1_neg_pul_q": "gerçekleşmedi miydik",
+                "p2_neg_pul_q": "gerçekleşmedi miydiniz",
+                "p3_neg_pul_q": "gerçekleşmediler miydi"
             }
         },
         {

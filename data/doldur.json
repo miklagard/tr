@@ -1,6 +1,8 @@
 {
     "infinitive": "doldurmak",
     "infinitive_negative": "doldurmamak",
+    "infinitive_question": "doldurmak mı",
+    "infinitive_negative_question": "doldurmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "doldurduydum",
                 "p2_poz_sng": "doldurduydun",
                 "p3_poz_sng": "doldurduydu",
-                "p1_poz_pul": "doldurdulardık",
-                "p2_poz_pul": "doldurdulardınız",
-                "p3_poz_pul": "doldurdularlardı",
+                "p1_poz_pul": "doldurduk",
+                "p2_poz_pul": "doldurdunuz",
+                "p3_poz_pul": "doldurlardı",
                 "p1_neg_sng": "doldurmadıydım",
                 "p2_neg_sng": "doldurmadıydın",
                 "p3_neg_sng": "doldurmadıydı",
-                "p1_neg_pul": "doldurmadılardık",
-                "p2_neg_pul": "doldurmadılardınız",
-                "p3_neg_pul": "doldurmadılarlardı",
+                "p1_neg_pul": "doldurduk",
+                "p2_neg_pul": "doldurdunuz",
+                "p3_neg_pul": "doldurlardı",
                 "p1_poz_sng_q": "doldurdu muydum",
                 "p2_poz_sng_q": "doldurdu muydun",
                 "p3_poz_sng_q": "doldurdu muydu",
-                "p1_poz_pul_q": "doldurdular mıydık",
-                "p2_poz_pul_q": "doldurdular mıydınız",
-                "p3_poz_pul_q": "doldurdularlar mıydı",
+                "p1_poz_pul_q": "doldurdu muyduk",
+                "p2_poz_pul_q": "doldurdu muydunuz",
+                "p3_poz_pul_q": "doldurdular mıydı",
                 "p1_neg_sng_q": "doldurmadı mıydım",
                 "p2_neg_sng_q": "doldurmadı mıydın",
                 "p3_neg_sng_q": "doldurmadı mıydı",
-                "p1_neg_pul_q": "doldurmadılar mıydık",
-                "p2_neg_pul_q": "doldurmadılar mıydınız",
-                "p3_neg_pul_q": "doldurmadılarlar mıydı"
+                "p1_neg_pul_q": "doldurmadı mıydık",
+                "p2_neg_pul_q": "doldurmadı mıydınız",
+                "p3_neg_pul_q": "doldurmadılar mıydı"
             }
         },
         {

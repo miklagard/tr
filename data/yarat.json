@@ -1,6 +1,8 @@
 {
     "infinitive": "yaratmak",
     "infinitive_negative": "yaratmamak",
+    "infinitive_question": "yaratmak mı",
+    "infinitive_negative_question": "yaratmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yarattıydım",
                 "p2_poz_sng": "yarattıydın",
                 "p3_poz_sng": "yarattıydı",
-                "p1_poz_pul": "yarattılardık",
-                "p2_poz_pul": "yarattılardınız",
-                "p3_poz_pul": "yarattılarlardı",
+                "p1_poz_pul": "yarattık",
+                "p2_poz_pul": "yarattınız",
+                "p3_poz_pul": "yaratlardı",
                 "p1_neg_sng": "yaratmadıydım",
                 "p2_neg_sng": "yaratmadıydın",
                 "p3_neg_sng": "yaratmadıydı",
-                "p1_neg_pul": "yaratmadılardık",
-                "p2_neg_pul": "yaratmadılardınız",
-                "p3_neg_pul": "yaratmadılarlardı",
+                "p1_neg_pul": "yarattık",
+                "p2_neg_pul": "yarattınız",
+                "p3_neg_pul": "yaratlardı",
                 "p1_poz_sng_q": "yarattı mıydım",
                 "p2_poz_sng_q": "yarattı mıydın",
                 "p3_poz_sng_q": "yarattı mıydı",
-                "p1_poz_pul_q": "yarattılar mıydık",
-                "p2_poz_pul_q": "yarattılar mıydınız",
-                "p3_poz_pul_q": "yarattılarlar mıydı",
+                "p1_poz_pul_q": "yarattı mıydık",
+                "p2_poz_pul_q": "yarattı mıydınız",
+                "p3_poz_pul_q": "yarattılar mıydı",
                 "p1_neg_sng_q": "yaratmadı mıydım",
                 "p2_neg_sng_q": "yaratmadı mıydın",
                 "p3_neg_sng_q": "yaratmadı mıydı",
-                "p1_neg_pul_q": "yaratmadılar mıydık",
-                "p2_neg_pul_q": "yaratmadılar mıydınız",
-                "p3_neg_pul_q": "yaratmadılarlar mıydı"
+                "p1_neg_pul_q": "yaratmadı mıydık",
+                "p2_neg_pul_q": "yaratmadı mıydınız",
+                "p3_neg_pul_q": "yaratmadılar mıydı"
             }
         },
         {

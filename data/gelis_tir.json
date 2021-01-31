@@ -1,6 +1,8 @@
 {
     "infinitive": "geliştirmek",
     "infinitive_negative": "geliştirmemek",
+    "infinitive_question": "geliştirmek mi",
+    "infinitive_negative_question": "geliştirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "geliştirdiydim",
                 "p2_poz_sng": "geliştirdiydin",
                 "p3_poz_sng": "geliştirdiydi",
-                "p1_poz_pul": "geliştirdilerdik",
-                "p2_poz_pul": "geliştirdilerdiniz",
-                "p3_poz_pul": "geliştirdilerlerdi",
+                "p1_poz_pul": "geliştirdik",
+                "p2_poz_pul": "geliştirdiniz",
+                "p3_poz_pul": "geliştirlerdi",
                 "p1_neg_sng": "geliştirmediydim",
                 "p2_neg_sng": "geliştirmediydin",
                 "p3_neg_sng": "geliştirmediydi",
-                "p1_neg_pul": "geliştirmedilerdik",
-                "p2_neg_pul": "geliştirmedilerdiniz",
-                "p3_neg_pul": "geliştirmedilerlerdi",
+                "p1_neg_pul": "geliştirdik",
+                "p2_neg_pul": "geliştirdiniz",
+                "p3_neg_pul": "geliştirlerdi",
                 "p1_poz_sng_q": "geliştirdi miydim",
                 "p2_poz_sng_q": "geliştirdi miydin",
                 "p3_poz_sng_q": "geliştirdi miydi",
-                "p1_poz_pul_q": "geliştirdiler miydik",
-                "p2_poz_pul_q": "geliştirdiler miydiniz",
-                "p3_poz_pul_q": "geliştirdilerler miydi",
+                "p1_poz_pul_q": "geliştirdi miydik",
+                "p2_poz_pul_q": "geliştirdi miydiniz",
+                "p3_poz_pul_q": "geliştirdiler miydi",
                 "p1_neg_sng_q": "geliştirmedi miydim",
                 "p2_neg_sng_q": "geliştirmedi miydin",
                 "p3_neg_sng_q": "geliştirmedi miydi",
-                "p1_neg_pul_q": "geliştirmediler miydik",
-                "p2_neg_pul_q": "geliştirmediler miydiniz",
-                "p3_neg_pul_q": "geliştirmedilerler miydi"
+                "p1_neg_pul_q": "geliştirmedi miydik",
+                "p2_neg_pul_q": "geliştirmedi miydiniz",
+                "p3_neg_pul_q": "geliştirmediler miydi"
             }
         },
         {

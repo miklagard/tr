@@ -1,6 +1,8 @@
 {
     "infinitive": "konuşmak",
     "infinitive_negative": "konuşmamak",
+    "infinitive_question": "konuşmak mı",
+    "infinitive_negative_question": "konuşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "konuştuydum",
                 "p2_poz_sng": "konuştuydun",
                 "p3_poz_sng": "konuştuydu",
-                "p1_poz_pul": "konuştulardık",
-                "p2_poz_pul": "konuştulardınız",
-                "p3_poz_pul": "konuştularlardı",
+                "p1_poz_pul": "konuştuk",
+                "p2_poz_pul": "konuştunuz",
+                "p3_poz_pul": "konuşlardı",
                 "p1_neg_sng": "konuşmadıydım",
                 "p2_neg_sng": "konuşmadıydın",
                 "p3_neg_sng": "konuşmadıydı",
-                "p1_neg_pul": "konuşmadılardık",
-                "p2_neg_pul": "konuşmadılardınız",
-                "p3_neg_pul": "konuşmadılarlardı",
+                "p1_neg_pul": "konuştuk",
+                "p2_neg_pul": "konuştunuz",
+                "p3_neg_pul": "konuşlardı",
                 "p1_poz_sng_q": "konuştu muydum",
                 "p2_poz_sng_q": "konuştu muydun",
                 "p3_poz_sng_q": "konuştu muydu",
-                "p1_poz_pul_q": "konuştular mıydık",
-                "p2_poz_pul_q": "konuştular mıydınız",
-                "p3_poz_pul_q": "konuştularlar mıydı",
+                "p1_poz_pul_q": "konuştu muyduk",
+                "p2_poz_pul_q": "konuştu muydunuz",
+                "p3_poz_pul_q": "konuştular mıydı",
                 "p1_neg_sng_q": "konuşmadı mıydım",
                 "p2_neg_sng_q": "konuşmadı mıydın",
                 "p3_neg_sng_q": "konuşmadı mıydı",
-                "p1_neg_pul_q": "konuşmadılar mıydık",
-                "p2_neg_pul_q": "konuşmadılar mıydınız",
-                "p3_neg_pul_q": "konuşmadılarlar mıydı"
+                "p1_neg_pul_q": "konuşmadı mıydık",
+                "p2_neg_pul_q": "konuşmadı mıydınız",
+                "p3_neg_pul_q": "konuşmadılar mıydı"
             }
         },
         {

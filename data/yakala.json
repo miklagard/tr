@@ -1,6 +1,8 @@
 {
     "infinitive": "yakalamak",
     "infinitive_negative": "yakalamamak",
+    "infinitive_question": "yakalamak mı",
+    "infinitive_negative_question": "yakalamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yakaladıydım",
                 "p2_poz_sng": "yakaladıydın",
                 "p3_poz_sng": "yakaladıydı",
-                "p1_poz_pul": "yakaladılardık",
-                "p2_poz_pul": "yakaladılardınız",
-                "p3_poz_pul": "yakaladılarlardı",
+                "p1_poz_pul": "yakalaydık",
+                "p2_poz_pul": "yakalaydınız",
+                "p3_poz_pul": "yakalalardı",
                 "p1_neg_sng": "yakalamadıydım",
                 "p2_neg_sng": "yakalamadıydın",
                 "p3_neg_sng": "yakalamadıydı",
-                "p1_neg_pul": "yakalamadılardık",
-                "p2_neg_pul": "yakalamadılardınız",
-                "p3_neg_pul": "yakalamadılarlardı",
+                "p1_neg_pul": "yakalaydık",
+                "p2_neg_pul": "yakalaydınız",
+                "p3_neg_pul": "yakalalardı",
                 "p1_poz_sng_q": "yakaladı mıydım",
                 "p2_poz_sng_q": "yakaladı mıydın",
                 "p3_poz_sng_q": "yakaladı mıydı",
-                "p1_poz_pul_q": "yakaladılar mıydık",
-                "p2_poz_pul_q": "yakaladılar mıydınız",
-                "p3_poz_pul_q": "yakaladılarlar mıydı",
+                "p1_poz_pul_q": "yakaladı mıydık",
+                "p2_poz_pul_q": "yakaladı mıydınız",
+                "p3_poz_pul_q": "yakaladılar mıydı",
                 "p1_neg_sng_q": "yakalamadı mıydım",
                 "p2_neg_sng_q": "yakalamadı mıydın",
                 "p3_neg_sng_q": "yakalamadı mıydı",
-                "p1_neg_pul_q": "yakalamadılar mıydık",
-                "p2_neg_pul_q": "yakalamadılar mıydınız",
-                "p3_neg_pul_q": "yakalamadılarlar mıydı"
+                "p1_neg_pul_q": "yakalamadı mıydık",
+                "p2_neg_pul_q": "yakalamadı mıydınız",
+                "p3_neg_pul_q": "yakalamadılar mıydı"
             }
         },
         {

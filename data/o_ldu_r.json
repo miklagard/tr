@@ -1,6 +1,8 @@
 {
     "infinitive": "öldürmek",
     "infinitive_negative": "öldürmemek",
+    "infinitive_question": "öldürmek mi",
+    "infinitive_negative_question": "öldürmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "öldürdüydüm",
                 "p2_poz_sng": "öldürdüydün",
                 "p3_poz_sng": "öldürdüydü",
-                "p1_poz_pul": "öldürdülerdik",
-                "p2_poz_pul": "öldürdülerdiniz",
-                "p3_poz_pul": "öldürdülerlerdi",
+                "p1_poz_pul": "öldürdük",
+                "p2_poz_pul": "öldürdünüz",
+                "p3_poz_pul": "öldürlerdi",
                 "p1_neg_sng": "öldürmediydim",
                 "p2_neg_sng": "öldürmediydin",
                 "p3_neg_sng": "öldürmediydi",
-                "p1_neg_pul": "öldürmedilerdik",
-                "p2_neg_pul": "öldürmedilerdiniz",
-                "p3_neg_pul": "öldürmedilerlerdi",
+                "p1_neg_pul": "öldürdük",
+                "p2_neg_pul": "öldürdünüz",
+                "p3_neg_pul": "öldürlerdi",
                 "p1_poz_sng_q": "öldürdü müydüm",
                 "p2_poz_sng_q": "öldürdü müydün",
                 "p3_poz_sng_q": "öldürdü müydü",
-                "p1_poz_pul_q": "öldürdüler miydik",
-                "p2_poz_pul_q": "öldürdüler miydiniz",
-                "p3_poz_pul_q": "öldürdülerler miydi",
+                "p1_poz_pul_q": "öldürdü müydük",
+                "p2_poz_pul_q": "öldürdü müydünüz",
+                "p3_poz_pul_q": "öldürdüler miydi",
                 "p1_neg_sng_q": "öldürmedi miydim",
                 "p2_neg_sng_q": "öldürmedi miydin",
                 "p3_neg_sng_q": "öldürmedi miydi",
-                "p1_neg_pul_q": "öldürmediler miydik",
-                "p2_neg_pul_q": "öldürmediler miydiniz",
-                "p3_neg_pul_q": "öldürmedilerler miydi"
+                "p1_neg_pul_q": "öldürmedi miydik",
+                "p2_neg_pul_q": "öldürmedi miydiniz",
+                "p3_neg_pul_q": "öldürmediler miydi"
             }
         },
         {

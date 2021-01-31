@@ -1,6 +1,8 @@
 {
     "infinitive": "sağlamak",
     "infinitive_negative": "sağlamamak",
+    "infinitive_question": "sağlamak mı",
+    "infinitive_negative_question": "sağlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "sağladıydım",
                 "p2_poz_sng": "sağladıydın",
                 "p3_poz_sng": "sağladıydı",
-                "p1_poz_pul": "sağladılardık",
-                "p2_poz_pul": "sağladılardınız",
-                "p3_poz_pul": "sağladılarlardı",
+                "p1_poz_pul": "sağlaydık",
+                "p2_poz_pul": "sağlaydınız",
+                "p3_poz_pul": "sağlalardı",
                 "p1_neg_sng": "sağlamadıydım",
                 "p2_neg_sng": "sağlamadıydın",
                 "p3_neg_sng": "sağlamadıydı",
-                "p1_neg_pul": "sağlamadılardık",
-                "p2_neg_pul": "sağlamadılardınız",
-                "p3_neg_pul": "sağlamadılarlardı",
+                "p1_neg_pul": "sağlaydık",
+                "p2_neg_pul": "sağlaydınız",
+                "p3_neg_pul": "sağlalardı",
                 "p1_poz_sng_q": "sağladı mıydım",
                 "p2_poz_sng_q": "sağladı mıydın",
                 "p3_poz_sng_q": "sağladı mıydı",
-                "p1_poz_pul_q": "sağladılar mıydık",
-                "p2_poz_pul_q": "sağladılar mıydınız",
-                "p3_poz_pul_q": "sağladılarlar mıydı",
+                "p1_poz_pul_q": "sağladı mıydık",
+                "p2_poz_pul_q": "sağladı mıydınız",
+                "p3_poz_pul_q": "sağladılar mıydı",
                 "p1_neg_sng_q": "sağlamadı mıydım",
                 "p2_neg_sng_q": "sağlamadı mıydın",
                 "p3_neg_sng_q": "sağlamadı mıydı",
-                "p1_neg_pul_q": "sağlamadılar mıydık",
-                "p2_neg_pul_q": "sağlamadılar mıydınız",
-                "p3_neg_pul_q": "sağlamadılarlar mıydı"
+                "p1_neg_pul_q": "sağlamadı mıydık",
+                "p2_neg_pul_q": "sağlamadı mıydınız",
+                "p3_neg_pul_q": "sağlamadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "söylemek",
     "infinitive_negative": "söylememek",
+    "infinitive_question": "söylemek mi",
+    "infinitive_negative_question": "söylememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "söylediydim",
                 "p2_poz_sng": "söylediydin",
                 "p3_poz_sng": "söylediydi",
-                "p1_poz_pul": "söyledilerdik",
-                "p2_poz_pul": "söyledilerdiniz",
-                "p3_poz_pul": "söyledilerlerdi",
+                "p1_poz_pul": "söyleydik",
+                "p2_poz_pul": "söyleydiniz",
+                "p3_poz_pul": "söylelerdi",
                 "p1_neg_sng": "söylemediydim",
                 "p2_neg_sng": "söylemediydin",
                 "p3_neg_sng": "söylemediydi",
-                "p1_neg_pul": "söylemedilerdik",
-                "p2_neg_pul": "söylemedilerdiniz",
-                "p3_neg_pul": "söylemedilerlerdi",
+                "p1_neg_pul": "söyleydik",
+                "p2_neg_pul": "söyleydiniz",
+                "p3_neg_pul": "söylelerdi",
                 "p1_poz_sng_q": "söyledi miydim",
                 "p2_poz_sng_q": "söyledi miydin",
                 "p3_poz_sng_q": "söyledi miydi",
-                "p1_poz_pul_q": "söylediler miydik",
-                "p2_poz_pul_q": "söylediler miydiniz",
-                "p3_poz_pul_q": "söyledilerler miydi",
+                "p1_poz_pul_q": "söyledi miydik",
+                "p2_poz_pul_q": "söyledi miydiniz",
+                "p3_poz_pul_q": "söylediler miydi",
                 "p1_neg_sng_q": "söylemedi miydim",
                 "p2_neg_sng_q": "söylemedi miydin",
                 "p3_neg_sng_q": "söylemedi miydi",
-                "p1_neg_pul_q": "söylemediler miydik",
-                "p2_neg_pul_q": "söylemediler miydiniz",
-                "p3_neg_pul_q": "söylemedilerler miydi"
+                "p1_neg_pul_q": "söylemedi miydik",
+                "p2_neg_pul_q": "söylemedi miydiniz",
+                "p3_neg_pul_q": "söylemediler miydi"
             }
         },
         {

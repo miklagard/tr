@@ -1,6 +1,8 @@
 {
     "infinitive": "bağırmak",
     "infinitive_negative": "bağırmamak",
+    "infinitive_question": "bağırmak mı",
+    "infinitive_negative_question": "bağırmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "bağırdıydım",
                 "p2_poz_sng": "bağırdıydın",
                 "p3_poz_sng": "bağırdıydı",
-                "p1_poz_pul": "bağırdılardık",
-                "p2_poz_pul": "bağırdılardınız",
-                "p3_poz_pul": "bağırdılarlardı",
+                "p1_poz_pul": "bağırdık",
+                "p2_poz_pul": "bağırdınız",
+                "p3_poz_pul": "bağırlardı",
                 "p1_neg_sng": "bağırmadıydım",
                 "p2_neg_sng": "bağırmadıydın",
                 "p3_neg_sng": "bağırmadıydı",
-                "p1_neg_pul": "bağırmadılardık",
-                "p2_neg_pul": "bağırmadılardınız",
-                "p3_neg_pul": "bağırmadılarlardı",
+                "p1_neg_pul": "bağırdık",
+                "p2_neg_pul": "bağırdınız",
+                "p3_neg_pul": "bağırlardı",
                 "p1_poz_sng_q": "bağırdı mıydım",
                 "p2_poz_sng_q": "bağırdı mıydın",
                 "p3_poz_sng_q": "bağırdı mıydı",
-                "p1_poz_pul_q": "bağırdılar mıydık",
-                "p2_poz_pul_q": "bağırdılar mıydınız",
-                "p3_poz_pul_q": "bağırdılarlar mıydı",
+                "p1_poz_pul_q": "bağırdı mıydık",
+                "p2_poz_pul_q": "bağırdı mıydınız",
+                "p3_poz_pul_q": "bağırdılar mıydı",
                 "p1_neg_sng_q": "bağırmadı mıydım",
                 "p2_neg_sng_q": "bağırmadı mıydın",
                 "p3_neg_sng_q": "bağırmadı mıydı",
-                "p1_neg_pul_q": "bağırmadılar mıydık",
-                "p2_neg_pul_q": "bağırmadılar mıydınız",
-                "p3_neg_pul_q": "bağırmadılarlar mıydı"
+                "p1_neg_pul_q": "bağırmadı mıydık",
+                "p2_neg_pul_q": "bağırmadı mıydınız",
+                "p3_neg_pul_q": "bağırmadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "olmak",
     "infinitive_negative": "olmamak",
+    "infinitive_question": "olmak mı",
+    "infinitive_negative_question": "olmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "olduydum",
                 "p2_poz_sng": "olduydun",
                 "p3_poz_sng": "olduydu",
-                "p1_poz_pul": "oldulardık",
-                "p2_poz_pul": "oldulardınız",
-                "p3_poz_pul": "oldularlardı",
+                "p1_poz_pul": "olduk",
+                "p2_poz_pul": "oldunuz",
+                "p3_poz_pul": "ollardı",
                 "p1_neg_sng": "olmadıydım",
                 "p2_neg_sng": "olmadıydın",
                 "p3_neg_sng": "olmadıydı",
-                "p1_neg_pul": "olmadılardık",
-                "p2_neg_pul": "olmadılardınız",
-                "p3_neg_pul": "olmadılarlardı",
+                "p1_neg_pul": "olduk",
+                "p2_neg_pul": "oldunuz",
+                "p3_neg_pul": "ollardı",
                 "p1_poz_sng_q": "oldu muydum",
                 "p2_poz_sng_q": "oldu muydun",
                 "p3_poz_sng_q": "oldu muydu",
-                "p1_poz_pul_q": "oldular mıydık",
-                "p2_poz_pul_q": "oldular mıydınız",
-                "p3_poz_pul_q": "oldularlar mıydı",
+                "p1_poz_pul_q": "oldu muyduk",
+                "p2_poz_pul_q": "oldu muydunuz",
+                "p3_poz_pul_q": "oldular mıydı",
                 "p1_neg_sng_q": "olmadı mıydım",
                 "p2_neg_sng_q": "olmadı mıydın",
                 "p3_neg_sng_q": "olmadı mıydı",
-                "p1_neg_pul_q": "olmadılar mıydık",
-                "p2_neg_pul_q": "olmadılar mıydınız",
-                "p3_neg_pul_q": "olmadılarlar mıydı"
+                "p1_neg_pul_q": "olmadı mıydık",
+                "p2_neg_pul_q": "olmadı mıydınız",
+                "p3_neg_pul_q": "olmadılar mıydı"
             }
         },
         {

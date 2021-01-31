@@ -1,6 +1,8 @@
 {
     "infinitive": "anlamak",
     "infinitive_negative": "anlamamak",
+    "infinitive_question": "anlamak mı",
+    "infinitive_negative_question": "anlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "anladıydım",
                 "p2_poz_sng": "anladıydın",
                 "p3_poz_sng": "anladıydı",
-                "p1_poz_pul": "anladılardık",
-                "p2_poz_pul": "anladılardınız",
-                "p3_poz_pul": "anladılarlardı",
+                "p1_poz_pul": "anlaydık",
+                "p2_poz_pul": "anlaydınız",
+                "p3_poz_pul": "anlalardı",
                 "p1_neg_sng": "anlamadıydım",
                 "p2_neg_sng": "anlamadıydın",
                 "p3_neg_sng": "anlamadıydı",
-                "p1_neg_pul": "anlamadılardık",
-                "p2_neg_pul": "anlamadılardınız",
-                "p3_neg_pul": "anlamadılarlardı",
+                "p1_neg_pul": "anlaydık",
+                "p2_neg_pul": "anlaydınız",
+                "p3_neg_pul": "anlalardı",
                 "p1_poz_sng_q": "anladı mıydım",
                 "p2_poz_sng_q": "anladı mıydın",
                 "p3_poz_sng_q": "anladı mıydı",
-                "p1_poz_pul_q": "anladılar mıydık",
-                "p2_poz_pul_q": "anladılar mıydınız",
-                "p3_poz_pul_q": "anladılarlar mıydı",
+                "p1_poz_pul_q": "anladı mıydık",
+                "p2_poz_pul_q": "anladı mıydınız",
+                "p3_poz_pul_q": "anladılar mıydı",
                 "p1_neg_sng_q": "anlamadı mıydım",
                 "p2_neg_sng_q": "anlamadı mıydın",
                 "p3_neg_sng_q": "anlamadı mıydı",
-                "p1_neg_pul_q": "anlamadılar mıydık",
-                "p2_neg_pul_q": "anlamadılar mıydınız",
-                "p3_neg_pul_q": "anlamadılarlar mıydı"
+                "p1_neg_pul_q": "anlamadı mıydık",
+                "p2_neg_pul_q": "anlamadı mıydınız",
+                "p3_neg_pul_q": "anlamadılar mıydı"
             }
         },
         {

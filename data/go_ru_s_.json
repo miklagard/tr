@@ -1,6 +1,8 @@
 {
     "infinitive": "görüşmek",
     "infinitive_negative": "görüşmemek",
+    "infinitive_question": "görüşmek mi",
+    "infinitive_negative_question": "görüşmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "görüştüydüm",
                 "p2_poz_sng": "görüştüydün",
                 "p3_poz_sng": "görüştüydü",
-                "p1_poz_pul": "görüştülerdik",
-                "p2_poz_pul": "görüştülerdiniz",
-                "p3_poz_pul": "görüştülerlerdi",
+                "p1_poz_pul": "görüştük",
+                "p2_poz_pul": "görüştünüz",
+                "p3_poz_pul": "görüşlerdi",
                 "p1_neg_sng": "görüşmediydim",
                 "p2_neg_sng": "görüşmediydin",
                 "p3_neg_sng": "görüşmediydi",
-                "p1_neg_pul": "görüşmedilerdik",
-                "p2_neg_pul": "görüşmedilerdiniz",
-                "p3_neg_pul": "görüşmedilerlerdi",
+                "p1_neg_pul": "görüştük",
+                "p2_neg_pul": "görüştünüz",
+                "p3_neg_pul": "görüşlerdi",
                 "p1_poz_sng_q": "görüştü müydüm",
                 "p2_poz_sng_q": "görüştü müydün",
                 "p3_poz_sng_q": "görüştü müydü",
-                "p1_poz_pul_q": "görüştüler miydik",
-                "p2_poz_pul_q": "görüştüler miydiniz",
-                "p3_poz_pul_q": "görüştülerler miydi",
+                "p1_poz_pul_q": "görüştü müydük",
+                "p2_poz_pul_q": "görüştü müydünüz",
+                "p3_poz_pul_q": "görüştüler miydi",
                 "p1_neg_sng_q": "görüşmedi miydim",
                 "p2_neg_sng_q": "görüşmedi miydin",
                 "p3_neg_sng_q": "görüşmedi miydi",
-                "p1_neg_pul_q": "görüşmediler miydik",
-                "p2_neg_pul_q": "görüşmediler miydiniz",
-                "p3_neg_pul_q": "görüşmedilerler miydi"
+                "p1_neg_pul_q": "görüşmedi miydik",
+                "p2_neg_pul_q": "görüşmedi miydiniz",
+                "p3_neg_pul_q": "görüşmediler miydi"
             }
         },
         {

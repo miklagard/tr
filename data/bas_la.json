@@ -1,6 +1,8 @@
 {
     "infinitive": "başlamak",
     "infinitive_negative": "başlamamak",
+    "infinitive_question": "başlamak mı",
+    "infinitive_negative_question": "başlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "başladıydım",
                 "p2_poz_sng": "başladıydın",
                 "p3_poz_sng": "başladıydı",
-                "p1_poz_pul": "başladılardık",
-                "p2_poz_pul": "başladılardınız",
-                "p3_poz_pul": "başladılarlardı",
+                "p1_poz_pul": "başlaydık",
+                "p2_poz_pul": "başlaydınız",
+                "p3_poz_pul": "başlalardı",
                 "p1_neg_sng": "başlamadıydım",
                 "p2_neg_sng": "başlamadıydın",
                 "p3_neg_sng": "başlamadıydı",
-                "p1_neg_pul": "başlamadılardık",
-                "p2_neg_pul": "başlamadılardınız",
-                "p3_neg_pul": "başlamadılarlardı",
+                "p1_neg_pul": "başlaydık",
+                "p2_neg_pul": "başlaydınız",
+                "p3_neg_pul": "başlalardı",
                 "p1_poz_sng_q": "başladı mıydım",
                 "p2_poz_sng_q": "başladı mıydın",
                 "p3_poz_sng_q": "başladı mıydı",
-                "p1_poz_pul_q": "başladılar mıydık",
-                "p2_poz_pul_q": "başladılar mıydınız",
-                "p3_poz_pul_q": "başladılarlar mıydı",
+                "p1_poz_pul_q": "başladı mıydık",
+                "p2_poz_pul_q": "başladı mıydınız",
+                "p3_poz_pul_q": "başladılar mıydı",
                 "p1_neg_sng_q": "başlamadı mıydım",
                 "p2_neg_sng_q": "başlamadı mıydın",
                 "p3_neg_sng_q": "başlamadı mıydı",
-                "p1_neg_pul_q": "başlamadılar mıydık",
-                "p2_neg_pul_q": "başlamadılar mıydınız",
-                "p3_neg_pul_q": "başlamadılarlar mıydı"
+                "p1_neg_pul_q": "başlamadı mıydık",
+                "p2_neg_pul_q": "başlamadı mıydınız",
+                "p3_neg_pul_q": "başlamadılar mıydı"
             }
         },
         {

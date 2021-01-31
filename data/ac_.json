@@ -1,6 +1,8 @@
 {
     "infinitive": "açmak",
     "infinitive_negative": "açmamak",
+    "infinitive_question": "açmak mı",
+    "infinitive_negative_question": "açmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "açtıydım",
                 "p2_poz_sng": "açtıydın",
                 "p3_poz_sng": "açtıydı",
-                "p1_poz_pul": "açtılardık",
-                "p2_poz_pul": "açtılardınız",
-                "p3_poz_pul": "açtılarlardı",
+                "p1_poz_pul": "açtık",
+                "p2_poz_pul": "açtınız",
+                "p3_poz_pul": "açlardı",
                 "p1_neg_sng": "açmadıydım",
                 "p2_neg_sng": "açmadıydın",
                 "p3_neg_sng": "açmadıydı",
-                "p1_neg_pul": "açmadılardık",
-                "p2_neg_pul": "açmadılardınız",
-                "p3_neg_pul": "açmadılarlardı",
+                "p1_neg_pul": "açtık",
+                "p2_neg_pul": "açtınız",
+                "p3_neg_pul": "açlardı",
                 "p1_poz_sng_q": "açtı mıydım",
                 "p2_poz_sng_q": "açtı mıydın",
                 "p3_poz_sng_q": "açtı mıydı",
-                "p1_poz_pul_q": "açtılar mıydık",
-                "p2_poz_pul_q": "açtılar mıydınız",
-                "p3_poz_pul_q": "açtılarlar mıydı",
+                "p1_poz_pul_q": "açtı mıydık",
+                "p2_poz_pul_q": "açtı mıydınız",
+                "p3_poz_pul_q": "açtılar mıydı",
                 "p1_neg_sng_q": "açmadı mıydım",
                 "p2_neg_sng_q": "açmadı mıydın",
                 "p3_neg_sng_q": "açmadı mıydı",
-                "p1_neg_pul_q": "açmadılar mıydık",
-                "p2_neg_pul_q": "açmadılar mıydınız",
-                "p3_neg_pul_q": "açmadılarlar mıydı"
+                "p1_neg_pul_q": "açmadı mıydık",
+                "p2_neg_pul_q": "açmadı mıydınız",
+                "p3_neg_pul_q": "açmadılar mıydı"
             }
         },
         {

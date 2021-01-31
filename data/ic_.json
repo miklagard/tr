@@ -1,6 +1,8 @@
 {
     "infinitive": "içmek",
     "infinitive_negative": "içmemek",
+    "infinitive_question": "içmek mi",
+    "infinitive_negative_question": "içmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "içtiydim",
                 "p2_poz_sng": "içtiydin",
                 "p3_poz_sng": "içtiydi",
-                "p1_poz_pul": "içtilerdik",
-                "p2_poz_pul": "içtilerdiniz",
-                "p3_poz_pul": "içtilerlerdi",
+                "p1_poz_pul": "içtik",
+                "p2_poz_pul": "içtiniz",
+                "p3_poz_pul": "içlerdi",
                 "p1_neg_sng": "içmediydim",
                 "p2_neg_sng": "içmediydin",
                 "p3_neg_sng": "içmediydi",
-                "p1_neg_pul": "içmedilerdik",
-                "p2_neg_pul": "içmedilerdiniz",
-                "p3_neg_pul": "içmedilerlerdi",
+                "p1_neg_pul": "içtik",
+                "p2_neg_pul": "içtiniz",
+                "p3_neg_pul": "içlerdi",
                 "p1_poz_sng_q": "içti miydim",
                 "p2_poz_sng_q": "içti miydin",
                 "p3_poz_sng_q": "içti miydi",
-                "p1_poz_pul_q": "içtiler miydik",
-                "p2_poz_pul_q": "içtiler miydiniz",
-                "p3_poz_pul_q": "içtilerler miydi",
+                "p1_poz_pul_q": "içti miydik",
+                "p2_poz_pul_q": "içti miydiniz",
+                "p3_poz_pul_q": "içtiler miydi",
                 "p1_neg_sng_q": "içmedi miydim",
                 "p2_neg_sng_q": "içmedi miydin",
                 "p3_neg_sng_q": "içmedi miydi",
-                "p1_neg_pul_q": "içmediler miydik",
-                "p2_neg_pul_q": "içmediler miydiniz",
-                "p3_neg_pul_q": "içmedilerler miydi"
+                "p1_neg_pul_q": "içmedi miydik",
+                "p2_neg_pul_q": "içmedi miydiniz",
+                "p3_neg_pul_q": "içmediler miydi"
             }
         },
         {
