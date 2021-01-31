@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "artmış",
-                "p2_poz_sng": "artmış",
-                "p3_poz_sng": "artmış",
+                "p1_poz_sng": "artmıştım",
+                "p2_poz_sng": "artmıştın",
+                "p3_poz_sng": "artmıştı",
                 "p1_poz_pul": "artmıştık",
                 "p2_poz_pul": "artmıştınız",
                 "p3_poz_pul": "artmıştılar",

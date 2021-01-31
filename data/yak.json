@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yakmış",
-                "p2_poz_sng": "yakmış",
-                "p3_poz_sng": "yakmış",
+                "p1_poz_sng": "yakmıştım",
+                "p2_poz_sng": "yakmıştın",
+                "p3_poz_sng": "yakmıştı",
                 "p1_poz_pul": "yakmıştık",
                 "p2_poz_pul": "yakmıştınız",
                 "p3_poz_pul": "yakmıştılar",

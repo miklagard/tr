@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "getirmiş",
-                "p2_poz_sng": "getirmiş",
-                "p3_poz_sng": "getirmiş",
+                "p1_poz_sng": "getirmiştim",
+                "p2_poz_sng": "getirmiştin",
+                "p3_poz_sng": "getirmişti",
                 "p1_poz_pul": "getirmiştik",
                 "p2_poz_pul": "getirmiştiniz",
                 "p3_poz_pul": "getirmiştiler",

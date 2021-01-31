@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "görmüş",
-                "p2_poz_sng": "görmüş",
-                "p3_poz_sng": "görmüş",
+                "p1_poz_sng": "görmüştüm",
+                "p2_poz_sng": "görmüştün",
+                "p3_poz_sng": "görmüştü",
                 "p1_poz_pul": "görmüştük",
                 "p2_poz_pul": "görmüştünüz",
                 "p3_poz_pul": "görmüştüler",

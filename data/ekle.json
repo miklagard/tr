@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "eklemiş",
-                "p2_poz_sng": "eklemiş",
-                "p3_poz_sng": "eklemiş",
+                "p1_poz_sng": "eklemiştim",
+                "p2_poz_sng": "eklemiştin",
+                "p3_poz_sng": "eklemişti",
                 "p1_poz_pul": "eklemiştik",
                 "p2_poz_pul": "eklemiştiniz",
                 "p3_poz_pul": "eklemiştiler",

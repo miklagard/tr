@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "etkilemiş",
-                "p2_poz_sng": "etkilemiş",
-                "p3_poz_sng": "etkilemiş",
+                "p1_poz_sng": "etkilemiştim",
+                "p2_poz_sng": "etkilemiştin",
+                "p3_poz_sng": "etkilemişti",
                 "p1_poz_pul": "etkilemiştik",
                 "p2_poz_pul": "etkilemiştiniz",
                 "p3_poz_pul": "etkilemiştiler",

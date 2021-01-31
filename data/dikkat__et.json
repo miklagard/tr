@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "dikkat etmiş",
-                "p2_poz_sng": "dikkat etmiş",
-                "p3_poz_sng": "dikkat etmiş",
+                "p1_poz_sng": "dikkat etmiştim",
+                "p2_poz_sng": "dikkat etmiştin",
+                "p3_poz_sng": "dikkat etmişti",
                 "p1_poz_pul": "dikkat etmiştik",
                 "p2_poz_pul": "dikkat etmiştiniz",
                 "p3_poz_pul": "dikkat etmiştiler",

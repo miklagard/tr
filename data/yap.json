@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yapmış",
-                "p2_poz_sng": "yapmış",
-                "p3_poz_sng": "yapmış",
+                "p1_poz_sng": "yapmıştım",
+                "p2_poz_sng": "yapmıştın",
+                "p3_poz_sng": "yapmıştı",
                 "p1_poz_pul": "yapmıştık",
                 "p2_poz_pul": "yapmıştınız",
                 "p3_poz_pul": "yapmıştılar",

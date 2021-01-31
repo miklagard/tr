@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "toplanmış",
-                "p2_poz_sng": "toplanmış",
-                "p3_poz_sng": "toplanmış",
+                "p1_poz_sng": "toplanmıştım",
+                "p2_poz_sng": "toplanmıştın",
+                "p3_poz_sng": "toplanmıştı",
                 "p1_poz_pul": "toplanmıştık",
                 "p2_poz_pul": "toplanmıştınız",
                 "p3_poz_pul": "toplanmıştılar",

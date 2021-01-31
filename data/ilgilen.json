@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ilgilenmiş",
-                "p2_poz_sng": "ilgilenmiş",
-                "p3_poz_sng": "ilgilenmiş",
+                "p1_poz_sng": "ilgilenmiştim",
+                "p2_poz_sng": "ilgilenmiştin",
+                "p3_poz_sng": "ilgilenmişti",
                 "p1_poz_pul": "ilgilenmiştik",
                 "p2_poz_pul": "ilgilenmiştiniz",
                 "p3_poz_pul": "ilgilenmiştiler",

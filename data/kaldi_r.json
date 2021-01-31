@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kaldırmış",
-                "p2_poz_sng": "kaldırmış",
-                "p3_poz_sng": "kaldırmış",
+                "p1_poz_sng": "kaldırmıştım",
+                "p2_poz_sng": "kaldırmıştın",
+                "p3_poz_sng": "kaldırmıştı",
                 "p1_poz_pul": "kaldırmıştık",
                 "p2_poz_pul": "kaldırmıştınız",
                 "p3_poz_pul": "kaldırmıştılar",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kesmiş",
-                "p2_poz_sng": "kesmiş",
-                "p3_poz_sng": "kesmiş",
+                "p1_poz_sng": "kesmiştim",
+                "p2_poz_sng": "kesmiştin",
+                "p3_poz_sng": "kesmişti",
                 "p1_poz_pul": "kesmiştik",
                 "p2_poz_pul": "kesmiştiniz",
                 "p3_poz_pul": "kesmiştiler",

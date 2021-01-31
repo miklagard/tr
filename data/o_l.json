@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ölmüş",
-                "p2_poz_sng": "ölmüş",
-                "p3_poz_sng": "ölmüş",
+                "p1_poz_sng": "ölmüştüm",
+                "p2_poz_sng": "ölmüştün",
+                "p3_poz_sng": "ölmüştü",
                 "p1_poz_pul": "ölmüştük",
                 "p2_poz_pul": "ölmüştünüz",
                 "p3_poz_pul": "ölmüştüler",

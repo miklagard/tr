@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kaçmış",
-                "p2_poz_sng": "kaçmış",
-                "p3_poz_sng": "kaçmış",
+                "p1_poz_sng": "kaçmıştım",
+                "p2_poz_sng": "kaçmıştın",
+                "p3_poz_sng": "kaçmıştı",
                 "p1_poz_pul": "kaçmıştık",
                 "p2_poz_pul": "kaçmıştınız",
                 "p3_poz_pul": "kaçmıştılar",

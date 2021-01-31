@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kılmış",
-                "p2_poz_sng": "kılmış",
-                "p3_poz_sng": "kılmış",
+                "p1_poz_sng": "kılmıştım",
+                "p2_poz_sng": "kılmıştın",
+                "p3_poz_sng": "kılmıştı",
                 "p1_poz_pul": "kılmıştık",
                 "p2_poz_pul": "kılmıştınız",
                 "p3_poz_pul": "kılmıştılar",

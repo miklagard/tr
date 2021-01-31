@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "üretmiş",
-                "p2_poz_sng": "üretmiş",
-                "p3_poz_sng": "üretmiş",
+                "p1_poz_sng": "üretmiştim",
+                "p2_poz_sng": "üretmiştin",
+                "p3_poz_sng": "üretmişti",
                 "p1_poz_pul": "üretmiştik",
                 "p2_poz_pul": "üretmiştiniz",
                 "p3_poz_pul": "üretmiştiler",

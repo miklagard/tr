@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ayırmış",
-                "p2_poz_sng": "ayırmış",
-                "p3_poz_sng": "ayırmış",
+                "p1_poz_sng": "ayırmıştım",
+                "p2_poz_sng": "ayırmıştın",
+                "p3_poz_sng": "ayırmıştı",
                 "p1_poz_pul": "ayırmıştık",
                 "p2_poz_pul": "ayırmıştınız",
                 "p3_poz_pul": "ayırmıştılar",

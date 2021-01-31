@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "karşılaşmış",
-                "p2_poz_sng": "karşılaşmış",
-                "p3_poz_sng": "karşılaşmış",
+                "p1_poz_sng": "karşılaşmıştım",
+                "p2_poz_sng": "karşılaşmıştın",
+                "p3_poz_sng": "karşılaşmıştı",
                 "p1_poz_pul": "karşılaşmıştık",
                 "p2_poz_pul": "karşılaşmıştınız",
                 "p3_poz_pul": "karşılaşmıştılar",

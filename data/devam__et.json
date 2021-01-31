@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "devam etmiş",
-                "p2_poz_sng": "devam etmiş",
-                "p3_poz_sng": "devam etmiş",
+                "p1_poz_sng": "devam etmiştim",
+                "p2_poz_sng": "devam etmiştin",
+                "p3_poz_sng": "devam etmişti",
                 "p1_poz_pul": "devam etmiştik",
                 "p2_poz_pul": "devam etmiştiniz",
                 "p3_poz_pul": "devam etmiştiler",

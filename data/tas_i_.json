@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "taşımış",
-                "p2_poz_sng": "taşımış",
-                "p3_poz_sng": "taşımış",
+                "p1_poz_sng": "taşımıştım",
+                "p2_poz_sng": "taşımıştın",
+                "p3_poz_sng": "taşımıştı",
                 "p1_poz_pul": "taşımıştık",
                 "p2_poz_pul": "taşımıştınız",
                 "p3_poz_pul": "taşımıştılar",

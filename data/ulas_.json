@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ulaşmış",
-                "p2_poz_sng": "ulaşmış",
-                "p3_poz_sng": "ulaşmış",
+                "p1_poz_sng": "ulaşmıştım",
+                "p2_poz_sng": "ulaşmıştın",
+                "p3_poz_sng": "ulaşmıştı",
                 "p1_poz_pul": "ulaşmıştık",
                 "p2_poz_pul": "ulaşmıştınız",
                 "p3_poz_pul": "ulaşmıştılar",

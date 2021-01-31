@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yayımlanmış",
-                "p2_poz_sng": "yayımlanmış",
-                "p3_poz_sng": "yayımlanmış",
+                "p1_poz_sng": "yayımlanmıştım",
+                "p2_poz_sng": "yayımlanmıştın",
+                "p3_poz_sng": "yayımlanmıştı",
                 "p1_poz_pul": "yayımlanmıştık",
                 "p2_poz_pul": "yayımlanmıştınız",
                 "p3_poz_pul": "yayımlanmıştılar",

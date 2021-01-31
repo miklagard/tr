@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kurmuş",
-                "p2_poz_sng": "kurmuş",
-                "p3_poz_sng": "kurmuş",
+                "p1_poz_sng": "kurmuştum",
+                "p2_poz_sng": "kurmuştun",
+                "p3_poz_sng": "kurmuştu",
                 "p1_poz_pul": "kurmuştuk",
                 "p2_poz_pul": "kurmuştunuz",
                 "p3_poz_pul": "kurmuştular",

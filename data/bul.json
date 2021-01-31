@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "bulmuş",
-                "p2_poz_sng": "bulmuş",
-                "p3_poz_sng": "bulmuş",
+                "p1_poz_sng": "bulmuştum",
+                "p2_poz_sng": "bulmuştun",
+                "p3_poz_sng": "bulmuştu",
                 "p1_poz_pul": "bulmuştuk",
                 "p2_poz_pul": "bulmuştunuz",
                 "p3_poz_pul": "bulmuştular",

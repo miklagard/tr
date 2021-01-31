@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "aramış",
-                "p2_poz_sng": "aramış",
-                "p3_poz_sng": "aramış",
+                "p1_poz_sng": "aramıştım",
+                "p2_poz_sng": "aramıştın",
+                "p3_poz_sng": "aramıştı",
                 "p1_poz_pul": "aramıştık",
                 "p2_poz_pul": "aramıştınız",
                 "p3_poz_pul": "aramıştılar",

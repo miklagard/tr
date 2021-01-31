@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "çıkmış",
-                "p2_poz_sng": "çıkmış",
-                "p3_poz_sng": "çıkmış",
+                "p1_poz_sng": "çıkmıştım",
+                "p2_poz_sng": "çıkmıştın",
+                "p3_poz_sng": "çıkmıştı",
                 "p1_poz_pul": "çıkmıştık",
                 "p2_poz_pul": "çıkmıştınız",
                 "p3_poz_pul": "çıkmıştılar",

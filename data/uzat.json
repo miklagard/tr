@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "uzatmış",
-                "p2_poz_sng": "uzatmış",
-                "p3_poz_sng": "uzatmış",
+                "p1_poz_sng": "uzatmıştım",
+                "p2_poz_sng": "uzatmıştın",
+                "p3_poz_sng": "uzatmıştı",
                 "p1_poz_pul": "uzatmıştık",
                 "p2_poz_pul": "uzatmıştınız",
                 "p3_poz_pul": "uzatmıştılar",

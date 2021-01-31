@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "hissetmiş",
-                "p2_poz_sng": "hissetmiş",
-                "p3_poz_sng": "hissetmiş",
+                "p1_poz_sng": "hissetmiştim",
+                "p2_poz_sng": "hissetmiştin",
+                "p3_poz_sng": "hissetmişti",
                 "p1_poz_pul": "hissetmiştik",
                 "p2_poz_pul": "hissetmiştiniz",
                 "p3_poz_pul": "hissetmiştiler",

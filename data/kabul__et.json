@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kabul etmiş",
-                "p2_poz_sng": "kabul etmiş",
-                "p3_poz_sng": "kabul etmiş",
+                "p1_poz_sng": "kabul etmiştim",
+                "p2_poz_sng": "kabul etmiştin",
+                "p3_poz_sng": "kabul etmişti",
                 "p1_poz_pul": "kabul etmiştik",
                 "p2_poz_pul": "kabul etmiştiniz",
                 "p3_poz_pul": "kabul etmiştiler",

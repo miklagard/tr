@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "dinlemiş",
-                "p2_poz_sng": "dinlemiş",
-                "p3_poz_sng": "dinlemiş",
+                "p1_poz_sng": "dinlemiştim",
+                "p2_poz_sng": "dinlemiştin",
+                "p3_poz_sng": "dinlemişti",
                 "p1_poz_pul": "dinlemiştik",
                 "p2_poz_pul": "dinlemiştiniz",
                 "p3_poz_pul": "dinlemiştiler",

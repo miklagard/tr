@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "söz etmiş",
-                "p2_poz_sng": "söz etmiş",
-                "p3_poz_sng": "söz etmiş",
+                "p1_poz_sng": "söz etmiştim",
+                "p2_poz_sng": "söz etmiştin",
+                "p3_poz_sng": "söz etmişti",
                 "p1_poz_pul": "söz etmiştik",
                 "p2_poz_pul": "söz etmiştiniz",
                 "p3_poz_pul": "söz etmiştiler",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yakalamış",
-                "p2_poz_sng": "yakalamış",
-                "p3_poz_sng": "yakalamış",
+                "p1_poz_sng": "yakalamıştım",
+                "p2_poz_sng": "yakalamıştın",
+                "p3_poz_sng": "yakalamıştı",
                 "p1_poz_pul": "yakalamıştık",
                 "p2_poz_pul": "yakalamıştınız",
                 "p3_poz_pul": "yakalamıştılar",

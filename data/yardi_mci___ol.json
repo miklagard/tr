@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yardımcı olmuş",
-                "p2_poz_sng": "yardımcı olmuş",
-                "p3_poz_sng": "yardımcı olmuş",
+                "p1_poz_sng": "yardımcı olmuştum",
+                "p2_poz_sng": "yardımcı olmuştun",
+                "p3_poz_sng": "yardımcı olmuştu",
                 "p1_poz_pul": "yardımcı olmuştuk",
                 "p2_poz_pul": "yardımcı olmuştunuz",
                 "p3_poz_pul": "yardımcı olmuştular",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "sürmüş",
-                "p2_poz_sng": "sürmüş",
-                "p3_poz_sng": "sürmüş",
+                "p1_poz_sng": "sürmüştüm",
+                "p2_poz_sng": "sürmüştün",
+                "p3_poz_sng": "sürmüştü",
                 "p1_poz_pul": "sürmüştük",
                 "p2_poz_pul": "sürmüştünüz",
                 "p3_poz_pul": "sürmüştüler",

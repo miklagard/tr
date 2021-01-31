@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "vermiş",
-                "p2_poz_sng": "vermiş",
-                "p3_poz_sng": "vermiş",
+                "p1_poz_sng": "vermiştim",
+                "p2_poz_sng": "vermiştin",
+                "p3_poz_sng": "vermişti",
                 "p1_poz_pul": "vermiştik",
                 "p2_poz_pul": "vermiştiniz",
                 "p3_poz_pul": "vermiştiler",

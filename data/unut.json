@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "unutmuş",
-                "p2_poz_sng": "unutmuş",
-                "p3_poz_sng": "unutmuş",
+                "p1_poz_sng": "unutmuştum",
+                "p2_poz_sng": "unutmuştun",
+                "p3_poz_sng": "unutmuştu",
                 "p1_poz_pul": "unutmuştuk",
                 "p2_poz_pul": "unutmuştunuz",
                 "p3_poz_pul": "unutmuştular",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "hazırlamış",
-                "p2_poz_sng": "hazırlamış",
-                "p3_poz_sng": "hazırlamış",
+                "p1_poz_sng": "hazırlamıştım",
+                "p2_poz_sng": "hazırlamıştın",
+                "p3_poz_sng": "hazırlamıştı",
                 "p1_poz_pul": "hazırlamıştık",
                 "p2_poz_pul": "hazırlamıştınız",
                 "p3_poz_pul": "hazırlamıştılar",

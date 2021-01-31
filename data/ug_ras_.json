@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "uğraşmış",
-                "p2_poz_sng": "uğraşmış",
-                "p3_poz_sng": "uğraşmış",
+                "p1_poz_sng": "uğraşmıştım",
+                "p2_poz_sng": "uğraşmıştın",
+                "p3_poz_sng": "uğraşmıştı",
                 "p1_poz_pul": "uğraşmıştık",
                 "p2_poz_pul": "uğraşmıştınız",
                 "p3_poz_pul": "uğraşmıştılar",

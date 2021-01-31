@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "benzemiş",
-                "p2_poz_sng": "benzemiş",
-                "p3_poz_sng": "benzemiş",
+                "p1_poz_sng": "benzemiştim",
+                "p2_poz_sng": "benzemiştin",
+                "p3_poz_sng": "benzemişti",
                 "p1_poz_pul": "benzemiştik",
                 "p2_poz_pul": "benzemiştiniz",
                 "p3_poz_pul": "benzemiştiler",

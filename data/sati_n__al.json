@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "satın almış",
-                "p2_poz_sng": "satın almış",
-                "p3_poz_sng": "satın almış",
+                "p1_poz_sng": "satın almıştım",
+                "p2_poz_sng": "satın almıştın",
+                "p3_poz_sng": "satın almıştı",
                 "p1_poz_pul": "satın almıştık",
                 "p2_poz_pul": "satın almıştınız",
                 "p3_poz_pul": "satın almıştılar",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "sunmuş",
-                "p2_poz_sng": "sunmuş",
-                "p3_poz_sng": "sunmuş",
+                "p1_poz_sng": "sunmuştum",
+                "p2_poz_sng": "sunmuştun",
+                "p3_poz_sng": "sunmuştu",
                 "p1_poz_pul": "sunmuştuk",
                 "p2_poz_pul": "sunmuştunuz",
                 "p3_poz_pul": "sunmuştular",

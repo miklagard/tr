@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "değişmiş",
-                "p2_poz_sng": "değişmiş",
-                "p3_poz_sng": "değişmiş",
+                "p1_poz_sng": "değişmiştim",
+                "p2_poz_sng": "değişmiştin",
+                "p3_poz_sng": "değişmişti",
                 "p1_poz_pul": "değişmiştik",
                 "p2_poz_pul": "değişmiştiniz",
                 "p3_poz_pul": "değişmiştiler",

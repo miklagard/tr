@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "sevmiş",
-                "p2_poz_sng": "sevmiş",
-                "p3_poz_sng": "sevmiş",
+                "p1_poz_sng": "sevmiştim",
+                "p2_poz_sng": "sevmiştin",
+                "p3_poz_sng": "sevmişti",
                 "p1_poz_pul": "sevmiştik",
                 "p2_poz_pul": "sevmiştiniz",
                 "p3_poz_pul": "sevmiştiler",

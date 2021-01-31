@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "saymış",
-                "p2_poz_sng": "saymış",
-                "p3_poz_sng": "saymış",
+                "p1_poz_sng": "saymıştım",
+                "p2_poz_sng": "saymıştın",
+                "p3_poz_sng": "saymıştı",
                 "p1_poz_pul": "saymıştık",
                 "p2_poz_pul": "saymıştınız",
                 "p3_poz_pul": "saymıştılar",

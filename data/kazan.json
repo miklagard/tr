@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kazanmış",
-                "p2_poz_sng": "kazanmış",
-                "p3_poz_sng": "kazanmış",
+                "p1_poz_sng": "kazanmıştım",
+                "p2_poz_sng": "kazanmıştın",
+                "p3_poz_sng": "kazanmıştı",
                 "p1_poz_pul": "kazanmıştık",
                 "p2_poz_pul": "kazanmıştınız",
                 "p3_poz_pul": "kazanmıştılar",

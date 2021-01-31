@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "açmış",
-                "p2_poz_sng": "açmış",
-                "p3_poz_sng": "açmış",
+                "p1_poz_sng": "açmıştım",
+                "p2_poz_sng": "açmıştın",
+                "p3_poz_sng": "açmıştı",
                 "p1_poz_pul": "açmıştık",
                 "p2_poz_pul": "açmıştınız",
                 "p3_poz_pul": "açmıştılar",

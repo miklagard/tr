@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "paylaşmış",
-                "p2_poz_sng": "paylaşmış",
-                "p3_poz_sng": "paylaşmış",
+                "p1_poz_sng": "paylaşmıştım",
+                "p2_poz_sng": "paylaşmıştın",
+                "p3_poz_sng": "paylaşmıştı",
                 "p1_poz_pul": "paylaşmıştık",
                 "p2_poz_pul": "paylaşmıştınız",
                 "p3_poz_pul": "paylaşmıştılar",

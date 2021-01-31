@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "basmış",
-                "p2_poz_sng": "basmış",
-                "p3_poz_sng": "basmış",
+                "p1_poz_sng": "basmıştım",
+                "p2_poz_sng": "basmıştın",
+                "p3_poz_sng": "basmıştı",
                 "p1_poz_pul": "basmıştık",
                 "p2_poz_pul": "basmıştınız",
                 "p3_poz_pul": "basmıştılar",

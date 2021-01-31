@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ifade etmiş",
-                "p2_poz_sng": "ifade etmiş",
-                "p3_poz_sng": "ifade etmiş",
+                "p1_poz_sng": "ifade etmiştim",
+                "p2_poz_sng": "ifade etmiştin",
+                "p3_poz_sng": "ifade etmişti",
                 "p1_poz_pul": "ifade etmiştik",
                 "p2_poz_pul": "ifade etmiştiniz",
                 "p3_poz_pul": "ifade etmiştiler",

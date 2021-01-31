@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ağlamış",
-                "p2_poz_sng": "ağlamış",
-                "p3_poz_sng": "ağlamış",
+                "p1_poz_sng": "ağlamıştım",
+                "p2_poz_sng": "ağlamıştın",
+                "p3_poz_sng": "ağlamıştı",
                 "p1_poz_pul": "ağlamıştık",
                 "p2_poz_pul": "ağlamıştınız",
                 "p3_poz_pul": "ağlamıştılar",
