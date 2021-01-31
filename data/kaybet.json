@@ -1,6 +1,8 @@
 {
     "infinitive": "kaybetmek",
     "infinitive_negative": "kaybetmemek",
+    "infinitive_question": "kaybetmek mi",
+    "infinitive_negative_question": "kaybetmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "kaybettiydim",
                 "p2_poz_sng": "kaybettiydin",
                 "p3_poz_sng": "kaybettiydi",
-                "p1_poz_pul": "kaybettilerdik",
-                "p2_poz_pul": "kaybettilerdiniz",
-                "p3_poz_pul": "kaybettilerlerdi",
+                "p1_poz_pul": "kaybettik",
+                "p2_poz_pul": "kaybettiniz",
+                "p3_poz_pul": "kaybetlerdi",
                 "p1_neg_sng": "kaybetmediydim",
                 "p2_neg_sng": "kaybetmediydin",
                 "p3_neg_sng": "kaybetmediydi",
-                "p1_neg_pul": "kaybetmedilerdik",
-                "p2_neg_pul": "kaybetmedilerdiniz",
-                "p3_neg_pul": "kaybetmedilerlerdi",
+                "p1_neg_pul": "kaybettik",
+                "p2_neg_pul": "kaybettiniz",
+                "p3_neg_pul": "kaybetlerdi",
                 "p1_poz_sng_q": "kaybetti miydim",
                 "p2_poz_sng_q": "kaybetti miydin",
                 "p3_poz_sng_q": "kaybetti miydi",
-                "p1_poz_pul_q": "kaybettiler miydik",
-                "p2_poz_pul_q": "kaybettiler miydiniz",
-                "p3_poz_pul_q": "kaybettilerler miydi",
+                "p1_poz_pul_q": "kaybetti miydik",
+                "p2_poz_pul_q": "kaybetti miydiniz",
+                "p3_poz_pul_q": "kaybettiler miydi",
                 "p1_neg_sng_q": "kaybetmedi miydim",
                 "p2_neg_sng_q": "kaybetmedi miydin",
                 "p3_neg_sng_q": "kaybetmedi miydi",
-                "p1_neg_pul_q": "kaybetmediler miydik",
-                "p2_neg_pul_q": "kaybetmediler miydiniz",
-                "p3_neg_pul_q": "kaybetmedilerler miydi"
+                "p1_neg_pul_q": "kaybetmedi miydik",
+                "p2_neg_pul_q": "kaybetmedi miydiniz",
+                "p3_neg_pul_q": "kaybetmediler miydi"
             }
         },
         {

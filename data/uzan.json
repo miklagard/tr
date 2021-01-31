@@ -1,6 +1,8 @@
 {
     "infinitive": "uzanmak",
     "infinitive_negative": "uzanmamak",
+    "infinitive_question": "uzanmak mı",
+    "infinitive_negative_question": "uzanmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "uzandıydım",
                 "p2_poz_sng": "uzandıydın",
                 "p3_poz_sng": "uzandıydı",
-                "p1_poz_pul": "uzandılardık",
-                "p2_poz_pul": "uzandılardınız",
-                "p3_poz_pul": "uzandılarlardı",
+                "p1_poz_pul": "uzandık",
+                "p2_poz_pul": "uzandınız",
+                "p3_poz_pul": "uzanlardı",
                 "p1_neg_sng": "uzanmadıydım",
                 "p2_neg_sng": "uzanmadıydın",
                 "p3_neg_sng": "uzanmadıydı",
-                "p1_neg_pul": "uzanmadılardık",
-                "p2_neg_pul": "uzanmadılardınız",
-                "p3_neg_pul": "uzanmadılarlardı",
+                "p1_neg_pul": "uzandık",
+                "p2_neg_pul": "uzandınız",
+                "p3_neg_pul": "uzanlardı",
                 "p1_poz_sng_q": "uzandı mıydım",
                 "p2_poz_sng_q": "uzandı mıydın",
                 "p3_poz_sng_q": "uzandı mıydı",
-                "p1_poz_pul_q": "uzandılar mıydık",
-                "p2_poz_pul_q": "uzandılar mıydınız",
-                "p3_poz_pul_q": "uzandılarlar mıydı",
+                "p1_poz_pul_q": "uzandı mıydık",
+                "p2_poz_pul_q": "uzandı mıydınız",
+                "p3_poz_pul_q": "uzandılar mıydı",
                 "p1_neg_sng_q": "uzanmadı mıydım",
                 "p2_neg_sng_q": "uzanmadı mıydın",
                 "p3_neg_sng_q": "uzanmadı mıydı",
-                "p1_neg_pul_q": "uzanmadılar mıydık",
-                "p2_neg_pul_q": "uzanmadılar mıydınız",
-                "p3_neg_pul_q": "uzanmadılarlar mıydı"
+                "p1_neg_pul_q": "uzanmadı mıydık",
+                "p2_neg_pul_q": "uzanmadı mıydınız",
+                "p3_neg_pul_q": "uzanmadılar mıydı"
             }
         },
         {

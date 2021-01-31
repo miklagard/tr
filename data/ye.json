@@ -1,6 +1,8 @@
 {
     "infinitive": "yemek",
     "infinitive_negative": "yememek",
+    "infinitive_question": "yemek mi",
+    "infinitive_negative_question": "yememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yediydim",
                 "p2_poz_sng": "yediydin",
                 "p3_poz_sng": "yediydi",
-                "p1_poz_pul": "yedilerdik",
-                "p2_poz_pul": "yedilerdiniz",
-                "p3_poz_pul": "yedilerlerdi",
+                "p1_poz_pul": "yeydik",
+                "p2_poz_pul": "yeydiniz",
+                "p3_poz_pul": "yelerdi",
                 "p1_neg_sng": "yemediydim",
                 "p2_neg_sng": "yemediydin",
                 "p3_neg_sng": "yemediydi",
-                "p1_neg_pul": "yemedilerdik",
-                "p2_neg_pul": "yemedilerdiniz",
-                "p3_neg_pul": "yemedilerlerdi",
+                "p1_neg_pul": "yeydik",
+                "p2_neg_pul": "yeydiniz",
+                "p3_neg_pul": "yelerdi",
                 "p1_poz_sng_q": "yedi miydim",
                 "p2_poz_sng_q": "yedi miydin",
                 "p3_poz_sng_q": "yedi miydi",
-                "p1_poz_pul_q": "yediler miydik",
-                "p2_poz_pul_q": "yediler miydiniz",
-                "p3_poz_pul_q": "yedilerler miydi",
+                "p1_poz_pul_q": "yedi miydik",
+                "p2_poz_pul_q": "yedi miydiniz",
+                "p3_poz_pul_q": "yediler miydi",
                 "p1_neg_sng_q": "yemedi miydim",
                 "p2_neg_sng_q": "yemedi miydin",
                 "p3_neg_sng_q": "yemedi miydi",
-                "p1_neg_pul_q": "yemediler miydik",
-                "p2_neg_pul_q": "yemediler miydiniz",
-                "p3_neg_pul_q": "yemedilerler miydi"
+                "p1_neg_pul_q": "yemedi miydik",
+                "p2_neg_pul_q": "yemedi miydiniz",
+                "p3_neg_pul_q": "yemediler miydi"
             }
         },
         {

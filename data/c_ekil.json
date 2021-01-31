@@ -1,6 +1,8 @@
 {
     "infinitive": "çekilmek",
     "infinitive_negative": "çekilmemek",
+    "infinitive_question": "çekilmek mi",
+    "infinitive_negative_question": "çekilmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "çekildiydim",
                 "p2_poz_sng": "çekildiydin",
                 "p3_poz_sng": "çekildiydi",
-                "p1_poz_pul": "çekildilerdik",
-                "p2_poz_pul": "çekildilerdiniz",
-                "p3_poz_pul": "çekildilerlerdi",
+                "p1_poz_pul": "çekildik",
+                "p2_poz_pul": "çekildiniz",
+                "p3_poz_pul": "çekillerdi",
                 "p1_neg_sng": "çekilmediydim",
                 "p2_neg_sng": "çekilmediydin",
                 "p3_neg_sng": "çekilmediydi",
-                "p1_neg_pul": "çekilmedilerdik",
-                "p2_neg_pul": "çekilmedilerdiniz",
-                "p3_neg_pul": "çekilmedilerlerdi",
+                "p1_neg_pul": "çekildik",
+                "p2_neg_pul": "çekildiniz",
+                "p3_neg_pul": "çekillerdi",
                 "p1_poz_sng_q": "çekildi miydim",
                 "p2_poz_sng_q": "çekildi miydin",
                 "p3_poz_sng_q": "çekildi miydi",
-                "p1_poz_pul_q": "çekildiler miydik",
-                "p2_poz_pul_q": "çekildiler miydiniz",
-                "p3_poz_pul_q": "çekildilerler miydi",
+                "p1_poz_pul_q": "çekildi miydik",
+                "p2_poz_pul_q": "çekildi miydiniz",
+                "p3_poz_pul_q": "çekildiler miydi",
                 "p1_neg_sng_q": "çekilmedi miydim",
                 "p2_neg_sng_q": "çekilmedi miydin",
                 "p3_neg_sng_q": "çekilmedi miydi",
-                "p1_neg_pul_q": "çekilmediler miydik",
-                "p2_neg_pul_q": "çekilmediler miydiniz",
-                "p3_neg_pul_q": "çekilmedilerler miydi"
+                "p1_neg_pul_q": "çekilmedi miydik",
+                "p2_neg_pul_q": "çekilmedi miydiniz",
+                "p3_neg_pul_q": "çekilmediler miydi"
             }
         },
         {

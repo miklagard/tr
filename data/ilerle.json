@@ -1,6 +1,8 @@
 {
     "infinitive": "ilerlemek",
     "infinitive_negative": "ilerlememek",
+    "infinitive_question": "ilerlemek mi",
+    "infinitive_negative_question": "ilerlememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ilerlediydim",
                 "p2_poz_sng": "ilerlediydin",
                 "p3_poz_sng": "ilerlediydi",
-                "p1_poz_pul": "ilerledilerdik",
-                "p2_poz_pul": "ilerledilerdiniz",
-                "p3_poz_pul": "ilerledilerlerdi",
+                "p1_poz_pul": "ilerleydik",
+                "p2_poz_pul": "ilerleydiniz",
+                "p3_poz_pul": "ilerlelerdi",
                 "p1_neg_sng": "ilerlemediydim",
                 "p2_neg_sng": "ilerlemediydin",
                 "p3_neg_sng": "ilerlemediydi",
-                "p1_neg_pul": "ilerlemedilerdik",
-                "p2_neg_pul": "ilerlemedilerdiniz",
-                "p3_neg_pul": "ilerlemedilerlerdi",
+                "p1_neg_pul": "ilerleydik",
+                "p2_neg_pul": "ilerleydiniz",
+                "p3_neg_pul": "ilerlelerdi",
                 "p1_poz_sng_q": "ilerledi miydim",
                 "p2_poz_sng_q": "ilerledi miydin",
                 "p3_poz_sng_q": "ilerledi miydi",
-                "p1_poz_pul_q": "ilerlediler miydik",
-                "p2_poz_pul_q": "ilerlediler miydiniz",
-                "p3_poz_pul_q": "ilerledilerler miydi",
+                "p1_poz_pul_q": "ilerledi miydik",
+                "p2_poz_pul_q": "ilerledi miydiniz",
+                "p3_poz_pul_q": "ilerlediler miydi",
                 "p1_neg_sng_q": "ilerlemedi miydim",
                 "p2_neg_sng_q": "ilerlemedi miydin",
                 "p3_neg_sng_q": "ilerlemedi miydi",
-                "p1_neg_pul_q": "ilerlemediler miydik",
-                "p2_neg_pul_q": "ilerlemediler miydiniz",
-                "p3_neg_pul_q": "ilerlemedilerler miydi"
+                "p1_neg_pul_q": "ilerlemedi miydik",
+                "p2_neg_pul_q": "ilerlemedi miydiniz",
+                "p3_neg_pul_q": "ilerlemediler miydi"
             }
         },
         {

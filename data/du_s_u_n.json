@@ -1,6 +1,8 @@
 {
     "infinitive": "düşünmek",
     "infinitive_negative": "düşünmemek",
+    "infinitive_question": "düşünmek mi",
+    "infinitive_negative_question": "düşünmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "düşündüydüm",
                 "p2_poz_sng": "düşündüydün",
                 "p3_poz_sng": "düşündüydü",
-                "p1_poz_pul": "düşündülerdik",
-                "p2_poz_pul": "düşündülerdiniz",
-                "p3_poz_pul": "düşündülerlerdi",
+                "p1_poz_pul": "düşündük",
+                "p2_poz_pul": "düşündünüz",
+                "p3_poz_pul": "düşünlerdi",
                 "p1_neg_sng": "düşünmediydim",
                 "p2_neg_sng": "düşünmediydin",
                 "p3_neg_sng": "düşünmediydi",
-                "p1_neg_pul": "düşünmedilerdik",
-                "p2_neg_pul": "düşünmedilerdiniz",
-                "p3_neg_pul": "düşünmedilerlerdi",
+                "p1_neg_pul": "düşündük",
+                "p2_neg_pul": "düşündünüz",
+                "p3_neg_pul": "düşünlerdi",
                 "p1_poz_sng_q": "düşündü müydüm",
                 "p2_poz_sng_q": "düşündü müydün",
                 "p3_poz_sng_q": "düşündü müydü",
-                "p1_poz_pul_q": "düşündüler miydik",
-                "p2_poz_pul_q": "düşündüler miydiniz",
-                "p3_poz_pul_q": "düşündülerler miydi",
+                "p1_poz_pul_q": "düşündü müydük",
+                "p2_poz_pul_q": "düşündü müydünüz",
+                "p3_poz_pul_q": "düşündüler miydi",
                 "p1_neg_sng_q": "düşünmedi miydim",
                 "p2_neg_sng_q": "düşünmedi miydin",
                 "p3_neg_sng_q": "düşünmedi miydi",
-                "p1_neg_pul_q": "düşünmediler miydik",
-                "p2_neg_pul_q": "düşünmediler miydiniz",
-                "p3_neg_pul_q": "düşünmedilerler miydi"
+                "p1_neg_pul_q": "düşünmedi miydik",
+                "p2_neg_pul_q": "düşünmedi miydiniz",
+                "p3_neg_pul_q": "düşünmediler miydi"
             }
         },
         {

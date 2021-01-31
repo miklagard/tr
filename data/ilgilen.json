@@ -1,6 +1,8 @@
 {
     "infinitive": "ilgilenmek",
     "infinitive_negative": "ilgilenmemek",
+    "infinitive_question": "ilgilenmek mi",
+    "infinitive_negative_question": "ilgilenmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ilgilendiydim",
                 "p2_poz_sng": "ilgilendiydin",
                 "p3_poz_sng": "ilgilendiydi",
-                "p1_poz_pul": "ilgilendilerdik",
-                "p2_poz_pul": "ilgilendilerdiniz",
-                "p3_poz_pul": "ilgilendilerlerdi",
+                "p1_poz_pul": "ilgilendik",
+                "p2_poz_pul": "ilgilendiniz",
+                "p3_poz_pul": "ilgilenlerdi",
                 "p1_neg_sng": "ilgilenmediydim",
                 "p2_neg_sng": "ilgilenmediydin",
                 "p3_neg_sng": "ilgilenmediydi",
-                "p1_neg_pul": "ilgilenmedilerdik",
-                "p2_neg_pul": "ilgilenmedilerdiniz",
-                "p3_neg_pul": "ilgilenmedilerlerdi",
+                "p1_neg_pul": "ilgilendik",
+                "p2_neg_pul": "ilgilendiniz",
+                "p3_neg_pul": "ilgilenlerdi",
                 "p1_poz_sng_q": "ilgilendi miydim",
                 "p2_poz_sng_q": "ilgilendi miydin",
                 "p3_poz_sng_q": "ilgilendi miydi",
-                "p1_poz_pul_q": "ilgilendiler miydik",
-                "p2_poz_pul_q": "ilgilendiler miydiniz",
-                "p3_poz_pul_q": "ilgilendilerler miydi",
+                "p1_poz_pul_q": "ilgilendi miydik",
+                "p2_poz_pul_q": "ilgilendi miydiniz",
+                "p3_poz_pul_q": "ilgilendiler miydi",
                 "p1_neg_sng_q": "ilgilenmedi miydim",
                 "p2_neg_sng_q": "ilgilenmedi miydin",
                 "p3_neg_sng_q": "ilgilenmedi miydi",
-                "p1_neg_pul_q": "ilgilenmediler miydik",
-                "p2_neg_pul_q": "ilgilenmediler miydiniz",
-                "p3_neg_pul_q": "ilgilenmedilerler miydi"
+                "p1_neg_pul_q": "ilgilenmedi miydik",
+                "p2_neg_pul_q": "ilgilenmedi miydiniz",
+                "p3_neg_pul_q": "ilgilenmediler miydi"
             }
         },
         {

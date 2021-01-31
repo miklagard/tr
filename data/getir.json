@@ -1,6 +1,8 @@
 {
     "infinitive": "getirmek",
     "infinitive_negative": "getirmemek",
+    "infinitive_question": "getirmek mi",
+    "infinitive_negative_question": "getirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "getirdiydim",
                 "p2_poz_sng": "getirdiydin",
                 "p3_poz_sng": "getirdiydi",
-                "p1_poz_pul": "getirdilerdik",
-                "p2_poz_pul": "getirdilerdiniz",
-                "p3_poz_pul": "getirdilerlerdi",
+                "p1_poz_pul": "getirdik",
+                "p2_poz_pul": "getirdiniz",
+                "p3_poz_pul": "getirlerdi",
                 "p1_neg_sng": "getirmediydim",
                 "p2_neg_sng": "getirmediydin",
                 "p3_neg_sng": "getirmediydi",
-                "p1_neg_pul": "getirmedilerdik",
-                "p2_neg_pul": "getirmedilerdiniz",
-                "p3_neg_pul": "getirmedilerlerdi",
+                "p1_neg_pul": "getirdik",
+                "p2_neg_pul": "getirdiniz",
+                "p3_neg_pul": "getirlerdi",
                 "p1_poz_sng_q": "getirdi miydim",
                 "p2_poz_sng_q": "getirdi miydin",
                 "p3_poz_sng_q": "getirdi miydi",
-                "p1_poz_pul_q": "getirdiler miydik",
-                "p2_poz_pul_q": "getirdiler miydiniz",
-                "p3_poz_pul_q": "getirdilerler miydi",
+                "p1_poz_pul_q": "getirdi miydik",
+                "p2_poz_pul_q": "getirdi miydiniz",
+                "p3_poz_pul_q": "getirdiler miydi",
                 "p1_neg_sng_q": "getirmedi miydim",
                 "p2_neg_sng_q": "getirmedi miydin",
                 "p3_neg_sng_q": "getirmedi miydi",
-                "p1_neg_pul_q": "getirmediler miydik",
-                "p2_neg_pul_q": "getirmediler miydiniz",
-                "p3_neg_pul_q": "getirmedilerler miydi"
+                "p1_neg_pul_q": "getirmedi miydik",
+                "p2_neg_pul_q": "getirmedi miydiniz",
+                "p3_neg_pul_q": "getirmediler miydi"
             }
         },
         {

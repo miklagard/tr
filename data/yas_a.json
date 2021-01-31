@@ -1,6 +1,8 @@
 {
     "infinitive": "yaşamak",
     "infinitive_negative": "yaşamamak",
+    "infinitive_question": "yaşamak mı",
+    "infinitive_negative_question": "yaşamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yaşadıydım",
                 "p2_poz_sng": "yaşadıydın",
                 "p3_poz_sng": "yaşadıydı",
-                "p1_poz_pul": "yaşadılardık",
-                "p2_poz_pul": "yaşadılardınız",
-                "p3_poz_pul": "yaşadılarlardı",
+                "p1_poz_pul": "yaşaydık",
+                "p2_poz_pul": "yaşaydınız",
+                "p3_poz_pul": "yaşalardı",
                 "p1_neg_sng": "yaşamadıydım",
                 "p2_neg_sng": "yaşamadıydın",
                 "p3_neg_sng": "yaşamadıydı",
-                "p1_neg_pul": "yaşamadılardık",
-                "p2_neg_pul": "yaşamadılardınız",
-                "p3_neg_pul": "yaşamadılarlardı",
+                "p1_neg_pul": "yaşaydık",
+                "p2_neg_pul": "yaşaydınız",
+                "p3_neg_pul": "yaşalardı",
                 "p1_poz_sng_q": "yaşadı mıydım",
                 "p2_poz_sng_q": "yaşadı mıydın",
                 "p3_poz_sng_q": "yaşadı mıydı",
-                "p1_poz_pul_q": "yaşadılar mıydık",
-                "p2_poz_pul_q": "yaşadılar mıydınız",
-                "p3_poz_pul_q": "yaşadılarlar mıydı",
+                "p1_poz_pul_q": "yaşadı mıydık",
+                "p2_poz_pul_q": "yaşadı mıydınız",
+                "p3_poz_pul_q": "yaşadılar mıydı",
                 "p1_neg_sng_q": "yaşamadı mıydım",
                 "p2_neg_sng_q": "yaşamadı mıydın",
                 "p3_neg_sng_q": "yaşamadı mıydı",
-                "p1_neg_pul_q": "yaşamadılar mıydık",
-                "p2_neg_pul_q": "yaşamadılar mıydınız",
-                "p3_neg_pul_q": "yaşamadılarlar mıydı"
+                "p1_neg_pul_q": "yaşamadı mıydık",
+                "p2_neg_pul_q": "yaşamadı mıydınız",
+                "p3_neg_pul_q": "yaşamadılar mıydı"
             }
         },
         {

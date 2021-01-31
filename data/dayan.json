@@ -1,6 +1,8 @@
 {
     "infinitive": "dayanmak",
     "infinitive_negative": "dayanmamak",
+    "infinitive_question": "dayanmak mı",
+    "infinitive_negative_question": "dayanmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dayandıydım",
                 "p2_poz_sng": "dayandıydın",
                 "p3_poz_sng": "dayandıydı",
-                "p1_poz_pul": "dayandılardık",
-                "p2_poz_pul": "dayandılardınız",
-                "p3_poz_pul": "dayandılarlardı",
+                "p1_poz_pul": "dayandık",
+                "p2_poz_pul": "dayandınız",
+                "p3_poz_pul": "dayanlardı",
                 "p1_neg_sng": "dayanmadıydım",
                 "p2_neg_sng": "dayanmadıydın",
                 "p3_neg_sng": "dayanmadıydı",
-                "p1_neg_pul": "dayanmadılardık",
-                "p2_neg_pul": "dayanmadılardınız",
-                "p3_neg_pul": "dayanmadılarlardı",
+                "p1_neg_pul": "dayandık",
+                "p2_neg_pul": "dayandınız",
+                "p3_neg_pul": "dayanlardı",
                 "p1_poz_sng_q": "dayandı mıydım",
                 "p2_poz_sng_q": "dayandı mıydın",
                 "p3_poz_sng_q": "dayandı mıydı",
-                "p1_poz_pul_q": "dayandılar mıydık",
-                "p2_poz_pul_q": "dayandılar mıydınız",
-                "p3_poz_pul_q": "dayandılarlar mıydı",
+                "p1_poz_pul_q": "dayandı mıydık",
+                "p2_poz_pul_q": "dayandı mıydınız",
+                "p3_poz_pul_q": "dayandılar mıydı",
                 "p1_neg_sng_q": "dayanmadı mıydım",
                 "p2_neg_sng_q": "dayanmadı mıydın",
                 "p3_neg_sng_q": "dayanmadı mıydı",
-                "p1_neg_pul_q": "dayanmadılar mıydık",
-                "p2_neg_pul_q": "dayanmadılar mıydınız",
-                "p3_neg_pul_q": "dayanmadılarlar mıydı"
+                "p1_neg_pul_q": "dayanmadı mıydık",
+                "p2_neg_pul_q": "dayanmadı mıydınız",
+                "p3_neg_pul_q": "dayanmadılar mıydı"
             }
         },
         {

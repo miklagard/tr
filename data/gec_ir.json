@@ -1,6 +1,8 @@
 {
     "infinitive": "geçirmek",
     "infinitive_negative": "geçirmemek",
+    "infinitive_question": "geçirmek mi",
+    "infinitive_negative_question": "geçirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "geçirdiydim",
                 "p2_poz_sng": "geçirdiydin",
                 "p3_poz_sng": "geçirdiydi",
-                "p1_poz_pul": "geçirdilerdik",
-                "p2_poz_pul": "geçirdilerdiniz",
-                "p3_poz_pul": "geçirdilerlerdi",
+                "p1_poz_pul": "geçirdik",
+                "p2_poz_pul": "geçirdiniz",
+                "p3_poz_pul": "geçirlerdi",
                 "p1_neg_sng": "geçirmediydim",
                 "p2_neg_sng": "geçirmediydin",
                 "p3_neg_sng": "geçirmediydi",
-                "p1_neg_pul": "geçirmedilerdik",
-                "p2_neg_pul": "geçirmedilerdiniz",
-                "p3_neg_pul": "geçirmedilerlerdi",
+                "p1_neg_pul": "geçirdik",
+                "p2_neg_pul": "geçirdiniz",
+                "p3_neg_pul": "geçirlerdi",
                 "p1_poz_sng_q": "geçirdi miydim",
                 "p2_poz_sng_q": "geçirdi miydin",
                 "p3_poz_sng_q": "geçirdi miydi",
-                "p1_poz_pul_q": "geçirdiler miydik",
-                "p2_poz_pul_q": "geçirdiler miydiniz",
-                "p3_poz_pul_q": "geçirdilerler miydi",
+                "p1_poz_pul_q": "geçirdi miydik",
+                "p2_poz_pul_q": "geçirdi miydiniz",
+                "p3_poz_pul_q": "geçirdiler miydi",
                 "p1_neg_sng_q": "geçirmedi miydim",
                 "p2_neg_sng_q": "geçirmedi miydin",
                 "p3_neg_sng_q": "geçirmedi miydi",
-                "p1_neg_pul_q": "geçirmediler miydik",
-                "p2_neg_pul_q": "geçirmediler miydiniz",
-                "p3_neg_pul_q": "geçirmedilerler miydi"
+                "p1_neg_pul_q": "geçirmedi miydik",
+                "p2_neg_pul_q": "geçirmedi miydiniz",
+                "p3_neg_pul_q": "geçirmediler miydi"
             }
         },
         {

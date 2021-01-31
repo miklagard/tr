@@ -1,6 +1,8 @@
 {
     "infinitive": "istemek",
     "infinitive_negative": "istememek",
+    "infinitive_question": "istemek mi",
+    "infinitive_negative_question": "istememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "istediydim",
                 "p2_poz_sng": "istediydin",
                 "p3_poz_sng": "istediydi",
-                "p1_poz_pul": "istedilerdik",
-                "p2_poz_pul": "istedilerdiniz",
-                "p3_poz_pul": "istedilerlerdi",
+                "p1_poz_pul": "isteydik",
+                "p2_poz_pul": "isteydiniz",
+                "p3_poz_pul": "istelerdi",
                 "p1_neg_sng": "istemediydim",
                 "p2_neg_sng": "istemediydin",
                 "p3_neg_sng": "istemediydi",
-                "p1_neg_pul": "istemedilerdik",
-                "p2_neg_pul": "istemedilerdiniz",
-                "p3_neg_pul": "istemedilerlerdi",
+                "p1_neg_pul": "isteydik",
+                "p2_neg_pul": "isteydiniz",
+                "p3_neg_pul": "istelerdi",
                 "p1_poz_sng_q": "istedi miydim",
                 "p2_poz_sng_q": "istedi miydin",
                 "p3_poz_sng_q": "istedi miydi",
-                "p1_poz_pul_q": "istediler miydik",
-                "p2_poz_pul_q": "istediler miydiniz",
-                "p3_poz_pul_q": "istedilerler miydi",
+                "p1_poz_pul_q": "istedi miydik",
+                "p2_poz_pul_q": "istedi miydiniz",
+                "p3_poz_pul_q": "istediler miydi",
                 "p1_neg_sng_q": "istemedi miydim",
                 "p2_neg_sng_q": "istemedi miydin",
                 "p3_neg_sng_q": "istemedi miydi",
-                "p1_neg_pul_q": "istemediler miydik",
-                "p2_neg_pul_q": "istemediler miydiniz",
-                "p3_neg_pul_q": "istemedilerler miydi"
+                "p1_neg_pul_q": "istemedi miydik",
+                "p2_neg_pul_q": "istemedi miydiniz",
+                "p3_neg_pul_q": "istemediler miydi"
             }
         },
         {

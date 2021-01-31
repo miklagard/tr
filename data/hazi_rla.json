@@ -1,6 +1,8 @@
 {
     "infinitive": "hazırlamak",
     "infinitive_negative": "hazırlamamak",
+    "infinitive_question": "hazırlamak mı",
+    "infinitive_negative_question": "hazırlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "hazırladıydım",
                 "p2_poz_sng": "hazırladıydın",
                 "p3_poz_sng": "hazırladıydı",
-                "p1_poz_pul": "hazırladılardık",
-                "p2_poz_pul": "hazırladılardınız",
-                "p3_poz_pul": "hazırladılarlardı",
+                "p1_poz_pul": "hazırlaydık",
+                "p2_poz_pul": "hazırlaydınız",
+                "p3_poz_pul": "hazırlalardı",
                 "p1_neg_sng": "hazırlamadıydım",
                 "p2_neg_sng": "hazırlamadıydın",
                 "p3_neg_sng": "hazırlamadıydı",
-                "p1_neg_pul": "hazırlamadılardık",
-                "p2_neg_pul": "hazırlamadılardınız",
-                "p3_neg_pul": "hazırlamadılarlardı",
+                "p1_neg_pul": "hazırlaydık",
+                "p2_neg_pul": "hazırlaydınız",
+                "p3_neg_pul": "hazırlalardı",
                 "p1_poz_sng_q": "hazırladı mıydım",
                 "p2_poz_sng_q": "hazırladı mıydın",
                 "p3_poz_sng_q": "hazırladı mıydı",
-                "p1_poz_pul_q": "hazırladılar mıydık",
-                "p2_poz_pul_q": "hazırladılar mıydınız",
-                "p3_poz_pul_q": "hazırladılarlar mıydı",
+                "p1_poz_pul_q": "hazırladı mıydık",
+                "p2_poz_pul_q": "hazırladı mıydınız",
+                "p3_poz_pul_q": "hazırladılar mıydı",
                 "p1_neg_sng_q": "hazırlamadı mıydım",
                 "p2_neg_sng_q": "hazırlamadı mıydın",
                 "p3_neg_sng_q": "hazırlamadı mıydı",
-                "p1_neg_pul_q": "hazırlamadılar mıydık",
-                "p2_neg_pul_q": "hazırlamadılar mıydınız",
-                "p3_neg_pul_q": "hazırlamadılarlar mıydı"
+                "p1_neg_pul_q": "hazırlamadı mıydık",
+                "p2_neg_pul_q": "hazırlamadı mıydınız",
+                "p3_neg_pul_q": "hazırlamadılar mıydı"
             }
         },
         {

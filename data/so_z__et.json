@@ -1,6 +1,8 @@
 {
     "infinitive": "söz etmek",
     "infinitive_negative": "söz etmemek",
+    "infinitive_question": "söz etmek mi",
+    "infinitive_negative_question": "söz etmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "söz ettiydim",
                 "p2_poz_sng": "söz ettiydin",
                 "p3_poz_sng": "söz ettiydi",
-                "p1_poz_pul": "söz ettilerdik",
-                "p2_poz_pul": "söz ettilerdiniz",
-                "p3_poz_pul": "söz ettilerlerdi",
+                "p1_poz_pul": "söz ettik",
+                "p2_poz_pul": "söz ettiniz",
+                "p3_poz_pul": "söz etlerdi",
                 "p1_neg_sng": "söz etmediydim",
                 "p2_neg_sng": "söz etmediydin",
                 "p3_neg_sng": "söz etmediydi",
-                "p1_neg_pul": "söz etmedilerdik",
-                "p2_neg_pul": "söz etmedilerdiniz",
-                "p3_neg_pul": "söz etmedilerlerdi",
+                "p1_neg_pul": "söz ettik",
+                "p2_neg_pul": "söz ettiniz",
+                "p3_neg_pul": "söz etlerdi",
                 "p1_poz_sng_q": "söz etti miydim",
                 "p2_poz_sng_q": "söz etti miydin",
                 "p3_poz_sng_q": "söz etti miydi",
-                "p1_poz_pul_q": "söz ettiler miydik",
-                "p2_poz_pul_q": "söz ettiler miydiniz",
-                "p3_poz_pul_q": "söz ettilerler miydi",
+                "p1_poz_pul_q": "söz etti miydik",
+                "p2_poz_pul_q": "söz etti miydiniz",
+                "p3_poz_pul_q": "söz ettiler miydi",
                 "p1_neg_sng_q": "söz etmedi miydim",
                 "p2_neg_sng_q": "söz etmedi miydin",
                 "p3_neg_sng_q": "söz etmedi miydi",
-                "p1_neg_pul_q": "söz etmediler miydik",
-                "p2_neg_pul_q": "söz etmediler miydiniz",
-                "p3_neg_pul_q": "söz etmedilerler miydi"
+                "p1_neg_pul_q": "söz etmedi miydik",
+                "p2_neg_pul_q": "söz etmedi miydiniz",
+                "p3_neg_pul_q": "söz etmediler miydi"
             }
         },
         {

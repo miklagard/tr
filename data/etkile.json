@@ -1,6 +1,8 @@
 {
     "infinitive": "etkilemek",
     "infinitive_negative": "etkilememek",
+    "infinitive_question": "etkilemek mi",
+    "infinitive_negative_question": "etkilememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "etkilediydim",
                 "p2_poz_sng": "etkilediydin",
                 "p3_poz_sng": "etkilediydi",
-                "p1_poz_pul": "etkiledilerdik",
-                "p2_poz_pul": "etkiledilerdiniz",
-                "p3_poz_pul": "etkiledilerlerdi",
+                "p1_poz_pul": "etkileydik",
+                "p2_poz_pul": "etkileydiniz",
+                "p3_poz_pul": "etkilelerdi",
                 "p1_neg_sng": "etkilemediydim",
                 "p2_neg_sng": "etkilemediydin",
                 "p3_neg_sng": "etkilemediydi",
-                "p1_neg_pul": "etkilemedilerdik",
-                "p2_neg_pul": "etkilemedilerdiniz",
-                "p3_neg_pul": "etkilemedilerlerdi",
+                "p1_neg_pul": "etkileydik",
+                "p2_neg_pul": "etkileydiniz",
+                "p3_neg_pul": "etkilelerdi",
                 "p1_poz_sng_q": "etkiledi miydim",
                 "p2_poz_sng_q": "etkiledi miydin",
                 "p3_poz_sng_q": "etkiledi miydi",
-                "p1_poz_pul_q": "etkilediler miydik",
-                "p2_poz_pul_q": "etkilediler miydiniz",
-                "p3_poz_pul_q": "etkiledilerler miydi",
+                "p1_poz_pul_q": "etkiledi miydik",
+                "p2_poz_pul_q": "etkiledi miydiniz",
+                "p3_poz_pul_q": "etkilediler miydi",
                 "p1_neg_sng_q": "etkilemedi miydim",
                 "p2_neg_sng_q": "etkilemedi miydin",
                 "p3_neg_sng_q": "etkilemedi miydi",
-                "p1_neg_pul_q": "etkilemediler miydik",
-                "p2_neg_pul_q": "etkilemediler miydiniz",
-                "p3_neg_pul_q": "etkilemedilerler miydi"
+                "p1_neg_pul_q": "etkilemedi miydik",
+                "p2_neg_pul_q": "etkilemedi miydiniz",
+                "p3_neg_pul_q": "etkilemediler miydi"
             }
         },
         {

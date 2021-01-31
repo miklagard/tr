@@ -1,6 +1,8 @@
 {
     "infinitive": "ölmek",
     "infinitive_negative": "ölmemek",
+    "infinitive_question": "ölmek mi",
+    "infinitive_negative_question": "ölmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "öldüydüm",
                 "p2_poz_sng": "öldüydün",
                 "p3_poz_sng": "öldüydü",
-                "p1_poz_pul": "öldülerdik",
-                "p2_poz_pul": "öldülerdiniz",
-                "p3_poz_pul": "öldülerlerdi",
+                "p1_poz_pul": "öldük",
+                "p2_poz_pul": "öldünüz",
+                "p3_poz_pul": "öllerdi",
                 "p1_neg_sng": "ölmediydim",
                 "p2_neg_sng": "ölmediydin",
                 "p3_neg_sng": "ölmediydi",
-                "p1_neg_pul": "ölmedilerdik",
-                "p2_neg_pul": "ölmedilerdiniz",
-                "p3_neg_pul": "ölmedilerlerdi",
+                "p1_neg_pul": "öldük",
+                "p2_neg_pul": "öldünüz",
+                "p3_neg_pul": "öllerdi",
                 "p1_poz_sng_q": "öldü müydüm",
                 "p2_poz_sng_q": "öldü müydün",
                 "p3_poz_sng_q": "öldü müydü",
-                "p1_poz_pul_q": "öldüler miydik",
-                "p2_poz_pul_q": "öldüler miydiniz",
-                "p3_poz_pul_q": "öldülerler miydi",
+                "p1_poz_pul_q": "öldü müydük",
+                "p2_poz_pul_q": "öldü müydünüz",
+                "p3_poz_pul_q": "öldüler miydi",
                 "p1_neg_sng_q": "ölmedi miydim",
                 "p2_neg_sng_q": "ölmedi miydin",
                 "p3_neg_sng_q": "ölmedi miydi",
-                "p1_neg_pul_q": "ölmediler miydik",
-                "p2_neg_pul_q": "ölmediler miydiniz",
-                "p3_neg_pul_q": "ölmedilerler miydi"
+                "p1_neg_pul_q": "ölmedi miydik",
+                "p2_neg_pul_q": "ölmedi miydiniz",
+                "p3_neg_pul_q": "ölmediler miydi"
             }
         },
         {

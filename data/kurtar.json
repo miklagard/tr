@@ -1,6 +1,8 @@
 {
     "infinitive": "kurtarmak",
     "infinitive_negative": "kurtarmamak",
+    "infinitive_question": "kurtarmak mı",
+    "infinitive_negative_question": "kurtarmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "kurtardıydım",
                 "p2_poz_sng": "kurtardıydın",
                 "p3_poz_sng": "kurtardıydı",
-                "p1_poz_pul": "kurtardılardık",
-                "p2_poz_pul": "kurtardılardınız",
-                "p3_poz_pul": "kurtardılarlardı",
+                "p1_poz_pul": "kurtardık",
+                "p2_poz_pul": "kurtardınız",
+                "p3_poz_pul": "kurtarlardı",
                 "p1_neg_sng": "kurtarmadıydım",
                 "p2_neg_sng": "kurtarmadıydın",
                 "p3_neg_sng": "kurtarmadıydı",
-                "p1_neg_pul": "kurtarmadılardık",
-                "p2_neg_pul": "kurtarmadılardınız",
-                "p3_neg_pul": "kurtarmadılarlardı",
+                "p1_neg_pul": "kurtardık",
+                "p2_neg_pul": "kurtardınız",
+                "p3_neg_pul": "kurtarlardı",
                 "p1_poz_sng_q": "kurtardı mıydım",
                 "p2_poz_sng_q": "kurtardı mıydın",
                 "p3_poz_sng_q": "kurtardı mıydı",
-                "p1_poz_pul_q": "kurtardılar mıydık",
-                "p2_poz_pul_q": "kurtardılar mıydınız",
-                "p3_poz_pul_q": "kurtardılarlar mıydı",
+                "p1_poz_pul_q": "kurtardı mıydık",
+                "p2_poz_pul_q": "kurtardı mıydınız",
+                "p3_poz_pul_q": "kurtardılar mıydı",
                 "p1_neg_sng_q": "kurtarmadı mıydım",
                 "p2_neg_sng_q": "kurtarmadı mıydın",
                 "p3_neg_sng_q": "kurtarmadı mıydı",
-                "p1_neg_pul_q": "kurtarmadılar mıydık",
-                "p2_neg_pul_q": "kurtarmadılar mıydınız",
-                "p3_neg_pul_q": "kurtarmadılarlar mıydı"
+                "p1_neg_pul_q": "kurtarmadı mıydık",
+                "p2_neg_pul_q": "kurtarmadı mıydınız",
+                "p3_neg_pul_q": "kurtarmadılar mıydı"
             }
         },
         {

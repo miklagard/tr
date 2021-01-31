@@ -1,6 +1,8 @@
 {
     "infinitive": "değiştirmek",
     "infinitive_negative": "değiştirmemek",
+    "infinitive_question": "değiştirmek mi",
+    "infinitive_negative_question": "değiştirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "değiştirdiydim",
                 "p2_poz_sng": "değiştirdiydin",
                 "p3_poz_sng": "değiştirdiydi",
-                "p1_poz_pul": "değiştirdilerdik",
-                "p2_poz_pul": "değiştirdilerdiniz",
-                "p3_poz_pul": "değiştirdilerlerdi",
+                "p1_poz_pul": "değiştirdik",
+                "p2_poz_pul": "değiştirdiniz",
+                "p3_poz_pul": "değiştirlerdi",
                 "p1_neg_sng": "değiştirmediydim",
                 "p2_neg_sng": "değiştirmediydin",
                 "p3_neg_sng": "değiştirmediydi",
-                "p1_neg_pul": "değiştirmedilerdik",
-                "p2_neg_pul": "değiştirmedilerdiniz",
-                "p3_neg_pul": "değiştirmedilerlerdi",
+                "p1_neg_pul": "değiştirdik",
+                "p2_neg_pul": "değiştirdiniz",
+                "p3_neg_pul": "değiştirlerdi",
                 "p1_poz_sng_q": "değiştirdi miydim",
                 "p2_poz_sng_q": "değiştirdi miydin",
                 "p3_poz_sng_q": "değiştirdi miydi",
-                "p1_poz_pul_q": "değiştirdiler miydik",
-                "p2_poz_pul_q": "değiştirdiler miydiniz",
-                "p3_poz_pul_q": "değiştirdilerler miydi",
+                "p1_poz_pul_q": "değiştirdi miydik",
+                "p2_poz_pul_q": "değiştirdi miydiniz",
+                "p3_poz_pul_q": "değiştirdiler miydi",
                 "p1_neg_sng_q": "değiştirmedi miydim",
                 "p2_neg_sng_q": "değiştirmedi miydin",
                 "p3_neg_sng_q": "değiştirmedi miydi",
-                "p1_neg_pul_q": "değiştirmediler miydik",
-                "p2_neg_pul_q": "değiştirmediler miydiniz",
-                "p3_neg_pul_q": "değiştirmedilerler miydi"
+                "p1_neg_pul_q": "değiştirmedi miydik",
+                "p2_neg_pul_q": "değiştirmedi miydiniz",
+                "p3_neg_pul_q": "değiştirmediler miydi"
             }
         },
         {

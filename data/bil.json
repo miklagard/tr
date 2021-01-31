@@ -1,6 +1,8 @@
 {
     "infinitive": "bilmek",
     "infinitive_negative": "bilmemek",
+    "infinitive_question": "bilmek mi",
+    "infinitive_negative_question": "bilmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "bildiydim",
                 "p2_poz_sng": "bildiydin",
                 "p3_poz_sng": "bildiydi",
-                "p1_poz_pul": "bildilerdik",
-                "p2_poz_pul": "bildilerdiniz",
-                "p3_poz_pul": "bildilerlerdi",
+                "p1_poz_pul": "bildik",
+                "p2_poz_pul": "bildiniz",
+                "p3_poz_pul": "billerdi",
                 "p1_neg_sng": "bilmediydim",
                 "p2_neg_sng": "bilmediydin",
                 "p3_neg_sng": "bilmediydi",
-                "p1_neg_pul": "bilmedilerdik",
-                "p2_neg_pul": "bilmedilerdiniz",
-                "p3_neg_pul": "bilmedilerlerdi",
+                "p1_neg_pul": "bildik",
+                "p2_neg_pul": "bildiniz",
+                "p3_neg_pul": "billerdi",
                 "p1_poz_sng_q": "bildi miydim",
                 "p2_poz_sng_q": "bildi miydin",
                 "p3_poz_sng_q": "bildi miydi",
-                "p1_poz_pul_q": "bildiler miydik",
-                "p2_poz_pul_q": "bildiler miydiniz",
-                "p3_poz_pul_q": "bildilerler miydi",
+                "p1_poz_pul_q": "bildi miydik",
+                "p2_poz_pul_q": "bildi miydiniz",
+                "p3_poz_pul_q": "bildiler miydi",
                 "p1_neg_sng_q": "bilmedi miydim",
                 "p2_neg_sng_q": "bilmedi miydin",
                 "p3_neg_sng_q": "bilmedi miydi",
-                "p1_neg_pul_q": "bilmediler miydik",
-                "p2_neg_pul_q": "bilmediler miydiniz",
-                "p3_neg_pul_q": "bilmedilerler miydi"
+                "p1_neg_pul_q": "bilmedi miydik",
+                "p2_neg_pul_q": "bilmedi miydiniz",
+                "p3_neg_pul_q": "bilmediler miydi"
             }
         },
         {

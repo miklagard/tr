@@ -1,6 +1,8 @@
 {
     "infinitive": "büyümek",
     "infinitive_negative": "büyümemek",
+    "infinitive_question": "büyümek mi",
+    "infinitive_negative_question": "büyümemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "büyüdüydüm",
                 "p2_poz_sng": "büyüdüydün",
                 "p3_poz_sng": "büyüdüydü",
-                "p1_poz_pul": "büyüdülerdik",
-                "p2_poz_pul": "büyüdülerdiniz",
-                "p3_poz_pul": "büyüdülerlerdi",
+                "p1_poz_pul": "büyüydük",
+                "p2_poz_pul": "büyüydünüz",
+                "p3_poz_pul": "büyülerdi",
                 "p1_neg_sng": "büyümediydim",
                 "p2_neg_sng": "büyümediydin",
                 "p3_neg_sng": "büyümediydi",
-                "p1_neg_pul": "büyümedilerdik",
-                "p2_neg_pul": "büyümedilerdiniz",
-                "p3_neg_pul": "büyümedilerlerdi",
+                "p1_neg_pul": "büyüydük",
+                "p2_neg_pul": "büyüydünüz",
+                "p3_neg_pul": "büyülerdi",
                 "p1_poz_sng_q": "büyüdü müydüm",
                 "p2_poz_sng_q": "büyüdü müydün",
                 "p3_poz_sng_q": "büyüdü müydü",
-                "p1_poz_pul_q": "büyüdüler miydik",
-                "p2_poz_pul_q": "büyüdüler miydiniz",
-                "p3_poz_pul_q": "büyüdülerler miydi",
+                "p1_poz_pul_q": "büyüdü müydük",
+                "p2_poz_pul_q": "büyüdü müydünüz",
+                "p3_poz_pul_q": "büyüdüler miydi",
                 "p1_neg_sng_q": "büyümedi miydim",
                 "p2_neg_sng_q": "büyümedi miydin",
                 "p3_neg_sng_q": "büyümedi miydi",
-                "p1_neg_pul_q": "büyümediler miydik",
-                "p2_neg_pul_q": "büyümediler miydiniz",
-                "p3_neg_pul_q": "büyümedilerler miydi"
+                "p1_neg_pul_q": "büyümedi miydik",
+                "p2_neg_pul_q": "büyümedi miydiniz",
+                "p3_neg_pul_q": "büyümediler miydi"
             }
         },
         {

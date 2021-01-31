@@ -1,6 +1,8 @@
 {
     "infinitive": "kaldırmak",
     "infinitive_negative": "kaldırmamak",
+    "infinitive_question": "kaldırmak mı",
+    "infinitive_negative_question": "kaldırmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "kaldırdıydım",
                 "p2_poz_sng": "kaldırdıydın",
                 "p3_poz_sng": "kaldırdıydı",
-                "p1_poz_pul": "kaldırdılardık",
-                "p2_poz_pul": "kaldırdılardınız",
-                "p3_poz_pul": "kaldırdılarlardı",
+                "p1_poz_pul": "kaldırdık",
+                "p2_poz_pul": "kaldırdınız",
+                "p3_poz_pul": "kaldırlardı",
                 "p1_neg_sng": "kaldırmadıydım",
                 "p2_neg_sng": "kaldırmadıydın",
                 "p3_neg_sng": "kaldırmadıydı",
-                "p1_neg_pul": "kaldırmadılardık",
-                "p2_neg_pul": "kaldırmadılardınız",
-                "p3_neg_pul": "kaldırmadılarlardı",
+                "p1_neg_pul": "kaldırdık",
+                "p2_neg_pul": "kaldırdınız",
+                "p3_neg_pul": "kaldırlardı",
                 "p1_poz_sng_q": "kaldırdı mıydım",
                 "p2_poz_sng_q": "kaldırdı mıydın",
                 "p3_poz_sng_q": "kaldırdı mıydı",
-                "p1_poz_pul_q": "kaldırdılar mıydık",
-                "p2_poz_pul_q": "kaldırdılar mıydınız",
-                "p3_poz_pul_q": "kaldırdılarlar mıydı",
+                "p1_poz_pul_q": "kaldırdı mıydık",
+                "p2_poz_pul_q": "kaldırdı mıydınız",
+                "p3_poz_pul_q": "kaldırdılar mıydı",
                 "p1_neg_sng_q": "kaldırmadı mıydım",
                 "p2_neg_sng_q": "kaldırmadı mıydın",
                 "p3_neg_sng_q": "kaldırmadı mıydı",
-                "p1_neg_pul_q": "kaldırmadılar mıydık",
-                "p2_neg_pul_q": "kaldırmadılar mıydınız",
-                "p3_neg_pul_q": "kaldırmadılarlar mıydı"
+                "p1_neg_pul_q": "kaldırmadı mıydık",
+                "p2_neg_pul_q": "kaldırmadı mıydınız",
+                "p3_neg_pul_q": "kaldırmadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "sahip olmak",
     "infinitive_negative": "sahip olmamak",
+    "infinitive_question": "sahip olmak mı",
+    "infinitive_negative_question": "sahip olmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "sahip olduydum",
                 "p2_poz_sng": "sahip olduydun",
                 "p3_poz_sng": "sahip olduydu",
-                "p1_poz_pul": "sahip oldulardık",
-                "p2_poz_pul": "sahip oldulardınız",
-                "p3_poz_pul": "sahip oldularlardı",
+                "p1_poz_pul": "sahip olduk",
+                "p2_poz_pul": "sahip oldunuz",
+                "p3_poz_pul": "sahip ollardı",
                 "p1_neg_sng": "sahip olmadıydım",
                 "p2_neg_sng": "sahip olmadıydın",
                 "p3_neg_sng": "sahip olmadıydı",
-                "p1_neg_pul": "sahip olmadılardık",
-                "p2_neg_pul": "sahip olmadılardınız",
-                "p3_neg_pul": "sahip olmadılarlardı",
+                "p1_neg_pul": "sahip olduk",
+                "p2_neg_pul": "sahip oldunuz",
+                "p3_neg_pul": "sahip ollardı",
                 "p1_poz_sng_q": "sahip oldu muydum",
                 "p2_poz_sng_q": "sahip oldu muydun",
                 "p3_poz_sng_q": "sahip oldu muydu",
-                "p1_poz_pul_q": "sahip oldular mıydık",
-                "p2_poz_pul_q": "sahip oldular mıydınız",
-                "p3_poz_pul_q": "sahip oldularlar mıydı",
+                "p1_poz_pul_q": "sahip oldu muyduk",
+                "p2_poz_pul_q": "sahip oldu muydunuz",
+                "p3_poz_pul_q": "sahip oldular mıydı",
                 "p1_neg_sng_q": "sahip olmadı mıydım",
                 "p2_neg_sng_q": "sahip olmadı mıydın",
                 "p3_neg_sng_q": "sahip olmadı mıydı",
-                "p1_neg_pul_q": "sahip olmadılar mıydık",
-                "p2_neg_pul_q": "sahip olmadılar mıydınız",
-                "p3_neg_pul_q": "sahip olmadılarlar mıydı"
+                "p1_neg_pul_q": "sahip olmadı mıydık",
+                "p2_neg_pul_q": "sahip olmadı mıydınız",
+                "p3_neg_pul_q": "sahip olmadılar mıydı"
             }
         },
         {

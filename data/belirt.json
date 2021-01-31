@@ -1,6 +1,8 @@
 {
     "infinitive": "belirtmek",
     "infinitive_negative": "belirtmemek",
+    "infinitive_question": "belirtmek mi",
+    "infinitive_negative_question": "belirtmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "belirttiydim",
                 "p2_poz_sng": "belirttiydin",
                 "p3_poz_sng": "belirttiydi",
-                "p1_poz_pul": "belirttilerdik",
-                "p2_poz_pul": "belirttilerdiniz",
-                "p3_poz_pul": "belirttilerlerdi",
+                "p1_poz_pul": "belirttik",
+                "p2_poz_pul": "belirttiniz",
+                "p3_poz_pul": "belirtlerdi",
                 "p1_neg_sng": "belirtmediydim",
                 "p2_neg_sng": "belirtmediydin",
                 "p3_neg_sng": "belirtmediydi",
-                "p1_neg_pul": "belirtmedilerdik",
-                "p2_neg_pul": "belirtmedilerdiniz",
-                "p3_neg_pul": "belirtmedilerlerdi",
+                "p1_neg_pul": "belirttik",
+                "p2_neg_pul": "belirttiniz",
+                "p3_neg_pul": "belirtlerdi",
                 "p1_poz_sng_q": "belirtti miydim",
                 "p2_poz_sng_q": "belirtti miydin",
                 "p3_poz_sng_q": "belirtti miydi",
-                "p1_poz_pul_q": "belirttiler miydik",
-                "p2_poz_pul_q": "belirttiler miydiniz",
-                "p3_poz_pul_q": "belirttilerler miydi",
+                "p1_poz_pul_q": "belirtti miydik",
+                "p2_poz_pul_q": "belirtti miydiniz",
+                "p3_poz_pul_q": "belirttiler miydi",
                 "p1_neg_sng_q": "belirtmedi miydim",
                 "p2_neg_sng_q": "belirtmedi miydin",
                 "p3_neg_sng_q": "belirtmedi miydi",
-                "p1_neg_pul_q": "belirtmediler miydik",
-                "p2_neg_pul_q": "belirtmediler miydiniz",
-                "p3_neg_pul_q": "belirtmedilerler miydi"
+                "p1_neg_pul_q": "belirtmedi miydik",
+                "p2_neg_pul_q": "belirtmedi miydiniz",
+                "p3_neg_pul_q": "belirtmediler miydi"
             }
         },
         {

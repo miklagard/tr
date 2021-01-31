@@ -1,6 +1,8 @@
 {
     "infinitive": "gitmek",
     "infinitive_negative": "gitmemek",
+    "infinitive_question": "gitmek mi",
+    "infinitive_negative_question": "gitmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "gittiydim",
                 "p2_poz_sng": "gittiydin",
                 "p3_poz_sng": "gittiydi",
-                "p1_poz_pul": "gittilerdik",
-                "p2_poz_pul": "gittilerdiniz",
-                "p3_poz_pul": "gittilerlerdi",
+                "p1_poz_pul": "gittik",
+                "p2_poz_pul": "gittiniz",
+                "p3_poz_pul": "gitlerdi",
                 "p1_neg_sng": "gitmediydim",
                 "p2_neg_sng": "gitmediydin",
                 "p3_neg_sng": "gitmediydi",
-                "p1_neg_pul": "gitmedilerdik",
-                "p2_neg_pul": "gitmedilerdiniz",
-                "p3_neg_pul": "gitmedilerlerdi",
+                "p1_neg_pul": "gittik",
+                "p2_neg_pul": "gittiniz",
+                "p3_neg_pul": "gitlerdi",
                 "p1_poz_sng_q": "gitti miydim",
                 "p2_poz_sng_q": "gitti miydin",
                 "p3_poz_sng_q": "gitti miydi",
-                "p1_poz_pul_q": "gittiler miydik",
-                "p2_poz_pul_q": "gittiler miydiniz",
-                "p3_poz_pul_q": "gittilerler miydi",
+                "p1_poz_pul_q": "gitti miydik",
+                "p2_poz_pul_q": "gitti miydiniz",
+                "p3_poz_pul_q": "gittiler miydi",
                 "p1_neg_sng_q": "gitmedi miydim",
                 "p2_neg_sng_q": "gitmedi miydin",
                 "p3_neg_sng_q": "gitmedi miydi",
-                "p1_neg_pul_q": "gitmediler miydik",
-                "p2_neg_pul_q": "gitmediler miydiniz",
-                "p3_neg_pul_q": "gitmedilerler miydi"
+                "p1_neg_pul_q": "gitmedi miydik",
+                "p2_neg_pul_q": "gitmedi miydiniz",
+                "p3_neg_pul_q": "gitmediler miydi"
             }
         },
         {

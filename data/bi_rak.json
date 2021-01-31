@@ -1,6 +1,8 @@
 {
     "infinitive": "bırakmak",
     "infinitive_negative": "bırakmamak",
+    "infinitive_question": "bırakmak mı",
+    "infinitive_negative_question": "bırakmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "bıraktıydım",
                 "p2_poz_sng": "bıraktıydın",
                 "p3_poz_sng": "bıraktıydı",
-                "p1_poz_pul": "bıraktılardık",
-                "p2_poz_pul": "bıraktılardınız",
-                "p3_poz_pul": "bıraktılarlardı",
+                "p1_poz_pul": "bıraktık",
+                "p2_poz_pul": "bıraktınız",
+                "p3_poz_pul": "bıraklardı",
                 "p1_neg_sng": "bırakmadıydım",
                 "p2_neg_sng": "bırakmadıydın",
                 "p3_neg_sng": "bırakmadıydı",
-                "p1_neg_pul": "bırakmadılardık",
-                "p2_neg_pul": "bırakmadılardınız",
-                "p3_neg_pul": "bırakmadılarlardı",
+                "p1_neg_pul": "bıraktık",
+                "p2_neg_pul": "bıraktınız",
+                "p3_neg_pul": "bıraklardı",
                 "p1_poz_sng_q": "bıraktı mıydım",
                 "p2_poz_sng_q": "bıraktı mıydın",
                 "p3_poz_sng_q": "bıraktı mıydı",
-                "p1_poz_pul_q": "bıraktılar mıydık",
-                "p2_poz_pul_q": "bıraktılar mıydınız",
-                "p3_poz_pul_q": "bıraktılarlar mıydı",
+                "p1_poz_pul_q": "bıraktı mıydık",
+                "p2_poz_pul_q": "bıraktı mıydınız",
+                "p3_poz_pul_q": "bıraktılar mıydı",
                 "p1_neg_sng_q": "bırakmadı mıydım",
                 "p2_neg_sng_q": "bırakmadı mıydın",
                 "p3_neg_sng_q": "bırakmadı mıydı",
-                "p1_neg_pul_q": "bırakmadılar mıydık",
-                "p2_neg_pul_q": "bırakmadılar mıydınız",
-                "p3_neg_pul_q": "bırakmadılarlar mıydı"
+                "p1_neg_pul_q": "bırakmadı mıydık",
+                "p2_neg_pul_q": "bırakmadı mıydınız",
+                "p3_neg_pul_q": "bırakmadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "yayımlanmak",
     "infinitive_negative": "yayımlanmamak",
+    "infinitive_question": "yayımlanmak mı",
+    "infinitive_negative_question": "yayımlanmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yayımlandıydım",
                 "p2_poz_sng": "yayımlandıydın",
                 "p3_poz_sng": "yayımlandıydı",
-                "p1_poz_pul": "yayımlandılardık",
-                "p2_poz_pul": "yayımlandılardınız",
-                "p3_poz_pul": "yayımlandılarlardı",
+                "p1_poz_pul": "yayımlandık",
+                "p2_poz_pul": "yayımlandınız",
+                "p3_poz_pul": "yayımlanlardı",
                 "p1_neg_sng": "yayımlanmadıydım",
                 "p2_neg_sng": "yayımlanmadıydın",
                 "p3_neg_sng": "yayımlanmadıydı",
-                "p1_neg_pul": "yayımlanmadılardık",
-                "p2_neg_pul": "yayımlanmadılardınız",
-                "p3_neg_pul": "yayımlanmadılarlardı",
+                "p1_neg_pul": "yayımlandık",
+                "p2_neg_pul": "yayımlandınız",
+                "p3_neg_pul": "yayımlanlardı",
                 "p1_poz_sng_q": "yayımlandı mıydım",
                 "p2_poz_sng_q": "yayımlandı mıydın",
                 "p3_poz_sng_q": "yayımlandı mıydı",
-                "p1_poz_pul_q": "yayımlandılar mıydık",
-                "p2_poz_pul_q": "yayımlandılar mıydınız",
-                "p3_poz_pul_q": "yayımlandılarlar mıydı",
+                "p1_poz_pul_q": "yayımlandı mıydık",
+                "p2_poz_pul_q": "yayımlandı mıydınız",
+                "p3_poz_pul_q": "yayımlandılar mıydı",
                 "p1_neg_sng_q": "yayımlanmadı mıydım",
                 "p2_neg_sng_q": "yayımlanmadı mıydın",
                 "p3_neg_sng_q": "yayımlanmadı mıydı",
-                "p1_neg_pul_q": "yayımlanmadılar mıydık",
-                "p2_neg_pul_q": "yayımlanmadılar mıydınız",
-                "p3_neg_pul_q": "yayımlanmadılarlar mıydı"
+                "p1_neg_pul_q": "yayımlanmadı mıydık",
+                "p2_neg_pul_q": "yayımlanmadı mıydınız",
+                "p3_neg_pul_q": "yayımlanmadılar mıydı"
             }
         },
         {

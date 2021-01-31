@@ -1,6 +1,8 @@
 {
     "infinitive": "çalışmak",
     "infinitive_negative": "çalışmamak",
+    "infinitive_question": "çalışmak mı",
+    "infinitive_negative_question": "çalışmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "çalıştıydım",
                 "p2_poz_sng": "çalıştıydın",
                 "p3_poz_sng": "çalıştıydı",
-                "p1_poz_pul": "çalıştılardık",
-                "p2_poz_pul": "çalıştılardınız",
-                "p3_poz_pul": "çalıştılarlardı",
+                "p1_poz_pul": "çalıştık",
+                "p2_poz_pul": "çalıştınız",
+                "p3_poz_pul": "çalışlardı",
                 "p1_neg_sng": "çalışmadıydım",
                 "p2_neg_sng": "çalışmadıydın",
                 "p3_neg_sng": "çalışmadıydı",
-                "p1_neg_pul": "çalışmadılardık",
-                "p2_neg_pul": "çalışmadılardınız",
-                "p3_neg_pul": "çalışmadılarlardı",
+                "p1_neg_pul": "çalıştık",
+                "p2_neg_pul": "çalıştınız",
+                "p3_neg_pul": "çalışlardı",
                 "p1_poz_sng_q": "çalıştı mıydım",
                 "p2_poz_sng_q": "çalıştı mıydın",
                 "p3_poz_sng_q": "çalıştı mıydı",
-                "p1_poz_pul_q": "çalıştılar mıydık",
-                "p2_poz_pul_q": "çalıştılar mıydınız",
-                "p3_poz_pul_q": "çalıştılarlar mıydı",
+                "p1_poz_pul_q": "çalıştı mıydık",
+                "p2_poz_pul_q": "çalıştı mıydınız",
+                "p3_poz_pul_q": "çalıştılar mıydı",
                 "p1_neg_sng_q": "çalışmadı mıydım",
                 "p2_neg_sng_q": "çalışmadı mıydın",
                 "p3_neg_sng_q": "çalışmadı mıydı",
-                "p1_neg_pul_q": "çalışmadılar mıydık",
-                "p2_neg_pul_q": "çalışmadılar mıydınız",
-                "p3_neg_pul_q": "çalışmadılarlar mıydı"
+                "p1_neg_pul_q": "çalışmadı mıydık",
+                "p2_neg_pul_q": "çalışmadı mıydınız",
+                "p3_neg_pul_q": "çalışmadılar mıydı"
             }
         },
         {

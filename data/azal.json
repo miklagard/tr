@@ -1,6 +1,8 @@
 {
     "infinitive": "azalmak",
     "infinitive_negative": "azalmamak",
+    "infinitive_question": "azalmak mı",
+    "infinitive_negative_question": "azalmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "azaldıydım",
                 "p2_poz_sng": "azaldıydın",
                 "p3_poz_sng": "azaldıydı",
-                "p1_poz_pul": "azaldılardık",
-                "p2_poz_pul": "azaldılardınız",
-                "p3_poz_pul": "azaldılarlardı",
+                "p1_poz_pul": "azaldık",
+                "p2_poz_pul": "azaldınız",
+                "p3_poz_pul": "azallardı",
                 "p1_neg_sng": "azalmadıydım",
                 "p2_neg_sng": "azalmadıydın",
                 "p3_neg_sng": "azalmadıydı",
-                "p1_neg_pul": "azalmadılardık",
-                "p2_neg_pul": "azalmadılardınız",
-                "p3_neg_pul": "azalmadılarlardı",
+                "p1_neg_pul": "azaldık",
+                "p2_neg_pul": "azaldınız",
+                "p3_neg_pul": "azallardı",
                 "p1_poz_sng_q": "azaldı mıydım",
                 "p2_poz_sng_q": "azaldı mıydın",
                 "p3_poz_sng_q": "azaldı mıydı",
-                "p1_poz_pul_q": "azaldılar mıydık",
-                "p2_poz_pul_q": "azaldılar mıydınız",
-                "p3_poz_pul_q": "azaldılarlar mıydı",
+                "p1_poz_pul_q": "azaldı mıydık",
+                "p2_poz_pul_q": "azaldı mıydınız",
+                "p3_poz_pul_q": "azaldılar mıydı",
                 "p1_neg_sng_q": "azalmadı mıydım",
                 "p2_neg_sng_q": "azalmadı mıydın",
                 "p3_neg_sng_q": "azalmadı mıydı",
-                "p1_neg_pul_q": "azalmadılar mıydık",
-                "p2_neg_pul_q": "azalmadılar mıydınız",
-                "p3_neg_pul_q": "azalmadılarlar mıydı"
+                "p1_neg_pul_q": "azalmadı mıydık",
+                "p2_neg_pul_q": "azalmadı mıydınız",
+                "p3_neg_pul_q": "azalmadılar mıydı"
             }
         },
         {

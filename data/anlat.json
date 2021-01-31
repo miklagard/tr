@@ -1,6 +1,8 @@
 {
     "infinitive": "anlatmak",
     "infinitive_negative": "anlatmamak",
+    "infinitive_question": "anlatmak mı",
+    "infinitive_negative_question": "anlatmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "anlattıydım",
                 "p2_poz_sng": "anlattıydın",
                 "p3_poz_sng": "anlattıydı",
-                "p1_poz_pul": "anlattılardık",
-                "p2_poz_pul": "anlattılardınız",
-                "p3_poz_pul": "anlattılarlardı",
+                "p1_poz_pul": "anlattık",
+                "p2_poz_pul": "anlattınız",
+                "p3_poz_pul": "anlatlardı",
                 "p1_neg_sng": "anlatmadıydım",
                 "p2_neg_sng": "anlatmadıydın",
                 "p3_neg_sng": "anlatmadıydı",
-                "p1_neg_pul": "anlatmadılardık",
-                "p2_neg_pul": "anlatmadılardınız",
-                "p3_neg_pul": "anlatmadılarlardı",
+                "p1_neg_pul": "anlattık",
+                "p2_neg_pul": "anlattınız",
+                "p3_neg_pul": "anlatlardı",
                 "p1_poz_sng_q": "anlattı mıydım",
                 "p2_poz_sng_q": "anlattı mıydın",
                 "p3_poz_sng_q": "anlattı mıydı",
-                "p1_poz_pul_q": "anlattılar mıydık",
-                "p2_poz_pul_q": "anlattılar mıydınız",
-                "p3_poz_pul_q": "anlattılarlar mıydı",
+                "p1_poz_pul_q": "anlattı mıydık",
+                "p2_poz_pul_q": "anlattı mıydınız",
+                "p3_poz_pul_q": "anlattılar mıydı",
                 "p1_neg_sng_q": "anlatmadı mıydım",
                 "p2_neg_sng_q": "anlatmadı mıydın",
                 "p3_neg_sng_q": "anlatmadı mıydı",
-                "p1_neg_pul_q": "anlatmadılar mıydık",
-                "p2_neg_pul_q": "anlatmadılar mıydınız",
-                "p3_neg_pul_q": "anlatmadılarlar mıydı"
+                "p1_neg_pul_q": "anlatmadı mıydık",
+                "p2_neg_pul_q": "anlatmadı mıydınız",
+                "p3_neg_pul_q": "anlatmadılar mıydı"
             }
         },
         {

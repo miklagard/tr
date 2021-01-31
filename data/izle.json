@@ -1,6 +1,8 @@
 {
     "infinitive": "izlemek",
     "infinitive_negative": "izlememek",
+    "infinitive_question": "izlemek mi",
+    "infinitive_negative_question": "izlememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "izlediydim",
                 "p2_poz_sng": "izlediydin",
                 "p3_poz_sng": "izlediydi",
-                "p1_poz_pul": "izledilerdik",
-                "p2_poz_pul": "izledilerdiniz",
-                "p3_poz_pul": "izledilerlerdi",
+                "p1_poz_pul": "izleydik",
+                "p2_poz_pul": "izleydiniz",
+                "p3_poz_pul": "izlelerdi",
                 "p1_neg_sng": "izlemediydim",
                 "p2_neg_sng": "izlemediydin",
                 "p3_neg_sng": "izlemediydi",
-                "p1_neg_pul": "izlemedilerdik",
-                "p2_neg_pul": "izlemedilerdiniz",
-                "p3_neg_pul": "izlemedilerlerdi",
+                "p1_neg_pul": "izleydik",
+                "p2_neg_pul": "izleydiniz",
+                "p3_neg_pul": "izlelerdi",
                 "p1_poz_sng_q": "izledi miydim",
                 "p2_poz_sng_q": "izledi miydin",
                 "p3_poz_sng_q": "izledi miydi",
-                "p1_poz_pul_q": "izlediler miydik",
-                "p2_poz_pul_q": "izlediler miydiniz",
-                "p3_poz_pul_q": "izledilerler miydi",
+                "p1_poz_pul_q": "izledi miydik",
+                "p2_poz_pul_q": "izledi miydiniz",
+                "p3_poz_pul_q": "izlediler miydi",
                 "p1_neg_sng_q": "izlemedi miydim",
                 "p2_neg_sng_q": "izlemedi miydin",
                 "p3_neg_sng_q": "izlemedi miydi",
-                "p1_neg_pul_q": "izlemediler miydik",
-                "p2_neg_pul_q": "izlemediler miydiniz",
-                "p3_neg_pul_q": "izlemedilerler miydi"
+                "p1_neg_pul_q": "izlemedi miydik",
+                "p2_neg_pul_q": "izlemedi miydiniz",
+                "p3_neg_pul_q": "izlemediler miydi"
             }
         },
         {

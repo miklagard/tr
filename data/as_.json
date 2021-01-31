@@ -1,6 +1,8 @@
 {
     "infinitive": "aşmak",
     "infinitive_negative": "aşmamak",
+    "infinitive_question": "aşmak mı",
+    "infinitive_negative_question": "aşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "aştıydım",
                 "p2_poz_sng": "aştıydın",
                 "p3_poz_sng": "aştıydı",
-                "p1_poz_pul": "aştılardık",
-                "p2_poz_pul": "aştılardınız",
-                "p3_poz_pul": "aştılarlardı",
+                "p1_poz_pul": "aştık",
+                "p2_poz_pul": "aştınız",
+                "p3_poz_pul": "aşlardı",
                 "p1_neg_sng": "aşmadıydım",
                 "p2_neg_sng": "aşmadıydın",
                 "p3_neg_sng": "aşmadıydı",
-                "p1_neg_pul": "aşmadılardık",
-                "p2_neg_pul": "aşmadılardınız",
-                "p3_neg_pul": "aşmadılarlardı",
+                "p1_neg_pul": "aştık",
+                "p2_neg_pul": "aştınız",
+                "p3_neg_pul": "aşlardı",
                 "p1_poz_sng_q": "aştı mıydım",
                 "p2_poz_sng_q": "aştı mıydın",
                 "p3_poz_sng_q": "aştı mıydı",
-                "p1_poz_pul_q": "aştılar mıydık",
-                "p2_poz_pul_q": "aştılar mıydınız",
-                "p3_poz_pul_q": "aştılarlar mıydı",
+                "p1_poz_pul_q": "aştı mıydık",
+                "p2_poz_pul_q": "aştı mıydınız",
+                "p3_poz_pul_q": "aştılar mıydı",
                 "p1_neg_sng_q": "aşmadı mıydım",
                 "p2_neg_sng_q": "aşmadı mıydın",
                 "p3_neg_sng_q": "aşmadı mıydı",
-                "p1_neg_pul_q": "aşmadılar mıydık",
-                "p2_neg_pul_q": "aşmadılar mıydınız",
-                "p3_neg_pul_q": "aşmadılarlar mıydı"
+                "p1_neg_pul_q": "aşmadı mıydık",
+                "p2_neg_pul_q": "aşmadı mıydınız",
+                "p3_neg_pul_q": "aşmadılar mıydı"
             }
         },
         {

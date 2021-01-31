@@ -1,6 +1,8 @@
 {
     "infinitive": "uygulamak",
     "infinitive_negative": "uygulamamak",
+    "infinitive_question": "uygulamak mı",
+    "infinitive_negative_question": "uygulamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "uyguladıydım",
                 "p2_poz_sng": "uyguladıydın",
                 "p3_poz_sng": "uyguladıydı",
-                "p1_poz_pul": "uyguladılardık",
-                "p2_poz_pul": "uyguladılardınız",
-                "p3_poz_pul": "uyguladılarlardı",
+                "p1_poz_pul": "uygulaydık",
+                "p2_poz_pul": "uygulaydınız",
+                "p3_poz_pul": "uygulalardı",
                 "p1_neg_sng": "uygulamadıydım",
                 "p2_neg_sng": "uygulamadıydın",
                 "p3_neg_sng": "uygulamadıydı",
-                "p1_neg_pul": "uygulamadılardık",
-                "p2_neg_pul": "uygulamadılardınız",
-                "p3_neg_pul": "uygulamadılarlardı",
+                "p1_neg_pul": "uygulaydık",
+                "p2_neg_pul": "uygulaydınız",
+                "p3_neg_pul": "uygulalardı",
                 "p1_poz_sng_q": "uyguladı mıydım",
                 "p2_poz_sng_q": "uyguladı mıydın",
                 "p3_poz_sng_q": "uyguladı mıydı",
-                "p1_poz_pul_q": "uyguladılar mıydık",
-                "p2_poz_pul_q": "uyguladılar mıydınız",
-                "p3_poz_pul_q": "uyguladılarlar mıydı",
+                "p1_poz_pul_q": "uyguladı mıydık",
+                "p2_poz_pul_q": "uyguladı mıydınız",
+                "p3_poz_pul_q": "uyguladılar mıydı",
                 "p1_neg_sng_q": "uygulamadı mıydım",
                 "p2_neg_sng_q": "uygulamadı mıydın",
                 "p3_neg_sng_q": "uygulamadı mıydı",
-                "p1_neg_pul_q": "uygulamadılar mıydık",
-                "p2_neg_pul_q": "uygulamadılar mıydınız",
-                "p3_neg_pul_q": "uygulamadılarlar mıydı"
+                "p1_neg_pul_q": "uygulamadı mıydık",
+                "p2_neg_pul_q": "uygulamadı mıydınız",
+                "p3_neg_pul_q": "uygulamadılar mıydı"
             }
         },
         {

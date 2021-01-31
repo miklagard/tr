@@ -1,6 +1,8 @@
 {
     "infinitive": "dikkat etmek",
     "infinitive_negative": "dikkat etmemek",
+    "infinitive_question": "dikkat etmek mi",
+    "infinitive_negative_question": "dikkat etmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dikkat ettiydim",
                 "p2_poz_sng": "dikkat ettiydin",
                 "p3_poz_sng": "dikkat ettiydi",
-                "p1_poz_pul": "dikkat ettilerdik",
-                "p2_poz_pul": "dikkat ettilerdiniz",
-                "p3_poz_pul": "dikkat ettilerlerdi",
+                "p1_poz_pul": "dikkat ettik",
+                "p2_poz_pul": "dikkat ettiniz",
+                "p3_poz_pul": "dikkat etlerdi",
                 "p1_neg_sng": "dikkat etmediydim",
                 "p2_neg_sng": "dikkat etmediydin",
                 "p3_neg_sng": "dikkat etmediydi",
-                "p1_neg_pul": "dikkat etmedilerdik",
-                "p2_neg_pul": "dikkat etmedilerdiniz",
-                "p3_neg_pul": "dikkat etmedilerlerdi",
+                "p1_neg_pul": "dikkat ettik",
+                "p2_neg_pul": "dikkat ettiniz",
+                "p3_neg_pul": "dikkat etlerdi",
                 "p1_poz_sng_q": "dikkat etti miydim",
                 "p2_poz_sng_q": "dikkat etti miydin",
                 "p3_poz_sng_q": "dikkat etti miydi",
-                "p1_poz_pul_q": "dikkat ettiler miydik",
-                "p2_poz_pul_q": "dikkat ettiler miydiniz",
-                "p3_poz_pul_q": "dikkat ettilerler miydi",
+                "p1_poz_pul_q": "dikkat etti miydik",
+                "p2_poz_pul_q": "dikkat etti miydiniz",
+                "p3_poz_pul_q": "dikkat ettiler miydi",
                 "p1_neg_sng_q": "dikkat etmedi miydim",
                 "p2_neg_sng_q": "dikkat etmedi miydin",
                 "p3_neg_sng_q": "dikkat etmedi miydi",
-                "p1_neg_pul_q": "dikkat etmediler miydik",
-                "p2_neg_pul_q": "dikkat etmediler miydiniz",
-                "p3_neg_pul_q": "dikkat etmedilerler miydi"
+                "p1_neg_pul_q": "dikkat etmedi miydik",
+                "p2_neg_pul_q": "dikkat etmedi miydiniz",
+                "p3_neg_pul_q": "dikkat etmediler miydi"
             }
         },
         {

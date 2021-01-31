@@ -1,6 +1,8 @@
 {
     "infinitive": "satın almak",
     "infinitive_negative": "satın almamak",
+    "infinitive_question": "satın almak mı",
+    "infinitive_negative_question": "satın almamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "satın aldıydım",
                 "p2_poz_sng": "satın aldıydın",
                 "p3_poz_sng": "satın aldıydı",
-                "p1_poz_pul": "satın aldılardık",
-                "p2_poz_pul": "satın aldılardınız",
-                "p3_poz_pul": "satın aldılarlardı",
+                "p1_poz_pul": "satın aldık",
+                "p2_poz_pul": "satın aldınız",
+                "p3_poz_pul": "satın allardı",
                 "p1_neg_sng": "satın almadıydım",
                 "p2_neg_sng": "satın almadıydın",
                 "p3_neg_sng": "satın almadıydı",
-                "p1_neg_pul": "satın almadılardık",
-                "p2_neg_pul": "satın almadılardınız",
-                "p3_neg_pul": "satın almadılarlardı",
+                "p1_neg_pul": "satın aldık",
+                "p2_neg_pul": "satın aldınız",
+                "p3_neg_pul": "satın allardı",
                 "p1_poz_sng_q": "satın aldı mıydım",
                 "p2_poz_sng_q": "satın aldı mıydın",
                 "p3_poz_sng_q": "satın aldı mıydı",
-                "p1_poz_pul_q": "satın aldılar mıydık",
-                "p2_poz_pul_q": "satın aldılar mıydınız",
-                "p3_poz_pul_q": "satın aldılarlar mıydı",
+                "p1_poz_pul_q": "satın aldı mıydık",
+                "p2_poz_pul_q": "satın aldı mıydınız",
+                "p3_poz_pul_q": "satın aldılar mıydı",
                 "p1_neg_sng_q": "satın almadı mıydım",
                 "p2_neg_sng_q": "satın almadı mıydın",
                 "p3_neg_sng_q": "satın almadı mıydı",
-                "p1_neg_pul_q": "satın almadılar mıydık",
-                "p2_neg_pul_q": "satın almadılar mıydınız",
-                "p3_neg_pul_q": "satın almadılarlar mıydı"
+                "p1_neg_pul_q": "satın almadı mıydık",
+                "p2_neg_pul_q": "satın almadı mıydınız",
+                "p3_neg_pul_q": "satın almadılar mıydı"
             }
         },
         {

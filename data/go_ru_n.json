@@ -1,6 +1,8 @@
 {
     "infinitive": "görünmek",
     "infinitive_negative": "görünmemek",
+    "infinitive_question": "görünmek mi",
+    "infinitive_negative_question": "görünmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "göründüydüm",
                 "p2_poz_sng": "göründüydün",
                 "p3_poz_sng": "göründüydü",
-                "p1_poz_pul": "göründülerdik",
-                "p2_poz_pul": "göründülerdiniz",
-                "p3_poz_pul": "göründülerlerdi",
+                "p1_poz_pul": "göründük",
+                "p2_poz_pul": "göründünüz",
+                "p3_poz_pul": "görünlerdi",
                 "p1_neg_sng": "görünmediydim",
                 "p2_neg_sng": "görünmediydin",
                 "p3_neg_sng": "görünmediydi",
-                "p1_neg_pul": "görünmedilerdik",
-                "p2_neg_pul": "görünmedilerdiniz",
-                "p3_neg_pul": "görünmedilerlerdi",
+                "p1_neg_pul": "göründük",
+                "p2_neg_pul": "göründünüz",
+                "p3_neg_pul": "görünlerdi",
                 "p1_poz_sng_q": "göründü müydüm",
                 "p2_poz_sng_q": "göründü müydün",
                 "p3_poz_sng_q": "göründü müydü",
-                "p1_poz_pul_q": "göründüler miydik",
-                "p2_poz_pul_q": "göründüler miydiniz",
-                "p3_poz_pul_q": "göründülerler miydi",
+                "p1_poz_pul_q": "göründü müydük",
+                "p2_poz_pul_q": "göründü müydünüz",
+                "p3_poz_pul_q": "göründüler miydi",
                 "p1_neg_sng_q": "görünmedi miydim",
                 "p2_neg_sng_q": "görünmedi miydin",
                 "p3_neg_sng_q": "görünmedi miydi",
-                "p1_neg_pul_q": "görünmediler miydik",
-                "p2_neg_pul_q": "görünmediler miydiniz",
-                "p3_neg_pul_q": "görünmedilerler miydi"
+                "p1_neg_pul_q": "görünmedi miydik",
+                "p2_neg_pul_q": "görünmedi miydiniz",
+                "p3_neg_pul_q": "görünmediler miydi"
             }
         },
         {

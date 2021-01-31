@@ -1,6 +1,8 @@
 {
     "infinitive": "kalkmak",
     "infinitive_negative": "kalkmamak",
+    "infinitive_question": "kalkmak mı",
+    "infinitive_negative_question": "kalkmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "kalktıydım",
                 "p2_poz_sng": "kalktıydın",
                 "p3_poz_sng": "kalktıydı",
-                "p1_poz_pul": "kalktılardık",
-                "p2_poz_pul": "kalktılardınız",
-                "p3_poz_pul": "kalktılarlardı",
+                "p1_poz_pul": "kalktık",
+                "p2_poz_pul": "kalktınız",
+                "p3_poz_pul": "kalklardı",
                 "p1_neg_sng": "kalkmadıydım",
                 "p2_neg_sng": "kalkmadıydın",
                 "p3_neg_sng": "kalkmadıydı",
-                "p1_neg_pul": "kalkmadılardık",
-                "p2_neg_pul": "kalkmadılardınız",
-                "p3_neg_pul": "kalkmadılarlardı",
+                "p1_neg_pul": "kalktık",
+                "p2_neg_pul": "kalktınız",
+                "p3_neg_pul": "kalklardı",
                 "p1_poz_sng_q": "kalktı mıydım",
                 "p2_poz_sng_q": "kalktı mıydın",
                 "p3_poz_sng_q": "kalktı mıydı",
-                "p1_poz_pul_q": "kalktılar mıydık",
-                "p2_poz_pul_q": "kalktılar mıydınız",
-                "p3_poz_pul_q": "kalktılarlar mıydı",
+                "p1_poz_pul_q": "kalktı mıydık",
+                "p2_poz_pul_q": "kalktı mıydınız",
+                "p3_poz_pul_q": "kalktılar mıydı",
                 "p1_neg_sng_q": "kalkmadı mıydım",
                 "p2_neg_sng_q": "kalkmadı mıydın",
                 "p3_neg_sng_q": "kalkmadı mıydı",
-                "p1_neg_pul_q": "kalkmadılar mıydık",
-                "p2_neg_pul_q": "kalkmadılar mıydınız",
-                "p3_neg_pul_q": "kalkmadılarlar mıydı"
+                "p1_neg_pul_q": "kalkmadı mıydık",
+                "p2_neg_pul_q": "kalkmadı mıydınız",
+                "p3_neg_pul_q": "kalkmadılar mıydı"
             }
         },
         {

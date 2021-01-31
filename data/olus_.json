@@ -1,6 +1,8 @@
 {
     "infinitive": "oluşmak",
     "infinitive_negative": "oluşmamak",
+    "infinitive_question": "oluşmak mı",
+    "infinitive_negative_question": "oluşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "oluştuydum",
                 "p2_poz_sng": "oluştuydun",
                 "p3_poz_sng": "oluştuydu",
-                "p1_poz_pul": "oluştulardık",
-                "p2_poz_pul": "oluştulardınız",
-                "p3_poz_pul": "oluştularlardı",
+                "p1_poz_pul": "oluştuk",
+                "p2_poz_pul": "oluştunuz",
+                "p3_poz_pul": "oluşlardı",
                 "p1_neg_sng": "oluşmadıydım",
                 "p2_neg_sng": "oluşmadıydın",
                 "p3_neg_sng": "oluşmadıydı",
-                "p1_neg_pul": "oluşmadılardık",
-                "p2_neg_pul": "oluşmadılardınız",
-                "p3_neg_pul": "oluşmadılarlardı",
+                "p1_neg_pul": "oluştuk",
+                "p2_neg_pul": "oluştunuz",
+                "p3_neg_pul": "oluşlardı",
                 "p1_poz_sng_q": "oluştu muydum",
                 "p2_poz_sng_q": "oluştu muydun",
                 "p3_poz_sng_q": "oluştu muydu",
-                "p1_poz_pul_q": "oluştular mıydık",
-                "p2_poz_pul_q": "oluştular mıydınız",
-                "p3_poz_pul_q": "oluştularlar mıydı",
+                "p1_poz_pul_q": "oluştu muyduk",
+                "p2_poz_pul_q": "oluştu muydunuz",
+                "p3_poz_pul_q": "oluştular mıydı",
                 "p1_neg_sng_q": "oluşmadı mıydım",
                 "p2_neg_sng_q": "oluşmadı mıydın",
                 "p3_neg_sng_q": "oluşmadı mıydı",
-                "p1_neg_pul_q": "oluşmadılar mıydık",
-                "p2_neg_pul_q": "oluşmadılar mıydınız",
-                "p3_neg_pul_q": "oluşmadılarlar mıydı"
+                "p1_neg_pul_q": "oluşmadı mıydık",
+                "p2_neg_pul_q": "oluşmadı mıydınız",
+                "p3_neg_pul_q": "oluşmadılar mıydı"
             }
         },
         {

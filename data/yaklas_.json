@@ -1,6 +1,8 @@
 {
     "infinitive": "yaklaşmak",
     "infinitive_negative": "yaklaşmamak",
+    "infinitive_question": "yaklaşmak mı",
+    "infinitive_negative_question": "yaklaşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yaklaştıydım",
                 "p2_poz_sng": "yaklaştıydın",
                 "p3_poz_sng": "yaklaştıydı",
-                "p1_poz_pul": "yaklaştılardık",
-                "p2_poz_pul": "yaklaştılardınız",
-                "p3_poz_pul": "yaklaştılarlardı",
+                "p1_poz_pul": "yaklaştık",
+                "p2_poz_pul": "yaklaştınız",
+                "p3_poz_pul": "yaklaşlardı",
                 "p1_neg_sng": "yaklaşmadıydım",
                 "p2_neg_sng": "yaklaşmadıydın",
                 "p3_neg_sng": "yaklaşmadıydı",
-                "p1_neg_pul": "yaklaşmadılardık",
-                "p2_neg_pul": "yaklaşmadılardınız",
-                "p3_neg_pul": "yaklaşmadılarlardı",
+                "p1_neg_pul": "yaklaştık",
+                "p2_neg_pul": "yaklaştınız",
+                "p3_neg_pul": "yaklaşlardı",
                 "p1_poz_sng_q": "yaklaştı mıydım",
                 "p2_poz_sng_q": "yaklaştı mıydın",
                 "p3_poz_sng_q": "yaklaştı mıydı",
-                "p1_poz_pul_q": "yaklaştılar mıydık",
-                "p2_poz_pul_q": "yaklaştılar mıydınız",
-                "p3_poz_pul_q": "yaklaştılarlar mıydı",
+                "p1_poz_pul_q": "yaklaştı mıydık",
+                "p2_poz_pul_q": "yaklaştı mıydınız",
+                "p3_poz_pul_q": "yaklaştılar mıydı",
                 "p1_neg_sng_q": "yaklaşmadı mıydım",
                 "p2_neg_sng_q": "yaklaşmadı mıydın",
                 "p3_neg_sng_q": "yaklaşmadı mıydı",
-                "p1_neg_pul_q": "yaklaşmadılar mıydık",
-                "p2_neg_pul_q": "yaklaşmadılar mıydınız",
-                "p3_neg_pul_q": "yaklaşmadılarlar mıydı"
+                "p1_neg_pul_q": "yaklaşmadı mıydık",
+                "p2_neg_pul_q": "yaklaşmadı mıydınız",
+                "p3_neg_pul_q": "yaklaşmadılar mıydı"
             }
         },
         {

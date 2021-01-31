@@ -1,6 +1,8 @@
 {
     "infinitive": "ayırmak",
     "infinitive_negative": "ayırmamak",
+    "infinitive_question": "ayırmak mı",
+    "infinitive_negative_question": "ayırmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ayırdıydım",
                 "p2_poz_sng": "ayırdıydın",
                 "p3_poz_sng": "ayırdıydı",
-                "p1_poz_pul": "ayırdılardık",
-                "p2_poz_pul": "ayırdılardınız",
-                "p3_poz_pul": "ayırdılarlardı",
+                "p1_poz_pul": "ayırdık",
+                "p2_poz_pul": "ayırdınız",
+                "p3_poz_pul": "ayırlardı",
                 "p1_neg_sng": "ayırmadıydım",
                 "p2_neg_sng": "ayırmadıydın",
                 "p3_neg_sng": "ayırmadıydı",
-                "p1_neg_pul": "ayırmadılardık",
-                "p2_neg_pul": "ayırmadılardınız",
-                "p3_neg_pul": "ayırmadılarlardı",
+                "p1_neg_pul": "ayırdık",
+                "p2_neg_pul": "ayırdınız",
+                "p3_neg_pul": "ayırlardı",
                 "p1_poz_sng_q": "ayırdı mıydım",
                 "p2_poz_sng_q": "ayırdı mıydın",
                 "p3_poz_sng_q": "ayırdı mıydı",
-                "p1_poz_pul_q": "ayırdılar mıydık",
-                "p2_poz_pul_q": "ayırdılar mıydınız",
-                "p3_poz_pul_q": "ayırdılarlar mıydı",
+                "p1_poz_pul_q": "ayırdı mıydık",
+                "p2_poz_pul_q": "ayırdı mıydınız",
+                "p3_poz_pul_q": "ayırdılar mıydı",
                 "p1_neg_sng_q": "ayırmadı mıydım",
                 "p2_neg_sng_q": "ayırmadı mıydın",
                 "p3_neg_sng_q": "ayırmadı mıydı",
-                "p1_neg_pul_q": "ayırmadılar mıydık",
-                "p2_neg_pul_q": "ayırmadılar mıydınız",
-                "p3_neg_pul_q": "ayırmadılarlar mıydı"
+                "p1_neg_pul_q": "ayırmadı mıydık",
+                "p2_neg_pul_q": "ayırmadı mıydınız",
+                "p3_neg_pul_q": "ayırmadılar mıydı"
             }
         },
         {

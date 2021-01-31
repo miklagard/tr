@@ -1,6 +1,8 @@
 {
     "infinitive": "akmak",
     "infinitive_negative": "akmamak",
+    "infinitive_question": "akmak mı",
+    "infinitive_negative_question": "akmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "aktıydım",
                 "p2_poz_sng": "aktıydın",
                 "p3_poz_sng": "aktıydı",
-                "p1_poz_pul": "aktılardık",
-                "p2_poz_pul": "aktılardınız",
-                "p3_poz_pul": "aktılarlardı",
+                "p1_poz_pul": "aktık",
+                "p2_poz_pul": "aktınız",
+                "p3_poz_pul": "aklardı",
                 "p1_neg_sng": "akmadıydım",
                 "p2_neg_sng": "akmadıydın",
                 "p3_neg_sng": "akmadıydı",
-                "p1_neg_pul": "akmadılardık",
-                "p2_neg_pul": "akmadılardınız",
-                "p3_neg_pul": "akmadılarlardı",
+                "p1_neg_pul": "aktık",
+                "p2_neg_pul": "aktınız",
+                "p3_neg_pul": "aklardı",
                 "p1_poz_sng_q": "aktı mıydım",
                 "p2_poz_sng_q": "aktı mıydın",
                 "p3_poz_sng_q": "aktı mıydı",
-                "p1_poz_pul_q": "aktılar mıydık",
-                "p2_poz_pul_q": "aktılar mıydınız",
-                "p3_poz_pul_q": "aktılarlar mıydı",
+                "p1_poz_pul_q": "aktı mıydık",
+                "p2_poz_pul_q": "aktı mıydınız",
+                "p3_poz_pul_q": "aktılar mıydı",
                 "p1_neg_sng_q": "akmadı mıydım",
                 "p2_neg_sng_q": "akmadı mıydın",
                 "p3_neg_sng_q": "akmadı mıydı",
-                "p1_neg_pul_q": "akmadılar mıydık",
-                "p2_neg_pul_q": "akmadılar mıydınız",
-                "p3_neg_pul_q": "akmadılarlar mıydı"
+                "p1_neg_pul_q": "akmadı mıydık",
+                "p2_neg_pul_q": "akmadı mıydınız",
+                "p3_neg_pul_q": "akmadılar mıydı"
             }
         },
         {

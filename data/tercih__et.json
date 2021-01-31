@@ -1,6 +1,8 @@
 {
     "infinitive": "tercih etmek",
     "infinitive_negative": "tercih etmemek",
+    "infinitive_question": "tercih etmek mi",
+    "infinitive_negative_question": "tercih etmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "tercih ettiydim",
                 "p2_poz_sng": "tercih ettiydin",
                 "p3_poz_sng": "tercih ettiydi",
-                "p1_poz_pul": "tercih ettilerdik",
-                "p2_poz_pul": "tercih ettilerdiniz",
-                "p3_poz_pul": "tercih ettilerlerdi",
+                "p1_poz_pul": "tercih ettik",
+                "p2_poz_pul": "tercih ettiniz",
+                "p3_poz_pul": "tercih etlerdi",
                 "p1_neg_sng": "tercih etmediydim",
                 "p2_neg_sng": "tercih etmediydin",
                 "p3_neg_sng": "tercih etmediydi",
-                "p1_neg_pul": "tercih etmedilerdik",
-                "p2_neg_pul": "tercih etmedilerdiniz",
-                "p3_neg_pul": "tercih etmedilerlerdi",
+                "p1_neg_pul": "tercih ettik",
+                "p2_neg_pul": "tercih ettiniz",
+                "p3_neg_pul": "tercih etlerdi",
                 "p1_poz_sng_q": "tercih etti miydim",
                 "p2_poz_sng_q": "tercih etti miydin",
                 "p3_poz_sng_q": "tercih etti miydi",
-                "p1_poz_pul_q": "tercih ettiler miydik",
-                "p2_poz_pul_q": "tercih ettiler miydiniz",
-                "p3_poz_pul_q": "tercih ettilerler miydi",
+                "p1_poz_pul_q": "tercih etti miydik",
+                "p2_poz_pul_q": "tercih etti miydiniz",
+                "p3_poz_pul_q": "tercih ettiler miydi",
                 "p1_neg_sng_q": "tercih etmedi miydim",
                 "p2_neg_sng_q": "tercih etmedi miydin",
                 "p3_neg_sng_q": "tercih etmedi miydi",
-                "p1_neg_pul_q": "tercih etmediler miydik",
-                "p2_neg_pul_q": "tercih etmediler miydiniz",
-                "p3_neg_pul_q": "tercih etmedilerler miydi"
+                "p1_neg_pul_q": "tercih etmedi miydik",
+                "p2_neg_pul_q": "tercih etmedi miydiniz",
+                "p3_neg_pul_q": "tercih etmediler miydi"
             }
         },
         {

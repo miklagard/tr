@@ -1,6 +1,8 @@
 {
     "infinitive": "ulaşmak",
     "infinitive_negative": "ulaşmamak",
+    "infinitive_question": "ulaşmak mı",
+    "infinitive_negative_question": "ulaşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "ulaştıydım",
                 "p2_poz_sng": "ulaştıydın",
                 "p3_poz_sng": "ulaştıydı",
-                "p1_poz_pul": "ulaştılardık",
-                "p2_poz_pul": "ulaştılardınız",
-                "p3_poz_pul": "ulaştılarlardı",
+                "p1_poz_pul": "ulaştık",
+                "p2_poz_pul": "ulaştınız",
+                "p3_poz_pul": "ulaşlardı",
                 "p1_neg_sng": "ulaşmadıydım",
                 "p2_neg_sng": "ulaşmadıydın",
                 "p3_neg_sng": "ulaşmadıydı",
-                "p1_neg_pul": "ulaşmadılardık",
-                "p2_neg_pul": "ulaşmadılardınız",
-                "p3_neg_pul": "ulaşmadılarlardı",
+                "p1_neg_pul": "ulaştık",
+                "p2_neg_pul": "ulaştınız",
+                "p3_neg_pul": "ulaşlardı",
                 "p1_poz_sng_q": "ulaştı mıydım",
                 "p2_poz_sng_q": "ulaştı mıydın",
                 "p3_poz_sng_q": "ulaştı mıydı",
-                "p1_poz_pul_q": "ulaştılar mıydık",
-                "p2_poz_pul_q": "ulaştılar mıydınız",
-                "p3_poz_pul_q": "ulaştılarlar mıydı",
+                "p1_poz_pul_q": "ulaştı mıydık",
+                "p2_poz_pul_q": "ulaştı mıydınız",
+                "p3_poz_pul_q": "ulaştılar mıydı",
                 "p1_neg_sng_q": "ulaşmadı mıydım",
                 "p2_neg_sng_q": "ulaşmadı mıydın",
                 "p3_neg_sng_q": "ulaşmadı mıydı",
-                "p1_neg_pul_q": "ulaşmadılar mıydık",
-                "p2_neg_pul_q": "ulaşmadılar mıydınız",
-                "p3_neg_pul_q": "ulaşmadılarlar mıydı"
+                "p1_neg_pul_q": "ulaşmadı mıydık",
+                "p2_neg_pul_q": "ulaşmadı mıydınız",
+                "p3_neg_pul_q": "ulaşmadılar mıydı"
             }
         },
         {

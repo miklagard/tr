@@ -1,6 +1,8 @@
 {
     "infinitive": "öğrenmek",
     "infinitive_negative": "öğrenmemek",
+    "infinitive_question": "öğrenmek mi",
+    "infinitive_negative_question": "öğrenmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "öğrendiydim",
                 "p2_poz_sng": "öğrendiydin",
                 "p3_poz_sng": "öğrendiydi",
-                "p1_poz_pul": "öğrendilerdik",
-                "p2_poz_pul": "öğrendilerdiniz",
-                "p3_poz_pul": "öğrendilerlerdi",
+                "p1_poz_pul": "öğrendik",
+                "p2_poz_pul": "öğrendiniz",
+                "p3_poz_pul": "öğrenlerdi",
                 "p1_neg_sng": "öğrenmediydim",
                 "p2_neg_sng": "öğrenmediydin",
                 "p3_neg_sng": "öğrenmediydi",
-                "p1_neg_pul": "öğrenmedilerdik",
-                "p2_neg_pul": "öğrenmedilerdiniz",
-                "p3_neg_pul": "öğrenmedilerlerdi",
+                "p1_neg_pul": "öğrendik",
+                "p2_neg_pul": "öğrendiniz",
+                "p3_neg_pul": "öğrenlerdi",
                 "p1_poz_sng_q": "öğrendi miydim",
                 "p2_poz_sng_q": "öğrendi miydin",
                 "p3_poz_sng_q": "öğrendi miydi",
-                "p1_poz_pul_q": "öğrendiler miydik",
-                "p2_poz_pul_q": "öğrendiler miydiniz",
-                "p3_poz_pul_q": "öğrendilerler miydi",
+                "p1_poz_pul_q": "öğrendi miydik",
+                "p2_poz_pul_q": "öğrendi miydiniz",
+                "p3_poz_pul_q": "öğrendiler miydi",
                 "p1_neg_sng_q": "öğrenmedi miydim",
                 "p2_neg_sng_q": "öğrenmedi miydin",
                 "p3_neg_sng_q": "öğrenmedi miydi",
-                "p1_neg_pul_q": "öğrenmediler miydik",
-                "p2_neg_pul_q": "öğrenmediler miydiniz",
-                "p3_neg_pul_q": "öğrenmedilerler miydi"
+                "p1_neg_pul_q": "öğrenmedi miydik",
+                "p2_neg_pul_q": "öğrenmedi miydiniz",
+                "p3_neg_pul_q": "öğrenmediler miydi"
             }
         },
         {

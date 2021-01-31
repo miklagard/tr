@@ -1,6 +1,8 @@
 {
     "infinitive": "oturmak",
     "infinitive_negative": "oturmamak",
+    "infinitive_question": "oturmak mı",
+    "infinitive_negative_question": "oturmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "oturduydum",
                 "p2_poz_sng": "oturduydun",
                 "p3_poz_sng": "oturduydu",
-                "p1_poz_pul": "oturdulardık",
-                "p2_poz_pul": "oturdulardınız",
-                "p3_poz_pul": "oturdularlardı",
+                "p1_poz_pul": "oturduk",
+                "p2_poz_pul": "oturdunuz",
+                "p3_poz_pul": "oturlardı",
                 "p1_neg_sng": "oturmadıydım",
                 "p2_neg_sng": "oturmadıydın",
                 "p3_neg_sng": "oturmadıydı",
-                "p1_neg_pul": "oturmadılardık",
-                "p2_neg_pul": "oturmadılardınız",
-                "p3_neg_pul": "oturmadılarlardı",
+                "p1_neg_pul": "oturduk",
+                "p2_neg_pul": "oturdunuz",
+                "p3_neg_pul": "oturlardı",
                 "p1_poz_sng_q": "oturdu muydum",
                 "p2_poz_sng_q": "oturdu muydun",
                 "p3_poz_sng_q": "oturdu muydu",
-                "p1_poz_pul_q": "oturdular mıydık",
-                "p2_poz_pul_q": "oturdular mıydınız",
-                "p3_poz_pul_q": "oturdularlar mıydı",
+                "p1_poz_pul_q": "oturdu muyduk",
+                "p2_poz_pul_q": "oturdu muydunuz",
+                "p3_poz_pul_q": "oturdular mıydı",
                 "p1_neg_sng_q": "oturmadı mıydım",
                 "p2_neg_sng_q": "oturmadı mıydın",
                 "p3_neg_sng_q": "oturmadı mıydı",
-                "p1_neg_pul_q": "oturmadılar mıydık",
-                "p2_neg_pul_q": "oturmadılar mıydınız",
-                "p3_neg_pul_q": "oturmadılarlar mıydı"
+                "p1_neg_pul_q": "oturmadı mıydık",
+                "p2_neg_pul_q": "oturmadı mıydınız",
+                "p3_neg_pul_q": "oturmadılar mıydı"
             }
         },
         {

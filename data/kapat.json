@@ -1,6 +1,8 @@
 {
     "infinitive": "kapatmak",
     "infinitive_negative": "kapatmamak",
+    "infinitive_question": "kapatmak mı",
+    "infinitive_negative_question": "kapatmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "kapattıydım",
                 "p2_poz_sng": "kapattıydın",
                 "p3_poz_sng": "kapattıydı",
-                "p1_poz_pul": "kapattılardık",
-                "p2_poz_pul": "kapattılardınız",
-                "p3_poz_pul": "kapattılarlardı",
+                "p1_poz_pul": "kapattık",
+                "p2_poz_pul": "kapattınız",
+                "p3_poz_pul": "kapatlardı",
                 "p1_neg_sng": "kapatmadıydım",
                 "p2_neg_sng": "kapatmadıydın",
                 "p3_neg_sng": "kapatmadıydı",
-                "p1_neg_pul": "kapatmadılardık",
-                "p2_neg_pul": "kapatmadılardınız",
-                "p3_neg_pul": "kapatmadılarlardı",
+                "p1_neg_pul": "kapattık",
+                "p2_neg_pul": "kapattınız",
+                "p3_neg_pul": "kapatlardı",
                 "p1_poz_sng_q": "kapattı mıydım",
                 "p2_poz_sng_q": "kapattı mıydın",
                 "p3_poz_sng_q": "kapattı mıydı",
-                "p1_poz_pul_q": "kapattılar mıydık",
-                "p2_poz_pul_q": "kapattılar mıydınız",
-                "p3_poz_pul_q": "kapattılarlar mıydı",
+                "p1_poz_pul_q": "kapattı mıydık",
+                "p2_poz_pul_q": "kapattı mıydınız",
+                "p3_poz_pul_q": "kapattılar mıydı",
                 "p1_neg_sng_q": "kapatmadı mıydım",
                 "p2_neg_sng_q": "kapatmadı mıydın",
                 "p3_neg_sng_q": "kapatmadı mıydı",
-                "p1_neg_pul_q": "kapatmadılar mıydık",
-                "p2_neg_pul_q": "kapatmadılar mıydınız",
-                "p3_neg_pul_q": "kapatmadılarlar mıydı"
+                "p1_neg_pul_q": "kapatmadı mıydık",
+                "p2_neg_pul_q": "kapatmadı mıydınız",
+                "p3_neg_pul_q": "kapatmadılar mıydı"
             }
         },
         {

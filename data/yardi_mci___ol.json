@@ -1,6 +1,8 @@
 {
     "infinitive": "yardımcı olmak",
     "infinitive_negative": "yardımcı olmamak",
+    "infinitive_question": "yardımcı olmak mı",
+    "infinitive_negative_question": "yardımcı olmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yardımcı olduydum",
                 "p2_poz_sng": "yardımcı olduydun",
                 "p3_poz_sng": "yardımcı olduydu",
-                "p1_poz_pul": "yardımcı oldulardık",
-                "p2_poz_pul": "yardımcı oldulardınız",
-                "p3_poz_pul": "yardımcı oldularlardı",
+                "p1_poz_pul": "yardımcı olduk",
+                "p2_poz_pul": "yardımcı oldunuz",
+                "p3_poz_pul": "yardımcı ollardı",
                 "p1_neg_sng": "yardımcı olmadıydım",
                 "p2_neg_sng": "yardımcı olmadıydın",
                 "p3_neg_sng": "yardımcı olmadıydı",
-                "p1_neg_pul": "yardımcı olmadılardık",
-                "p2_neg_pul": "yardımcı olmadılardınız",
-                "p3_neg_pul": "yardımcı olmadılarlardı",
+                "p1_neg_pul": "yardımcı olduk",
+                "p2_neg_pul": "yardımcı oldunuz",
+                "p3_neg_pul": "yardımcı ollardı",
                 "p1_poz_sng_q": "yardımcı oldu muydum",
                 "p2_poz_sng_q": "yardımcı oldu muydun",
                 "p3_poz_sng_q": "yardımcı oldu muydu",
-                "p1_poz_pul_q": "yardımcı oldular mıydık",
-                "p2_poz_pul_q": "yardımcı oldular mıydınız",
-                "p3_poz_pul_q": "yardımcı oldularlar mıydı",
+                "p1_poz_pul_q": "yardımcı oldu muyduk",
+                "p2_poz_pul_q": "yardımcı oldu muydunuz",
+                "p3_poz_pul_q": "yardımcı oldular mıydı",
                 "p1_neg_sng_q": "yardımcı olmadı mıydım",
                 "p2_neg_sng_q": "yardımcı olmadı mıydın",
                 "p3_neg_sng_q": "yardımcı olmadı mıydı",
-                "p1_neg_pul_q": "yardımcı olmadılar mıydık",
-                "p2_neg_pul_q": "yardımcı olmadılar mıydınız",
-                "p3_neg_pul_q": "yardımcı olmadılarlar mıydı"
+                "p1_neg_pul_q": "yardımcı olmadı mıydık",
+                "p2_neg_pul_q": "yardımcı olmadı mıydınız",
+                "p3_neg_pul_q": "yardımcı olmadılar mıydı"
             }
         },
         {

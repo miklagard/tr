@@ -1,6 +1,8 @@
 {
     "infinitive": "seyretmek",
     "infinitive_negative": "seyretmemek",
+    "infinitive_question": "seyretmek mi",
+    "infinitive_negative_question": "seyretmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "seyrettiydim",
                 "p2_poz_sng": "seyrettiydin",
                 "p3_poz_sng": "seyrettiydi",
-                "p1_poz_pul": "seyrettilerdik",
-                "p2_poz_pul": "seyrettilerdiniz",
-                "p3_poz_pul": "seyrettilerlerdi",
+                "p1_poz_pul": "seyrettik",
+                "p2_poz_pul": "seyrettiniz",
+                "p3_poz_pul": "seyretlerdi",
                 "p1_neg_sng": "seyretmediydim",
                 "p2_neg_sng": "seyretmediydin",
                 "p3_neg_sng": "seyretmediydi",
-                "p1_neg_pul": "seyretmedilerdik",
-                "p2_neg_pul": "seyretmedilerdiniz",
-                "p3_neg_pul": "seyretmedilerlerdi",
+                "p1_neg_pul": "seyrettik",
+                "p2_neg_pul": "seyrettiniz",
+                "p3_neg_pul": "seyretlerdi",
                 "p1_poz_sng_q": "seyretti miydim",
                 "p2_poz_sng_q": "seyretti miydin",
                 "p3_poz_sng_q": "seyretti miydi",
-                "p1_poz_pul_q": "seyrettiler miydik",
-                "p2_poz_pul_q": "seyrettiler miydiniz",
-                "p3_poz_pul_q": "seyrettilerler miydi",
+                "p1_poz_pul_q": "seyretti miydik",
+                "p2_poz_pul_q": "seyretti miydiniz",
+                "p3_poz_pul_q": "seyrettiler miydi",
                 "p1_neg_sng_q": "seyretmedi miydim",
                 "p2_neg_sng_q": "seyretmedi miydin",
                 "p3_neg_sng_q": "seyretmedi miydi",
-                "p1_neg_pul_q": "seyretmediler miydik",
-                "p2_neg_pul_q": "seyretmediler miydiniz",
-                "p3_neg_pul_q": "seyretmedilerler miydi"
+                "p1_neg_pul_q": "seyretmedi miydik",
+                "p2_neg_pul_q": "seyretmedi miydiniz",
+                "p3_neg_pul_q": "seyretmediler miydi"
             }
         },
         {

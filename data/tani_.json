@@ -1,6 +1,8 @@
 {
     "infinitive": "tanımak",
     "infinitive_negative": "tanımamak",
+    "infinitive_question": "tanımak mı",
+    "infinitive_negative_question": "tanımamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "tanıdıydım",
                 "p2_poz_sng": "tanıdıydın",
                 "p3_poz_sng": "tanıdıydı",
-                "p1_poz_pul": "tanıdılardık",
-                "p2_poz_pul": "tanıdılardınız",
-                "p3_poz_pul": "tanıdılarlardı",
+                "p1_poz_pul": "tanıydık",
+                "p2_poz_pul": "tanıydınız",
+                "p3_poz_pul": "tanılardı",
                 "p1_neg_sng": "tanımadıydım",
                 "p2_neg_sng": "tanımadıydın",
                 "p3_neg_sng": "tanımadıydı",
-                "p1_neg_pul": "tanımadılardık",
-                "p2_neg_pul": "tanımadılardınız",
-                "p3_neg_pul": "tanımadılarlardı",
+                "p1_neg_pul": "tanıydık",
+                "p2_neg_pul": "tanıydınız",
+                "p3_neg_pul": "tanılardı",
                 "p1_poz_sng_q": "tanıdı mıydım",
                 "p2_poz_sng_q": "tanıdı mıydın",
                 "p3_poz_sng_q": "tanıdı mıydı",
-                "p1_poz_pul_q": "tanıdılar mıydık",
-                "p2_poz_pul_q": "tanıdılar mıydınız",
-                "p3_poz_pul_q": "tanıdılarlar mıydı",
+                "p1_poz_pul_q": "tanıdı mıydık",
+                "p2_poz_pul_q": "tanıdı mıydınız",
+                "p3_poz_pul_q": "tanıdılar mıydı",
                 "p1_neg_sng_q": "tanımadı mıydım",
                 "p2_neg_sng_q": "tanımadı mıydın",
                 "p3_neg_sng_q": "tanımadı mıydı",
-                "p1_neg_pul_q": "tanımadılar mıydık",
-                "p2_neg_pul_q": "tanımadılar mıydınız",
-                "p3_neg_pul_q": "tanımadılarlar mıydı"
+                "p1_neg_pul_q": "tanımadı mıydık",
+                "p2_neg_pul_q": "tanımadı mıydınız",
+                "p3_neg_pul_q": "tanımadılar mıydı"
             }
         },
         {

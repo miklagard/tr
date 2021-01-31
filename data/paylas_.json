@@ -1,6 +1,8 @@
 {
     "infinitive": "paylaşmak",
     "infinitive_negative": "paylaşmamak",
+    "infinitive_question": "paylaşmak mı",
+    "infinitive_negative_question": "paylaşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "paylaştıydım",
                 "p2_poz_sng": "paylaştıydın",
                 "p3_poz_sng": "paylaştıydı",
-                "p1_poz_pul": "paylaştılardık",
-                "p2_poz_pul": "paylaştılardınız",
-                "p3_poz_pul": "paylaştılarlardı",
+                "p1_poz_pul": "paylaştık",
+                "p2_poz_pul": "paylaştınız",
+                "p3_poz_pul": "paylaşlardı",
                 "p1_neg_sng": "paylaşmadıydım",
                 "p2_neg_sng": "paylaşmadıydın",
                 "p3_neg_sng": "paylaşmadıydı",
-                "p1_neg_pul": "paylaşmadılardık",
-                "p2_neg_pul": "paylaşmadılardınız",
-                "p3_neg_pul": "paylaşmadılarlardı",
+                "p1_neg_pul": "paylaştık",
+                "p2_neg_pul": "paylaştınız",
+                "p3_neg_pul": "paylaşlardı",
                 "p1_poz_sng_q": "paylaştı mıydım",
                 "p2_poz_sng_q": "paylaştı mıydın",
                 "p3_poz_sng_q": "paylaştı mıydı",
-                "p1_poz_pul_q": "paylaştılar mıydık",
-                "p2_poz_pul_q": "paylaştılar mıydınız",
-                "p3_poz_pul_q": "paylaştılarlar mıydı",
+                "p1_poz_pul_q": "paylaştı mıydık",
+                "p2_poz_pul_q": "paylaştı mıydınız",
+                "p3_poz_pul_q": "paylaştılar mıydı",
                 "p1_neg_sng_q": "paylaşmadı mıydım",
                 "p2_neg_sng_q": "paylaşmadı mıydın",
                 "p3_neg_sng_q": "paylaşmadı mıydı",
-                "p1_neg_pul_q": "paylaşmadılar mıydık",
-                "p2_neg_pul_q": "paylaşmadılar mıydınız",
-                "p3_neg_pul_q": "paylaşmadılarlar mıydı"
+                "p1_neg_pul_q": "paylaşmadı mıydık",
+                "p2_neg_pul_q": "paylaşmadı mıydınız",
+                "p3_neg_pul_q": "paylaşmadılar mıydı"
             }
         },
         {

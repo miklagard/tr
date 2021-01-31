@@ -1,6 +1,8 @@
 {
     "infinitive": "dolaşmak",
     "infinitive_negative": "dolaşmamak",
+    "infinitive_question": "dolaşmak mı",
+    "infinitive_negative_question": "dolaşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dolaştıydım",
                 "p2_poz_sng": "dolaştıydın",
                 "p3_poz_sng": "dolaştıydı",
-                "p1_poz_pul": "dolaştılardık",
-                "p2_poz_pul": "dolaştılardınız",
-                "p3_poz_pul": "dolaştılarlardı",
+                "p1_poz_pul": "dolaştık",
+                "p2_poz_pul": "dolaştınız",
+                "p3_poz_pul": "dolaşlardı",
                 "p1_neg_sng": "dolaşmadıydım",
                 "p2_neg_sng": "dolaşmadıydın",
                 "p3_neg_sng": "dolaşmadıydı",
-                "p1_neg_pul": "dolaşmadılardık",
-                "p2_neg_pul": "dolaşmadılardınız",
-                "p3_neg_pul": "dolaşmadılarlardı",
+                "p1_neg_pul": "dolaştık",
+                "p2_neg_pul": "dolaştınız",
+                "p3_neg_pul": "dolaşlardı",
                 "p1_poz_sng_q": "dolaştı mıydım",
                 "p2_poz_sng_q": "dolaştı mıydın",
                 "p3_poz_sng_q": "dolaştı mıydı",
-                "p1_poz_pul_q": "dolaştılar mıydık",
-                "p2_poz_pul_q": "dolaştılar mıydınız",
-                "p3_poz_pul_q": "dolaştılarlar mıydı",
+                "p1_poz_pul_q": "dolaştı mıydık",
+                "p2_poz_pul_q": "dolaştı mıydınız",
+                "p3_poz_pul_q": "dolaştılar mıydı",
                 "p1_neg_sng_q": "dolaşmadı mıydım",
                 "p2_neg_sng_q": "dolaşmadı mıydın",
                 "p3_neg_sng_q": "dolaşmadı mıydı",
-                "p1_neg_pul_q": "dolaşmadılar mıydık",
-                "p2_neg_pul_q": "dolaşmadılar mıydınız",
-                "p3_neg_pul_q": "dolaşmadılarlar mıydı"
+                "p1_neg_pul_q": "dolaşmadı mıydık",
+                "p2_neg_pul_q": "dolaşmadı mıydınız",
+                "p3_neg_pul_q": "dolaşmadılar mıydı"
             }
         },
         {

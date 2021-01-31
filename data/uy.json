@@ -1,6 +1,8 @@
 {
     "infinitive": "uymak",
     "infinitive_negative": "uymamak",
+    "infinitive_question": "uymak mı",
+    "infinitive_negative_question": "uymamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "uyduydum",
                 "p2_poz_sng": "uyduydun",
                 "p3_poz_sng": "uyduydu",
-                "p1_poz_pul": "uydulardık",
-                "p2_poz_pul": "uydulardınız",
-                "p3_poz_pul": "uydularlardı",
+                "p1_poz_pul": "uyduk",
+                "p2_poz_pul": "uydunuz",
+                "p3_poz_pul": "uylardı",
                 "p1_neg_sng": "uymadıydım",
                 "p2_neg_sng": "uymadıydın",
                 "p3_neg_sng": "uymadıydı",
-                "p1_neg_pul": "uymadılardık",
-                "p2_neg_pul": "uymadılardınız",
-                "p3_neg_pul": "uymadılarlardı",
+                "p1_neg_pul": "uyduk",
+                "p2_neg_pul": "uydunuz",
+                "p3_neg_pul": "uylardı",
                 "p1_poz_sng_q": "uydu muydum",
                 "p2_poz_sng_q": "uydu muydun",
                 "p3_poz_sng_q": "uydu muydu",
-                "p1_poz_pul_q": "uydular mıydık",
-                "p2_poz_pul_q": "uydular mıydınız",
-                "p3_poz_pul_q": "uydularlar mıydı",
+                "p1_poz_pul_q": "uydu muyduk",
+                "p2_poz_pul_q": "uydu muydunuz",
+                "p3_poz_pul_q": "uydular mıydı",
                 "p1_neg_sng_q": "uymadı mıydım",
                 "p2_neg_sng_q": "uymadı mıydın",
                 "p3_neg_sng_q": "uymadı mıydı",
-                "p1_neg_pul_q": "uymadılar mıydık",
-                "p2_neg_pul_q": "uymadılar mıydınız",
-                "p3_neg_pul_q": "uymadılarlar mıydı"
+                "p1_neg_pul_q": "uymadı mıydık",
+                "p2_neg_pul_q": "uymadı mıydınız",
+                "p3_neg_pul_q": "uymadılar mıydı"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "dinlemek",
     "infinitive_negative": "dinlememek",
+    "infinitive_question": "dinlemek mi",
+    "infinitive_negative_question": "dinlememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dinlediydim",
                 "p2_poz_sng": "dinlediydin",
                 "p3_poz_sng": "dinlediydi",
-                "p1_poz_pul": "dinledilerdik",
-                "p2_poz_pul": "dinledilerdiniz",
-                "p3_poz_pul": "dinledilerlerdi",
+                "p1_poz_pul": "dinleydik",
+                "p2_poz_pul": "dinleydiniz",
+                "p3_poz_pul": "dinlelerdi",
                 "p1_neg_sng": "dinlemediydim",
                 "p2_neg_sng": "dinlemediydin",
                 "p3_neg_sng": "dinlemediydi",
-                "p1_neg_pul": "dinlemedilerdik",
-                "p2_neg_pul": "dinlemedilerdiniz",
-                "p3_neg_pul": "dinlemedilerlerdi",
+                "p1_neg_pul": "dinleydik",
+                "p2_neg_pul": "dinleydiniz",
+                "p3_neg_pul": "dinlelerdi",
                 "p1_poz_sng_q": "dinledi miydim",
                 "p2_poz_sng_q": "dinledi miydin",
                 "p3_poz_sng_q": "dinledi miydi",
-                "p1_poz_pul_q": "dinlediler miydik",
-                "p2_poz_pul_q": "dinlediler miydiniz",
-                "p3_poz_pul_q": "dinledilerler miydi",
+                "p1_poz_pul_q": "dinledi miydik",
+                "p2_poz_pul_q": "dinledi miydiniz",
+                "p3_poz_pul_q": "dinlediler miydi",
                 "p1_neg_sng_q": "dinlemedi miydim",
                 "p2_neg_sng_q": "dinlemedi miydin",
                 "p3_neg_sng_q": "dinlemedi miydi",
-                "p1_neg_pul_q": "dinlemediler miydik",
-                "p2_neg_pul_q": "dinlemediler miydiniz",
-                "p3_neg_pul_q": "dinlemedilerler miydi"
+                "p1_neg_pul_q": "dinlemedi miydik",
+                "p2_neg_pul_q": "dinlemedi miydiniz",
+                "p3_neg_pul_q": "dinlemediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "değerlendirmek",
     "infinitive_negative": "değerlendirmemek",
+    "infinitive_question": "değerlendirmek mi",
+    "infinitive_negative_question": "değerlendirmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "değerlendirdiydim",
                 "p2_poz_sng": "değerlendirdiydin",
                 "p3_poz_sng": "değerlendirdiydi",
-                "p1_poz_pul": "değerlendirdilerdik",
-                "p2_poz_pul": "değerlendirdilerdiniz",
-                "p3_poz_pul": "değerlendirdilerlerdi",
+                "p1_poz_pul": "değerlendirdik",
+                "p2_poz_pul": "değerlendirdiniz",
+                "p3_poz_pul": "değerlendirlerdi",
                 "p1_neg_sng": "değerlendirmediydim",
                 "p2_neg_sng": "değerlendirmediydin",
                 "p3_neg_sng": "değerlendirmediydi",
-                "p1_neg_pul": "değerlendirmedilerdik",
-                "p2_neg_pul": "değerlendirmedilerdiniz",
-                "p3_neg_pul": "değerlendirmedilerlerdi",
+                "p1_neg_pul": "değerlendirdik",
+                "p2_neg_pul": "değerlendirdiniz",
+                "p3_neg_pul": "değerlendirlerdi",
                 "p1_poz_sng_q": "değerlendirdi miydim",
                 "p2_poz_sng_q": "değerlendirdi miydin",
                 "p3_poz_sng_q": "değerlendirdi miydi",
-                "p1_poz_pul_q": "değerlendirdiler miydik",
-                "p2_poz_pul_q": "değerlendirdiler miydiniz",
-                "p3_poz_pul_q": "değerlendirdilerler miydi",
+                "p1_poz_pul_q": "değerlendirdi miydik",
+                "p2_poz_pul_q": "değerlendirdi miydiniz",
+                "p3_poz_pul_q": "değerlendirdiler miydi",
                 "p1_neg_sng_q": "değerlendirmedi miydim",
                 "p2_neg_sng_q": "değerlendirmedi miydin",
                 "p3_neg_sng_q": "değerlendirmedi miydi",
-                "p1_neg_pul_q": "değerlendirmediler miydik",
-                "p2_neg_pul_q": "değerlendirmediler miydiniz",
-                "p3_neg_pul_q": "değerlendirmedilerler miydi"
+                "p1_neg_pul_q": "değerlendirmedi miydik",
+                "p2_neg_pul_q": "değerlendirmedi miydiniz",
+                "p3_neg_pul_q": "değerlendirmediler miydi"
             }
         },
         {

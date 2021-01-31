@@ -1,6 +1,8 @@
 {
     "infinitive": "yükselmek",
     "infinitive_negative": "yükselmemek",
+    "infinitive_question": "yükselmek mi",
+    "infinitive_negative_question": "yükselmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "yükseldiydim",
                 "p2_poz_sng": "yükseldiydin",
                 "p3_poz_sng": "yükseldiydi",
-                "p1_poz_pul": "yükseldilerdik",
-                "p2_poz_pul": "yükseldilerdiniz",
-                "p3_poz_pul": "yükseldilerlerdi",
+                "p1_poz_pul": "yükseldik",
+                "p2_poz_pul": "yükseldiniz",
+                "p3_poz_pul": "yüksellerdi",
                 "p1_neg_sng": "yükselmediydim",
                 "p2_neg_sng": "yükselmediydin",
                 "p3_neg_sng": "yükselmediydi",
-                "p1_neg_pul": "yükselmedilerdik",
-                "p2_neg_pul": "yükselmedilerdiniz",
-                "p3_neg_pul": "yükselmedilerlerdi",
+                "p1_neg_pul": "yükseldik",
+                "p2_neg_pul": "yükseldiniz",
+                "p3_neg_pul": "yüksellerdi",
                 "p1_poz_sng_q": "yükseldi miydim",
                 "p2_poz_sng_q": "yükseldi miydin",
                 "p3_poz_sng_q": "yükseldi miydi",
-                "p1_poz_pul_q": "yükseldiler miydik",
-                "p2_poz_pul_q": "yükseldiler miydiniz",
-                "p3_poz_pul_q": "yükseldilerler miydi",
+                "p1_poz_pul_q": "yükseldi miydik",
+                "p2_poz_pul_q": "yükseldi miydiniz",
+                "p3_poz_pul_q": "yükseldiler miydi",
                 "p1_neg_sng_q": "yükselmedi miydim",
                 "p2_neg_sng_q": "yükselmedi miydin",
                 "p3_neg_sng_q": "yükselmedi miydi",
-                "p1_neg_pul_q": "yükselmediler miydik",
-                "p2_neg_pul_q": "yükselmediler miydiniz",
-                "p3_neg_pul_q": "yükselmedilerler miydi"
+                "p1_neg_pul_q": "yükselmedi miydik",
+                "p2_neg_pul_q": "yükselmedi miydiniz",
+                "p3_neg_pul_q": "yükselmediler miydi"
             }
         },
         {

@@ -1,6 +1,8 @@
 {
     "infinitive": "fark etmek",
     "infinitive_negative": "fark etmemek",
+    "infinitive_question": "fark etmek mi",
+    "infinitive_negative_question": "fark etmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "fark ettiydim",
                 "p2_poz_sng": "fark ettiydin",
                 "p3_poz_sng": "fark ettiydi",
-                "p1_poz_pul": "fark ettilerdik",
-                "p2_poz_pul": "fark ettilerdiniz",
-                "p3_poz_pul": "fark ettilerlerdi",
+                "p1_poz_pul": "fark ettik",
+                "p2_poz_pul": "fark ettiniz",
+                "p3_poz_pul": "fark etlerdi",
                 "p1_neg_sng": "fark etmediydim",
                 "p2_neg_sng": "fark etmediydin",
                 "p3_neg_sng": "fark etmediydi",
-                "p1_neg_pul": "fark etmedilerdik",
-                "p2_neg_pul": "fark etmedilerdiniz",
-                "p3_neg_pul": "fark etmedilerlerdi",
+                "p1_neg_pul": "fark ettik",
+                "p2_neg_pul": "fark ettiniz",
+                "p3_neg_pul": "fark etlerdi",
                 "p1_poz_sng_q": "fark etti miydim",
                 "p2_poz_sng_q": "fark etti miydin",
                 "p3_poz_sng_q": "fark etti miydi",
-                "p1_poz_pul_q": "fark ettiler miydik",
-                "p2_poz_pul_q": "fark ettiler miydiniz",
-                "p3_poz_pul_q": "fark ettilerler miydi",
+                "p1_poz_pul_q": "fark etti miydik",
+                "p2_poz_pul_q": "fark etti miydiniz",
+                "p3_poz_pul_q": "fark ettiler miydi",
                 "p1_neg_sng_q": "fark etmedi miydim",
                 "p2_neg_sng_q": "fark etmedi miydin",
                 "p3_neg_sng_q": "fark etmedi miydi",
-                "p1_neg_pul_q": "fark etmediler miydik",
-                "p2_neg_pul_q": "fark etmediler miydiniz",
-                "p3_neg_pul_q": "fark etmedilerler miydi"
+                "p1_neg_pul_q": "fark etmedi miydik",
+                "p2_neg_pul_q": "fark etmedi miydiniz",
+                "p3_neg_pul_q": "fark etmediler miydi"
             }
         },
         {

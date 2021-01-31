@@ -1,6 +1,8 @@
 {
     "infinitive": "göndermek",
     "infinitive_negative": "göndermemek",
+    "infinitive_question": "göndermek mi",
+    "infinitive_negative_question": "göndermemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "gönderdiydim",
                 "p2_poz_sng": "gönderdiydin",
                 "p3_poz_sng": "gönderdiydi",
-                "p1_poz_pul": "gönderdilerdik",
-                "p2_poz_pul": "gönderdilerdiniz",
-                "p3_poz_pul": "gönderdilerlerdi",
+                "p1_poz_pul": "gönderdik",
+                "p2_poz_pul": "gönderdiniz",
+                "p3_poz_pul": "gönderlerdi",
                 "p1_neg_sng": "göndermediydim",
                 "p2_neg_sng": "göndermediydin",
                 "p3_neg_sng": "göndermediydi",
-                "p1_neg_pul": "göndermedilerdik",
-                "p2_neg_pul": "göndermedilerdiniz",
-                "p3_neg_pul": "göndermedilerlerdi",
+                "p1_neg_pul": "gönderdik",
+                "p2_neg_pul": "gönderdiniz",
+                "p3_neg_pul": "gönderlerdi",
                 "p1_poz_sng_q": "gönderdi miydim",
                 "p2_poz_sng_q": "gönderdi miydin",
                 "p3_poz_sng_q": "gönderdi miydi",
-                "p1_poz_pul_q": "gönderdiler miydik",
-                "p2_poz_pul_q": "gönderdiler miydiniz",
-                "p3_poz_pul_q": "gönderdilerler miydi",
+                "p1_poz_pul_q": "gönderdi miydik",
+                "p2_poz_pul_q": "gönderdi miydiniz",
+                "p3_poz_pul_q": "gönderdiler miydi",
                 "p1_neg_sng_q": "göndermedi miydim",
                 "p2_neg_sng_q": "göndermedi miydin",
                 "p3_neg_sng_q": "göndermedi miydi",
-                "p1_neg_pul_q": "göndermediler miydik",
-                "p2_neg_pul_q": "göndermediler miydiniz",
-                "p3_neg_pul_q": "göndermedilerler miydi"
+                "p1_neg_pul_q": "göndermedi miydik",
+                "p2_neg_pul_q": "göndermedi miydiniz",
+                "p3_neg_pul_q": "göndermediler miydi"
             }
         },
         {

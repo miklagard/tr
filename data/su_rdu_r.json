@@ -1,6 +1,8 @@
 {
     "infinitive": "sürdürmek",
     "infinitive_negative": "sürdürmemek",
+    "infinitive_question": "sürdürmek mi",
+    "infinitive_negative_question": "sürdürmemek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "sürdürdüydüm",
                 "p2_poz_sng": "sürdürdüydün",
                 "p3_poz_sng": "sürdürdüydü",
-                "p1_poz_pul": "sürdürdülerdik",
-                "p2_poz_pul": "sürdürdülerdiniz",
-                "p3_poz_pul": "sürdürdülerlerdi",
+                "p1_poz_pul": "sürdürdük",
+                "p2_poz_pul": "sürdürdünüz",
+                "p3_poz_pul": "sürdürlerdi",
                 "p1_neg_sng": "sürdürmediydim",
                 "p2_neg_sng": "sürdürmediydin",
                 "p3_neg_sng": "sürdürmediydi",
-                "p1_neg_pul": "sürdürmedilerdik",
-                "p2_neg_pul": "sürdürmedilerdiniz",
-                "p3_neg_pul": "sürdürmedilerlerdi",
+                "p1_neg_pul": "sürdürdük",
+                "p2_neg_pul": "sürdürdünüz",
+                "p3_neg_pul": "sürdürlerdi",
                 "p1_poz_sng_q": "sürdürdü müydüm",
                 "p2_poz_sng_q": "sürdürdü müydün",
                 "p3_poz_sng_q": "sürdürdü müydü",
-                "p1_poz_pul_q": "sürdürdüler miydik",
-                "p2_poz_pul_q": "sürdürdüler miydiniz",
-                "p3_poz_pul_q": "sürdürdülerler miydi",
+                "p1_poz_pul_q": "sürdürdü müydük",
+                "p2_poz_pul_q": "sürdürdü müydünüz",
+                "p3_poz_pul_q": "sürdürdüler miydi",
                 "p1_neg_sng_q": "sürdürmedi miydim",
                 "p2_neg_sng_q": "sürdürmedi miydin",
                 "p3_neg_sng_q": "sürdürmedi miydi",
-                "p1_neg_pul_q": "sürdürmediler miydik",
-                "p2_neg_pul_q": "sürdürmediler miydiniz",
-                "p3_neg_pul_q": "sürdürmedilerler miydi"
+                "p1_neg_pul_q": "sürdürmedi miydik",
+                "p2_neg_pul_q": "sürdürmedi miydiniz",
+                "p3_neg_pul_q": "sürdürmediler miydi"
             }
         },
         {

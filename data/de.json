@@ -1,6 +1,8 @@
 {
     "infinitive": "demek",
     "infinitive_negative": "dememek",
+    "infinitive_question": "demek mi",
+    "infinitive_negative_question": "dememek mi",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "dediydim",
                 "p2_poz_sng": "dediydin",
                 "p3_poz_sng": "dediydi",
-                "p1_poz_pul": "dedilerdik",
-                "p2_poz_pul": "dedilerdiniz",
-                "p3_poz_pul": "dedilerlerdi",
+                "p1_poz_pul": "deydik",
+                "p2_poz_pul": "deydiniz",
+                "p3_poz_pul": "delerdi",
                 "p1_neg_sng": "demediydim",
                 "p2_neg_sng": "demediydin",
                 "p3_neg_sng": "demediydi",
-                "p1_neg_pul": "demedilerdik",
-                "p2_neg_pul": "demedilerdiniz",
-                "p3_neg_pul": "demedilerlerdi",
+                "p1_neg_pul": "deydik",
+                "p2_neg_pul": "deydiniz",
+                "p3_neg_pul": "delerdi",
                 "p1_poz_sng_q": "dedi miydim",
                 "p2_poz_sng_q": "dedi miydin",
                 "p3_poz_sng_q": "dedi miydi",
-                "p1_poz_pul_q": "dediler miydik",
-                "p2_poz_pul_q": "dediler miydiniz",
-                "p3_poz_pul_q": "dedilerler miydi",
+                "p1_poz_pul_q": "dedi miydik",
+                "p2_poz_pul_q": "dedi miydiniz",
+                "p3_poz_pul_q": "dediler miydi",
                 "p1_neg_sng_q": "demedi miydim",
                 "p2_neg_sng_q": "demedi miydin",
                 "p3_neg_sng_q": "demedi miydi",
-                "p1_neg_pul_q": "demediler miydik",
-                "p2_neg_pul_q": "demediler miydiniz",
-                "p3_neg_pul_q": "demedilerler miydi"
+                "p1_neg_pul_q": "demedi miydik",
+                "p2_neg_pul_q": "demedi miydiniz",
+                "p3_neg_pul_q": "demediler miydi"
             }
         },
         {

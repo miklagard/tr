@@ -1,6 +1,8 @@
 {
     "infinitive": "almak",
     "infinitive_negative": "almamak",
+    "infinitive_question": "almak mı",
+    "infinitive_negative_question": "almamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "aldıydım",
                 "p2_poz_sng": "aldıydın",
                 "p3_poz_sng": "aldıydı",
-                "p1_poz_pul": "aldılardık",
-                "p2_poz_pul": "aldılardınız",
-                "p3_poz_pul": "aldılarlardı",
+                "p1_poz_pul": "aldık",
+                "p2_poz_pul": "aldınız",
+                "p3_poz_pul": "allardı",
                 "p1_neg_sng": "almadıydım",
                 "p2_neg_sng": "almadıydın",
                 "p3_neg_sng": "almadıydı",
-                "p1_neg_pul": "almadılardık",
-                "p2_neg_pul": "almadılardınız",
-                "p3_neg_pul": "almadılarlardı",
+                "p1_neg_pul": "aldık",
+                "p2_neg_pul": "aldınız",
+                "p3_neg_pul": "allardı",
                 "p1_poz_sng_q": "aldı mıydım",
                 "p2_poz_sng_q": "aldı mıydın",
                 "p3_poz_sng_q": "aldı mıydı",
-                "p1_poz_pul_q": "aldılar mıydık",
-                "p2_poz_pul_q": "aldılar mıydınız",
-                "p3_poz_pul_q": "aldılarlar mıydı",
+                "p1_poz_pul_q": "aldı mıydık",
+                "p2_poz_pul_q": "aldı mıydınız",
+                "p3_poz_pul_q": "aldılar mıydı",
                 "p1_neg_sng_q": "almadı mıydım",
                 "p2_neg_sng_q": "almadı mıydın",
                 "p3_neg_sng_q": "almadı mıydı",
-                "p1_neg_pul_q": "almadılar mıydık",
-                "p2_neg_pul_q": "almadılar mıydınız",
-                "p3_neg_pul_q": "almadılarlar mıydı"
+                "p1_neg_pul_q": "almadı mıydık",
+                "p2_neg_pul_q": "almadı mıydınız",
+                "p3_neg_pul_q": "almadılar mıydı"
             }
         },
         {

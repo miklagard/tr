@@ -1,6 +1,8 @@
 {
     "infinitive": "uğraşmak",
     "infinitive_negative": "uğraşmamak",
+    "infinitive_question": "uğraşmak mı",
+    "infinitive_negative_question": "uğraşmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "uğraştıydım",
                 "p2_poz_sng": "uğraştıydın",
                 "p3_poz_sng": "uğraştıydı",
-                "p1_poz_pul": "uğraştılardık",
-                "p2_poz_pul": "uğraştılardınız",
-                "p3_poz_pul": "uğraştılarlardı",
+                "p1_poz_pul": "uğraştık",
+                "p2_poz_pul": "uğraştınız",
+                "p3_poz_pul": "uğraşlardı",
                 "p1_neg_sng": "uğraşmadıydım",
                 "p2_neg_sng": "uğraşmadıydın",
                 "p3_neg_sng": "uğraşmadıydı",
-                "p1_neg_pul": "uğraşmadılardık",
-                "p2_neg_pul": "uğraşmadılardınız",
-                "p3_neg_pul": "uğraşmadılarlardı",
+                "p1_neg_pul": "uğraştık",
+                "p2_neg_pul": "uğraştınız",
+                "p3_neg_pul": "uğraşlardı",
                 "p1_poz_sng_q": "uğraştı mıydım",
                 "p2_poz_sng_q": "uğraştı mıydın",
                 "p3_poz_sng_q": "uğraştı mıydı",
-                "p1_poz_pul_q": "uğraştılar mıydık",
-                "p2_poz_pul_q": "uğraştılar mıydınız",
-                "p3_poz_pul_q": "uğraştılarlar mıydı",
+                "p1_poz_pul_q": "uğraştı mıydık",
+                "p2_poz_pul_q": "uğraştı mıydınız",
+                "p3_poz_pul_q": "uğraştılar mıydı",
                 "p1_neg_sng_q": "uğraşmadı mıydım",
                 "p2_neg_sng_q": "uğraşmadı mıydın",
                 "p3_neg_sng_q": "uğraşmadı mıydı",
-                "p1_neg_pul_q": "uğraşmadılar mıydık",
-                "p2_neg_pul_q": "uğraşmadılar mıydınız",
-                "p3_neg_pul_q": "uğraşmadılarlar mıydı"
+                "p1_neg_pul_q": "uğraşmadı mıydık",
+                "p2_neg_pul_q": "uğraşmadı mıydınız",
+                "p3_neg_pul_q": "uğraşmadılar mıydı"
             }
         },
         {

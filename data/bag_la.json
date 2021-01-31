@@ -1,6 +1,8 @@
 {
     "infinitive": "bağlamak",
     "infinitive_negative": "bağlamamak",
+    "infinitive_question": "bağlamak mı",
+    "infinitive_negative_question": "bağlamamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "bağladıydım",
                 "p2_poz_sng": "bağladıydın",
                 "p3_poz_sng": "bağladıydı",
-                "p1_poz_pul": "bağladılardık",
-                "p2_poz_pul": "bağladılardınız",
-                "p3_poz_pul": "bağladılarlardı",
+                "p1_poz_pul": "bağlaydık",
+                "p2_poz_pul": "bağlaydınız",
+                "p3_poz_pul": "bağlalardı",
                 "p1_neg_sng": "bağlamadıydım",
                 "p2_neg_sng": "bağlamadıydın",
                 "p3_neg_sng": "bağlamadıydı",
-                "p1_neg_pul": "bağlamadılardık",
-                "p2_neg_pul": "bağlamadılardınız",
-                "p3_neg_pul": "bağlamadılarlardı",
+                "p1_neg_pul": "bağlaydık",
+                "p2_neg_pul": "bağlaydınız",
+                "p3_neg_pul": "bağlalardı",
                 "p1_poz_sng_q": "bağladı mıydım",
                 "p2_poz_sng_q": "bağladı mıydın",
                 "p3_poz_sng_q": "bağladı mıydı",
-                "p1_poz_pul_q": "bağladılar mıydık",
-                "p2_poz_pul_q": "bağladılar mıydınız",
-                "p3_poz_pul_q": "bağladılarlar mıydı",
+                "p1_poz_pul_q": "bağladı mıydık",
+                "p2_poz_pul_q": "bağladı mıydınız",
+                "p3_poz_pul_q": "bağladılar mıydı",
                 "p1_neg_sng_q": "bağlamadı mıydım",
                 "p2_neg_sng_q": "bağlamadı mıydın",
                 "p3_neg_sng_q": "bağlamadı mıydı",
-                "p1_neg_pul_q": "bağlamadılar mıydık",
-                "p2_neg_pul_q": "bağlamadılar mıydınız",
-                "p3_neg_pul_q": "bağlamadılarlar mıydı"
+                "p1_neg_pul_q": "bağlamadı mıydık",
+                "p2_neg_pul_q": "bağlamadı mıydınız",
+                "p3_neg_pul_q": "bağlamadılar mıydı"
             }
         },
         {

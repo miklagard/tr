@@ -1,6 +1,8 @@
 {
     "infinitive": "atmak",
     "infinitive_negative": "atmamak",
+    "infinitive_question": "atmak mı",
+    "infinitive_negative_question": "atmamak mı",
     "conjunctions": [
         {
             "tense": "present_continuous_simple",
@@ -704,27 +706,27 @@
                 "p1_poz_sng": "attıydım",
                 "p2_poz_sng": "attıydın",
                 "p3_poz_sng": "attıydı",
-                "p1_poz_pul": "attılardık",
-                "p2_poz_pul": "attılardınız",
-                "p3_poz_pul": "attılarlardı",
+                "p1_poz_pul": "attık",
+                "p2_poz_pul": "attınız",
+                "p3_poz_pul": "atlardı",
                 "p1_neg_sng": "atmadıydım",
                 "p2_neg_sng": "atmadıydın",
                 "p3_neg_sng": "atmadıydı",
-                "p1_neg_pul": "atmadılardık",
-                "p2_neg_pul": "atmadılardınız",
-                "p3_neg_pul": "atmadılarlardı",
+                "p1_neg_pul": "attık",
+                "p2_neg_pul": "attınız",
+                "p3_neg_pul": "atlardı",
                 "p1_poz_sng_q": "attı mıydım",
                 "p2_poz_sng_q": "attı mıydın",
                 "p3_poz_sng_q": "attı mıydı",
-                "p1_poz_pul_q": "attılar mıydık",
-                "p2_poz_pul_q": "attılar mıydınız",
-                "p3_poz_pul_q": "attılarlar mıydı",
+                "p1_poz_pul_q": "attı mıydık",
+                "p2_poz_pul_q": "attı mıydınız",
+                "p3_poz_pul_q": "attılar mıydı",
                 "p1_neg_sng_q": "atmadı mıydım",
                 "p2_neg_sng_q": "atmadı mıydın",
                 "p3_neg_sng_q": "atmadı mıydı",
-                "p1_neg_pul_q": "atmadılar mıydık",
-                "p2_neg_pul_q": "atmadılar mıydınız",
-                "p3_neg_pul_q": "atmadılarlar mıydı"
+                "p1_neg_pul_q": "atmadı mıydık",
+                "p2_neg_pul_q": "atmadı mıydınız",
+                "p3_neg_pul_q": "atmadılar mıydı"
             }
         },
         {
