@@ -1,8 +1,8 @@
 from django.core.management.base import BaseCommand
 from django.conf import settings
-from turkish_suffix_library.sample_verbs_list import VERBS
+from turkic_suffix_library.languages.turkish.sample_verbs_list import VERBS
 from ui.consonants import TENSES
-from turkish_suffix_library.turkish import Turkish
+from turkic_suffix_library import Turkish
 from ui.utils import tr_slugify
 import os
 import json
@@ -13,12 +13,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         for verb in VERBS:
-            conjunct = {
-                'infinitive': Turkish(verb).infinitive().to_string(),
-                'infinitive_negative': Turkish(verb).infinitive(negative=True).to_string()
-            }
-
-            conjunct['conjunctions'] = []
+            conjunct = {'infinitive': Turkish(verb).infinitive().to_string(),
+                        'infinitive_negative': Turkish(verb).infinitive(negative=True).to_string(), 'conjunctions': []}
 
             for tense in TENSES:
                 conjunct['conjunctions'].append(
