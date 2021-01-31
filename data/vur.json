@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "vurmuş",
-                "p2_poz_sng": "vurmuş",
-                "p3_poz_sng": "vurmuş",
+                "p1_poz_sng": "vurmuştum",
+                "p2_poz_sng": "vurmuştun",
+                "p3_poz_sng": "vurmuştu",
                 "p1_poz_pul": "vurmuştuk",
                 "p2_poz_pul": "vurmuştunuz",
                 "p3_poz_pul": "vurmuştular",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "binmiş",
-                "p2_poz_sng": "binmiş",
-                "p3_poz_sng": "binmiş",
+                "p1_poz_sng": "binmiştim",
+                "p2_poz_sng": "binmiştin",
+                "p3_poz_sng": "binmişti",
                 "p1_poz_pul": "binmiştik",
                 "p2_poz_pul": "binmiştiniz",
                 "p3_poz_pul": "binmiştiler",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "okumuş",
-                "p2_poz_sng": "okumuş",
-                "p3_poz_sng": "okumuş",
+                "p1_poz_sng": "okumuştum",
+                "p2_poz_sng": "okumuştun",
+                "p3_poz_sng": "okumuştu",
                 "p1_poz_pul": "okumuştuk",
                 "p2_poz_pul": "okumuştunuz",
                 "p3_poz_pul": "okumuştular",

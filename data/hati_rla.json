@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "hatırlamış",
-                "p2_poz_sng": "hatırlamış",
-                "p3_poz_sng": "hatırlamış",
+                "p1_poz_sng": "hatırlamıştım",
+                "p2_poz_sng": "hatırlamıştın",
+                "p3_poz_sng": "hatırlamıştı",
                 "p1_poz_pul": "hatırlamıştık",
                 "p2_poz_pul": "hatırlamıştınız",
                 "p3_poz_pul": "hatırlamıştılar",

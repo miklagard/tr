@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "fark etmiş",
-                "p2_poz_sng": "fark etmiş",
-                "p3_poz_sng": "fark etmiş",
+                "p1_poz_sng": "fark etmiştim",
+                "p2_poz_sng": "fark etmiştin",
+                "p3_poz_sng": "fark etmişti",
                 "p1_poz_pul": "fark etmiştik",
                 "p2_poz_pul": "fark etmiştiniz",
                 "p3_poz_pul": "fark etmiştiler",

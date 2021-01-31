@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "doğmuş",
-                "p2_poz_sng": "doğmuş",
-                "p3_poz_sng": "doğmuş",
+                "p1_poz_sng": "doğmuştum",
+                "p2_poz_sng": "doğmuştun",
+                "p3_poz_sng": "doğmuştu",
                 "p1_poz_pul": "doğmuştuk",
                 "p2_poz_pul": "doğmuştunuz",
                 "p3_poz_pul": "doğmuştular",

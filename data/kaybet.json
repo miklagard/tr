@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kaybetmiş",
-                "p2_poz_sng": "kaybetmiş",
-                "p3_poz_sng": "kaybetmiş",
+                "p1_poz_sng": "kaybetmiştim",
+                "p2_poz_sng": "kaybetmiştin",
+                "p3_poz_sng": "kaybetmişti",
                 "p1_poz_pul": "kaybetmiştik",
                 "p2_poz_pul": "kaybetmiştiniz",
                 "p3_poz_pul": "kaybetmiştiler",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "göndermiş",
-                "p2_poz_sng": "göndermiş",
-                "p3_poz_sng": "göndermiş",
+                "p1_poz_sng": "göndermiştim",
+                "p2_poz_sng": "göndermiştin",
+                "p3_poz_sng": "göndermişti",
                 "p1_poz_pul": "göndermiştik",
                 "p2_poz_pul": "göndermiştiniz",
                 "p3_poz_pul": "göndermiştiler",

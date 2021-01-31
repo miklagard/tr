@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kalkmış",
-                "p2_poz_sng": "kalkmış",
-                "p3_poz_sng": "kalkmış",
+                "p1_poz_sng": "kalkmıştım",
+                "p2_poz_sng": "kalkmıştın",
+                "p3_poz_sng": "kalkmıştı",
                 "p1_poz_pul": "kalkmıştık",
                 "p2_poz_pul": "kalkmıştınız",
                 "p3_poz_pul": "kalkmıştılar",

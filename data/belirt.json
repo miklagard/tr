@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "belirtmiş",
-                "p2_poz_sng": "belirtmiş",
-                "p3_poz_sng": "belirtmiş",
+                "p1_poz_sng": "belirtmiştim",
+                "p2_poz_sng": "belirtmiştin",
+                "p3_poz_sng": "belirtmişti",
                 "p1_poz_pul": "belirtmiştik",
                 "p2_poz_pul": "belirtmiştiniz",
                 "p3_poz_pul": "belirtmiştiler",

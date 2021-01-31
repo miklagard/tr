@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yükselmiş",
-                "p2_poz_sng": "yükselmiş",
-                "p3_poz_sng": "yükselmiş",
+                "p1_poz_sng": "yükselmiştim",
+                "p2_poz_sng": "yükselmiştin",
+                "p3_poz_sng": "yükselmişti",
                 "p1_poz_pul": "yükselmiştik",
                 "p2_poz_pul": "yükselmiştiniz",
                 "p3_poz_pul": "yükselmiştiler",

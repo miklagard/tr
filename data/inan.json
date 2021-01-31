@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "inanmış",
-                "p2_poz_sng": "inanmış",
-                "p3_poz_sng": "inanmış",
+                "p1_poz_sng": "inanmıştım",
+                "p2_poz_sng": "inanmıştın",
+                "p3_poz_sng": "inanmıştı",
                 "p1_poz_pul": "inanmıştık",
                 "p2_poz_pul": "inanmıştınız",
                 "p3_poz_pul": "inanmıştılar",

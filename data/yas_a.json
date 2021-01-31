@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yaşamış",
-                "p2_poz_sng": "yaşamış",
-                "p3_poz_sng": "yaşamış",
+                "p1_poz_sng": "yaşamıştım",
+                "p2_poz_sng": "yaşamıştın",
+                "p3_poz_sng": "yaşamıştı",
                 "p1_poz_pul": "yaşamıştık",
                 "p2_poz_pul": "yaşamıştınız",
                 "p3_poz_pul": "yaşamıştılar",

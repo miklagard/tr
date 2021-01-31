@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kapatmış",
-                "p2_poz_sng": "kapatmış",
-                "p3_poz_sng": "kapatmış",
+                "p1_poz_sng": "kapatmıştım",
+                "p2_poz_sng": "kapatmıştın",
+                "p3_poz_sng": "kapatmıştı",
                 "p1_poz_pul": "kapatmıştık",
                 "p2_poz_pul": "kapatmıştınız",
                 "p3_poz_pul": "kapatmıştılar",

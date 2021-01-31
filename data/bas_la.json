@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "başlamış",
-                "p2_poz_sng": "başlamış",
-                "p3_poz_sng": "başlamış",
+                "p1_poz_sng": "başlamıştım",
+                "p2_poz_sng": "başlamıştın",
+                "p3_poz_sng": "başlamıştı",
                 "p1_poz_pul": "başlamıştık",
                 "p2_poz_pul": "başlamıştınız",
                 "p3_poz_pul": "başlamıştılar",

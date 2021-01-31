@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "öğrenmiş",
-                "p2_poz_sng": "öğrenmiş",
-                "p3_poz_sng": "öğrenmiş",
+                "p1_poz_sng": "öğrenmiştim",
+                "p2_poz_sng": "öğrenmiştin",
+                "p3_poz_sng": "öğrenmişti",
                 "p1_poz_pul": "öğrenmiştik",
                 "p2_poz_pul": "öğrenmiştiniz",
                 "p3_poz_pul": "öğrenmiştiler",

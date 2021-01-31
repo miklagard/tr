@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "inmiş",
-                "p2_poz_sng": "inmiş",
-                "p3_poz_sng": "inmiş",
+                "p1_poz_sng": "inmiştim",
+                "p2_poz_sng": "inmiştin",
+                "p3_poz_sng": "inmişti",
                 "p1_poz_pul": "inmiştik",
                 "p2_poz_pul": "inmiştiniz",
                 "p3_poz_pul": "inmiştiler",

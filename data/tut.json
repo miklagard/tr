@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "tutmuş",
-                "p2_poz_sng": "tutmuş",
-                "p3_poz_sng": "tutmuş",
+                "p1_poz_sng": "tutmuştum",
+                "p2_poz_sng": "tutmuştun",
+                "p3_poz_sng": "tutmuştu",
                 "p1_poz_pul": "tutmuştuk",
                 "p2_poz_pul": "tutmuştunuz",
                 "p3_poz_pul": "tutmuştular",

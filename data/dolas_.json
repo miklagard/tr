@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "dolaşmış",
-                "p2_poz_sng": "dolaşmış",
-                "p3_poz_sng": "dolaşmış",
+                "p1_poz_sng": "dolaşmıştım",
+                "p2_poz_sng": "dolaşmıştın",
+                "p3_poz_sng": "dolaşmıştı",
                 "p1_poz_pul": "dolaşmıştık",
                 "p2_poz_pul": "dolaşmıştınız",
                 "p3_poz_pul": "dolaşmıştılar",

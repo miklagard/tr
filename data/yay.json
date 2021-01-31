@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yaymış",
-                "p2_poz_sng": "yaymış",
-                "p3_poz_sng": "yaymış",
+                "p1_poz_sng": "yaymıştım",
+                "p2_poz_sng": "yaymıştın",
+                "p3_poz_sng": "yaymıştı",
                 "p1_poz_pul": "yaymıştık",
                 "p2_poz_pul": "yaymıştınız",
                 "p3_poz_pul": "yaymıştılar",

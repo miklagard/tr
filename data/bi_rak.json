@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "bırakmış",
-                "p2_poz_sng": "bırakmış",
-                "p3_poz_sng": "bırakmış",
+                "p1_poz_sng": "bırakmıştım",
+                "p2_poz_sng": "bırakmıştın",
+                "p3_poz_sng": "bırakmıştı",
                 "p1_poz_pul": "bırakmıştık",
                 "p2_poz_pul": "bırakmıştınız",
                 "p3_poz_pul": "bırakmıştılar",

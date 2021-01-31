@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "giymiş",
-                "p2_poz_sng": "giymiş",
-                "p3_poz_sng": "giymiş",
+                "p1_poz_sng": "giymiştim",
+                "p2_poz_sng": "giymiştin",
+                "p3_poz_sng": "giymişti",
                 "p1_poz_pul": "giymiştik",
                 "p2_poz_pul": "giymiştiniz",
                 "p3_poz_pul": "giymiştiler",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "tanımış",
-                "p2_poz_sng": "tanımış",
-                "p3_poz_sng": "tanımış",
+                "p1_poz_sng": "tanımıştım",
+                "p2_poz_sng": "tanımıştın",
+                "p3_poz_sng": "tanımıştı",
                 "p1_poz_pul": "tanımıştık",
                 "p2_poz_pul": "tanımıştınız",
                 "p3_poz_pul": "tanımıştılar",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "olmuş",
-                "p2_poz_sng": "olmuş",
-                "p3_poz_sng": "olmuş",
+                "p1_poz_sng": "olmuştum",
+                "p2_poz_sng": "olmuştun",
+                "p3_poz_sng": "olmuştu",
                 "p1_poz_pul": "olmuştuk",
                 "p2_poz_pul": "olmuştunuz",
                 "p3_poz_pul": "olmuştular",

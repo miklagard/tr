@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yaratmış",
-                "p2_poz_sng": "yaratmış",
-                "p3_poz_sng": "yaratmış",
+                "p1_poz_sng": "yaratmıştım",
+                "p2_poz_sng": "yaratmıştın",
+                "p3_poz_sng": "yaratmıştı",
                 "p1_poz_pul": "yaratmıştık",
                 "p2_poz_pul": "yaratmıştınız",
                 "p3_poz_pul": "yaratmıştılar",

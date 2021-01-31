@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "götürmüş",
-                "p2_poz_sng": "götürmüş",
-                "p3_poz_sng": "götürmüş",
+                "p1_poz_sng": "götürmüştüm",
+                "p2_poz_sng": "götürmüştün",
+                "p3_poz_sng": "götürmüştü",
                 "p1_poz_pul": "götürmüştük",
                 "p2_poz_pul": "götürmüştünüz",
                 "p3_poz_pul": "götürmüştüler",

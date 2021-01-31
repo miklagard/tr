@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "varmış",
-                "p2_poz_sng": "varmış",
-                "p3_poz_sng": "varmış",
+                "p1_poz_sng": "varmıştım",
+                "p2_poz_sng": "varmıştın",
+                "p3_poz_sng": "varmıştı",
                 "p1_poz_pul": "varmıştık",
                 "p2_poz_pul": "varmıştınız",
                 "p3_poz_pul": "varmıştılar",

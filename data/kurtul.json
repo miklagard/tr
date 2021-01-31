@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kurtulmuş",
-                "p2_poz_sng": "kurtulmuş",
-                "p3_poz_sng": "kurtulmuş",
+                "p1_poz_sng": "kurtulmuştum",
+                "p2_poz_sng": "kurtulmuştun",
+                "p3_poz_sng": "kurtulmuştu",
                 "p1_poz_pul": "kurtulmuştuk",
                 "p2_poz_pul": "kurtulmuştunuz",
                 "p3_poz_pul": "kurtulmuştular",

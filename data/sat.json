@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "satmış",
-                "p2_poz_sng": "satmış",
-                "p3_poz_sng": "satmış",
+                "p1_poz_sng": "satmıştım",
+                "p2_poz_sng": "satmıştın",
+                "p3_poz_sng": "satmıştı",
                 "p1_poz_pul": "satmıştık",
                 "p2_poz_pul": "satmıştınız",
                 "p3_poz_pul": "satmıştılar",

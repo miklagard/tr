@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "anlamış",
-                "p2_poz_sng": "anlamış",
-                "p3_poz_sng": "anlamış",
+                "p1_poz_sng": "anlamıştım",
+                "p2_poz_sng": "anlamıştın",
+                "p3_poz_sng": "anlamıştı",
                 "p1_poz_pul": "anlamıştık",
                 "p2_poz_pul": "anlamıştınız",
                 "p3_poz_pul": "anlamıştılar",

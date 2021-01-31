@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yanmış",
-                "p2_poz_sng": "yanmış",
-                "p3_poz_sng": "yanmış",
+                "p1_poz_sng": "yanmıştım",
+                "p2_poz_sng": "yanmıştın",
+                "p3_poz_sng": "yanmıştı",
                 "p1_poz_pul": "yanmıştık",
                 "p2_poz_pul": "yanmıştınız",
                 "p3_poz_pul": "yanmıştılar",

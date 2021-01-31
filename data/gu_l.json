@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "gülmüş",
-                "p2_poz_sng": "gülmüş",
-                "p3_poz_sng": "gülmüş",
+                "p1_poz_sng": "gülmüştüm",
+                "p2_poz_sng": "gülmüştün",
+                "p3_poz_sng": "gülmüştü",
                 "p1_poz_pul": "gülmüştük",
                 "p2_poz_pul": "gülmüştünüz",
                 "p3_poz_pul": "gülmüştüler",

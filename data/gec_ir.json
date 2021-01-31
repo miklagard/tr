@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "geçirmiş",
-                "p2_poz_sng": "geçirmiş",
-                "p3_poz_sng": "geçirmiş",
+                "p1_poz_sng": "geçirmiştim",
+                "p2_poz_sng": "geçirmiştin",
+                "p3_poz_sng": "geçirmişti",
                 "p1_poz_pul": "geçirmiştik",
                 "p2_poz_pul": "geçirmiştiniz",
                 "p3_poz_pul": "geçirmiştiler",

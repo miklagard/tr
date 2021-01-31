@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "istemiş",
-                "p2_poz_sng": "istemiş",
-                "p3_poz_sng": "istemiş",
+                "p1_poz_sng": "istemiştim",
+                "p2_poz_sng": "istemiştin",
+                "p3_poz_sng": "istemişti",
                 "p1_poz_pul": "istemiştik",
                 "p2_poz_pul": "istemiştiniz",
                 "p3_poz_pul": "istemiştiler",

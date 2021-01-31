@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "bakmış",
-                "p2_poz_sng": "bakmış",
-                "p3_poz_sng": "bakmış",
+                "p1_poz_sng": "bakmıştım",
+                "p2_poz_sng": "bakmıştın",
+                "p3_poz_sng": "bakmıştı",
                 "p1_poz_pul": "bakmıştık",
                 "p2_poz_pul": "bakmıştınız",
                 "p3_poz_pul": "bakmıştılar",

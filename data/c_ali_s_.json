@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "çalışmış",
-                "p2_poz_sng": "çalışmış",
-                "p3_poz_sng": "çalışmış",
+                "p1_poz_sng": "çalışmıştım",
+                "p2_poz_sng": "çalışmıştın",
+                "p3_poz_sng": "çalışmıştı",
                 "p1_poz_pul": "çalışmıştık",
                 "p2_poz_pul": "çalışmıştınız",
                 "p3_poz_pul": "çalışmıştılar",

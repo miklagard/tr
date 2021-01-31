@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "tercih etmiş",
-                "p2_poz_sng": "tercih etmiş",
-                "p3_poz_sng": "tercih etmiş",
+                "p1_poz_sng": "tercih etmiştim",
+                "p2_poz_sng": "tercih etmiştin",
+                "p3_poz_sng": "tercih etmişti",
                 "p1_poz_pul": "tercih etmiştik",
                 "p2_poz_pul": "tercih etmiştiniz",
                 "p3_poz_pul": "tercih etmiştiler",

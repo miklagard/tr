@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "kurtarmış",
-                "p2_poz_sng": "kurtarmış",
-                "p3_poz_sng": "kurtarmış",
+                "p1_poz_sng": "kurtarmıştım",
+                "p2_poz_sng": "kurtarmıştın",
+                "p3_poz_sng": "kurtarmıştı",
                 "p1_poz_pul": "kurtarmıştık",
                 "p2_poz_pul": "kurtarmıştınız",
                 "p3_poz_pul": "kurtarmıştılar",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "koşmuş",
-                "p2_poz_sng": "koşmuş",
-                "p3_poz_sng": "koşmuş",
+                "p1_poz_sng": "koşmuştum",
+                "p2_poz_sng": "koşmuştun",
+                "p3_poz_sng": "koşmuştu",
                 "p1_poz_pul": "koşmuştuk",
                 "p2_poz_pul": "koşmuştunuz",
                 "p3_poz_pul": "koşmuştular",

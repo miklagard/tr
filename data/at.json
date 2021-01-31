@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "atmış",
-                "p2_poz_sng": "atmış",
-                "p3_poz_sng": "atmış",
+                "p1_poz_sng": "atmıştım",
+                "p2_poz_sng": "atmıştın",
+                "p3_poz_sng": "atmıştı",
                 "p1_poz_pul": "atmıştık",
                 "p2_poz_pul": "atmıştınız",
                 "p3_poz_pul": "atmıştılar",

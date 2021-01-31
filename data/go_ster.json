@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "göstermiş",
-                "p2_poz_sng": "göstermiş",
-                "p3_poz_sng": "göstermiş",
+                "p1_poz_sng": "göstermiştim",
+                "p2_poz_sng": "göstermiştin",
+                "p3_poz_sng": "göstermişti",
                 "p1_poz_pul": "göstermiştik",
                 "p2_poz_pul": "göstermiştiniz",
                 "p3_poz_pul": "göstermiştiler",

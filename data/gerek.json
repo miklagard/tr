@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "gerekmiş",
-                "p2_poz_sng": "gerekmiş",
-                "p3_poz_sng": "gerekmiş",
+                "p1_poz_sng": "gerekmiştim",
+                "p2_poz_sng": "gerekmiştin",
+                "p3_poz_sng": "gerekmişti",
                 "p1_poz_pul": "gerekmiştik",
                 "p2_poz_pul": "gerekmiştiniz",
                 "p3_poz_pul": "gerekmiştiler",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "anlatmış",
-                "p2_poz_sng": "anlatmış",
-                "p3_poz_sng": "anlatmış",
+                "p1_poz_sng": "anlatmıştım",
+                "p2_poz_sng": "anlatmıştın",
+                "p3_poz_sng": "anlatmıştı",
                 "p1_poz_pul": "anlatmıştık",
                 "p2_poz_pul": "anlatmıştınız",
                 "p3_poz_pul": "anlatmıştılar",

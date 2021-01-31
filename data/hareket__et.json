@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "hareket etmiş",
-                "p2_poz_sng": "hareket etmiş",
-                "p3_poz_sng": "hareket etmiş",
+                "p1_poz_sng": "hareket etmiştim",
+                "p2_poz_sng": "hareket etmiştin",
+                "p3_poz_sng": "hareket etmişti",
                 "p1_poz_pul": "hareket etmiştik",
                 "p2_poz_pul": "hareket etmiştiniz",
                 "p3_poz_pul": "hareket etmiştiler",

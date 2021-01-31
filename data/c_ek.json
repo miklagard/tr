@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "çekmiş",
-                "p2_poz_sng": "çekmiş",
-                "p3_poz_sng": "çekmiş",
+                "p1_poz_sng": "çekmiştim",
+                "p2_poz_sng": "çekmiştin",
+                "p3_poz_sng": "çekmişti",
                 "p1_poz_pul": "çekmiştik",
                 "p2_poz_pul": "çekmiştiniz",
                 "p3_poz_pul": "çekmiştiler",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "demiş",
-                "p2_poz_sng": "demiş",
-                "p3_poz_sng": "demiş",
+                "p1_poz_sng": "demiştim",
+                "p2_poz_sng": "demiştin",
+                "p3_poz_sng": "demişti",
                 "p1_poz_pul": "demiştik",
                 "p2_poz_pul": "demiştiniz",
                 "p3_poz_pul": "demiştiler",

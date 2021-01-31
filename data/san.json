@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "sanmış",
-                "p2_poz_sng": "sanmış",
-                "p3_poz_sng": "sanmış",
+                "p1_poz_sng": "sanmıştım",
+                "p2_poz_sng": "sanmıştın",
+                "p3_poz_sng": "sanmıştı",
                 "p1_poz_pul": "sanmıştık",
                 "p2_poz_pul": "sanmıştınız",
                 "p3_poz_pul": "sanmıştılar",

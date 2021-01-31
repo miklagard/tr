@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "evlenmiş",
-                "p2_poz_sng": "evlenmiş",
-                "p3_poz_sng": "evlenmiş",
+                "p1_poz_sng": "evlenmiştim",
+                "p2_poz_sng": "evlenmiştin",
+                "p3_poz_sng": "evlenmişti",
                 "p1_poz_pul": "evlenmiştik",
                 "p2_poz_pul": "evlenmiştiniz",
                 "p3_poz_pul": "evlenmiştiler",

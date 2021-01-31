@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "bitirmiş",
-                "p2_poz_sng": "bitirmiş",
-                "p3_poz_sng": "bitirmiş",
+                "p1_poz_sng": "bitirmiştim",
+                "p2_poz_sng": "bitirmiştin",
+                "p3_poz_sng": "bitirmişti",
                 "p1_poz_pul": "bitirmiştik",
                 "p2_poz_pul": "bitirmiştiniz",
                 "p3_poz_pul": "bitirmiştiler",

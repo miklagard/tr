@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "uygulamış",
-                "p2_poz_sng": "uygulamış",
-                "p3_poz_sng": "uygulamış",
+                "p1_poz_sng": "uygulamıştım",
+                "p2_poz_sng": "uygulamıştın",
+                "p3_poz_sng": "uygulamıştı",
                 "p1_poz_pul": "uygulamıştık",
                 "p2_poz_pul": "uygulamıştınız",
                 "p3_poz_pul": "uygulamıştılar",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "söylenmiş",
-                "p2_poz_sng": "söylenmiş",
-                "p3_poz_sng": "söylenmiş",
+                "p1_poz_sng": "söylenmiştim",
+                "p2_poz_sng": "söylenmiştin",
+                "p3_poz_sng": "söylenmişti",
                 "p1_poz_pul": "söylenmiştik",
                 "p2_poz_pul": "söylenmiştiniz",
                 "p3_poz_pul": "söylenmiştiler",

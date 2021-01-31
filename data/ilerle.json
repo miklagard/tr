@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "ilerlemiş",
-                "p2_poz_sng": "ilerlemiş",
-                "p3_poz_sng": "ilerlemiş",
+                "p1_poz_sng": "ilerlemiştim",
+                "p2_poz_sng": "ilerlemiştin",
+                "p3_poz_sng": "ilerlemişti",
                 "p1_poz_pul": "ilerlemiştik",
                 "p2_poz_pul": "ilerlemiştiniz",
                 "p3_poz_pul": "ilerlemiştiler",

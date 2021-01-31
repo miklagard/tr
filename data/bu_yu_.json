@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "büyümüş",
-                "p2_poz_sng": "büyümüş",
-                "p3_poz_sng": "büyümüş",
+                "p1_poz_sng": "büyümüştüm",
+                "p2_poz_sng": "büyümüştün",
+                "p3_poz_sng": "büyümüştü",
                 "p1_poz_pul": "büyümüştük",
                 "p2_poz_pul": "büyümüştünüz",
                 "p3_poz_pul": "büyümüştüler",

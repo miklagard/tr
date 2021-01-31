@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "seçmiş",
-                "p2_poz_sng": "seçmiş",
-                "p3_poz_sng": "seçmiş",
+                "p1_poz_sng": "seçmiştim",
+                "p2_poz_sng": "seçmiştin",
+                "p3_poz_sng": "seçmişti",
                 "p1_poz_pul": "seçmiştik",
                 "p2_poz_pul": "seçmiştiniz",
                 "p3_poz_pul": "seçmiştiler",

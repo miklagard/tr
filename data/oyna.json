@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "oynamış",
-                "p2_poz_sng": "oynamış",
-                "p3_poz_sng": "oynamış",
+                "p1_poz_sng": "oynamıştım",
+                "p2_poz_sng": "oynamıştın",
+                "p3_poz_sng": "oynamıştı",
                 "p1_poz_pul": "oynamıştık",
                 "p2_poz_pul": "oynamıştınız",
                 "p3_poz_pul": "oynamıştılar",

@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "sahip olmuş",
-                "p2_poz_sng": "sahip olmuş",
-                "p3_poz_sng": "sahip olmuş",
+                "p1_poz_sng": "sahip olmuştum",
+                "p2_poz_sng": "sahip olmuştun",
+                "p3_poz_sng": "sahip olmuştu",
                 "p1_poz_pul": "sahip olmuştuk",
                 "p2_poz_pul": "sahip olmuştunuz",
                 "p3_poz_pul": "sahip olmuştular",

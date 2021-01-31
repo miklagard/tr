@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "içmiş",
-                "p2_poz_sng": "içmiş",
-                "p3_poz_sng": "içmiş",
+                "p1_poz_sng": "içmiştim",
+                "p2_poz_sng": "içmiştin",
+                "p3_poz_sng": "içmişti",
                 "p1_poz_pul": "içmiştik",
                 "p2_poz_pul": "içmiştiniz",
                 "p3_poz_pul": "içmiştiler",

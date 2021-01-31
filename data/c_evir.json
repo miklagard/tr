@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "çevirmiş",
-                "p2_poz_sng": "çevirmiş",
-                "p3_poz_sng": "çevirmiş",
+                "p1_poz_sng": "çevirmiştim",
+                "p2_poz_sng": "çevirmiştin",
+                "p3_poz_sng": "çevirmişti",
                 "p1_poz_pul": "çevirmiştik",
                 "p2_poz_pul": "çevirmiştiniz",
                 "p3_poz_pul": "çevirmiştiler",

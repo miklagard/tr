@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "yemiş",
-                "p2_poz_sng": "yemiş",
-                "p3_poz_sng": "yemiş",
+                "p1_poz_sng": "yemiştim",
+                "p2_poz_sng": "yemiştin",
+                "p3_poz_sng": "yemişti",
                 "p1_poz_pul": "yemiştik",
                 "p2_poz_pul": "yemiştiniz",
                 "p3_poz_pul": "yemiştiler",

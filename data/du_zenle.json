@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "düzenlemiş",
-                "p2_poz_sng": "düzenlemiş",
-                "p3_poz_sng": "düzenlemiş",
+                "p1_poz_sng": "düzenlemiştim",
+                "p2_poz_sng": "düzenlemiştin",
+                "p3_poz_sng": "düzenlemişti",
                 "p1_poz_pul": "düzenlemiştik",
                 "p2_poz_pul": "düzenlemiştiniz",
                 "p3_poz_pul": "düzenlemiştiler",

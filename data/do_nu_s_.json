@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "dönüşmüş",
-                "p2_poz_sng": "dönüşmüş",
-                "p3_poz_sng": "dönüşmüş",
+                "p1_poz_sng": "dönüşmüştüm",
+                "p2_poz_sng": "dönüşmüştün",
+                "p3_poz_sng": "dönüşmüştü",
                 "p1_poz_pul": "dönüşmüştük",
                 "p2_poz_pul": "dönüşmüştünüz",
                 "p3_poz_pul": "dönüşmüştüler",

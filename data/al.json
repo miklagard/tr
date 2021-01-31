@@ -759,9 +759,9 @@
         {
             "tense": "past_indefinite_past",
             "conjunct": {
-                "p1_poz_sng": "almış",
-                "p2_poz_sng": "almış",
-                "p3_poz_sng": "almış",
+                "p1_poz_sng": "almıştım",
+                "p2_poz_sng": "almıştın",
+                "p3_poz_sng": "almıştı",
                 "p1_poz_pul": "almıştık",
                 "p2_poz_pul": "almıştınız",
                 "p3_poz_pul": "almıştılar",
