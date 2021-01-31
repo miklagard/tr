@@ -32,6 +32,7 @@ TENSES = (
 )
 
 CASES = (
+    'plural',
     'accusative',
     'dative',
     'ablative',
