@@ -1,5 +1,5 @@
 from django.utils.translation import gettext as _
-from turkish_suffix_library.turkish import Turkish
+from turkic_suffix_library import Turkish
 import ui.consonants as con
 
 

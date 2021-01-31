@@ -1,6 +1,6 @@
-from django.shortcuts import render, HttpResponseRedirect, HttpResponse
-from turkish_suffix_library.sample_verbs_list import VERBS
-from turkish_suffix_library.turkish_string import make_upper
+from django.shortcuts import render, HttpResponse
+from turkic_suffix_library.languages.turkish.sample_verbs_list import VERBS
+from turkic_suffix_library.languages.turkish.turkish_string import make_upper
 from django.utils.translation import gettext as _
 from django.conf import settings
 from ui.models import History
@@ -13,7 +13,7 @@ import ui.utils as utils
 
 def nouns(request):
     title = _('Turkish Conjunction Maker - Nouns')
-    code = 'from turkish_suffix_library.turkish import Turkish\n\n'
+    code = 'from turkic_suffix_library import Turkish\n\n'
     show_code = request.GET.get('show_code', '') == 'on'
     proper_noun = request.GET.get('proper_noun', '') == 'on'
     noun = request.GET.get('noun', '')
@@ -127,7 +127,7 @@ def nouns(request):
 
 
 def home(request):
-    code = 'from turkish_suffix_library.turkish import Turkish\n\n'
+    code = 'from turkic_suffix_library import Turkish\n\n'
     show_code = request.GET.get('show_code', '') == 'on'
 
     if request.GET.get('english'):
