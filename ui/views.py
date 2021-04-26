@@ -264,3 +264,7 @@ def server_error(request):
 
 def david(request):
     return render(request, 'david.html')
+
+
+def cert(request):
+    return HttpResponse('j6HDxDY34uCtqLQKiAC1tT_t_bVPQ3cG9vFzjYwsRdo.hfm8e8SLqzyf39meJWlb7lZlMBSl1haHJUn9cHNcNQ0')
