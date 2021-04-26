@@ -11,7 +11,6 @@ urlpatterns = [
     path('davidnathan/', ui.david, name='david'),
     path('robots.txt', ui.robots, name='robots'),
     path('sitemap.xml', ui.sitemap, name='sitemap'),
-    path('.well-known/acme-challenge/j6HDxDY34uCtqLQKiAC1tT_t_bVPQ3cG9vFzjYwsRdo', ui.cert, name='rt')
 ]
 
 handler404 = ui.page_not_found
