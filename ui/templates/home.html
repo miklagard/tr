@@ -29,7 +29,7 @@
                     <select name="verb_english" id="verb_english" class="form-control autocomplete">
                         <option></option>
                         {% for english, turkish in vocabulary.items %}
-                            <option {% ifequal request.GET.verb_english turkish %} selected {% endifequal %}value="{{ turkish }}">{{ english }}</option>
+                            <option {% if request.GET.verb_english == turkish %} selected {% endif %}value="{{ turkish }}">{{ english }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -100,7 +100,7 @@
                         {% trans 'Tense' %}<br />
                         <select name="tense" class="form-control">
                             {% for tense in tenses %}
-                            <option value="{{ tense }}" {% ifequal request.GET.tense tense %} selected {% endifequal %}>
+                            <option value="{{ tense }}" {% if request.GET.tense == tense %} selected {% endif %}>
                                 {{ tense|capitalize }}
                             </option>
                             {% endfor %}

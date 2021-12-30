@@ -30,16 +30,16 @@
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
                 <a class="navbar-brand" href="{% url 'home' %}">{% trans 'Turkish Conjunction Maker' %}</a>
                 <div class="nav row navbar-nav navbar-right">
-                    {% ifequal path 'verb' %}
+                    {% if path == 'verb' %}
                     <div class="col">
                         <a class="nav-link" href="{% url 'nouns' %}">{% trans 'Nouns' %}</a>
                     </div>
-                    {% endifequal %}
-                    {% ifequal path 'noun' %}
+                    {% endif %}
+                    {% if path == 'noun' %}
                     <div class="col">
                         <a class="nav-link" href="{% url 'home' %}">{% trans 'Verbs' %}</a>
                     </div>
-                    {% endifequal %}
+                    {% endif %}
                 </div>
             </nav>
         </header>
