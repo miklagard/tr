@@ -1,5 +1,5 @@
 Django==5.2.7
-turkic-suffix-library==0.1.5
+turkic-suffix-library==0.1.6
 django-pygmentify==0.3.7
 django-htmlmin==0.11.0
 django-compressor==4.5.1
