@@ -132,7 +132,6 @@ LOCALE_PATHS = (os.path.join(BASE_DIR, 'locale'),)
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-    # other finders..
     'compressor.finders.CompressorFinder',
 )
 
@@ -143,7 +142,7 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-COMPRESS_ENABLED = not DEBUG
+COMPRESS_ENABLED = True
 COMPRESS_OFFLINE = True
 
 LANGUAGES = (
@@ -152,3 +151,5 @@ LANGUAGES = (
 )
 
 LANGUAGE_COOKIE_NAME = 'language'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
