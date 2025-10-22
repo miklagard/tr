@@ -1,9 +1,10 @@
+<!doctype html>
 {% load static %}
 {% load i18n %}
 {% load string_manuplation %}
 {% load compress %}
-<!doctype html>
-<html lang="{% get_current_language as LANGUAGE_CODE %}{{ LANGUAGE_CODE }}" dir="{% if LANGUAGE_CODE == 'tr' %}ltr{% else %}ltr{% endif %}">
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}" dir="ltr">
 <head>
     <meta charset="utf-8" />
     <title>{% block title %}{% endblock %} | {% trans 'Turkish Conjunction Maker' %}</title>

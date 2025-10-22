@@ -1,6 +1,6 @@
 from django.urls import path
 import ui.views as ui
-
+from django.views.i18n import set_language
 
 urlpatterns = [
     path('', ui.home, name='home'),
@@ -11,6 +11,7 @@ urlpatterns = [
     path('davidnathan/', ui.david, name='david'),
     path('robots.txt', ui.robots, name='robots'),
     path('sitemap.xml', ui.sitemap, name='sitemap'),
+    path('i18n/setlang/', set_language, name='set_language'),
 ]
 
 handler404 = ui.page_not_found

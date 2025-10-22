@@ -1,7 +1,9 @@
 from django import template
-from turkic_suffix_library.languages.turkish import turkish_class as turkish
 from ui.utils import tr_slugify
 from django.utils.translation import gettext as _
+from django.utils import translation
+from django.urls import resolve, reverse
+from django.urls import translate_url
 
 
 register = template.Library()
@@ -20,15 +22,25 @@ def capitalize(value):
 
 
 @register.filter(name='switch_language')
-def switch_language(value):
-    if value.startswith('/tr/'):
-        return '/en/' + value[4:]
-    elif value.startswith('/en/'):
-        return '/tr/' + value[4:]
-    elif value.startswith('/'):
-        return '/tr/' + value[1:]
-    else:
-        return '/tr/' + value
+def switch_language(path):
+    current_lang = translation.get_language()
+    new_lang = 'tr' if current_lang == 'en' else 'en'
+
+    # Mevcut view'ı al
+    try:
+        match = resolve(path)
+        url_name = match.url_name
+        kwargs = match.kwargs
+
+        # Yeni dilde URL oluştur
+        with translation.override(new_lang):
+            return reverse(url_name, kwargs=kwargs)
+    except:
+        # Fallback: sadece dil prefix'ini değiştir
+        if path.startswith(f'/{current_lang}/'):
+            return path.replace(f'/{current_lang}/', f'/{new_lang}/', 1)
+        else:
+            return f'/{new_lang}{path}'
 
 
 @register.filter(name='get_language')
@@ -39,146 +51,17 @@ def get_language(value):
         return 'tr'
 
 
-@register.filter(name='person_1')
-def person_1(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1).to_string()
+@register.simple_tag(takes_context=True)
+def get_switch_language_url(context, lang_code):
+    request = context.get('request')
+    if not request:
+        return ''
 
+    # Mevcut URL'i al ve dilini değiştir
+    current_path = request.get_full_path()
+    return translate_url(current_path, lang_code)
 
-@register.filter(name='person_1_plural')
-def person_1_plural(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, plural=True).to_string()
-
-
-@register.filter(name='person_2')
-def person_2(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2).to_string()
-
-
-@register.filter(name='person_2_plural')
-def person_2_plural(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, plural=True).to_string()
-
-
-@register.filter(name='person_3')
-def person_3(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3).to_string()
-
-
-@register.filter(name='person_3_plural')
-def person_3_plural(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, plural=True).to_string()
-
-
-@register.filter(name='person_1_negative')
-def person_1_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, negative=True).to_string()
-
-
-@register.filter(name='person_1_plural_negative')
-def person_1_plural_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, plural=True, negative=True).to_string()
-
-
-@register.filter(name='person_2_negative')
-def person_2_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, negative=True).to_string()
-
-
-@register.filter(name='person_2_plural_negative')
-def person_2_plural_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, plural=True, negative=True).to_string()
-
-
-@register.filter(name='person_3_negative')
-def person_3_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, negative=True).to_string()
-
-
-@register.filter(name='person_3_plural_negative')
-def person_3_plural_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, plural=True, negative=True).to_string()
-
-
-@register.filter(name='person_1_q')
-def person_1_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, question=True).to_string()
-
-
-@register.filter(name='person_1_plural_q')
-def person_1_plural_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, plural=True, question=True).to_string()
-
-
-@register.filter(name='person_2_q')
-def person_2_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, question=True).to_string()
-
-
-@register.filter(name='person_2_plural_q')
-def person_2_plural_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, plural=True, question=True).to_string()
-
-
-@register.filter(name='person_3_q')
-def person_3_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, question=True).to_string()
-
-
-@register.filter(name='person_3_plural_q')
-def person_3_plural_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, plural=True, question=True).to_string()
-
-
-@register.filter(name='person_1_negative_q')
-def person_1_negative_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, negative=True, question=True).to_string()
-
-
-@register.filter(name='person_1_plural_negative_q')
-def person_1_plural_negative_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=1, plural=True, negative=True, question=True).to_string()
-
-
-@register.filter(name='person_2_negative_q')
-def person_2_negative(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, negative=True, question=True).to_string()
-
-
-@register.filter(name='person_2_plural_negative_q')
-def person_2_plural_negative_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=2, plural=True, negative=True, question=True).to_string()
-
-
-@register.filter(name='person_3_negative_q')
-def person_3_negative_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, negative=True, question=True).to_string()
-
-
-@register.filter(name='person_3_plural_negative_q')
-def person_3_plural_negative_q(verb, tense):
-    func = turkish(verb)
-    return func.__getattribute__(tense)(person=3, plural=True, negative=True, question=True).to_string()
-
+@register.simple_tag
+def switch_language_url(path, lang_code):
+    """Path ve lang_code alarak URL oluşturur"""
+    return translate_url(path, lang_code)
