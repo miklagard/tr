@@ -56,7 +56,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'trstem.urls'
 
-HTML_MINIFY = not DEBUG
+HTML_MINIFY = True
 
 TEMPLATES = [
     {
