@@ -143,7 +143,7 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-COMPRESS_ENABLED = True
+COMPRESS_ENABLED = not DEBUG
 COMPRESS_OFFLINE = True
 
 LANGUAGES = (

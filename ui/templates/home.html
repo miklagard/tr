@@ -2,192 +2,213 @@
 {% load string_manuplation %}
 {% load i18n %}
 {% load pygmentify_tags %}
+
 {% block title %}{{ title }}{% endblock %}
 {% block description %}{% trans 'Conjuncts Turkish suffixes directly from stems for verbs and nouns. Website has also a little vocabulary in order to enter some English verbs and translates into Turkish.' %}{% endblock %}
+
 {% block content %}
-    <form id="frm" method="get">
-        <div class="row">
-            <div class="col">
-                <div class="form-group">
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="english"
-                            id="english"
-                            class="form-check-input" {% if request.GET.english %} checked {% endif %}
-                        />
-                        {% trans 'Translate from English' %}
-                    </label>
-                </div>
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bold text-primary mb-3">{% trans 'Turkish Conjunction Maker' %}</h1>
+            <p class="lead text-muted">{% trans 'Conjunct Turkish suffixes directly from stems for verbs and nouns' %}</p>
+        </div>
+
+        <!-- Form -->
+        <div class="card shadow-sm border-0">
+            <div class="card-body p-4">
+                <form id="frm" method="get" class="needs-validation" novalidate>
+                    <!-- Translation Toggle -->
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" name="english" id="english"
+                                       {% if request.GET.english %}checked{% endif %}>
+                                <label class="form-check-label fw-medium" for="english">
+                                    {% trans 'Translate from English' %}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- English Verb Selection -->
+                    <div class="row english mb-3">
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <select name="verb_english" id="verb_english" class="form-select autocomplete">
+                                    <option value=""></option>
+                                    {% for english, turkish in vocabulary.items %}
+                                    <option value="{{ turkish }}"
+                                            {% if request.GET.verb_english == turkish %}selected{% endif %}>
+                                        {{ english }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                                <label for="verb_english">{% trans "Select English Verb" %}</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Turkish Verb Input -->
+                    <div class="row turkish mb-3">
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" id="verb" maxlength="50" name="verb"
+                                       class="form-control" value="{{ request.GET.verb }}"
+                                       placeholder="{% trans 'Enter Turkish verb' %}" autofocus>
+                                <label for="verb">{% trans "Turkish Verb" %}</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Options Row -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="question"
+                                       id="question" {% if request.GET.question %}checked{% endif %}>
+                                <label class="form-check-label" for="question">
+                                    {% trans 'Interrogative' %}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="negative"
+                                       id="negative" {% if request.GET.negative %}checked{% endif %}>
+                                <label class="form-check-label" for="negative">
+                                    {% trans 'Negative' %}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="show_code"
+                                       id="show_code" {% if show_code %}checked{% endif %}>
+                                <label class="form-check-label" for="show_code">
+                                    Python Code
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dropdown Selections -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <select name="tense" class="form-select" id="tense">
+                                    {% for tense in tenses %}
+                                    <option value="{{ tense }}" {% if request.GET.tense == tense %}selected{% endif %}>
+                                        {{ tense|capitalize }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                                <label for="tense">{% trans 'Tense' %}</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <select name="affix" class="form-select" id="affix">
+                                    <option value=""></option>
+                                    <option value="bil" {% if request.GET.affix == 'bil' %}selected{% endif %} lang="tr">
+                                    bil
+                                    </option>
+                                    <option value="dur" {% if request.GET.affix == 'dur' %}selected{% endif %} lang="tr">
+                                    dur
+                                    </option>
+                                    <option value="ver" {% if request.GET.affix == 'ver' %}selected{% endif %} lang="tr">
+                                    ver
+                                    </option>
+                                    <option value="gel" {% if request.GET.affix == 'gel' %}selected{% endif %} lang="tr">
+                                    gel
+                                    </option>
+                                    <option value="kal" {% if request.GET.affix == 'kal' %}selected{% endif %} lang="tr">
+                                    kal
+                                    </option>
+                                </select>
+                                <label for="affix">{% trans 'Portmanteau Verb' %}</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <select name="morph" class="form-select" id="morph">
+                                    <option value=""></option>
+                                    <option value="passive" {% if request.GET.morph == 'passive' %}selected{% endif %}>
+                                    {% trans 'Passive' %}
+                                    </option>
+                                </select>
+                                <label for="morph">{% trans 'Morphological derivation' %}</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                            <i class="bi bi-send me-2"></i>{% trans 'Generate Conjugation' %}
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
 
-        <div class="row english">
-            <div class="col">
-                <div class="form-group">
-                    <label for="verb_english">{% trans "Verb" %}</label>
-                    <select name="verb_english" id="verb_english" class="form-control autocomplete">
-                        <option></option>
-                        {% for english, turkish in vocabulary.items %}
-                            <option {% if request.GET.verb_english == turkish %} selected {% endif %}value="{{ turkish }}">{{ english }}</option>
-                        {% endfor %}
-                    </select>
+        <!-- Results -->
+        {% if result %}
+        <div class="card shadow-sm border-0 mt-5">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-table me-2"></i>{% trans 'Conjugation Results' %}
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped mb-0">
+                        <thead class="table-light">
+                        <tr>
+                            <th scope="col" class="w-25"></th>
+                            <th scope="col" class="w-37">{% trans "Singular" %}</th>
+                            <th scope="col" class="w-37">{% trans "Plural" %}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="fw-semibold">{% trans '1st Person' %}</th>
+                            <td lang="tr" class="fs-5 fw-medium text-success">{{ result.s1 }}</td>
+                            <td lang="tr" class="fs-5 fw-medium text-success">{{ result.p1 }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="fw-semibold">{% trans '2nd Person' %}</th>
+                            <td lang="tr" class="fs-5 fw-medium text-success">{{ result.s2 }}</td>
+                            <td lang="tr" class="fs-5 fw-medium text-success">{{ result.p2 }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="fw-semibold">{% trans '3rd Person' %}</th>
+                            <td lang="tr" class="fs-5 fw-medium text-success">{{ result.s3 }}</td>
+                            <td lang="tr" class="fs-5 fw-medium text-success">{{ result.p3 }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
+        {% endif %}
 
-        <div class="row turkish">
-            <div class="col">
-                <div class="form-group">
-                    <label for="verb">{% trans "Verb" %}</label>
-                    <input
-                        type="text"
-                        id="verb"
-                        maxlength="50"
-                        name="verb"
-                        class="form-control"
-                        value="{{ request.GET.verb }}"
-                        autofocus
-                    />
-                </div>
+        <!-- Code Display -->
+        {% if show_code %}
+        <div class="card shadow-sm border-0 mt-4">
+            <div class="card-header bg-dark text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-code-slash me-2"></i>Python Code
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                {% pygmentify %}
+                <pre class="python m-0">{{ code }}</pre>
+                {% endpygmentify %}
             </div>
         </div>
-
-        <div class="row">
-            <div class="col">
-                <div class="form-group">
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="question"
-                            class="form-check-input" {% if request.GET.question %} checked {% endif %}
-                        />
-                        {% trans 'Interrogative' %}
-                    </label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-group">
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="negative"
-                            class="form-check-input" {% if request.GET.negative %} checked {% endif %}
-                        />
-                        {% trans 'Negative' %}
-                    </label>
-                </div>
-            </div>
-            <div class="col">
-                <div class="form-group">
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="show_code"
-                            class="form-check-input" {% if show_code %} checked {% endif %}
-                        />
-                        Python
-                    </label>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-xl-4">
-                <div class="form-group">
-                    <label>
-                        {% trans 'Tense' %}<br />
-                        <select name="tense" class="form-control">
-                            {% for tense in tenses %}
-                            <option value="{{ tense }}" {% if request.GET.tense == tense %} selected {% endif %}>
-                                {{ tense|capitalize }}
-                            </option>
-                            {% endfor %}
-                        </select>
-                    </label>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-xl-4">
-                <div class="form-group">
-                    <label>
-                        {% trans 'Portmanteau Verb' %}<br />
-                        <select name="affix" class="form-control">
-                            <option value=""></option>
-                            <option value="bil" {% if request.GET.affix == 'bil' %} selected {% endif %} lang="tr">
-                                bil
-                            </option>
-                            <option value="dur" {% if request.GET.affix == 'dur' %} selected {% endif %} lang="tr">
-                                dur
-                            </option>
-                            <option value="ver" {% if request.GET.affix == 'ver' %} selected {% endif %} lang="tr">
-                                ver
-                            </option>
-                            <option value="gel" {% if request.GET.affix == 'gel' %} selected {% endif %} lang="tr">
-                                gel
-                            </option>
-                            <option value="kal" {% if request.GET.affix == 'kal' %} selected {% endif %} lang="tr">
-                                kal
-                            </option>
-                        </select>
-                    </label>
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-xl-4">
-                <div class="form-group">
-                    <label>
-                        {% trans 'Morphological derivation' %}<br />
-                        <select name="morph" class="form-control">
-                            <option value=""></option>
-                            <option value="passive" {% if request.GET.morph == 'passive' %} selected {% endif %}>
-                                {% trans 'Passive' %}
-                            </option>
-                        </select>
-                    </label>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">{% trans 'Send' %}</button>
-        </div>
-    </form>
-
-    {% if result %}
-    <div class="table-responsive">
-        <table class="table table-hover table-striped">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>{% trans "Singular" %}</th>
-                    <th>{% trans "Plural" %}</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>{% trans '1st Person' %}</th>
-                    <th lang="tr">{{ result.s1 }}</th>
-                    <th lang="tr">{{ result.p1 }}</th>
-                </tr>
-                <tr>
-                    <th>{% trans '2nd Person' %}</th>
-                    <th lang="tr">{{ result.s2 }}</th>
-                    <th lang="tr">{{ result.p2 }}</th>
-                </tr>
-                <tr>
-                    <th>{% trans '3rd Person' %}</th>
-                    <th lang="tr">{{ result.s3 }}</th>
-                    <th lang="tr">{{ result.p3 }}</th>
-                </tr>
-            </tbody>
-        </table>
+        {% endif %}
     </div>
-    {% endif %}
-
-    {% if show_code %}
-    {% pygmentify %}
-    <pre class="python" id="code">{{ code }}</pre>
-    {% endpygmentify %}
-    {% endif %}
+</div>
 {% endblock %}

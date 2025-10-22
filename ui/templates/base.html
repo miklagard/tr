@@ -3,91 +3,135 @@
 {% load string_manuplation %}
 {% load compress %}
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>{% block title %}{% endblock %}</title>
-        <link href="https://trstem.com/static/favicon.ico" rel="icon" type="image/x-icon" />
-        <link href="https://trstem.com/static/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="Cem Yildiz" />
-        <meta name="yandex-verification" content="97a52cba3ff6b09c" />
-        <meta name="keywords" content= "turkish suffixes, turkish noun condition, turkish language, dative, ablative, locative, verbs, verb, conjunction, present tense, imperative, dubitative" />
-        <meta name="description" content="{% block description %}{% endblock %}" />
+<html lang="{% get_current_language as LANGUAGE_CODE %}{{ LANGUAGE_CODE }}" dir="{% if LANGUAGE_CODE == 'tr' %}ltr{% else %}ltr{% endif %}">
+<head>
+    <meta charset="utf-8" />
+    <title>{% block title %}{% endblock %} | {% trans 'Turkish Conjunction Maker' %}</title>
 
-        <link rel="alternate" hreflang="{{ request.path|get_language }}" href="{{ request.path|switch_language }}" />
-        {% compress css %}
-        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
-        <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet" />
-        <link href="/static/css/bootstrap-grid.min.css" rel="stylesheet" />
-        <link href="/static/css/bootstrap-utilities.min.css" rel="stylesheet" />
-        <link href="/static/css/page.css?5" rel="stylesheet" />
-        <link href="/static/css/flexselect.css" rel="stylesheet" />
-        {% endcompress %}
-    </head>
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a class="navbar-brand" href="{% url 'home' %}">{% trans 'Turkish Conjunction Maker' %}</a>
-                <div class="nav row navbar-nav navbar-right">
+    <!-- Favicon -->
+    <link rel="icon" href="https://trstem.com/static/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://trstem.com/static/favicon.ico" type="image/x-icon" />
+
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Cem Yildiz" />
+    <meta name="yandex-verification" content="97a52cba3ff6b09c" />
+    <meta name="keywords" content="turkish suffixes, turkish noun condition, turkish language, dative, ablative, locative, verbs, verb, conjunction, present tense, imperative, dubitative" />
+    <meta name="description" content="{% block description %}{% endblock %}" />
+    <meta name="theme-color" content="#0d6efd" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+
+    <link rel="alternate" hreflang="{{ request.path|get_language }}" href="{{ request.path|switch_language }}" />
+
+    {% compress css %}
+    <!-- Bootstrap 5 -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link href="{% static 'css/page.css' %}?v=7" rel="stylesheet" />
+    <link href="{% static 'css/flexselect.css' %}" rel="stylesheet" />
+    {% endcompress %}
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+<!-- Navigation -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="{% url 'home' %}">
+                <i class="bi bi-translate me-2"></i>{% trans 'Turkish Conjunction Maker' %}
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
                     {% if path == 'verb' %}
-                    <div class="col">
-                        <a class="nav-link" href="{% url 'nouns' %}">{% trans 'Nouns' %}</a>
-                    </div>
+                    <a class="nav-link" href="{% url 'nouns' %}">
+                        <i class="bi bi-journal-text me-1"></i>{% trans 'Nouns' %}
+                    </a>
                     {% endif %}
                     {% if path == 'noun' %}
-                    <div class="col">
-                        <a class="nav-link" href="{% url 'home' %}">{% trans 'Verbs' %}</a>
-                    </div>
+                    <a class="nav-link" href="{% url 'home' %}">
+                        <i class="bi bi-chat-square-text me-1"></i>{% trans 'Verbs' %}
+                    </a>
                     {% endif %}
                 </div>
-            </nav>
-        </header>
+            </div>
+        </div>
+    </nav>
+</header>
 
-       <main class="container">
-            {% block content %}
-            {% endblock %}
-        </main>
+<!-- Main Content -->
+<main class="flex-grow-1 mt-5 pt-4">
+    <div class="container py-4">
+        {% block content %}
+        {% endblock %}
+    </div>
+</main>
 
-       <footer class="footer">
-            <div class="container">
-               <span class="text-muted">
-                   <div>
-                       <a href="https://github.com/miklagard/tr" target="_new">trstem</a> is a
-                       project of <a href="https://github.com/miklagard/turkic-suffix-library" target="_new">Turkic
-                       Suffix Library</a>.
+<!-- Footer -->
+<footer class="bg-dark text-light mt-auto">
+    <div class="container py-4">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <p class="mb-2">
+                    <a href="https://github.com/miklagard/tr" class="text-decoration-none text-info" target="_blank" rel="noopener">
+                        <i class="bi bi-github me-1"></i>trstem
+                    </a>
+                    is a project of
+                    <a href="https://github.com/miklagard/turkic-suffix-library" class="text-decoration-none text-info" target="_blank" rel="noopener">
+                        Turkic Suffix Library
+                    </a>.
+                </p>
+                <p class="mb-2 small text-muted">
+                    Licensed under
+                    <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" class="text-decoration-none text-info" target="_blank" rel="noopener">
+                        GNU General Public License
+                    </a>.
+                </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="d-flex flex-column gap-2">
+                    <a href="{% url 'example_verbs' %}" class="text-decoration-none text-info">
+                        <i class="bi bi-list-ul me-1"></i>{% trans 'Example verbs' %}
+                    </a>
+                    <div>
+                        {% trans 'Change language' %}:
+                        <a href="{{ request.path|switch_language }}" class="text-decoration-none text-info">
+                            {% trans 'Türkçe' %}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
-                       Licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" target="_new">GNU General
-                       Public License</a>.
-                   </div>
-                   <div>
-                       <a href="{% url 'example_verbs' %}">{% trans 'Example verbs' %}</a>
-                   </div>
-                   <div>
-                       {% trans 'Dil değiştir' %}: <a href="{{ request.path|switch_language }}">{% trans 'Türkçe' %}</a>
-                   </div>
-               </span>
-           </div>
-       </footer>
-    </body>
+{% compress js %}
+<!-- Bootstrap 5 with Popper -->
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<!-- jQuery (if still needed for existing plugins) -->
+<script src="{% static 'js/jquery-3.7.1.slim.min.js' %}"></script>
+<script src="{% static 'js/liquidmetal.js' %}"></script>
+<script src="{% static 'js/jquery.flexselect.js' %}"></script>
+<script src="{% static 'js/vocabulary.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
 
-    {% compress js %}
-    <script src="/static/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/liquidmetal.js"></script>
-    <script src="/static/js/jquery.flexselect.js"></script>
-    <script src="/static/js/vocabulary.js"></script>
-    <script src="/static/js/main.js"></script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-       m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-       (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
-       ym(71144002,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
-    </script>
-    {% endcompress %}
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");
+    ym(71144002,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webvisor:true});
+</script>
+{% endcompress %}
 
-    <noscript><div><img src="https://mc.yandex.ru/watch/71144002" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/71144002" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+</body>
 </html>

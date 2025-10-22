@@ -2,237 +2,329 @@
 {% load i18n %}
 {% load string_manuplation %}
 {% load pygmentify_tags %}
+
 {% block title %}{{ title }}{% endblock %}
 {% block description %}{% trans 'Conjuncts Turkish suffixes directly from stems for nouns. Noun link does not have but the verbs have a little vocabulary in order to enter some English verbs and translates into Turkish.' %}{% endblock %}
 
 {% block content %}
-    <form id="frm" method="get">
-        <div class="form-group">
-            <label for="Noun">{% trans 'Noun' %}</label>
-            <input
-                type="text"
-                id="noun"
-                maxlength="50"
-                name="noun"
-                class="form-control"
-                value="{{ noun }}"
-                autofocus
-            />
+<div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bold text-primary mb-3">{% trans 'Turkish Noun Conjunction' %}</h1>
+            <p class="lead text-muted">{% trans 'Conjunct Turkish suffixes directly from stems for nouns' %}</p>
         </div>
 
-        <div class="row">
-            <div class="col">
-                <div class="form-group">
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="proper_noun"
-                            class="form-check-input" {% if proper_noun %} checked {% endif %}
-                        />
-                        {% trans 'Proper noun' %}
-                    </label>
+        <!-- Form -->
+        <div class="card shadow-sm border-0 mb-5">
+            <div class="card-body p-4">
+                <form id="frm" method="get" class="needs-validation" novalidate>
+                    <!-- Noun Input -->
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" id="noun" maxlength="50" name="noun"
+                                       class="form-control" value="{{ noun }}"
+                                       placeholder="{% trans 'Enter Turkish noun' %}" autofocus required>
+                                <label for="noun">{% trans 'Noun' %}</label>
+                                <div class="invalid-feedback">
+                                    {% trans 'Please enter a noun' %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Options -->
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" name="proper_noun"
+                                       id="proper_noun" {% if proper_noun %}checked{% endif %}>
+                                <label class="form-check-label fw-medium" for="proper_noun">
+                                    {% trans 'Proper noun' %}
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" name="show_code"
+                                       id="show_code" {% if show_code %}checked{% endif %}>
+                                <label class="form-check-label fw-medium" for="show_code">
+                                    Python Code
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                            <i class="bi bi-gear me-2"></i>{% trans 'Generate Conjugation' %}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        {% if result %}
+        <!-- Case Conjugations -->
+        <div class="card shadow-sm border-0 mb-5">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-table me-2"></i>{% trans 'Case Conjugations' %}
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="row g-0">
+                    {% for res in result %}
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="border-end border-bottom p-3 h-100">
+                            <h6 class="fw-bold text-primary text-uppercase small mb-2">
+                                {{ res.case|capitalize }}
+                            </h6>
+                            <div lang="tr" class="fs-6 fw-medium text-success">
+                                {{ res.result }}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
-            <div class="col">
-                <div class="form-group">
-                    <label>
-                        <input
-                            type="checkbox"
-                            name="show_code"
-                            class="form-check-input" {% if show_code %} checked {% endif %}
-                        />
-                        Python
-                    </label>
-                </div>
+        </div>
+
+        <!-- Possessive Conjunction -->
+        <div class="card shadow-sm border-0 mb-5">
+            <div class="card-header bg-success text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-people me-2"></i>{% trans 'Possessive Conjunction' %}
+                </h5>
             </div>
-        </div>
-
-        <div class="form-group">
-            <button type="submit" class="btn btn-primary">{% trans 'Send' %}</button>
-        </div>
-    </form>
-
-    {% if result %}
-
-    <div class="row">
-        {% for res in result %}
-            <div class="col" style="min-width: 200px; max-width: 200px">
-                <table class="table table-hover table-bordered table-striped">
-                    <thead>
-                        <th>{{ res.case|capitalize }}</th>
-                    </thead>
-                    <tbody>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped mb-0">
+                        <thead class="table-success">
                         <tr>
-                            <td lang="tr">{{ res.result }}</td>
+                            <th scope="col" class="w-25"></th>
+                            <th scope="col" class="w-37">{% trans 'Singular' %}</th>
+                            <th scope="col" class="w-37">{% trans 'Plural' %}</th>
                         </tr>
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="fw-semibold">{% trans '1st Person' %}</th>
+                            <td lang="tr" class="fw-medium text-dark">{{ possessive.s1 }}</td>
+                            <td lang="tr" class="fw-medium text-dark">{{ possessive.p1 }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="fw-semibold">{% trans '2nd Person' %}</th>
+                            <td lang="tr" class="fw-medium text-dark">{{ possessive.s2 }}</td>
+                            <td lang="tr" class="fw-medium text-dark">{{ possessive.p2 }}</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="fw-semibold">{% trans '3rd Person' %}</th>
+                            <td lang="tr" class="fw-medium text-dark">{{ possessive.s3 }}</td>
+                            <td lang="tr" class="fw-medium text-dark">{{ possessive.p3 }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+        </div>
+
+        <!-- Copulas -->
+        {% for copula in copulas %}
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-header bg-info text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-layers me-2"></i>{{ copula.tense|capitalize }} {% trans 'Copula' %}
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    <!-- Affirmative Statement -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 bg-light h-100">
+                            <div class="card-header bg-info bg-opacity-10 border-0">
+                                <h6 class="card-title mb-0 small fw-bold">
+                                    {% trans 'Affirmative Statement' %}
+                                </h6>
+                            </div>
+                            <div class="card-body p-2">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-borderless mb-0">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" class="small">{% trans 'Singular' %}</th>
+                                            <th scope="col" class="small">{% trans 'Plural' %}</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" class="small">1.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s1p }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p1p }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">2.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s2p }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p2p }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">3.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s3p }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p3p }}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interrogative Affirmative -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 bg-light h-100">
+                            <div class="card-header bg-warning bg-opacity-10 border-0">
+                                <h6 class="card-title mb-0 small fw-bold">
+                                    {% trans 'Interrogative' %}
+                                </h6>
+                            </div>
+                            <div class="card-body p-2">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-borderless mb-0">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" class="small">{% trans 'Singular' %}</th>
+                                            <th scope="col" class="small">{% trans 'Plural' %}</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" class="small">1.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s1pq }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p1pq }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">2.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s2pq }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p2pq }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">3.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s3pq }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p3pq }}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Negative Statement -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 bg-light h-100">
+                            <div class="card-header bg-danger bg-opacity-10 border-0">
+                                <h6 class="card-title mb-0 small fw-bold">
+                                    {% trans 'Negative Statement' %}
+                                </h6>
+                            </div>
+                            <div class="card-body p-2">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-borderless mb-0">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" class="small">{% trans 'Singular' %}</th>
+                                            <th scope="col" class="small">{% trans 'Plural' %}</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" class="small">1.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s1n }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p1n }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">2.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s2n }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p2n }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">3.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s3n }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p3n }}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interrogative Negative -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card border-0 bg-light h-100">
+                            <div class="card-header bg-secondary bg-opacity-10 border-0">
+                                <h6 class="card-title mb-0 small fw-bold">
+                                    {% trans 'Interrogative Negative' %}
+                                </h6>
+                            </div>
+                            <div class="card-body p-2">
+                                <div class="table-responsive">
+                                    <table class="table table-sm table-borderless mb-0">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col"></th>
+                                            <th scope="col" class="small">{% trans 'Singular' %}</th>
+                                            <th scope="col" class="small">{% trans 'Plural' %}</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row" class="small">1.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s1nq }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p1nq }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">2.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s2nq }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p2nq }}</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="small">3.</th>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.s3nq }}</td>
+                                            <td lang="tr" class="small fw-medium">{{ copula.conjunct.p3nq }}</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         {% endfor %}
-    </div>
+        {% endif %}
 
-    <br /><br />
-
-    <div class="h4">{% trans 'Possessive Conjunction' %}</div>
-    <div class="table-responsive">
-        <table class="table table-hover table-striped">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>{% trans 'Singular' %}</th>
-                    <th>{% trans 'Plural' %}</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>{% trans '1st Person' %}</th>
-                    <th lang="tr">{{ possessive.s1 }}</th>
-                    <th lang="tr">{{ possessive.p1 }}</th>
-                </tr>
-                <tr>
-                    <th>{% trans '2nd Person' %}</th>
-                    <th lang="tr">{{ possessive.s2 }}</th>
-                    <th lang="tr">{{ possessive.p2 }}</th>
-                </tr>
-                <tr>
-                    <th>{% trans '3rd Person' %}</th>
-                    <th lang="tr">{{ possessive.s3 }}</th>
-                    <th lang="tr">{{ possessive.p3 }}</th>
-                </tr>
-            </tbody>
-        </table>
+        <!-- Code Display -->
+        {% if show_code %}
+        <div class="card shadow-sm border-0 mt-4">
+            <div class="card-header bg-dark text-white">
+                <h5 class="card-title mb-0">
+                    <i class="bi bi-code-slash me-2"></i>Python Code
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                {% pygmentify %}
+                <pre class="python m-0">{{ code }}</pre>
+                {% endpygmentify %}
+            </div>
+        </div>
+        {% endif %}
     </div>
-
-    {% for copula in copulas %}
-    <div class="row">
-        <div class="col">
-            <h4>{{ copula.tense|capitalize }}</h4>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>{% trans 'Affirmative Statement' %}</caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>{% trans 'Singular' %}</th>
-                        <th>{% trans 'Plural' %}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>{% trans '1st Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s1p }}</td>
-                        <td lang="tr">{{ copula.conjunct.p1p }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '2nd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s2p }}</td>
-                        <td lang="tr">{{ copula.conjunct.p2p }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '3rd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s3p }}</td>
-                        <td lang="tr">{{ copula.conjunct.p3p }}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="col">
-            <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>{% trans 'Interrogative' %}</caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>{% trans 'Singular' %}</th>
-                        <th>{% trans 'Plural' %}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>{% trans '1st Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s1pq }}</td>
-                        <td lang="tr">{{ copula.conjunct.p1pq }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '2nd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s2pq }}</td>
-                        <td lang="tr">{{ copula.conjunct.p2pq }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '3rd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s3pq }}</td>
-                        <td lang="tr">{{ copula.conjunct.p3pq }}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="col">
-            <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>{% trans 'Negative Statement' %}</caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>{% trans 'Singular' %}</th>
-                        <th>{% trans 'Plural' %}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>{% trans '1st Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s1n }}</td>
-                        <td lang="tr">{{ copula.conjunct.p1n }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '2nd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s2n }}</td>
-                        <td lang="tr">{{ copula.conjunct.p2n }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '3rd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s3n }}</td>
-                        <td lang="tr">{{ copula.conjunct.p3n }}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="col">
-            <table class="table table-hover table-bordered table-striped table-sm">
-                <caption>{% trans 'Interrogative' %}</caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>{% trans 'Singular' %}</th>
-                        <th>{% trans 'Plural' %}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>{% trans '1st Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s1nq }}</td>
-                        <td lang="tr">{{ copula.conjunct.p1nq }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '2nd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s2nq }}</td>
-                        <td lang="tr">{{ copula.conjunct.p2nq }}</td>
-                    </tr>
-                    <tr>
-                        <th>{% trans '3rd Person' %}</th>
-                        <td lang="tr">{{ copula.conjunct.s3nq }}</td>
-                        <td lang="tr">{{ copula.conjunct.p3nq }}</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    {% endfor %}
-    {% endif %}
-
-    {% if show_code %}
-    {% pygmentify %}
-    <pre class="python" id="code">{{ code }}</pre>
-    {% endpygmentify %}
-    {% endif %}
+</div>
 {% endblock %}
