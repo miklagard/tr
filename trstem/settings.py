@@ -25,7 +25,7 @@ SECRET_KEY = config.get('DJANGO_SECRET_KEY')
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('PROD') != 'prod'
+DEBUG = config.get('DEBUG') == 'True'
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'www.trstem.com', 'trstem.com']
 
